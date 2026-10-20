@@ -24,12 +24,18 @@ P = {
          note="Žijící – údaje jen základní. Místo narození podle Dominika nejisté (Roudnice?)."),
  3: dict(n="Jana Poláková", y="* 1964", st="fam", f=["* 1964 Moravská Třebová"], r=[],
          note="Žijící – údaje jen základní."),
- 4: dict(n="Václav Kulich", y="asi 1936 – asi 2000", st="fam", f=["* asi 1936 Ledčice (?)", "stavěl paneláky", "Ledčice čp. 85 (?)", "† asi 2000"], r=[],
+ 4: dict(n="Václav Kulich", y="asi 1936 – asi 2000", st="fam", f=["* asi 1936 Ledčice (?)", "zedník, stavěl paneláky", "Ledčice čp. 85 (?)", "† asi 2000"], r=[],
          note="Podle Dominika: z Ledčic (nejisté), narozen asi 1936. V katastru je „Václav Kulich, Ledčice čp. 85“ jako nedostatečně identifikovaný vlastník parcely v k. ú. Mnetěš – může to být on, nebo jeho otec stejného jména."),
- 5: dict(n="Marcela Trsková (?)", y="", st="fam", f=[], r=[],
-         note="Rodné příjmení podle Dominika nejisté („Trsková myslím“)."),
- 6: dict(n="Miloslav Polák", y="1932 – asi 2014", st="fam", f=["* 1932 Čunín", "† asi 2014"], r=[],
-         note="Otec Jany."),
+ 5: dict(n="Marcela Krsková", y="", st="fam", f=[], r=[],
+         note="Rodinný strom (GenoPro, dokumenty/rodokmen.gno): „Marcela rozená Krsková, Kulichová“. Dominik si pamatoval „Trsková“."),
+ 6: dict(n="Miloslav Polák", y="1932 – asi 2014", st="fam", f=["* 1932 Čunín", "učitel autoškoly (?)", "† asi 2014"], r=[],
+         note="Otec Jany. Ve stromu GenoPro jsou dva Miloslavové Polákové (učitel autoškoly; automechanik a podnikatel) – který je děda, ověřit."),
+ 7: dict(n="Jana Helena Kaštánková", y="", st="fam", f=["švadlena"], r=[],
+         note="Matka Jany; ze stromu GenoPro („JanaHelena rozená Kaštánková, Poláková“)."),
+ 14: dict(n="Václav Kaštánek", y="", st="fam", f=["Dolní Rožínka"], r=[],
+         note="Ze stromu GenoPro; u jména uvedena Dolní Rožínka. Vazba na Janu Helenu odvozena ze jmen – ověřit."),
+ 15: dict(n="Helena Šlosárová", y="", st="fam", f=["služka", "Lapáš (?)"], r=[],
+         note="Ze stromu GenoPro („Helena rozená Šlosárová, Kaštánková, služka, Lapaš“)."),
 }
 
 # Rody = osm větví podle pradědečků a prababiček (čísla 8–15). Doplňte, jakmile je znáte:
