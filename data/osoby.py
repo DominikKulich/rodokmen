@@ -38,17 +38,17 @@ P = {
          f=["* 10. 11. 1906 Olomouc (zemská porodnice)", "Konice čp. 233", "× 9. 11. 1929 Strážisko František Polák"],
          r=["konice_snatek_frantisek_polak_frantiska_krejci_1929"],
          note="Nemanželská dcera Filomeny Krejčí. Vazba na Miloslava jako u č. 12."),
- 24: dict(n="Jan Polák", y="* 1865", st="prob", f=["* 6. 6. 1865", "zahradník v Čuníně čp. 26", "× 9. 2. 1892 Františka Bavlnková"],
-         r=["cunin_krest_frantisek_polak_1905", "konice_snatek_frantisek_polak_frantiska_krejci_1929"],
-         note="Otec Františka (doc z křtu 1905). Linie k Miloslavovi prob (viz č. 12). Narozen nejspíš v Čuníně – ověřit."),
- 25: dict(n="Františka Bavlnková", y="* 1870", st="prob", f=["* 19. 11. 1870", "ze Stinavy", "× 9. 2. 1892 Jan Polák"],
-         r=["cunin_krest_frantisek_polak_1905", "konice_snatek_frantisek_polak_frantiska_krejci_1929"],
+ 24: dict(n="Jan Polák", y="* 1865", st="prob", f=["* 6. 6. 1865 Čunín (?)", "domkář, později zahradník v Čuníně čp. 26", "× 16. 2. 1892 Ptení Františka Bavlnková (2. sňatek, vdovec)"],
+         r=["stinava_snatek_jan_polak_frantiska_bavlnkova_1892", "cunin_krest_frantisek_polak_1905", "konice_snatek_frantisek_polak_frantiska_krejci_1929"],
+         note="Otec Františka (doc z křtu 1905). Linie k Miloslavovi prob (viz č. 12). V r. 1892 vdovec – první manželka zemřela před 29. 1. 1892 (úmrtní list z Konice). Křest Františka uvádí sňatek 9. 2. 1892, oddací matrika 16. 2. 1892."),
+ 25: dict(n="Františka Bavlnková", y="* 1870", st="prob", f=["* 19. 11. 1870 Stínava čp. 36 (?)", "ze Stínavy čp. 36", "× 16. 2. 1892 Ptení Jan Polák"],
+         r=["stinava_snatek_jan_polak_frantiska_bavlnkova_1892", "cunin_krest_frantisek_polak_1905", "konice_snatek_frantisek_polak_frantiska_krejci_1929"],
          note="Matka Františka (doc z křtu 1905)."),
- 48: dict(n="Jan Polák", y="", st="prob", f=["zahradník (domkář) v Čuníně"], r=["cunin_krest_frantisek_polak_1905"],
-         note="Dědeček Františka podle křtu 1905; v křtu bratra Josefa 1904 uveden jako domkář."),
- 49: dict(n="Anna Pospíšilová", y="", st="prob", f=["z Čunína"], r=["cunin_krest_frantisek_polak_1905"], note="Dcera Jiřího Pospíšila, domkaře v Čuníně."),
- 50: dict(n="Antonín Bavlnka", y="", st="prob", f=["domkař ve Stinavě"], r=["cunin_krest_frantisek_polak_1905"], note=""),
- 51: dict(n="Františka Burešová", y="", st="prob", f=["ze Stinavy"], r=["cunin_krest_frantisek_polak_1905"], note="Dcera Františka Bureše, domkaře ze Stinavy."),
+ 48: dict(n="Jan Polák", y="", st="prob", f=["podruh, později zahradník/domkář v Čuníně"], r=["stinava_snatek_jan_polak_frantiska_bavlnkova_1892", "cunin_krest_frantisek_polak_1905"],
+         note="1892 „podruh z Čunína“, 1904 „domkář“, 1905 „zahradník“."),
+ 49: dict(n="Anna Pospíšilová", y="", st="prob", f=["z Čunína"], r=["stinava_snatek_jan_polak_frantiska_bavlnkova_1892", "cunin_krest_frantisek_polak_1905"], note="Dcera Jiřího Pospíšila, domkaře v Čuníně."),
+ 50: dict(n="Antonín Bavlnka", y="", st="prob", f=["domkař ve Stínavě čp. 36"], r=["stinava_snatek_jan_polak_frantiska_bavlnkova_1892", "cunin_krest_frantisek_polak_1905"], note=""),
+ 51: dict(n="Františka Burešová", y="", st="prob", f=["ze Stínavy"], r=["stinava_snatek_jan_polak_frantiska_bavlnkova_1892", "cunin_krest_frantisek_polak_1905"], note="Dcera Františka Bureše, domkaře ze Stinavy."),
  26: dict(n="otec neuveden", st="unk", f=[], note="Františka Krejčí je nemanželská dcera Filomeny Krejčí; otec v oddacím zápisu neuveden."),
  27: dict(n="Filomena Krejčí", y="", st="prob", f=["Konice"], r=["konice_snatek_frantisek_polak_frantiska_krejci_1929"],
          note="Svobodná matka Františky; dcera Františka Krejčího, domkáře v Konici, a Františky."),
@@ -77,6 +77,9 @@ SIDE = [
 # „Vyřešeno: …“ (na webu se skryje), „Hypotéza: …“ nebo „Otevřené: …“. Jde na web – nic citlivého.
 # ("Kdy se narodil Jan Novák?", "Otevřené: rodina říká 1850, v Holicích 1848–1852 nenalezen.")
 ISSUES = [
+ ("Kdy se vzali Jan Polák a Františka Bavlnková?", "Vyřešeno: oddací matrika Ptení uvádí 16. 2. 1892; křestní zápis syna Františka (1905) chybně 9. 2. 1892."),
+ ("Kdo byla první manželka Jana Poláka (* 1865) a měli děti?", "Otevřené: zemřela před 29. 1. 1892 (úmrtní list z fary Konice). Hledat sňatek v Konici asi 1886–1891 a úmrtí 1891–1892."),
+ ("Je František Polák (* 1905) otcem Miloslava Poláka (* 1932 Čunín)?", "Hypotéza: jediný Polák z Čunína oddaný v Konici před 1932; potvrdí rodný list Miloslava."),
 ]
 
 # Hypotézy o původu rodu nad rámec doložené linie (zobrazí se na stránce rodu):
