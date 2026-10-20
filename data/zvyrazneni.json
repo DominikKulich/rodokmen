@@ -10,5 +10,17 @@
   ],
   "status": "ok",
   "note": ""
+ },
+ "cunin_krest_frantisek_polak_1905": {
+  "boxes": [
+   [
+    0.005,
+    0.07,
+    0.995,
+    0.87
+   ]
+  ],
+  "status": "ok",
+  "note": ""
  }
 }
