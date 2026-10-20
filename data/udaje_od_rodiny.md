@@ -10,3 +10,5 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 - Děda Václav Kulich: myslím z Ledčic, narozen asi 1936, stavěl paneláky.
 - Babička z otcovy strany: Marcela Kulichová, rozená „Trsková myslím“ (nejisté).
 - Otec matky: Miloslav Polák, * 1932 Čunín.
+- Všichni předci (prarodiče a starší) už nežijí.
+- Dominik našel (20. 10. 2026) na ceskazeme.cz: „Kulich Václav, č.p. 85, 27708 Ledčice“ – zapomenutý (nedostatečně identifikovaný) vlastník 1 parcely v k. ú. Mnetěš, 9 982 m². Bez data narození, takže nejisté, zda jde o dědu, nebo jeho otce.
