@@ -76,5 +76,35 @@
   "lat": 49.4718,
   "lon": 16.2125,
   "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Křemenec": {
+  "re": "Křemen",
+  "lat": 49.5728,
+  "lon": 16.8536,
+  "pozn": "ručně"
+ },
+ "Veselá": {
+  "re": "Vesel",
+  "lat": 49.6162,
+  "lon": 16.8869,
+  "pozn": "ručně"
+ },
+ "Prostějovičky": {
+  "re": "Prostějovič",
+  "lat": 49.5197,
+  "lon": 16.9773,
+  "pozn": "ručně"
+ },
+ "Hradisko": {
+  "re": "Hradisk",
+  "lat": 49.53,
+  "lon": 16.91,
+  "pozn": "ručně, nejisté"
+ },
+ "Kostelec na Hané": {
+  "re": "Kostel",
+  "lat": 49.5143,
+  "lon": 17.0581,
+  "pozn": "ručně"
  }
 }
