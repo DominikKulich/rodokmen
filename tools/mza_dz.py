@@ -20,10 +20,18 @@ def get(u):
 def main():
     if len(sys.argv) != 5: sys.exit(__doc__)
     kniha, n, red, out = sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), sys.argv[4]
-    lun = os.environ.get("MZA_LUN", "LUN105/LUN105")
-    cesta = f"/srv/{lun}/{kniha[:9]}/{kniha}/{kniha}-{n*10:05d}.jp2"
-    base = "https://www.mza.cz/iipsrv/iipsrv.fcgi?Deepzoom=" + cesta
-    x = get(base + ".dzi").decode()
+    luns = [os.environ["MZA_LUN"]] if os.environ.get("MZA_LUN") else [f"LUN{i}/LUN{i}" for i in range(100, 115)]
+    x = None
+    for lun in luns:  # LUN složku zjisti automaticky (špatná vrací PNG s chybou)
+        cesta = f"/srv/{lun}/{kniha[:9]}/{kniha}/{kniha}-{n*10:05d}.jp2"
+        base = "https://www.mza.cz/iipsrv/iipsrv.fcgi?Deepzoom=" + cesta
+        try:
+            b = get(base + ".dzi")
+        except RuntimeError:
+            continue
+        if b[:1] == b"<":
+            x = b.decode(); break
+    if x is None: sys.exit("snímek nenalezen v žádné LUN složce")
     T = int(re.search(r'TileSize="(\d+)"', x).group(1))
     W = int(re.search(r'Width="(\d+)"', x).group(1)); H = int(re.search(r'Height="(\d+)"', x).group(1))
     L = math.ceil(math.log2(max(W, H))) - red

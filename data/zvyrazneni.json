@@ -34,5 +34,17 @@
   ],
   "status": "ok",
   "note": ""
+ },
+ "cunin_krest_jan_polak_1865": {
+  "boxes": [
+   [
+    0.005,
+    0.04,
+    0.995,
+    0.8
+   ]
+  ],
+  "status": "ok",
+  "note": ""
  }
 }
