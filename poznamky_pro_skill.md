@@ -11,3 +11,7 @@ zapracuje do skillu, aby je měli i ostatní. Děkujeme!
 - Windows/Linux VM bez ImageMagick 7: stačí shim `magick` → convert/identify/montage (IM6).
 - Síť: archivní domény nejsou ve výchozím allowlistu – uživatel je musí přidat v Nastavení → Capabilities.
 - Starý GenoPro .gno (OLE soubor, stream Contents, XOR 0x08): jména a povolání čitelná, data binárně (neznámý formát).
+
+- Acta Publica (MZA Brno): snímky bez přihlášení. Nový nástroj tools/mza_dz.py (Deepzoom dlaždice z /iipsrv/iipsrv.fcgi?Deepzoom=/srv/LUNxxx/…/<kniha>-NNNNN.jp2.dzi). CVT=jpeg vrací 403, Deepzoom chce Referer, urllib dostane 426 → curl; plné rozlišení ~500 dlaždic → paralelně. LUN složka se liší podle knihy (LUN105, LUN106…) – vzít z network requestu v prohlížeči. Číslování souborů: některé knihy začínají -00000, jiné -00010.
+- Konice kn. 9106: oddací kniha s oddíly po obcích, hlavička „Str.“ = strana z rejstříku (sn. ≈ str. + 2 pro Konici, sn. ≈ str. − 5 pro Čunín).
+- Past: v rejstříku psaném zkratkovitě se snadno splete Polák/Pavlík – ověřit na stránce zápisu.
