@@ -21,3 +21,4 @@ Miloslav Polák – automechanik, podnikatel; Pavel Polák – havíř; Iveta ro
 Václav Kaštánek – Dolní Rožínka; Marcela roz. Krsková, Kulichová (má i datum úmrtí); Václav Kulich – zedník; Marcela Kulichová; jedna prázdná osoba.
 Data narození/úmrtí jsou ve starém binárním formátu, zatím nedekódována. Vazby (kdo je čí rodič) nejsou ze souboru zatím přečtené – přiřazení podle jmen.
 - Dominik: děda Miloslav Polák = ten „učitel autoškoly“; Pavel Polák = bratr matky; druhá Marcela Kulichová = teta, sestra otce.
+- Dominik (20. 10. 2026): rodiče dědy Miloslava Poláka byli „myslím František a Františka“ – shoduje se se sňatkem František Polák × Františka Krejčí, Konice/Strážisko 1929.

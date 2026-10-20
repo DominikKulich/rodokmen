@@ -34,7 +34,8 @@ pak konec `research_log.md` a sekci „Rozpracováno“.
 6. Po změně dat spustím `python3 -I tools/kontrola.py`.
 
 ## Rozpracováno (aktualizovat průběžně)
-- Kulichovi (Ledčice): v rejstříku oddaných L16/43 (1873–1918) žádný Kulich → rod přišel do Ledčic nejspíš až po 1918, nebo se rodiče dědy Václava brali jinde. Oddací L16/47, L16/48 a zemřelí L16/51 nejsou digitalizované.
-- Nejrychlejší cesta: výpis z matriky narozených dědy Václava Kulicha (* asi 1936) z matričního úřadu – uvede rodiče.
-- Ještě neprohledáno: Polákovi (Čunín, Městečko Trnávka – ZA Opava), Kaštánek (Dolní Rožínka – MZA Brno), Šlosárová (Lapáš – Slovensko?).
-- SOA Litoměřice: obrázky přes showZoomify/<záznam>/<id snímku> (v prohlížeči), cesta NAD-856/dao/images/0501/<uuid>.jpg; nástroj soal_zoomify má jiný BASE (viz poznamky_pro_skill.md).
+- Polákovi (Čunín u Konice, MZA Brno – Acta Publica, nástroj tools/mza_dz.py): doloženo František (1905) → Jan (1865) → Jan (asi 1838) → Martin (Křemenec). Bavlnkovi/Burešovi ze Stínavy (fara Ptení). Vazba Miloslav (1932) → František (1905): rodina + matrika, chybí rodný list.
+- Polákovi – další kroky: křest Jana st. (asi 1838, Křemenec – fara Konice), 1. manželka Jana (1865) – zemřelí Konice 1888–1892; Krejčí z Konice (Filomena); Pospíšilovi.
+- Kulichovi (Ledčice, SOA Litoměřice): v rejstříku oddaných L16/43 (1873–1918) žádný Kulich; L16/47, 48, 51 nedigitalizované. Potřeba rodný list dědy Václava (* asi 1936) z matričního úřadu.
+- Kaštánkovi (Dolní Rožínka – MZA Brno), Šlosárová (Lapáš – Slovensko?): neprohledáno.
+- Rodné listy dědů Václava a Miloslava: viz archivni_dotazy.md.
