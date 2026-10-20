@@ -24,11 +24,11 @@ P = {
          note="Žijící – údaje jen základní. Místo narození podle Dominika nejisté (Roudnice?)."),
  3: dict(n="Jana Poláková", y="* 1964", st="fam", f=["* 1964 Moravská Třebová"], r=[],
          note="Žijící – údaje jen základní."),
- 4: dict(n="Václav Kulich", y="* asi 1936", st="fam", f=["* asi 1936 Ledčice (?)", "stavěl paneláky", "Ledčice čp. 85 (?)"], r=[],
+ 4: dict(n="Václav Kulich", y="asi 1936 – asi 2000", st="fam", f=["* asi 1936 Ledčice (?)", "stavěl paneláky", "Ledčice čp. 85 (?)", "† asi 2000"], r=[],
          note="Podle Dominika: z Ledčic (nejisté), narozen asi 1936. V katastru je „Václav Kulich, Ledčice čp. 85“ jako nedostatečně identifikovaný vlastník parcely v k. ú. Mnetěš – může to být on, nebo jeho otec stejného jména."),
  5: dict(n="Marcela Trsková (?)", y="", st="fam", f=[], r=[],
          note="Rodné příjmení podle Dominika nejisté („Trsková myslím“)."),
- 6: dict(n="Miloslav Polák", y="* 1932", st="fam", f=["* 1932 Čunín"], r=[],
+ 6: dict(n="Miloslav Polák", y="1932 – asi 2014", st="fam", f=["* 1932 Čunín", "† asi 2014"], r=[],
          note="Otec Jany."),
 }
 
