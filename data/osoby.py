@@ -83,6 +83,8 @@ LINES = {
 # Příbuzní mimo přímou linii (sourozenci, strýcové…): k = číslo předka, ke kterému patří.
 # dict(k=16, n="Josef Novák (1865–1920)", t="Bratr Jana. Kovář v …", r=["klic_zapisu"])
 SIDE = [
+ dict(k=24, n="František Polák (* asi 1860)", t="Bratr Jana (* 1865), syn Jana Poláka a Anny Pospíšilové; domkář v Čuníně čp. 25, oženil se 17. 10. 1887 v Konici s Marií Trnkovou z Čunína čp. 30. Podle věku (27 let) narozen asi 1860 – tedy před sňatkem rodičů 1862 (ověřit).", r=[]),
+ dict(k=24, n="Eduard Polák (* asi 1868)", t="Bratr Jana (* 1865); oženil se 19. 5. 1891 v Konici s Filomenou Hrušákovou (?) ze Strážiska, služebnou v Čuníně; jako nezletilému dal souhlas otec Jan Polák.", r=[]),
  dict(k=24, n="Josef Polák (1904–1905)", t="Bratr Františka; narozen v lednu 1904 v Čuníně čp. 26, zemřel 1905.", r=[]),
  dict(k=3, n="Pavel Polák", t="Bratr Jany (Dominikův strýc). Havíř.", r=[]),
  dict(k=2, n="Marcela Kulichová", t="Sestra Luboše (Dominikova teta).", r=[]),
@@ -93,7 +95,7 @@ SIDE = [
 # ("Kdy se narodil Jan Novák?", "Otevřené: rodina říká 1850, v Holicích 1848–1852 nenalezen.")
 ISSUES = [
  ("Kdy se vzali Jan Polák a Františka Bavlnková?", "Vyřešeno: oddací matrika Ptení uvádí 16. 2. 1892; křestní zápis syna Františka (1905) chybně 9. 2. 1892."),
- ("Kdo byla první manželka Jana Poláka (* 1865) a měli děti?", "Otevřené: zemřela před 29. 1. 1892 (úmrtní list z fary Konice). Hledat sňatek v Konici asi 1886–1891 a úmrtí 1891–1892."),
+ ("Kdo byla první manželka Jana Poláka (* 1865) a měli děti?", "Otevřené: zemřela před 29. 1. 1892 (úmrtní list z fary Konice). V oddacích Čunína 1885–1891 sňatek není – nejspíš ve farnosti nevěsty. Hledat v zemřelých Konice 1888–1892."),
  ("Je František Polák (* 1905) otcem Miloslava Poláka (* 1932 Čunín)?", "Hypotéza: jediný Polák z Čunína oddaný v Konici před 1932; potvrdí rodný list Miloslava."),
 ]
 
