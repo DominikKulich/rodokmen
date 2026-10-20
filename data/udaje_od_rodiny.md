@@ -7,3 +7,6 @@ Co víme z vyprávění a rodinných dokumentů – kdo to řekl / odkud to je a
 - Otec Luboš Kulich, * 25. 12. 1962, místo narození asi Roudnice (nad Labem?) – Dominik si není jistý; od malička bydlel v Horních Beřkovicích.
 - Matka Jana Kulichová roz. Poláková, * 3/1964 Moravská Třebová.
 - Otec otce: Václav Kulich.
+- Děda Václav Kulich: myslím z Ledčic, narozen asi 1936, stavěl paneláky.
+- Babička z otcovy strany: Marcela Kulichová, rozená „Trsková myslím“ (nejisté).
+- Otec matky: Miloslav Polák, * 1932 Čunín.

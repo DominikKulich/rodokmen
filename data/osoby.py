@@ -24,8 +24,12 @@ P = {
          note="Žijící – údaje jen základní. Místo narození podle Dominika nejisté (Roudnice?)."),
  3: dict(n="Jana Poláková", y="* 1964", st="fam", f=["* 1964 Moravská Třebová"], r=[],
          note="Žijící – údaje jen základní."),
- 4: dict(n="Václav Kulich", y="", st="fam", f=[], r=[],
-         note="Otec Luboše; zatím jen jméno."),
+ 4: dict(n="Václav Kulich", y="* asi 1936", st="fam", f=["* asi 1936 Ledčice (?)", "stavěl paneláky"], r=[],
+         note="Podle Dominika: z Ledčic (nejisté), narozen asi 1936."),
+ 5: dict(n="Marcela Trsková (?)", y="", st="fam", f=[], r=[],
+         note="Rodné příjmení podle Dominika nejisté („Trsková myslím“)."),
+ 6: dict(n="Miloslav Polák", y="* 1932", st="fam", f=["* 1932 Čunín"], r=[],
+         note="Otec Jany."),
 }
 
 # Rody = osm větví podle pradědečků a prababiček (čísla 8–15). Doplňte, jakmile je znáte:
