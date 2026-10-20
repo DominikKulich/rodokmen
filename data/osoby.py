@@ -63,6 +63,11 @@ P = {
 # Rody = osm větví podle pradědečků a prababiček (čísla 8–15). Doplňte, jakmile je znáte:
 # 8: ("Novákové", "Jedna věta, kdo to byli a odkud – ukáže se na webu u rodu."),
 LINES = {
+ 8: ("Kulichové", "Rod po meči. Děda Václav Kulich (* asi 1936) pocházel z Ledčic u Roudnice nad Labem, kde rodina žila v čp. 85; byl zedník a stavěl paneláky."),
+ 12: ("Polákové", "Drobní zahradníci, domkáři a řezníci z Čunína u Konice na Prostějovsku – doloženi od poloviny 19. století, dům čp. 26."),
+ 13: ("Krejčí", "Rod z Konice; Františka Krejčí (* 1906) byla vnučkou konického domkáře Františka Krejčího."),
+ 14: ("Kaštánkové", "Rod babičky Jany Heleny Kaštánkové; pradědeček Václav Kaštánek je v rodinném stromu spojen s Dolní Rožínkou na Vysočině."),
+ 15: ("Šlosárovi", "Prababička Helena Šlosárová, podle rodinného stromu služka, s poznámkou „Lapáš“."),
 }
 
 # Příbuzní mimo přímou linii (sourozenci, strýcové…): k = číslo předka, ke kterému patří.
