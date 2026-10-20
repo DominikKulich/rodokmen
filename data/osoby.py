@@ -18,6 +18,14 @@
 # Neznámý otec nemanželského dítěte: dict(n="otec neuveden", st="unk", f=[], note="…")
 
 P = {
+ 1: dict(n="Dominik Kulich", y="* 1995", st="fam", sex="M", f=["* 1995 Litoměřice"], r=[],
+         note="Žijící – údaje jen základní."),
+ 2: dict(n="Luboš Kulich", y="* 1962", st="fam", f=["* 1962 Roudnice nad Labem (?)", "od dětství v Horních Beřkovicích"], r=[],
+         note="Žijící – údaje jen základní. Místo narození podle Dominika nejisté (Roudnice?)."),
+ 3: dict(n="Jana Poláková", y="* 1964", st="fam", f=["* 1964 Moravská Třebová"], r=[],
+         note="Žijící – údaje jen základní."),
+ 4: dict(n="Václav Kulich", y="", st="fam", f=[], r=[],
+         note="Otec Luboše; zatím jen jméno."),
 }
 
 # Rody = osm větví podle pradědečků a prababiček (čísla 8–15). Doplňte, jakmile je znáte:

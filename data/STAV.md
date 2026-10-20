@@ -4,8 +4,8 @@ Tento soubor je vstupní bod. Po každém restartu (nová konverzace, zkrácený
 pak konec `research_log.md` a sekci „Rozpracováno“.
 
 ## Pro koho
-- Výchozí osoba: (doplnit – jméno, rok a místo narození)
-- Kdo s Claudem pracuje a jak chce komunikovat: (doplnit)
+- Výchozí osoba: Dominik Kulich, * 1995 Litoměřice
+- Kdo s Claudem pracuje a jak chce komunikovat: Dominik sám; česky, stručně, technicky přesně.
 
 ## Kde co je
 | Soubor | Obsah |
