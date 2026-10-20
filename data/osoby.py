@@ -28,8 +28,8 @@ P = {
          note="Podle Dominika: z Ledčic (nejisté), narozen asi 1936. V katastru je „Václav Kulich, Ledčice čp. 85“ jako nedostatečně identifikovaný vlastník parcely v k. ú. Mnetěš – může to být on, nebo jeho otec stejného jména."),
  5: dict(n="Marcela Krsková", y="", st="fam", f=[], r=[],
          note="Rodinný strom (GenoPro, dokumenty/rodokmen.gno): „Marcela rozená Krsková, Kulichová“. Dominik si pamatoval „Trsková“."),
- 6: dict(n="Miloslav Polák", y="1932 – asi 2014", st="fam", f=["* 1932 Čunín", "učitel autoškoly (?)", "† asi 2014"], r=[],
-         note="Otec Jany. Ve stromu GenoPro jsou dva Miloslavové Polákové (učitel autoškoly; automechanik a podnikatel) – který je děda, ověřit."),
+ 6: dict(n="Miloslav Polák", y="1932 – asi 2014", st="fam", f=["* 1932 Čunín", "učitel autoškoly", "† asi 2014"], r=[],
+         note="Otec Jany; ve stromu GenoPro „učitel autoškoly“ (potvrdil Dominik)."),
  7: dict(n="Jana Helena Kaštánková", y="", st="fam", f=["švadlena"], r=[],
          note="Matka Jany; ze stromu GenoPro („JanaHelena rozená Kaštánková, Poláková“)."),
  14: dict(n="Václav Kaštánek", y="", st="fam", f=["Dolní Rožínka"], r=[],
@@ -46,6 +46,8 @@ LINES = {
 # Příbuzní mimo přímou linii (sourozenci, strýcové…): k = číslo předka, ke kterému patří.
 # dict(k=16, n="Josef Novák (1865–1920)", t="Bratr Jana. Kovář v …", r=["klic_zapisu"])
 SIDE = [
+ dict(k=3, n="Pavel Polák", t="Bratr Jany (Dominikův strýc). Havíř.", r=[]),
+ dict(k=2, n="Marcela Kulichová", t="Sestra Luboše (Dominikova teta).", r=[]),
 ]
 
 # Rozpory a otevřené otázky (na web do „Co hledáme“) jako dvojice (otázka, odpověď). Odpověď začněte

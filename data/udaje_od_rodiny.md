@@ -20,3 +20,4 @@ Luboš Kulich – podnikatel; Jana Helena roz. Kaštánková, Poláková – šv
 Miloslav Polák – automechanik, podnikatel; Pavel Polák – havíř; Iveta roz. ?, Poláková – tiskařka; Helena roz. Šlosárová, Kaštánková – služka, Lapaš;
 Václav Kaštánek – Dolní Rožínka; Marcela roz. Krsková, Kulichová (má i datum úmrtí); Václav Kulich – zedník; Marcela Kulichová; jedna prázdná osoba.
 Data narození/úmrtí jsou ve starém binárním formátu, zatím nedekódována. Vazby (kdo je čí rodič) nejsou ze souboru zatím přečtené – přiřazení podle jmen.
+- Dominik: děda Miloslav Polák = ten „učitel autoškoly“; Pavel Polák = bratr matky; druhá Marcela Kulichová = teta, sestra otce.
