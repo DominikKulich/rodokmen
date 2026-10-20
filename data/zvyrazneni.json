@@ -58,5 +58,17 @@
   ],
   "status": "ok",
   "note": ""
+ },
+ "stinava_krest_frantiska_bavlnkova_1870": {
+  "boxes": [
+   [
+    0.005,
+    0.04,
+    0.995,
+    0.96
+   ]
+  ],
+  "status": "ok",
+  "note": ""
  }
 }
