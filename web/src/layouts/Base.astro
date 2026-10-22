@@ -1,12 +1,13 @@
 ---
 import '../styles/global.css';
+import '../styles/theme.css';
 import { config } from '../lib/data.js';
 const siteName = config.nazev || 'Rodokmen';
 const { title, description = config.popis || siteName, wide = false, full = false } = Astro.props;
 const path = Astro.url.pathname;
 const groups = [
   [['/', 'Úvod'], ...(config.maPribeh ? [['/pribehy/', config.pribeh?.menu || 'Příběh rodu']] : []), ['/zajimavosti/', 'Zajímavosti'], ['/casova-osa/', 'Časová osa'], ['/statistiky/', 'Statistiky']],
-  [['/rody/', 'Rody'], ['/mapa/', 'Mapa'], ['/obce/', 'Obce'], ['/strom/', 'Strom'], ['/vejir/', 'Vějíř'], ['/predci/', 'Předci'], ['/zapisy/', 'Zápisy'], ['/hledame/', 'Co hledáme']],
+  [['/rody/', 'Rody'], ['/mapa/', 'Mapa'], ['/obce/', 'Obce'], ['/strom/', 'Strom'], ['/vejir/', 'Vějíř'], ['/predci/', 'Předci'], ['/zapisy/', 'Zápisy'], ['/hledame/', 'Co hledáme'], ['/kniha/', 'Kniha / PDF']],
   [['/hledat/', 'Hledat']],
 ];
 const current = (url) => ((url === '/' ? path === '/' : path.startsWith(url)) ? 'page' : undefined);
@@ -40,6 +41,7 @@ const current = (url) => ((url === '/' ? path === '/' : path.startsWith(url)) ? 
         btn.setAttribute('aria-expanded', String(open));
       });
     </script>
+    <script is:inline>window.addEventListener('beforeprint', () => { document.querySelectorAll('details').forEach((d) => (d.open = true)); document.querySelectorAll('img[loading=lazy]').forEach((i) => (i.loading = 'eager')); });</script>
     <main class={full ? 'full' : wide ? 'wide' : ''} data-pagefind-body>
       <slot />
     </main>

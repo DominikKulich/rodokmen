@@ -4,7 +4,7 @@ import PersonLink from '../../components/PersonLink.astro';
 import Record from '../../components/Record.astro';
 import Pedigree from '../../components/Pedigree.astro';
 import MobileTree from '../../components/MobileTree.astro';
-import { people, families, lineByK, records, dateKey, href, statusClass } from '../../lib/data.js';
+import { people, families, lineByK, records, dateKey, href, statusClass, config } from '../../lib/data.js';
 
 export function getStaticPaths() {
   return Object.keys(people).map((slug) => ({ params: { slug } }));
@@ -18,6 +18,7 @@ const path = [...p.path].reverse().filter(Boolean);
   <div class="crumbs">
     {path.map((s, i) => <>{i > 0 && <span>→</span>}{s === p.slug ? <span>{people[s].name}</span> : <a href={href.person(s)}>{people[s].name.split(' ')[0]} {people[s].years}</a>}</>)}
   </div>
+  <p class="print-only print-head">{config.nazev} – rodový list</p>
   <h1>{p.name}</h1>
   <div class="chips">
     {p.years && <span class="chip">{p.years}</span>}
@@ -25,6 +26,7 @@ const path = [...p.path].reverse().filter(Boolean);
     {line && <a class="chip" href={href.line(line.slug)}><span class="dot" style={`background:${line.color}`}></span>rod {line.name}</a>}
     <span class={`chip ${statusClass(p.st)}`}>{p.status}</span>
   </div>
+  <div class="print-bar no-print"><button type="button" class="btn btn-light" onclick="window.print()">🖨 Rodový list / PDF</button><a class="btn btn-light" href="/kniha/">Celá rodová kniha</a></div>
 
   {p.also.length > 0 && (
     <p class="note">V rodokmenu dvakrát – pedigree collapse: je předkem přes {p.children.map((c, i) => <>{i > 0 && ' i přes '}<PersonLink slug={c} /></>)}.
@@ -76,6 +78,7 @@ const path = [...p.path].reverse().filter(Boolean);
   )}
 
   <h2>Zápisy z matrik</h2>
-  {recs.length ? <div class="recs">{recs.map((r) => <Record id={r} showPeople exclude={p.slug} />)}</div>
+  {recs.length > 1 && <p class="small muted no-print">Zápisy vedle sebe – rozdíly mezi nimi (třeba v datech) jsou uvedené v poznámce.</p>}
+  {recs.length ? <div class={`recs${recs.length > 1 ? ' compare' : ''}`}>{recs.map((r) => <Record id={r} showPeople exclude={p.slug} />)}</div>
     : <p class="muted">K této osobě zatím nemáme vlastní matriční zápis – údaje pocházejí ze zápisů jejích dětí{p.st === 'fam' ? ' nebo od rodiny' : ''}.</p>}
 </Base>

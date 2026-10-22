@@ -12,6 +12,13 @@ const ppl = [...new Set(pl.lines.flatMap((l) => l.people))].map((s) => people[s]
 const facts = Object.values(people).flatMap((p) => (p.facts || []).filter((f) => f.includes(pl.name) || f.includes(short)).map((f) => ({ p, f })))
   .sort((a, b) => dateKey(a.f) - dateKey(b.f));
 const recs = recordList.filter((r) => [r.title, r.summary, r.vdesc].join(' ').includes(short));
+// domy: „čp. 26“ ve faktech osob z této obce
+const houses = {};
+for (const { p, f } of facts) for (const m of f.matchAll(/čp\.\s*(\d+)/g)) {
+  const y = (f.match(/\d{4}/) || [''])[0];
+  (houses[m[1]] ??= []).push({ p, y, f });
+}
+const houseList = Object.entries(houses).sort((a, b) => b[1].length - a[1].length || +a[0] - +b[0]);
 const lns = pl.lines.map((l) => lineByK[l.k]).filter(Boolean);
 const [y0, y1] = pl.years || [];
 ---
@@ -30,6 +37,23 @@ const [y0, y1] = pl.years || [];
   {facts.length > 0 && <>
     <h2>Co o obci víme z matrik a od rodiny</h2>
     <ul class="facts">{facts.map(({ p, f }) => <li>{f} <span class="small muted">({p.name})</span></li>)}</ul>
+  </>}
+
+  {houseList.length > 0 && <>
+    <h2>Domy</h2>
+    <div class="grid2">
+      {houseList.map(([cp, xs]) => {
+        const yrs = xs.map((x) => +x.y).filter(Boolean);
+        const who = [...new Set(xs.map((x) => x.p.slug))];
+        return (
+          <div class="card">
+            <h3>čp. {cp}</h3>
+            {who.length > 1 && yrs.length > 1 && <p class="small"><b>{who.length} generace v jednom domě</b>{Math.max(...yrs) > Math.min(...yrs) && ` – doloženo ${Math.min(...yrs)}–${Math.max(...yrs)}`}</p>}
+            <ul class="facts small">{xs.map((x) => <li><a href={href.person(x.p.slug)}>{x.p.name}</a>: {x.f}</li>)}</ul>
+          </div>
+        );
+      })}
+    </div>
   </>}
 
   {recs.length > 0 && <>
