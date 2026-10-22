@@ -18,7 +18,12 @@ export const href = {
   family: (id) => `/rodina/${id}/`,
   line: (slug) => `/rod/${slug}/`,
   record: (key) => `/zdroj/${key}/`,
+  place: (name) => `/obec/${placeSlug(name)}/`,
 };
+export const places = site.places ?? [];
+export function placeSlug(s) { return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); }
+/** Obce zmíněné v textu (podle seznamu míst). */
+export const placesIn = (text) => (site.places ?? []).filter((pl) => text.includes(pl.name.split(' ')[0])).map((pl) => pl.name);
 
 /** Sortable number from dates like "12. 5. 1811", "3/1867", "12/1790", "1797". */
 export function dateKey(date) {

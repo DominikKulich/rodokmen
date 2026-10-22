@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import { places, lineByK, href } from '../lib/data.js';
+const list = [...places].map((pl) => ({ ...pl, n: new Set(pl.lines.flatMap((l) => l.people)).size })).sort((a, b) => b.n - a.n || a.name.localeCompare(b.name, 'cs'));
+---
+<Base title="Obce">
+  <h1>Obce předků</h1>
+  <p class="lead">Všechna místa, kde předci žili, rodili se nebo se brali – seřazená podle počtu předků.</p>
+  <div class="obce">
+    {list.map((pl) => (
+      <a class="card obec" href={href.place(pl.name)}>
+        <strong>{pl.name}</strong>
+        <span class="small muted">{pl.n} {pl.n === 1 ? 'předek' : pl.n < 5 ? 'předci' : 'předků'}{pl.years?.[0] && ` · ${pl.years[0] === pl.years[1] ? pl.years[0] : pl.years.join('–')}`}</span>
+        <span>{pl.lines.map((l) => <span class="dot" style={`background:${lineByK[l.k]?.color ?? '#d9b44a'}`}></span>)}</span>
+      </a>
+    ))}
+  </div>
+</Base>
+<style>
+  .obce { display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: .7rem; }
+  .obec { display: flex; flex-direction: column; gap: .2rem; text-decoration: none; color: var(--ink); }
+  .obec:hover { border-color: var(--accent); }
+  .dot { width: .7rem; height: .7rem; border-radius: 50%; display: inline-block; margin-right: .25rem; }
+</style>

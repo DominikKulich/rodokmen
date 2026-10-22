@@ -1,19 +1,45 @@
 ---
 import Base from '../layouts/Base.astro';
+import { people, places, recordList, href } from '../lib/data.js';
+// malý index, který funguje i bez serveru (otevření index.html z disku)
+const idx = [
+  ...Object.values(people).map((p) => ({ t: p.name, s: [p.years, p.rel, ...(p.facts || []), p.note || '', ...(p.side || []).map((x) => x.name + ' ' + x.text)].join(' · '), u: href.person(p.slug), k: 'osoba' })),
+  ...places.map((pl) => ({ t: pl.name, s: 'obec', u: href.place(pl.name), k: 'obec' })),
+  ...recordList.map((r) => ({ t: r.title, s: [r.date, r.summary, r.cs || ''].join(' · '), u: href.record(r.key), k: 'zápis' })),
+];
 ---
 <Base title="Hledat">
   <h1>Hledat</h1>
-  <p class="lead">Jména, místa, čísla domů, povolání – hledá se ve všech stránkách webu.</p>
-  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
-  <div id="search"></div>
-  <script is:inline src="/pagefind/pagefind-ui.js"></script>
-  <script is:inline>
-    window.addEventListener('DOMContentLoaded', () => {
-      if (window.PagefindUI) {
-        new PagefindUI({ element: '#search', showSubResults: true, translations: { placeholder: 'Hledat jméno, místo…', zero_results: 'Nic nenalezeno pro [SEARCH_TERM]' } });
-      } else {
-        document.getElementById('search').textContent = 'Vyhledávání je dostupné až po sestavení webu (npm run build).';
-      }
-    });
+  <p class="lead">Jména, obce, čísla domů, povolání, roky.</p>
+  <input id="q" type="search" placeholder="Hledat jméno, obec, rok…" autocomplete="off" />
+  <ol id="res" class="res"></ol>
+  <script is:inline define:vars={{ idx }}>
+    const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const data = idx.map((d) => ({ ...d, n: norm(d.t + ' ' + d.s), nt: norm(d.t) }));
+    const q = document.getElementById('q'), res = document.getElementById('res');
+    const base = document.querySelector('a.brand')?.getAttribute('href') || '/';
+    const fix = (u) => (base === '/' ? u : base.replace(/index\.html$/, '') + u.replace(/^\//, '') + 'index.html');
+    const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+    function snip(s, w) { const i = norm(s).indexOf(w); if (i < 0) return esc(s.slice(0, 140)); const a = Math.max(0, i - 50); return (a ? '…' : '') + esc(s.slice(a, i)) + '<mark>' + esc(s.slice(i, i + w.length)) + '</mark>' + esc(s.slice(i + w.length, i + 90)) + '…'; }
+    function run() {
+      const words = norm(q.value).split(/\s+/).filter(Boolean);
+      if (!words.length) { res.innerHTML = ''; return; }
+      const hits = data.filter((d) => words.every((w) => d.n.includes(w)))
+        .sort((a, b) => (b.nt.includes(words[0]) ? 1 : 0) - (a.nt.includes(words[0]) ? 1 : 0));
+      res.innerHTML = hits.length ? hits.slice(0, 60).map((d) => `<li><a href="${fix(d.u)}">${esc(d.t)}</a> <span class="kind">${d.k}</span><div class="small muted">${snip(d.s, words[0])}</div></li>`).join('') : '<li class="muted">Nic nenalezeno.</li>';
+      try { history.replaceState(null, '', '#' + encodeURIComponent(q.value)); } catch (e) {}
+    }
+    q.addEventListener('input', run);
+    if (location.hash.length > 1) { q.value = decodeURIComponent(location.hash.slice(1)); run(); }
+    q.focus();
   </script>
 </Base>
+<style>
+  #q { width: 100%; font: inherit; font-size: 1.15rem; padding: .7rem 1rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); }
+  #q:focus { outline: 2px solid var(--accent); border-color: transparent; }
+  .res { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: .6rem; }
+  .res li { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: .6rem .9rem; }
+  .res a { font-weight: 600; }
+  .res .kind { font-size: .72rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin-left: .4rem; }
+  .res :global(mark) { background: #f6dfae; padding: 0 .1em; border-radius: 2px; }
+</style>

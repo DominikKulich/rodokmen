@@ -1,6 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
-import { people, lineByK, records, href, statusClass } from '../lib/data.js';
+import { people, lineByK, records, href, statusClass, places, placesIn, placeSlug } from '../lib/data.js';
 
 // Události z faktů osob: „* …“ narození, „× …“ sňatek, „† …“ úmrtí.
 const KIND = { '*': { n: 'narození', i: '✶' }, '×': { n: 'sňatek', i: '⚭' }, '†': { n: 'úmrtí', i: '✝' } };
@@ -53,6 +53,7 @@ const all = [
   ...events,
   ...history.filter(([y]) => y >= minY).map(([year, text]) => ({ year, sort: year * 10000, hist: true, text })),
 ].sort((a, b) => a.sort - b.sort || (a.hist ? -1 : 1));
+const usedPlaces = places.map((pl) => pl.name).filter((n) => events.some((e) => placesIn(e.place).includes(n))).sort((a, b) => a.localeCompare(b, 'cs'));
 const usedLines = [...new Set(events.map((e) => e.line).filter(Boolean))].map((k) => lineByK[k]).filter(Boolean);
 let lastDecade = null;
 const rows = all.map((e) => {
@@ -69,6 +70,7 @@ const rows = all.map((e) => {
   <div class="to-filter" role="group" aria-label="Filtr podle rodu">
     <button type="button" class="to-chip active" data-line="all">Všechny rody</button>
     {usedLines.map((l) => <button type="button" class="to-chip" data-line={String(l.k)} style={`--c:${l.color}`}><span class="to-dot"></span>{l.name}</button>)}
+    <select id="to-place" class="to-select" aria-label="Obec"><option value="">všechny obce</option>{usedPlaces.map((n) => <option value={n}>{n}</option>)}</select>
     <label class="to-hist"><input type="checkbox" checked id="to-hist" /> dějinné události</label>
   </div>
 
@@ -83,7 +85,7 @@ const rows = all.map((e) => {
             <div class="to-body"><span class="to-histtext">{e.text}</span></div>
           </li>
         ) : (
-          <li class="to-item" data-line={e.line ? String(e.line) : 'none'} style={`--c:${e.line && lineByK[e.line] ? lineByK[e.line].color : 'var(--accent)'}`}>
+          <li class="to-item" data-line={e.line ? String(e.line) : 'none'} data-places={placesIn(e.place).join('|')} style={`--c:${e.line && lineByK[e.line] ? lineByK[e.line].color : 'var(--accent)'}`}>
             <div class="to-year">{e.date}</div>
             <div class="to-mark" title={KIND[e.kind].n}>{KIND[e.kind].i}</div>
             <div class="to-body">
@@ -93,7 +95,7 @@ const rows = all.map((e) => {
                 {e.partner && <> a <a href={href.person(e.partner.slug)}>{e.partner.name}</a></>}
                 {e.rec && <a class="to-rec" href={href.record(e.rec)} title="Zápis v matrice">📜</a>}
               </div>
-              {e.place && <div class="to-place small muted">{e.place}</div>}
+              {e.place && <div class="to-place small muted">{e.place}{placesIn(e.place).slice(0, 1).map((n) => <> · <a href={href.place(n)}>o obci</a></>)}</div>}
               <div class="small"><span class={`chip ${statusClass(e.p.st)}`}>{e.p.status}</span>{e.line && lineByK[e.line] && <span class="muted"> · {lineByK[e.line].name}</span>}</div>
             </div>
           </li>
@@ -108,11 +110,13 @@ const rows = all.map((e) => {
     const chips = document.querySelectorAll<HTMLButtonElement>('.to-chip');
     const items = document.querySelectorAll<HTMLElement>('.to-item');
     const hist = document.getElementById('to-hist') as HTMLInputElement;
+    const sel = document.getElementById('to-place') as HTMLSelectElement;
     let cur = 'all';
     function apply() {
       items.forEach((li) => {
         if (li.dataset.hist) { li.hidden = !hist.checked; return; }
-        li.hidden = cur !== 'all' && li.dataset.line !== cur;
+        if (li.dataset.hist) return;
+        li.hidden = (cur !== 'all' && li.dataset.line !== cur) || (!!sel.value && !(li.dataset.places || '').split('|').includes(sel.value));
       });
       document.querySelectorAll<HTMLElement>('.to-decade').forEach((d) => {
         let n = d.nextElementSibling as HTMLElement | null, any = false;
@@ -126,6 +130,7 @@ const rows = all.map((e) => {
       apply();
     }));
     hist.addEventListener('change', apply);
+    sel.addEventListener('change', apply);
   </script>
 </Base>
 
@@ -134,6 +139,7 @@ const rows = all.map((e) => {
   .to-chip { border: 1px solid var(--line); background: var(--paper); border-radius: 999px; padding: .3rem .8rem; font: inherit; font-size: .9rem; cursor: pointer; color: var(--ink); display: inline-flex; align-items: center; gap: .35rem; }
   .to-chip.active { background: var(--accent-soft); border-color: var(--accent); }
   .to-dot { width: .6rem; height: .6rem; border-radius: 50%; background: var(--c); display: inline-block; }
+  .to-select { font: inherit; font-size: .9rem; padding: .3rem .6rem; border: 1px solid var(--line); border-radius: 999px; background: var(--paper); }
   .to-hist { font-size: .9rem; color: var(--muted); margin-left: .5rem; }
   .timeline { list-style: none; padding: 0; margin: 0; position: relative; }
   .timeline::before { content: ''; position: absolute; left: 8.4rem; top: 0; bottom: 0; width: 2px; background: var(--line); }

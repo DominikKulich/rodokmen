@@ -111,7 +111,7 @@ const used = [...new Set(pts.flatMap((p) => p.lines.map((l) => l.k ?? 0)))].map(
   <div class="vm-list">
     {[...pts].sort((a, b) => (a.years?.[0] ?? 9999) - (b.years?.[0] ?? 9999)).map((p) => (
       <section id={p.id} class="vm-card">
-        <h3>{p.name} {p.years && <span class="muted small">{p.years[0]}{p.years[1] !== p.years[0] ? `–${p.years[1]}` : ''}</span>}</h3>
+        <h3><a href={`/obec/${p.id.slice(6)}/`}>{p.name}</a> {p.years && <span class="muted small">{p.years[0]}{p.years[1] !== p.years[0] ? `–${p.years[1]}` : ''}</span>}</h3>
         {p.lines.map((ln) => (
           <p><span class="vm-chip" style={`--c:${lineOf(ln.k).color}`}>{lineOf(ln.k).name}</span>{' '}
             {ln.people.map((s, i) => <>{i > 0 && ', '}<a href={href.person(s)}>{people[s]?.name}</a></>)}</p>
