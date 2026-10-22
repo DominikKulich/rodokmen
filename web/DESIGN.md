@@ -36,11 +36,14 @@ Barvy rodů (kroužky ve stromu, tečky na mapě) jsou v `data/osoby.py` (LINES)
 - Ve stromu: jména kapitálkami (small-caps), pravděpodobné osoby kurzívou.
 
 ## Materiály a prvky
-- **Podklad**: `--wood` + SVG šum (feTurbulence protažený vodorovně = léta dřeva) + tmavá vinětace.
+- **Podklad**: sametově zelený radiální přechod (světlo nahoře uprostřed `#36663f` → okraje `#0d1d12`) + zlatý ornament
+  „damašek“ z listů (vlastní motiv, dlaždice 160 px, průhlednost 7,5 %), obojí `background-attachment: fixed`.
+  Dlaždici generuje skript popsaný v historii gitu; ve stromu je stejný motiv jako `<pattern id="damask">`.
 - **List s obsahem**: pergamenový přechod, dvojitý vnitřní rámeček (hnědá linka + zlatá linka 7 px od okraje), stín.
 - **Nadpis h2**: zlatá linka pod nadpisem a lísteček ❦ před ním.
 - **Tlačítko `.btn`**: zelené dřevo, zlatý text a rámeček; `.btn-light` = pergamen.
-- **Strom**: stuhy (pergamen s přeloženými konci), medailon s iniciálami a kroužkem v barvě rodu,
+- **Strom**: pozadí = stejný přechod a damašek + měkká zlatá záře za korunou; v rozích zlaté rozviliny s lístky
+  (vlastní ornament, `#roh`); stuhy (pergamen s přeloženými konci), medailon s iniciálami a kroužkem v barvě rodu,
   červená pečeť ✓ = doloženo matrikou, poupě = neznámý předek (odkaz na „Co hledáme“).
 
 ## Tisk / PDF
