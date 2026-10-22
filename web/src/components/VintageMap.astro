@@ -1,0 +1,138 @@
+---
+// Statická „stará“ mapa Česka s tečkami míst předků – bez dlaždic z internetu (funguje i offline / z disku).
+import site from '../data/site.json';
+import { lineByK, people, href } from '../lib/data.js';
+import { MAP, proj, CZ_PATH } from '../lib/czOutline.js';
+const { compact = false } = Astro.props;
+const ROOT_COLOR = '#8a6d52';
+const lineOf = (k) => (k && lineByK[k]) ? lineByK[k] : { name: 'rodiče a prarodiče', color: ROOT_COLOR, slug: null };
+const slugify = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+const pts = site.places.map((p) => { const [x, y] = proj(p.lon, p.lat); return { ...p, x, y, id: 'misto-' + slugify(p.name) }; });
+// shluky blízkých míst → výřez (inset)
+const NEAR = 24;
+const comp = new Map(); let cid = 0;
+for (const p of pts) if (!comp.has(p)) { const q = [p]; comp.set(p, ++cid); while (q.length) { const a = q.pop(); for (const b of pts) if (!comp.has(b) && Math.hypot(a.x - b.x, a.y - b.y) < NEAR) { comp.set(b, cid); q.push(b); } } }
+const groups = {}; for (const p of pts) (groups[comp.get(p)] ??= []).push(p);
+const big = Object.values(groups).sort((a, b) => b.length - a.length)[0];
+const inset = big && big.length >= 3 ? big : null;
+const inSet = new Set(inset ?? []);
+let I = null;
+if (inset) {
+  const xs = inset.map((p) => p.x), ys = inset.map((p) => p.y);
+  const pad = 5, x0 = Math.min(...xs) - pad, x1 = Math.max(...xs) + pad + 9, y0 = Math.min(...ys) - pad - 2, y1 = Math.max(...ys) + pad + 2;
+  const ML = 85, MR = 135, BW = 300, s = Math.min(BW / (x1 - x0), 240 / (y1 - y0));
+  const dw = (x1 - x0) * s, bh = (y1 - y0) * s, bw = ML + dw + MR, bx = MAP.W - bw - 18, by = 18;
+  I = { x0, y0, x1, y1, s, bx, by, bw, bh, map: (p) => [bx + ML + (p.x - x0) * s, by + (p.y - y0) * s] };
+}
+const W = MAP.W, H = MAP.H;
+const refs = [['Praha', 14.421, 50.087], ['Brno', 16.608, 49.195], ['Plzeň', 13.378, 49.747], ['Ostrava', 18.292, 49.835], ['Olomouc', 17.251, 49.594],
+  ['Č. Budějovice', 14.474, 48.975], ['Hradec Králové', 15.83, 50.21], ['Liberec', 15.056, 50.767], ['Jihlava', 15.59, 49.40], ['Karlovy Vary', 12.87, 50.23]]
+  .map(([n, lo, la]) => { const [x, y] = proj(lo, la); return { n, x, y }; })
+  .filter((r) => pts.every((p) => Math.hypot(p.x - r.x, p.y - r.y) > 30) && !(I && r.x + 90 > I.bx && r.y < I.by + I.bh + 10));
+const grat = []; for (let lo = 12; lo <= 19; lo++) { const [x] = proj(lo, 50); grat.push({ x1: x, y1: 0, x2: x, y2: H, t: `${lo}°` }); }
+const gratLat = []; for (let la = 49; la <= 51; la++) { const [, y] = proj(15, la); gratLat.push({ y, t: `${la}°` }); }
+const km50 = (50 / 111.2) * MAP.k;
+const dots = (p, x, y, r0) => { const n = p.lines.length; return p.lines.map((ln, i) => { const a = (2 * Math.PI * i) / Math.max(n, 1), d = n > 1 ? r0 * 0.9 : 0; return { x: x + d * Math.cos(a), y: y + d * Math.sin(a), c: lineOf(ln.k).color, cnt: ln.people.length }; }); };
+const tip = (p) => p.name + (p.years ? ` (${p.years[0]}–${p.years[1]})` : '') + ': ' + p.lines.flatMap((l) => l.people.map((s) => people[s]?.name)).join(', ');
+// rozmístění popisků, aby se nepřekrývaly (hladově: vpravo, vlevo, nahoře, dole, šikmo)
+const place = (items, R = 9) => {
+  const boxes = [], obst = items.map((it) => [it.x - R, it.y - R, it.x + R, it.y + R]);
+  const hit = (b) => [...boxes, ...obst].some((o) => b[0] < o[2] && b[2] > o[0] && b[1] < o[3] && b[3] > o[1]);
+  return items.map((it) => {
+    const w = it.name.length * 7.4, h = 14;
+    const cand = [[R + 1, 4, 'start'], [-R - 1, 4, 'end'], [0, -R - 4, 'middle'], [0, R + 13, 'middle'], [R, -R, 'start'], [R, R + 8, 'start'], [-R, -R, 'end'], [-R, R + 8, 'end']];
+    for (const [dx, dy, a] of cand) {
+      const x = it.x + dx, y = it.y + dy, x0 = a === 'start' ? x : a === 'end' ? x - w : x - w / 2;
+      const b = [x0, y - h + 3, x0 + w, y + 3];
+      if (!hit(b)) { boxes.push(b); return { x, y, a }; }
+    }
+    const b = [it.x + R, it.y - h, it.x + R + w, it.y]; boxes.push(b); return { x: it.x + R + 1, y: it.y + 4, a: 'start' };
+  });
+};
+const mainItems = pts.filter((p) => !inSet.has(p));
+const mainLab = new Map(place(mainItems.map((p) => ({ x: p.x, y: p.y, name: p.name }))).map((l, i) => [mainItems[i], l]));
+const insetLab = I ? new Map(place(inset.map((p) => { const [x, y] = I.map(p); return { x, y, name: p.name }; }), 11).map((l, i) => [inset[i], l])) : new Map();
+const used = [...new Set(pts.flatMap((p) => p.lines.map((l) => l.k ?? 0)))].map((k) => lineOf(k));
+---
+<figure class="vmap">
+  <svg viewBox={`0 0 ${W} ${H}`} role="img" aria-label="Mapa míst, kde žili předci">
+    <defs>
+      <filter id="vm-paper"><feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="3"/><feColorMatrix values="0 0 0 0 .55  0 0 0 0 .45  0 0 0 0 .3  0 0 0 .07 0"/><feComposite in2="SourceGraphic" operator="in"/></filter>
+      <pattern id="vm-hatch" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><line x1="0" y1="0" x2="0" y2="6" stroke="#b79c6b" stroke-width=".6" opacity=".45"/></pattern>
+    </defs>
+    <rect width={W} height={H} fill="#efe3c4"/>
+    <rect width={W} height={H} filter="url(#vm-paper)"/>
+    {grat.map((g) => <><line x1={g.x1} y1={0} x2={g.x2} y2={H} class="vm-grat"/><text x={g.x1 + 3} y={H - 6} class="vm-gt">{g.t}</text></>)}
+    {gratLat.map((g) => <><line x1={0} y1={g.y} x2={W} y2={g.y} class="vm-grat"/><text x={4} y={g.y - 3} class="vm-gt">{g.t}</text></>)}
+    <path d={CZ_PATH} transform="translate(3,4)" fill="#c9b285" opacity=".55"/>
+    <path d={CZ_PATH} fill="#eadbb2" stroke="#6b5235" stroke-width="1.6" stroke-linejoin="round"/>
+    <path d={CZ_PATH} fill="url(#vm-hatch)"/>
+    {refs.map((r) => <><circle cx={r.x} cy={r.y} r="2.4" fill="#7d6a52"/><text x={r.x + 5} y={r.y + 4} class="vm-ref">{r.n}</text></>)}
+    {inset && I && <rect x={I.x0} y={I.y0} width={I.x1 - I.x0} height={I.y1 - I.y0} fill="none" stroke="#6b5235" stroke-dasharray="3 2"/>}
+    {inset && I && <line x1={I.x1} y1={I.y0} x2={I.bx} y2={I.by + I.bh} stroke="#6b5235" stroke-dasharray="3 2" opacity=".6"/>}
+    {pts.map((p) => (
+      <a href={`#${p.id}`}><title>{tip(p)}</title>
+        {dots(p, p.x, p.y, 4).map((d) => <circle cx={d.x} cy={d.y} r={inSet.has(p) ? 3.6 : 4.5 + Math.sqrt(d.cnt) * 1.6} fill={d.c} stroke="#3b2e22" stroke-width="1"/>)}
+        {!inSet.has(p) && <text x={mainLab.get(p).x} y={mainLab.get(p).y} text-anchor={mainLab.get(p).a} class="vm-lab">{p.name}</text>}
+      </a>
+    ))}
+    {inset && I && (
+      <g>
+        <rect x={I.bx - 8} y={I.by - 8} width={I.bw + 16} height={I.bh + 16} fill="#f3e9cf" stroke="#6b5235" stroke-width="1.4"/>
+        <rect x={I.bx - 4} y={I.by - 4} width={I.bw + 8} height={I.bh + 8} fill="none" stroke="#6b5235" stroke-width=".6"/>
+        <clipPath id="vm-ic"><rect x={I.bx - 4} y={I.by - 4} width={I.bw + 8} height={I.bh + 8}/></clipPath>
+        <g clip-path="url(#vm-ic)">
+          {inset.map((p) => { const [x, y] = I.map(p); return (
+            <a href={`#${p.id}`}><title>{tip(p)}</title>
+              {dots(p, x, y, 6).map((d) => <circle cx={d.x} cy={d.y} r={5 + Math.sqrt(d.cnt) * 1.8} fill={d.c} stroke="#3b2e22" stroke-width="1"/>)}
+              <text x={insetLab.get(p).x} y={insetLab.get(p).y} text-anchor={insetLab.get(p).a} class="vm-lab">{p.name}</text>
+            </a>); })}
+        </g>
+        <text x={I.bx} y={I.by + I.bh + 22} class="vm-gt">výřez – okolí {inset[0].name}</text>
+      </g>
+    )}
+    <g transform={`translate(30,${H - 70})`}>
+      <rect x="-6" y="-16" width={km50 + 12} height="34" fill="#efe3c4" opacity=".8"/>
+      <rect x="0" y="0" width={km50 / 2} height="5" fill="#3b2e22"/><rect x={km50 / 2} y="0" width={km50 / 2} height="5" fill="none" stroke="#3b2e22"/>
+      <text x="0" y="-4" class="vm-gt">0</text><text x={km50 - 14} y="-4" class="vm-gt">50 km</text>
+    </g>
+    <g transform={`translate(${W - 60},${H - 70})`} class="vm-rose">
+      <circle r="22" fill="none" stroke="#6b5235"/><path d="M0,-30 L5,0 L0,30 L-5,0Z" fill="#6b5235"/><path d="M-30,0 L0,4 L30,0 L0,-4Z" fill="#a08660"/>
+      <text y="-34" text-anchor="middle" class="vm-gt">S</text>
+    </g>
+    {!compact && <text x="40" y="40" class="vm-title">Mapa rodu</text>}
+  </svg>
+  <figcaption class="vm-leg">
+    {used.map((l) => <span><i style={`background:${l.color}`}></i>{l.name}</span>)}
+    <span class="muted small">Obrys: Natural Earth (volné dílo). Klikněte na tečku – níže se ukáže, kdo tam žil.</span>
+  </figcaption>
+</figure>
+{!compact && (
+  <div class="vm-list">
+    {[...pts].sort((a, b) => (a.years?.[0] ?? 9999) - (b.years?.[0] ?? 9999)).map((p) => (
+      <section id={p.id} class="vm-card">
+        <h3>{p.name} {p.years && <span class="muted small">{p.years[0]}{p.years[1] !== p.years[0] ? `–${p.years[1]}` : ''}</span>}</h3>
+        {p.lines.map((ln) => (
+          <p><span class="vm-chip" style={`--c:${lineOf(ln.k).color}`}>{lineOf(ln.k).name}</span>{' '}
+            {ln.people.map((s, i) => <>{i > 0 && ', '}<a href={href.person(s)}>{people[s]?.name}</a></>)}</p>
+        ))}
+      </section>
+    ))}
+  </div>
+)}
+<style>
+  .vmap { margin: 1rem 0; } .vmap svg { width: 100%; height: auto; display: block; border: 1px solid #b79c6b; border-radius: 6px; box-shadow: 0 2px 10px rgba(60,40,20,.15); }
+  .vm-grat { stroke: #b79c6b; stroke-width: .6; stroke-dasharray: 2 4; opacity: .7; }
+  .vm-gt { font: italic 11px Georgia, serif; fill: #7d6a52; }
+  .vm-ref { font: italic 11px Georgia, serif; fill: #7d6a52; }
+  .vm-lab { font: 600 13px Georgia, serif; fill: #3b2e22; paint-order: stroke; stroke: #efe3c4; stroke-width: 3px; }
+  .vm-title { font: italic 600 26px Georgia, serif; fill: #5b4a3a; letter-spacing: .05em; }
+  .vmap a:hover circle { stroke-width: 2.5; }
+  .vm-leg { display: flex; flex-wrap: wrap; gap: .4rem 1rem; margin-top: .5rem; font-size: .9rem; align-items: center; }
+  .vm-leg i { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; margin-right: .3rem; border: 1px solid #3b2e22; }
+  .vm-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: .8rem; margin-top: 1.2rem; }
+  .vm-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: .6rem .9rem; scroll-margin-top: 5rem; }
+  .vm-card:target { outline: 3px solid var(--accent); }
+  .vm-card h3 { margin: 0 0 .3rem; font-size: 1.05rem; } .vm-card p { margin: .2rem 0; font-size: .92rem; }
+  .vm-chip { border-left: 4px solid var(--c); padding-left: .35rem; font-size: .8rem; color: var(--muted); }
+</style>
