@@ -25,6 +25,7 @@ const [y0, y1] = pl.years || [];
 <Base title={pl.name}>
   <p class="crumbs"><a href="/mapa/">Mapa</a> › <a href="/obce/">Obce</a> › {pl.name}</p>
   <h1>{pl.name}{pl.hypothesis && <span class="muted"> (?)</span>}</h1>
+  {pl.de && <p class="muted" style="margin-top:-.4rem">německy <i>{pl.de}</i> – pod tímto jménem obec najdete ve starých matrikách, úředních záznamech a ztrátových seznamech</p>}
   <p class="lead">
     {ppl.length} {ppl.length === 1 ? 'předek' : ppl.length < 5 ? 'předci' : 'předků'}
     {y0 && <> · doloženo {y0 === y1 ? y0 : `${y0}–${y1}`}</>}

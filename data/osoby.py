@@ -97,6 +97,7 @@ ISSUES = [
  ("Kdy se vzali Jan Polák a Františka Bavlnková?", "Vyřešeno: oddací matrika Ptení uvádí 16. 2. 1892; křestní zápis syna Františka (1905) chybně 9. 2. 1892."),
  ("Kdo byla první manželka Jana Poláka (* 1865) a měli děti?", "Otevřené: zemřela před 29. 1. 1892 (úmrtní list z fary Konice). V oddacích Čunína 1885–1891 sňatek není – nejspíš ve farnosti nevěsty. Hledat v zemřelých Konice 1888–1892."),
  ("Je František Polák (* 1905) otcem Miloslava Poláka (* 1932 Čunín)?", "Téměř jisté: rodina si pamatuje rodiče František a Františka a matrika zná jediný takový pár v Čuníně. Definitivně potvrdí rodný list Miloslava (matriční úřad Konice)."),
+ ("Souvisí s námi Kulichové z Dolína u Slaného?", "Stopa: ztrátové seznamy 1915 uvádějí dva Antoníny Kulichy z Dolína (okres Slaný), nar. 1879 a 1888, oba v ruském zajetí. Dolín je asi 20 km od Ledčic. Ověřit, až budou známi předci dědy Václava (* asi 1936 Ledčice)."),
 ]
 
 # Hypotézy o původu rodu nad rámec doložené linie (zobrazí se na stránce rodu):

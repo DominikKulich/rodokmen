@@ -3,13 +3,15 @@
   "re": "Litoměřic",
   "lat": 50.5335,
   "lon": 14.1318,
-  "pozn": "souřadnice zadány ručně (přibližně)"
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Leitmeritz"
  },
  "Roudnice nad Labem": {
   "re": "Roudnic",
   "lat": 50.4253,
   "lon": 14.2616,
-  "pozn": "souřadnice zadány ručně (přibližně)"
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Raudnitz an der Elbe"
  },
  "Horní Beřkovice": {
   "re": "Beřkovic",
@@ -33,7 +35,8 @@
   "re": "Moravsk\\w* Třebov",
   "lat": 49.7579,
   "lon": 16.6644,
-  "pozn": "souřadnice zadány ručně (přibližně)"
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Mährisch Trübau"
  },
  "Čunín": {
   "re": "Čunín",
@@ -45,7 +48,8 @@
   "re": "\\bKonic",
   "lat": 49.589,
   "lon": 16.8889,
-  "pozn": "souřadnice zadány ručně (přibližně)"
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Konitz"
  },
  "Stínava": {
   "re": "St[ií]nav",
@@ -69,7 +73,8 @@
   "re": "Olomouc",
   "lat": 49.5938,
   "lon": 17.2509,
-  "pozn": "souřadnice zadány ručně (přibližně)"
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Olmütz"
  },
  "Dolní Rožínka": {
   "re": "Rožínk",
@@ -87,7 +92,8 @@
   "re": "Vesel",
   "lat": 49.6162,
   "lon": 16.8869,
-  "pozn": "ručně"
+  "pozn": "ručně",
+  "nemecky": "Fröhlichsdorf"
  },
  "Prostějovičky": {
   "re": "Prostějovič",

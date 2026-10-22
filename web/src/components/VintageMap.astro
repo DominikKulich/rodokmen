@@ -25,6 +25,12 @@ if (inset) {
   I = { x0, y0, x1, y1, s, bx, by, bw, bh, map: (p) => [bx + ML + (p.x - x0) * s, by + (p.y - y0) * s] };
 }
 const W = MAP.W, H = MAP.H;
+// přibližná historická zemská hranice Čechy | Morava (Králický Sněžník → Slavonice), lon/lat
+const ZEM = [[16.847, 50.207], [16.80, 50.10], [16.75, 50.00], [16.72, 49.90], [16.47, 49.82], [16.36, 49.70], [16.20, 49.69],
+  [16.05, 49.64], [15.95, 49.62], [15.80, 49.55], [15.78, 49.48], [15.70, 49.43], [15.60, 49.42], [15.50, 49.38], [15.40, 49.30],
+  [15.35, 49.22], [15.33, 49.15], [15.30, 49.06], [15.26, 48.98]];
+const zemPath = 'M' + ZEM.map(([lo, la]) => proj(lo, la).map((v) => v.toFixed(1)).join(',')).join(' L');
+const zemLab = [['Č E C H Y', 14.3, 49.45], ['M O R A V A', 16.75, 49.25]].map(([t, lo, la]) => { const [x, y] = proj(lo, la); return { t, x, y }; });
 const refs = [['Praha', 14.421, 50.087], ['Brno', 16.608, 49.195], ['Plzeň', 13.378, 49.747], ['Ostrava', 18.292, 49.835], ['Olomouc', 17.251, 49.594],
   ['Č. Budějovice', 14.474, 48.975], ['Hradec Králové', 15.83, 50.21], ['Liberec', 15.056, 50.767], ['Jihlava', 15.59, 49.40], ['Karlovy Vary', 12.87, 50.23]]
   .map(([n, lo, la]) => { const [x, y] = proj(lo, la); return { n, x, y }; })
@@ -33,7 +39,7 @@ const grat = []; for (let lo = 12; lo <= 19; lo++) { const [x] = proj(lo, 50); g
 const gratLat = []; for (let la = 49; la <= 51; la++) { const [, y] = proj(15, la); gratLat.push({ y, t: `${la}°` }); }
 const km50 = (50 / 111.2) * MAP.k;
 const dots = (p, x, y, r0) => { const n = p.lines.length; return p.lines.map((ln, i) => { const a = (2 * Math.PI * i) / Math.max(n, 1), d = n > 1 ? r0 * 0.9 : 0; return { x: x + d * Math.cos(a), y: y + d * Math.sin(a), c: lineOf(ln.k).color, cnt: ln.people.length }; }); };
-const tip = (p) => p.name + (p.years ? ` (${p.years[0]}–${p.years[1]})` : '') + ': ' + p.lines.flatMap((l) => l.people.map((s) => people[s]?.name)).join(', ');
+const tip = (p) => p.name + (p.de ? ` (${p.de})` : '') + (p.years ? ` (${p.years[0]}–${p.years[1]})` : '') + ': ' + p.lines.flatMap((l) => l.people.map((s) => people[s]?.name)).join(', ');
 // rozmístění popisků, aby se nepřekrývaly (hladově: vpravo, vlevo, nahoře, dole, šikmo)
 const place = (items, R = 9) => {
   const boxes = [], obst = items.map((it) => [it.x - R, it.y - R, it.x + R, it.y + R]);
@@ -67,6 +73,8 @@ const used = [...new Set(pts.flatMap((p) => p.lines.map((l) => l.k ?? 0)))].map(
     <path d={CZ_PATH} transform="translate(3,4)" fill="#c9b285" opacity=".55"/>
     <path d={CZ_PATH} fill="#eadbb2" stroke="#6b5235" stroke-width="1.6" stroke-linejoin="round"/>
     <path d={CZ_PATH} fill="url(#vm-hatch)"/>
+    {zemLab.map((z) => <text x={z.x} y={z.y} text-anchor="middle" class="vm-land">{z.t}</text>)}
+    <path d={zemPath} fill="none" stroke="#7d5a35" stroke-width="1.6" stroke-dasharray="7 3 1.5 3" opacity=".75"><title>Přibližná historická hranice Čech a Moravy</title></path>
     {refs.map((r) => <><circle cx={r.x} cy={r.y} r="2.4" fill="#7d6a52"/><text x={r.x + 5} y={r.y + 4} class="vm-ref">{r.n}</text></>)}
     {inset && I && <rect x={I.x0} y={I.y0} width={I.x1 - I.x0} height={I.y1 - I.y0} fill="none" stroke="#6b5235" stroke-dasharray="3 2"/>}
     {inset && I && <line x1={I.x1} y1={I.y0} x2={I.bx} y2={I.by + I.bh} stroke="#6b5235" stroke-dasharray="3 2" opacity=".6"/>}
@@ -104,6 +112,7 @@ const used = [...new Set(pts.flatMap((p) => p.lines.map((l) => l.k ?? 0)))].map(
   </svg>
   <figcaption class="vm-leg">
     {used.map((l) => <span><i style={`background:${l.color}`}></i>{l.name}</span>)}
+    <span><i class="vm-zem"></i>historická hranice Čech a Moravy (přibližně)</span>
     <span class="muted small">Obrys: Natural Earth (volné dílo). Klikněte na tečku – níže se ukáže, kdo tam žil.</span>
   </figcaption>
 </figure>
@@ -111,7 +120,7 @@ const used = [...new Set(pts.flatMap((p) => p.lines.map((l) => l.k ?? 0)))].map(
   <div class="vm-list">
     {[...pts].sort((a, b) => (a.years?.[0] ?? 9999) - (b.years?.[0] ?? 9999)).map((p) => (
       <section id={p.id} class="vm-card">
-        <h3><a href={`/obec/${p.id.slice(6)}/`}>{p.name}</a> {p.years && <span class="muted small">{p.years[0]}{p.years[1] !== p.years[0] ? `–${p.years[1]}` : ''}</span>}</h3>
+        <h3><a href={`/obec/${p.id.slice(6)}/`}>{p.name}</a>{p.de && <span class="vm-de"> {p.de}</span>} {p.years && <span class="muted small">{p.years[0]}{p.years[1] !== p.years[0] ? `–${p.years[1]}` : ''}</span>}</h3>
         {p.lines.map((ln) => (
           <p><span class="vm-chip" style={`--c:${lineOf(ln.k).color}`}>{lineOf(ln.k).name}</span>{' '}
             {ln.people.map((s, i) => <>{i > 0 && ', '}<a href={href.person(s)}>{people[s]?.name}</a></>)}</p>
@@ -126,9 +135,12 @@ const used = [...new Set(pts.flatMap((p) => p.lines.map((l) => l.k ?? 0)))].map(
   .vm-gt { font: italic 11px Georgia, serif; fill: #7d6a52; }
   .vm-ref { font: italic 11px Georgia, serif; fill: #7d6a52; }
   .vm-lab { font: 600 13px Georgia, serif; fill: #3b2e22; paint-order: stroke; stroke: #efe3c4; stroke-width: 3px; }
+  .vm-land { font: italic 600 30px Georgia, serif; fill: #9c8460; opacity: .38; letter-spacing: .1em; }
+  .vm-de { font: italic .85rem Georgia, serif; color: var(--muted); }
   .vm-title { font: italic 600 26px Georgia, serif; fill: #5b4a3a; letter-spacing: .05em; }
   .vmap a:hover circle { stroke-width: 2.5; }
   .vm-leg { display: flex; flex-wrap: wrap; gap: .4rem 1rem; margin-top: .5rem; font-size: .9rem; align-items: center; }
+  .vm-leg i.vm-zem { width: 1.4rem; height: 0; border: 0; border-top: 2px dashed #7d5a35; border-radius: 0; vertical-align: middle; }
   .vm-leg i { display: inline-block; width: .7rem; height: .7rem; border-radius: 50%; margin-right: .3rem; border: 1px solid #3b2e22; }
   .vm-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: .8rem; margin-top: 1.2rem; }
   .vm-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius); padding: .6rem .9rem; scroll-margin-top: 5rem; }
