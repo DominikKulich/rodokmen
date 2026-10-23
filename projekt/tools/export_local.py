@@ -75,7 +75,7 @@ def main():
         write_text_safely(target, ''.join(chunks))
         count += 1
     (DEST / 'CTI_ME.txt').write_text(
-        'Rodokmen Kulichových – lokální kopie webu\n'
+        'Rodokmen Dominik Kulich – lokální kopie webu\n'
         'Otevři index.html dvojklikem. Odkazy jsou relativní.\n'
         'Zdrojové soubory: ../projekt/web/src\n'
         'Po sestavení webu aktualizace: python projekt/tools/export_local.py\n'

@@ -32,7 +32,7 @@ Dobrý den,
 
 při rodinném genealogickém výzkumu hledám doklady o službě Františka Poláka, narozeného 4. července 1890 v Čuníně, okres Litovel. Byl krejčí, domovsky příslušný do Prostějova; rodiče František Polák a Marie rozená Trnková. V databázi ČsOL je pod číslem 83965.
 
-Podle databáze byl zajat 2. 3. 1915 v Karpatech jako vojín 93. pěšího pluku, přihlášku podal v místě Kondoroga, Oloněcká gubernie. Do ruských legií byl zařazen 24. 5. 1917 k 1. střeleckému pluku, demobilizován 8. 7. 1920. Databáze cituje poslužný spis a osobní kartu.
+Podle databáze byl zajat 2. 3. 1915 v Karpatech jako vojín 93. pěšího pluku, přihlášku podal v místě Kondoroga, Oloněcká gubernie. Do československých legií byl zařazen 24. 5. 1917 k 1. střeleckému pluku, demobilizován 8. 7. 1920. Databáze cituje poslužný spis a osobní kartu.
 
 Prosím o sdělení, zda se tyto doklady dochovaly, jejich archivní označení a možnosti studia či získání kopií. Zajímají mě zejména záznamy o osobní účasti v bitvě u Zborova 2. 7. 1917, číslo roty, přesuny a služba či boje na Transsibiřské magistrále v letech 1918–1920. Pokud jsou údaje doloženy, prosím o označení konkrétního dokumentu a strany.
 

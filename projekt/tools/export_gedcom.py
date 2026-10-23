@@ -153,7 +153,7 @@ def main():
     people['B2']['facts'].append('krejčí, domovsky Prostějov')
     people['B2']['note'] += '\nOsobní účast u Zborova a na Transsibiřské magistrále dosud není doložena. Historie pluku není dokladem osobní účasti.'
     for tag, date, place, note in [('EVEN','2 MAR 1915','Karpaty','Zajetí; rakousko-uherský 93. pěší pluk.'),
-                                   ('EVEN','24 MAY 1917','Rusko','Nástup k 1. československému střeleckému pluku ruských legií.'),
+                                   ('EVEN','24 MAY 1917','Rusko','Nástup k 1. československému střeleckému pluku československých legií.'),
                                    ('EVEN','8 JUL 1920','','Demobilizace z legií; hodnost vojín.')]:
         people['B2']['events'].append((tag, date, place, note))
 
@@ -184,7 +184,7 @@ def main():
         if note: text(2, 'NOTE', note)
         for key in records: citation(2, key)
 
-    line(0, 'HEAD');line(1,'SOUR','RODOKMEN_KULICH');line(2,'NAME','Rodokmen Kulichových – doložené rodinné bádání')
+    line(0, 'HEAD');line(1,'SOUR','RODOKMEN_KULICH');line(2,'NAME','Rodokmen Dominik Kulich – doložené rodinné bádání')
     line(1,'DEST','MyHeritage');line(1,'DATE','23 OCT 2026');line(1,'SUBM','@SUB1@')
     line(1,'GEDC');line(2,'VERS','5.5.1');line(2,'FORM','LINEAGE-LINKED');line(1,'CHAR','UTF-8');line(1,'LANG','Czech')
     line(0,'@SUB1@ SUBM');line(1,'NAME','Dominik Kulich')

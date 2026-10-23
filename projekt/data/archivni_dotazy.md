@@ -8,6 +8,6 @@ Co by šlo zjistit jen v badatelně archivu nebo na matričním úřadě (a pro�
 - Rodný list dědy Václava Kulicha (* asi 1936): matriční úřad – jako přímý potomek si o výpis může Dominik požádat; uvádí rodiče.
 
 ## Poslužný spis legionáře Františka Poláka
-František Polák, *4. 7. 1890 Čunín, ČsOL 83965, 1. střelecký pluk ruských legií. Hledáme poslužný spis, osobní kartu, zařazení k rotě a případné doklady bojové účasti u Zborova 1917 a při bojích či ochraně magistrály v letech 1918–1920. Dotaz archivu dosud neodeslán.
+František Polák, *4. 7. 1890 Čunín, ČsOL 83965, 1. střelecký pluk československých legií. Hledáme poslužný spis, osobní kartu, zařazení k rotě a případné doklady bojové účasti u Zborova 1917 a při bojích či ochraně magistrály v letech 1918–1920. Dotaz archivu dosud neodeslán.
 
 Další rešerše, ověření digitálního katalogu a připravený text dotazu: ../VALKY_ZBOROV_MAGISTRALA_2026-10-22.md. Aktuálně ověřený kontakt VÚA: podatelna-vua@mo.gov.cz. Plošně digitalizované poslužné spisy zatím do písmene E; u Poláka osobní spis online nezískán.
