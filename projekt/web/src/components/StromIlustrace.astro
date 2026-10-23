@@ -83,10 +83,10 @@ const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fathe
 ---
 <div class="tapestry" id="legionarska-vetev" data-tree data-legion-x={legionX} data-legion-y={familyY+190}>
   <div class="tree-tools no-print" role="group" aria-label="Velikost stromu">
-    <span>Rodová malba <small>· uchopte a táhněte myší</small></span>
-    <div><button type="button" data-focus-legion>Legionář a otec</button><button type="button" data-zoom="out" aria-label="Oddálit">−</button><button type="button" data-zoom="fit">Celý strom</button><button type="button" data-zoom="in" aria-label="Přiblížit">+</button></div>
+    <span>Rodová malba <small>· kolečkem přibližujte, tažením posouvejte; na mobilu dvěma prsty</small></span>
+    <div><button type="button" data-focus-legion>Legionář a otec</button><button type="button" data-zoom="out" aria-label="Oddálit">−</button><button type="button" data-zoom="fit">Celý strom</button><button type="button" data-zoom="in" aria-label="Přiblížit">+</button><output data-zoom-level aria-label="Přiblížení stromu">100 %</output></div>
   </div>
-  <div class="strom-wrap" tabindex="0" role="region" aria-label="Posuvný rodový strom">
+  <div class="strom-wrap" tabindex="0" role="region" aria-label="Rodový strom: kolečkem nebo dvěma prsty přibližujte, tažením posouvejte. Klávesami plus a minus změníte přiblížení, nulou zobrazíte celý strom.">
     <svg class="strom" viewBox={`0 0 ${W} ${H}`} xmlns="http://www.w3.org/2000/svg" aria-label={`Rodový strom – ${config.nazev}`}>
       <defs>
         <linearGradient id="antique-gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6d4c22"/><stop offset=".23" stop-color="#b3934d"/><stop offset=".45" stop-color="#efdc9c"/><stop offset=".62" stop-color="#947035"/><stop offset=".85" stop-color="#dbc384"/><stop offset="1" stop-color="#795424"/></linearGradient>
@@ -171,55 +171,21 @@ const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fathe
 </div>
 <p class="strom-legend">Přímo pod Janem Polákem (* asi 1838) je jeho syn František a pod ním vnuk František — legionář. Matkou staršího Františka byla Anna Pospíšilová. Tlačítkem „Legionář a otec“ větev přiblížíte. Zlatý bod: osoba zachycená v matrice · Přerušovaná větev: nepotvrzené příbuzenství · Kurzíva: pravděpodobné údaje. „Zmínka“ označuje rok zápisu, nikoli narození či úmrtí. Kliknutím na jméno otevřete doklady.</p>
 <script>
-  document.querySelectorAll<HTMLElement>('[data-tree]').forEach(tree => {
-    const svg = tree.querySelector<SVGElement>('.strom')!;
-    const stage = tree.querySelector<HTMLElement>('.strom-wrap')!;
-    let drag: {id:number; x:number; y:number; left:number; top:number; moved:boolean} | null = null;
-    let suppressClick = false;
-    stage.addEventListener('pointerdown', e => {
-      if (e.pointerType !== 'mouse' || e.button !== 0) return;
-      suppressClick = false;
-      drag = { id:e.pointerId, x:e.clientX, y:e.clientY, left:stage.scrollLeft, top:stage.scrollTop, moved:false };
-    });
-    stage.addEventListener('pointermove', e => {
-      if (!drag || drag.id !== e.pointerId) return;
-      const dx=e.clientX-drag.x, dy=e.clientY-drag.y;
-      if (!drag.moved && Math.hypot(dx,dy) < 5) return;
-      if (!drag.moved) { stage.setPointerCapture(e.pointerId); drag.moved=true; stage.classList.add('dragging'); }
-      stage.scrollLeft=drag.left-dx; stage.scrollTop=drag.top-dy;
-      e.preventDefault();
-    });
-    const finish = (e:PointerEvent) => {
-      if (!drag || drag.id !== e.pointerId) return;
-      suppressClick=drag.moved;
-      if (stage.hasPointerCapture(e.pointerId)) stage.releasePointerCapture(e.pointerId);
-      stage.classList.remove('dragging'); drag=null;
-    };
-    stage.addEventListener('pointerup',finish);
-    stage.addEventListener('pointercancel',finish);
-    stage.addEventListener('lostpointercapture', () => {stage.classList.remove('dragging');drag=null;});
-    stage.addEventListener('pointerleave', () => {if (drag && !drag.moved) drag=null;});
-    stage.addEventListener('dragstart',e => e.preventDefault());
-    stage.addEventListener('click',e => {if (suppressClick) {e.preventDefault();e.stopPropagation();suppressClick=false;}},true);
-    let zoom = 1;
-    tree.querySelectorAll<HTMLButtonElement>('[data-zoom]').forEach(button => button.addEventListener('click', () => {
-      zoom = button.dataset.zoom === 'fit' ? 1 : Math.max(1, Math.min(8, zoom + (button.dataset.zoom === 'in' ? .5 : -.5)));
-      svg.style.width = `${zoom * 100}%`;
-    }));
-    tree.querySelector('[data-focus-legion]')?.addEventListener('click',()=>{
-      const box=(svg as SVGSVGElement).viewBox.baseVal;
-      zoom=Math.min(8,Math.max(1.5,Math.min(stage.clientWidth/940,stage.clientHeight/960)*box.width/stage.clientWidth));svg.style.width=`${zoom*100}%`;
-      tree.scrollIntoView({block:'start'});
-      requestAnimationFrame(()=>{stage.scrollLeft=Number(tree.dataset.legionX)/box.width*svg.clientWidth-stage.clientWidth/2;stage.scrollTop=Number(tree.dataset.legionY)/box.height*svg.clientHeight-stage.clientHeight/2;});
-    });
-  });
+  import { initTree } from '../lib/tree-controls';
+  document.querySelectorAll<HTMLElement>('[data-tree]').forEach(initTree);
 </script>
 <style>
   .tapestry { scroll-margin-top:105px;border:4px double #b79c62;padding:5px;background:#16231c;box-shadow:0 24px 70px #0005,inset 0 0 0 1px #4d3b21; }
   .tree-tools { display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.8rem 1rem;color:#c8b681;font-size:.8rem;border-bottom:1px solid #766541; }
   .tree-tools button { background:transparent;color:#e0d2ad;border:1px solid #766541;padding:.4rem .7rem;cursor:pointer; }
+  .tree-tools > div {display:flex;align-items:center;flex-wrap:wrap;gap:.4rem;}
+  .tree-tools output {min-width:4.5em;text-align:center;font-variant-numeric:tabular-nums;}
+  .tree-tools button:disabled {opacity:.4;cursor:default;}
   .tree-tools button:hover { background:#354136; }
   .strom-wrap { overflow:auto;max-height:80vh;cursor:grab;touch-action:pan-x pan-y; }
+  .strom-wrap.tree-interactive {touch-action:none;}
+  .strom-wrap.tree-interactive .strom {min-width:0;}
+  .strom-wrap:focus-visible {outline:2px solid #ead49a;outline-offset:2px;}
   .strom-wrap.dragging,.strom-wrap.dragging a {cursor:grabbing;user-select:none;}
   .tree-tools small {font-size:.8em;opacity:.8;}
   .strom {user-select:none;}
@@ -234,6 +200,6 @@ const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fathe
   .ancestor:hover .nameplate,.ancestor:focus .nameplate {fill:#384337;stroke:#f4dc98;stroke-width:2;}
   .ancestor.prob .person-name {font-style:italic;}
   .strom-legend {font-size:.8rem;color:var(--muted);}
-  @media(max-width:640px) {.strom {min-width:1100px;}}
+  @media(max-width:640px) {.strom {min-width:1100px;}.tree-tools {flex-direction:column;align-items:flex-start;gap:.6rem;}}
   @media print {.strom-wrap {max-height:none;overflow:visible}.strom {width:100%!important;min-width:0}}
 </style>

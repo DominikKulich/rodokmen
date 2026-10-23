@@ -7,10 +7,10 @@ const kinds = [...new Set(list.map((r) => r.kindName))];
 ---
 <Base title="Zápisy z matrik">
   <h1>Zápisy z matrik</h1>
-  <p class="lead">Všech {list.length} zápisů, na kterých rodokmen stojí – chronologicky. U každého je výřez snímku s vyznačeným místem, plné rozlišení a odkaz do archivu. Co v matrikách zatím chybí nebo si odporuje, najdete v přehledu <a href="/hledame/">co ještě hledáme</a>.</p>
+  <p class="lead">Všech {list.length} matričních zápisů a dalších pramenů přehledně podle data. Dostupné výřezy vidíte rovnou zde. Kliknutím na obrázek nebo název otevřete detail s dochovanými podklady a odkazem do archivu. Co zatím chybí nebo si odporuje, najdete v přehledu <a href="/hledame/">co ještě hledáme</a>.</p>
   <p class="chips">
-    <button class="chip" data-k="" type="button">vše</button>
-    {kinds.map((k) => <button class="chip" data-k={k} type="button">{k}</button>)}
+    <button class="chip" data-k="" type="button" aria-pressed="true">vše</button>
+    {kinds.map((k) => <button class="chip" data-k={k} type="button" aria-pressed="false">{k}</button>)}
   </p>
   <div class="table-box"><table>
     <thead><tr><th>Datum</th><th>Druh</th><th>Zápis</th><th>Týká se</th></tr></thead>
@@ -20,6 +20,7 @@ const kinds = [...new Set(list.map((r) => r.kindName))];
           <td class="small" style="white-space:nowrap">{r.date}</td>
           <td class="small">{r.kindName}</td>
           <td><a href={href.record(r.key)}>{r.title}</a><div class="small muted">{r.volume || r.vdesc}</div>
+            {r.img && <a class="record-scan" href={href.record(r.key)} aria-label={`Prohlédnout zápis: ${r.title}`}><img src={`/img/${r.key}.jpg`} alt={`Výřez zápisu: ${r.title}`} loading="lazy" /></a>}
             {r.orig && (
               <details class="transcript">
                 <summary>Text z matriky a překlad</summary>
@@ -35,6 +36,7 @@ const kinds = [...new Set(list.map((r) => r.kindName))];
   <script>
     document.querySelectorAll<HTMLButtonElement>('button[data-k]').forEach((b) =>
       b.addEventListener('click', () => {
+        document.querySelectorAll<HTMLButtonElement>('button[data-k]').forEach(button => button.setAttribute('aria-pressed', String(button === b)));
         document.querySelectorAll<HTMLTableRowElement>('tr[data-kind]').forEach((tr) => {
           tr.hidden = !!b.dataset.k && tr.dataset.kind !== b.dataset.k;
         });
@@ -42,3 +44,8 @@ const kinds = [...new Set(list.map((r) => r.kindName))];
     );
   </script>
 </Base>
+<style>
+  .record-scan {display:block;margin:.8rem 0;}
+  .record-scan img {display:block;width:100%;max-height:240px;object-fit:contain;border:1px solid var(--line);background:#e7d9bc;}
+  .chip[aria-pressed="true"] {outline:2px solid var(--gold);outline-offset:2px;}
+</style>

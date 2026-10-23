@@ -1,0 +1,3296 @@
+0 HEAD
+1 SOUR RODOKMEN_KULICH
+2 NAME Rodokmen Kulichových – doložené rodinné bádání
+1 DEST MyHeritage
+1 DATE 23 OCT 2026
+1 SUBM @SUB1@
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 CHAR UTF-8
+1 LANG Czech
+0 @SUB1@ SUBM
+1 NAME Dominik Kulich
+1 NOTE Export rodokmenu ze dne 23. 10. 2026. Rodinné údaje a nejistá čtení jsou výslovně označeny. Původní doklady, přepisy a fotografie: https://rodokmen.dominikkulich.cz
+0 @I1@ INDI
+1 NAME Dominik /Kulich/
+2 GIVN Dominik
+2 SURN Kulich
+1 SEX M
+1 BIRT
+2 DATE 1995
+2 PLAC Litoměřice
+2 NOTE * 1995 Litoměřice
+1 _LIVING Y
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Žijící – současné bydliště doplněno na výslovnou žádost Dominika. Bydliště v Chudoslavicích čp. 26 sdělil Dominik 23. 10. 2026 a výslovně požádal o doplnění na web. Jde o současný rodinný údaj
+2 CONC , nikoli matriční doklad nebo datum nastěhování.
+2 CONT * 1995 Litoměřice
+2 CONT bydliště Chudoslavice čp. 26 (rodinný údaj, potvrzeno 23. 10. 2026)
+1 NOTE Rodinné zajímavosti:
+2 CONT # Zajímavosti z rodokmenu
+2 CONT
+2 CONT ## Vnuk našeho předka v ruských legiích
+2 CONT [František Polák (*4. 7. 1890)](/legionar/) z Čunína čp. 13 byl krejčí, syn Františka Poláka a Marie Trnkové. Jeho prarodiče Jan Polák (*asi 1838) a Anna Pospíšilová jsou také přímými předky Dominika.
+2 CONC  Přesně tedy můžeme říct: **legionář byl vnukem Dominikova praprapradědečka** a bratrancem jeho pradědečka Františka (*1905).
+2 CONT
+2 CONT V Karpatech byl zajat 2. března 1915; 24. května 1917 byl zařazen k 1. střeleckému pluku ruských legií a 8. července 1920 demobilizován. Zachovala se i jeho fotografie. [Časová osa](/casova-osa/) ukazuje tyto 
+2 CONC doložené události, [příběh legionáře](/legionar/) také portrét a původní doklady.
+2 CONT
+2 CONT ## Pluk od Zborova k sibiřské magistrále
+2 CONT Františkův 1. střelecký pluk bojoval u Zborova a později chránil Transsibiřskou magistrálu. Čas jeho služby se s těmito událostmi překrývá, proto jde o reálnou možnost i v jeho osobním příběhu. **Oso
+2 CONC bní účast v konkrétních bojích zatím není doložena.** [Podrobnosti a historické zdroje](/legionar/#zborov-a-magistrala) rozlišují historii útvaru od zatím otevřených otázek k samotnému Františkovi.
+2 CONT
+2 CONT
+2 CONT <!-- Každá zajímavost: ## nadpis, pak pár vět. Odkazy na osoby: [Jan Novák](/osoba/jan-novak-1850/) – adresa je v web/src/data/site.json. -->
+2 CONT
+2 CONT <h2 id="cislo-26">Tři domy, jedno číslo: 26</h2>
+2 CONT
+2 CONT Jedno číslo se v rodině vrací na třech různých místech: **26**. Polákovi z Čunína, Kaštánkovi z Dolní Rožínky a dnešní domácnost Dominika s maminkou v Chudoslavicích mají společné stejné číslo p
+2 CONC opisné.
+2 CONT
+2 CONT - **Čunín čp. 26:** František Polák se v tomto domě narodil 27. prosince 1905. Číslo 26 je přímo čitelné v jeho [rodném zápisu](/zdroj/cunin_krest_frantisek_polak_1905/) a stejné bydliště má uvedeno jak
+2 CONC o řezník i při [sňatku roku 1929](/zdroj/konice_snatek_frantisek_polak_frantiska_krejci_1929/).
+2 CONT - **Dolní Rožínka čp. 26:** zde se 15. září 1914 narodil Václav Kaštánek, syn kočího Ignáce a Josefy Vykutilové. Číslo 26 je přímo čitelné v jeho [rodném zápisu](/zdroj/rozinka_krest_vaclav_kastanek
+2 CONC _1914/). Jde o Dolní Rožínku; v dřívějším Domaníně měla rodina jiné adresy.
+2 CONT - **Chudoslavice čp. 26:** dnešní bydliště Dominika a jeho maminky Jany. Tento údaj Dominik sdělil 23. října 2026 a požádal o jeho doplnění na web. Datum označuje rodinné sdělení, nikoli nastěhování.
+2 CONT
+2 CONT Shodují se čísla popisná; každý dům leží v jiné obci. U dvou starších adres máme matriční doklady, u dnešního bydliště přímé rodinné potvrzení. Číslo 26 se vztahuje ke konkrétním výše uveden
+2 CONC ým zápisům, nikoli ke všem předkům nebo všem jejich bydlištím.
+2 CONT
+2 CONT ## Svatba s otcovým svolením
+2 CONT Když si v únoru 1892 bral domkář [Jan Polák](/osoba/jan-polak-1865/) z Čunína Františku Bavlnkovou ze Stínavy, bylo nevěstě 21 let. Podle tehdejšího práva byla plnoletá až ve 24 letech, a tak do matriky v
+2 CONC  Ptení připsal její otec Antonín Bavlnka: „Ku sňatku neplnoleté nevěsty dávám před dvěma svědky své svolení.“ Ženich už jednou ženatý byl – byl vdovec.
+2 CONT
+2 CONT ## Od podruha k řezníkovi
+2 CONT Za tři generace se Polákové v Čuníně posunuli: praděd Jan byl „podruh“ – člověk bez vlastního domu. Jeho syn Jan už byl domkář a zahradník v čp. 26 a vnuk František v témže domě řezník.
+2 CONT
+1 NOTE Otevřené a vyřešené otázky:
+2 CONT Bojoval František Polák (*1890) u Zborova a na Transsibiřské magistrále? Otevřené: služba u 1. střeleckého pluku od 24. 5. 1917 do roku 1920 umožňuje tuto souvislost. Historie útvaru dokládá Zborov i ochra
+2 CONC nu magistrály, ale osobní účast Františka v konkrétních bojích zatím souhrnný záznam nepotvrzuje. Další pramen: legionářský poslužný spis.
+2 CONT Který Jan Polák z Čunína padl v roce 1915? Otevřené: pomník uvádí Jana Poláka 1893–1915. Matrika obsahuje dva Jany Poláky narozené 1893: 17. ledna, syn Jana a Františky Bavlnkové, a 16. dubna, syn Eduarda
+2 CONC  a Filomeny. Bez přesného data narození nebo rodičů v úmrtním/vojenském dokladu nelze padlého určit. Podrobnosti ve zprávě VALKY_2026-10-22.md.
+2 CONT Kdy se vzali Jan Polák a Františka Bavlnková? Vyřešeno: oddací matrika Ptení uvádí 16. 2. 1892; křestní zápis syna Františka (1905) chybně 9. 2. 1892.
+2 CONT Kdo byla první manželka Jana Poláka (* 1865) a měli děti? Otevřené: zemřela před 29. 1. 1892 (úmrtní list z fary Konice). V oddacích Čunína 1885–1891 sňatek není – nejspíš ve farnosti nevěsty. Hled
+2 CONC at v zemřelých Konice 1888–1892.
+2 CONT Je František Polák (* 1905) otcem Miloslava Poláka (* 1932 Čunín)? Vyřešeno: Dominik 22. 10. 2026 definitivně potvrdil spojení svého dědečka Miloslava s Františkem Polákem (*1905). Zdrojem je rodinné potvr
+2 CONC zení; jednotlivé starší osoby dokládají matriky.
+2 CONT Souvisí s námi Kulichové z Dolína u Slaného? Stopa: ztrátové seznamy 1915 uvádějí dva Antoníny Kulichy z Dolína (okres Slaný), nar. 1879 a 1888, oba v ruském zajetí. Dolín je asi 20 km od Ledčic. Ověři
+2 CONC t, až budou známi předci dědy Václava (* asi 1936 Ledčice).
+1 WWW https://rodokmen.dominikkulich.cz
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Luboš /Kulich/
+2 GIVN Luboš
+2 SURN Kulich
+1 SEX M
+1 BIRT
+2 DATE 1962
+2 NOTE * 1962 Roudnice nad Labem (?)
+1 _LIVING Y
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Žijící – údaje jen základní. Místo narození podle Dominika nejisté (Roudnice?).
+2 CONT * 1962 Roudnice nad Labem (?)
+2 CONT od dětství v Horních Beřkovicích
+1 FAMS @F1@
+1 FAMC @F2@
+0 @I3@ INDI
+1 NAME Jana /Poláková/
+2 GIVN Jana
+2 SURN Poláková
+1 SEX F
+1 BIRT
+2 DATE 1964
+2 PLAC Moravská Třebová
+2 NOTE * 1964 Moravská Třebová
+1 _LIVING Y
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Žijící – současné bydliště doplněno na výslovnou žádost Dominika. Bydliště v Chudoslavicích čp. 26 sdělil Dominik 23. 10. 2026 a výslovně požádal o doplnění na web. Jde o současný rodinný údaj
+2 CONC , nikoli matriční doklad nebo datum nastěhování.
+2 CONT * 1964 Moravská Třebová
+2 CONT bydliště Chudoslavice čp. 26 (rodinný údaj, potvrzeno 23. 10. 2026)
+1 FAMS @F1@
+1 FAMC @F3@
+0 @I4@ INDI
+1 NAME Václav /Kulich/
+2 GIVN Václav
+2 SURN Kulich
+1 SEX M
+1 BIRT
+2 DATE ABT 1936
+2 NOTE * asi 1936 Ledčice (?)
+1 DEAT
+2 DATE ABT 2000
+2 NOTE † asi 2000
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Podle Dominika: z Ledčic (nejisté), narozen asi 1936. V katastru je „Václav Kulich, Ledčice čp. 85“ jako nedostatečně identifikovaný vlastník parcely v k. ú. Mnetěš – může to být on, nebo jeho otec s
+2 CONC tejného jména.
+2 CONT * asi 1936 Ledčice (?)
+2 CONT zedník, stavěl paneláky
+2 CONT Ledčice čp. 85 (?)
+2 CONT † asi 2000
+1 FAMS @F2@
+0 @I5@ INDI
+1 NAME Marcela /Krsková/
+2 GIVN Marcela
+2 SURN Krsková
+1 SEX F
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Rodinný strom (GenoPro, dokumenty/rodokmen.gno): „Marcela rozená Krsková, Kulichová“. Dominik si pamatoval „Trsková“.
+2 CONT
+1 FAMS @F2@
+0 @I6@ INDI
+1 NAME Miloslav /Polák/
+2 GIVN Miloslav
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 1932
+2 PLAC Čunín
+2 NOTE * 1932 Čunín
+1 DEAT
+2 DATE ABT 2014
+2 NOTE † asi 2014
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Otec Jany; ve stromu GenoPro „učitel autoškoly“ (potvrdil Dominik). Dominik 22. 10. 2026 definitivně potvrdil rodinné spojení s Františkem Polákem (*1905); rodiče vedeni jako František Polák a Františka Kr
+2 CONC ejčí (sňatek 1929). Zdrojem potvrzení je rodinné sdělení, nikoli nově získaný rodný list.
+2 CONT Vazba k rodičům je potvrzeným údajem od rodiny (Dominik, 22. 10. 2026); rodný list není dosud získán.
+2 CONT * 1932 Čunín
+2 CONT učitel autoškoly
+2 CONT † asi 2014
+1 FAMS @F3@
+1 FAMC @F4@
+0 @I7@ INDI
+1 NAME Jana Helena /Kaštánková/
+2 GIVN Jana Helena
+2 SURN Kaštánková
+1 SEX F
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Matka Jany; ze stromu GenoPro („JanaHelena rozená Kaštánková, Poláková“).
+2 CONT švadlena
+1 FAMS @F3@
+1 FAMC @F5@
+0 @I12@ INDI
+1 NAME František /Polák/
+2 GIVN František
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 27 DEC 1905
+2 PLAC Čunín čp. 26
+2 NOTE * 27. 12. 1905 Čunín čp. 26
+2 SOUR @S2@
+3 PAGE 27. 12. 1905; snímek 516
+2 SOUR @S1@
+3 PAGE 9. 11. 1929; snímek 33
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Údaje čteny ze snímků. Vazba na syna Miloslava (* 1932 Čunín): Dominik si pamatuje, že Miloslavovi rodiče byli František a Františka (20. 10. 2026), a jde o jediný sňatek Poláka z Čunína v rejstříku odda
+2 CONC ných Konice 1893–1943 před r. 1932. Dominik 22. 10. 2026 označil toto spojení za definitivní; evidováno jako potvrzený údaj od rodiny. Číslo domu 26 je přímo čitelné v křtu 1905 i sňatku 1929. Stejné 
+2 CONC číslo má dům Kaštánkových v Dolní Rožínce a dnešní bydliště Dominika s maminkou v Chudoslavicích (rodinné sdělení 23. 10. 2026).
+2 CONT * 27. 12. 1905 Čunín čp. 26
+2 CONT řezník v Čuníně čp. 26
+2 CONT × 9. 11. 1929 Strážisko Františka Krejčí
+1 FAMS @F4@
+1 FAMC @F6@
+1 SOUR @S2@
+2 PAGE 27. 12. 1905; snímek 516
+1 SOUR @S1@
+2 PAGE 9. 11. 1929; snímek 33
+1 OBJE @MS2@
+1 OBJE @MS1@
+0 @I13@ INDI
+1 NAME Františka /Krejčí/
+2 GIVN Františka
+2 SURN Krejčí
+1 SEX F
+1 BIRT
+2 DATE 10 NOV 1906
+2 PLAC Olomouc (zemská porodnice)
+2 NOTE * 10. 11. 1906 Olomouc (zemská porodnice)
+2 SOUR @S1@
+3 PAGE 9. 11. 1929; snímek 33
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Nemanželská dcera Filomeny Krejčí. Vazba na Miloslava jako u č. 12 (rodina: matka Miloslava se jmenovala Františka).
+2 CONT * 10. 11. 1906 Olomouc (zemská porodnice)
+2 CONT Konice čp. 233
+2 CONT × 9. 11. 1929 Strážisko František Polák
+1 FAMS @F4@
+1 FAMC @F7@
+1 SOUR @S1@
+2 PAGE 9. 11. 1929; snímek 33
+1 OBJE @MS1@
+0 @I14@ INDI
+1 NAME Václav /Kaštánek/
+2 GIVN Václav
+2 SURN Kaštánek
+1 SEX M
+1 BIRT
+2 DATE 15 SEP 1914
+2 PLAC Dolní Rožínka čp. 26
+2 NOTE * 15. 9. 1914 Dolní Rožínka čp. 26
+2 SOUR @S7@
+3 PAGE 15. 9. 1914; snímek 215
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Otec Jany Heleny. Křest: N Zvole kn. 16569, sn. 215, č. 13; přípisek o sňatku s Helenou Šlosárovou potvrzuje, že jde o něj. Bratrušín (sdělil Dominik 22. 10. 2026) je obec farnosti Bystřice nad Pernštejnem 
+2 CONC vedle Domanína. Číslo domu 26 je přímo čitelné v křtu 1914. Stejné číslo má dům Polákových v Čuníně a dnešní bydliště Dominika s maminkou v Chudoslavicích (rodinné sdělení 23. 10. 2026).
+2 CONT * 15. 9. 1914 Dolní Rožínka čp. 26
+2 CONT × 19. 10. 1941 Zvole Helena Šlosárová
+2 CONT později Bratrušín (u Bystřice nad Pernštejnem)
+1 FAMS @F5@
+1 FAMC @F8@
+1 SOUR @S7@
+2 PAGE 15. 9. 1914; snímek 215
+1 OBJE @MS7@
+0 @I15@ INDI
+1 NAME Helena /Šlosárová/
+2 GIVN Helena
+2 SURN Šlosárová
+1 SEX F
+1 BIRT
+2 DATE 20 OCT 1920
+2 PLAC Malý Lapáš (okres Nitra, Slovensko)
+2 NOTE * 20. 10. 1920 Malý Lapáš (okres Nitra, Slovensko)
+2 SOUR @S7@
+3 PAGE 15. 9. 1914; snímek 215
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Matka Jany Heleny. Možná křtěna jako Elena (slovensky) – podle Dominika; na Slovensku hledat Elena/Helena/Ilona, příjmení Šlosár/Šlosárová/Schlosser/Szlosár. Datum a místo narození sdělil Dominik 22. 10
+2 CONC . 2026; sňatek z přípisku u křtu Václava. Slovenské matriky – Štátny archív v Nitre / FamilySearch.
+2 CONT * 20. 10. 1920 Malý Lapáš (okres Nitra, Slovensko)
+2 CONT služka
+2 CONT × 19. 10. 1941 Zvole Václav Kaštánek
+1 FAMS @F5@
+1 SOUR @S7@
+2 PAGE 15. 9. 1914; snímek 215
+1 OBJE @MS7@
+0 @I24@ INDI
+1 NAME Jan /Polák/
+2 GIVN Jan
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 6 JUN 1865
+2 PLAC Čunín čp. 64
+2 NOTE * 6. 6. 1865 Čunín čp. 64
+2 SOUR @S4@
+3 PAGE 6. 6. 1865; snímek 109
+2 SOUR @S3@
+3 PAGE 16. 2. 1892; snímek 154
+2 SOUR @S2@
+3 PAGE 27. 12. 1905; snímek 516
+2 SOUR @S1@
+3 PAGE 9. 11. 1929; snímek 33
+2 SOUR @S10@
+3 PAGE 17. 1. 1893; snímek 222
+2 SOUR @S11@
+3 PAGE 1894; snímek 229
+2 SOUR @S12@
+3 PAGE 18. 12. 1896; snímek 236
+2 SOUR @S13@
+3 PAGE 12. 1. 1899; snímek 242
+2 SOUR @S14@
+3 PAGE 12. 7. 1900; snímek 248
+2 SOUR @S15@
+3 PAGE 4. 10. 1901; snímek 253
+2 SOUR @S16@
+3 PAGE 5. 1. 1904; snímek 260
+2 SOUR @S17@
+3 PAGE 9. 3. 1908; snímek 266
+2 SOUR @S18@
+3 PAGE 10. 3. 1912; snímek 280
+2 SOUR @S19@
+3 PAGE 26. 2. 1914; snímek 285
+1 DEAT
+2 DATE 11 FEB 1943
+2 NOTE † 11. 2. 1943 Kostelec (?)
+2 SOUR @S4@
+3 PAGE 6. 6. 1865; snímek 109
+2 SOUR @S3@
+3 PAGE 16. 2. 1892; snímek 154
+2 SOUR @S2@
+3 PAGE 27. 12. 1905; snímek 516
+2 SOUR @S1@
+3 PAGE 9. 11. 1929; snímek 33
+2 SOUR @S10@
+3 PAGE 17. 1. 1893; snímek 222
+2 SOUR @S11@
+3 PAGE 1894; snímek 229
+2 SOUR @S12@
+3 PAGE 18. 12. 1896; snímek 236
+2 SOUR @S13@
+3 PAGE 12. 1. 1899; snímek 242
+2 SOUR @S14@
+3 PAGE 12. 7. 1900; snímek 248
+2 SOUR @S15@
+3 PAGE 4. 10. 1901; snímek 253
+2 SOUR @S16@
+3 PAGE 5. 1. 1904; snímek 260
+2 SOUR @S17@
+3 PAGE 9. 3. 1908; snímek 266
+2 SOUR @S18@
+3 PAGE 10. 3. 1912; snímek 280
+2 SOUR @S19@
+3 PAGE 26. 2. 1914; snímek 285
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Otec Františka (doc z křtu 1905). Spojení s Miloslavem potvrdil Dominik 22. 10. 2026 (viz č. 12). V r. 1892 vdovec – první manželka zemřela před 29. 1. 1892 (úmrtní list z Konice). Křest Františka uvádí s
+2 CONC ňatek 9. 2. 1892, oddací matrika 16. 2. 1892.
+2 CONT * 6. 6. 1865 Čunín čp. 64
+2 CONT domkář, později zahradník v Čuníně čp. 26
+2 CONT × 16. 2. 1892 Ptení Františka Bavlnková (2. sňatek, vdovec)
+2 CONT † 11. 2. 1943 Kostelec (?)
+1 FAMS @F6@
+1 FAMC @F9@
+1 SOUR @S4@
+2 PAGE 6. 6. 1865; snímek 109
+1 SOUR @S3@
+2 PAGE 16. 2. 1892; snímek 154
+1 SOUR @S2@
+2 PAGE 27. 12. 1905; snímek 516
+1 SOUR @S1@
+2 PAGE 9. 11. 1929; snímek 33
+1 SOUR @S10@
+2 PAGE 17. 1. 1893; snímek 222
+1 SOUR @S11@
+2 PAGE 1894; snímek 229
+1 SOUR @S12@
+2 PAGE 18. 12. 1896; snímek 236
+1 SOUR @S13@
+2 PAGE 12. 1. 1899; snímek 242
+1 SOUR @S14@
+2 PAGE 12. 7. 1900; snímek 248
+1 SOUR @S15@
+2 PAGE 4. 10. 1901; snímek 253
+1 SOUR @S16@
+2 PAGE 5. 1. 1904; snímek 260
+1 SOUR @S17@
+2 PAGE 9. 3. 1908; snímek 266
+1 SOUR @S18@
+2 PAGE 10. 3. 1912; snímek 280
+1 SOUR @S19@
+2 PAGE 26. 2. 1914; snímek 285
+1 OBJE @MS4@
+1 OBJE @MS3@
+1 OBJE @MS2@
+1 OBJE @MS1@
+1 OBJE @MS10@
+1 OBJE @MS11@
+1 OBJE @MS12@
+1 OBJE @MS13@
+1 OBJE @MS14@
+1 OBJE @MS15@
+1 OBJE @MS16@
+1 OBJE @MS17@
+1 OBJE @MS18@
+1 OBJE @MS19@
+0 @I25@ INDI
+1 NAME Františka /Bavlnková/
+2 GIVN Františka
+2 SURN Bavlnková
+1 SEX F
+1 BIRT
+2 DATE 19 NOV 1870
+2 PLAC Stínava čp. 29
+2 NOTE * 19. 11. 1870 Stínava čp. 29
+2 SOUR @S6@
+3 PAGE 19. 11. 1870; snímek 199
+2 SOUR @S3@
+3 PAGE 16. 2. 1892; snímek 154
+2 SOUR @S2@
+3 PAGE 27. 12. 1905; snímek 516
+2 SOUR @S1@
+3 PAGE 9. 11. 1929; snímek 33
+2 SOUR @S10@
+3 PAGE 17. 1. 1893; snímek 222
+2 SOUR @S11@
+3 PAGE 1894; snímek 229
+2 SOUR @S12@
+3 PAGE 18. 12. 1896; snímek 236
+2 SOUR @S13@
+3 PAGE 12. 1. 1899; snímek 242
+2 SOUR @S14@
+3 PAGE 12. 7. 1900; snímek 248
+2 SOUR @S15@
+3 PAGE 4. 10. 1901; snímek 253
+2 SOUR @S16@
+3 PAGE 5. 1. 1904; snímek 260
+2 SOUR @S17@
+3 PAGE 9. 3. 1908; snímek 266
+2 SOUR @S18@
+3 PAGE 10. 3. 1912; snímek 280
+2 SOUR @S19@
+3 PAGE 26. 2. 1914; snímek 285
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Matka Františka (doc z křtu 1905).
+2 CONT * 19. 11. 1870 Stínava čp. 29
+2 CONT 1892 Stínava čp. 36
+2 CONT × 16. 2. 1892 Ptení Jan Polák
+1 FAMS @F6@
+1 FAMC @F10@
+1 SOUR @S6@
+2 PAGE 19. 11. 1870; snímek 199
+1 SOUR @S3@
+2 PAGE 16. 2. 1892; snímek 154
+1 SOUR @S2@
+2 PAGE 27. 12. 1905; snímek 516
+1 SOUR @S1@
+2 PAGE 9. 11. 1929; snímek 33
+1 SOUR @S10@
+2 PAGE 17. 1. 1893; snímek 222
+1 SOUR @S11@
+2 PAGE 1894; snímek 229
+1 SOUR @S12@
+2 PAGE 18. 12. 1896; snímek 236
+1 SOUR @S13@
+2 PAGE 12. 1. 1899; snímek 242
+1 SOUR @S14@
+2 PAGE 12. 7. 1900; snímek 248
+1 SOUR @S15@
+2 PAGE 4. 10. 1901; snímek 253
+1 SOUR @S16@
+2 PAGE 5. 1. 1904; snímek 260
+1 SOUR @S17@
+2 PAGE 9. 3. 1908; snímek 266
+1 SOUR @S18@
+2 PAGE 10. 3. 1912; snímek 280
+1 SOUR @S19@
+2 PAGE 26. 2. 1914; snímek 285
+1 OBJE @MS6@
+1 OBJE @MS3@
+1 OBJE @MS2@
+1 OBJE @MS1@
+1 OBJE @MS10@
+1 OBJE @MS11@
+1 OBJE @MS12@
+1 OBJE @MS13@
+1 OBJE @MS14@
+1 OBJE @MS15@
+1 OBJE @MS16@
+1 OBJE @MS17@
+1 OBJE @MS18@
+1 OBJE @MS19@
+0 @I27@ INDI
+1 NAME Filomena /Krejčí/
+2 GIVN Filomena
+2 SURN Krejčí
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Svobodná matka Františky; dcera Františka Krejčího, domkáře v Konici, a Františky. Křest Filomeny zatím nenalezen – v rejstřících Konice 1870–1887 jsou 3 Filomeny Krejčí (1871 Konice str. 26?, 1881 Mic
+2 CONC hnov, 1885 Klužínek); otec není jistý, rozhodne oddací/křestní zápis Františky 1906 (Olomouc) nebo křest Filomeny.
+2 CONT Konice
+1 FAMS @F7@
+1 SOUR @S1@
+2 PAGE 9. 11. 1929; snímek 33
+1 OBJE @MS1@
+0 @I28@ INDI
+1 NAME Ignác /Kaštánek/
+2 GIVN Ignác
+2 SURN Kaštánek
+1 SEX M
+1 BIRT
+2 DATE 25 APR 1878
+2 PLAC Domanín čp. 15
+2 NOTE * 25. 4. 1878 Domanín čp. 15
+2 SOUR @S9@
+3 PAGE 25. 4. 1878; snímek 114
+2 SOUR @S8@
+3 PAGE 4. 5. 1903; snímek 34
+2 SOUR @S7@
+3 PAGE 15. 9. 1914; snímek 215
+2 SOUR @S20@
+3 PAGE 7. 10. 1905; snímek 131
+2 SOUR @S21@
+3 PAGE 28. 6. 1908; snímek 135
+2 SOUR @S22@
+3 PAGE 25. 2. 1910; snímek 207
+2 SOUR @S23@
+3 PAGE 28. 10. 1912; snímek 212
+2 SOUR @S24@
+3 PAGE 3. 3. 1919; snímek 218
+1 DEAT
+2 DATE 9 MAY 1952
+2 PLAC Bratrušín
+2 NOTE † 9. 5. 1952 Bratrušín
+2 SOUR @S9@
+3 PAGE 25. 4. 1878; snímek 114
+2 SOUR @S8@
+3 PAGE 4. 5. 1903; snímek 34
+2 SOUR @S7@
+3 PAGE 15. 9. 1914; snímek 215
+2 SOUR @S20@
+3 PAGE 7. 10. 1905; snímek 131
+2 SOUR @S21@
+3 PAGE 28. 6. 1908; snímek 135
+2 SOUR @S22@
+3 PAGE 25. 2. 1910; snímek 207
+2 SOUR @S23@
+3 PAGE 28. 10. 1912; snímek 212
+2 SOUR @S24@
+3 PAGE 3. 3. 1919; snímek 218
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Křest Domanín 1878 (N Bystřice obce kn. 15440, sn. 114) s přípisky o třech sňatcích a úmrtí. Sňatek 1903 i křest syna 1914 uvádějí narození 26. 4. – podle křestní matriky 25. 4. (26. 4. = křest).
+2 CONT * 25. 4. 1878 Domanín čp. 15
+2 CONT čeledín v Domaníně čp. 32 (1903), kočí v Dolní Rožínce (1914)
+2 CONT × 4. 5. 1903 Bystřice Josefa Vykutilová
+2 CONT × 5. 7. 1923 Rozsochy Albína Šmerdová (?) (2. sňatek)
+2 CONT × 16. 10. 1934 Rozsochy Růžena Vaší…ová (?) (3. sňatek)
+2 CONT † 9. 5. 1952 Bratrušín
+2 CONT Dolní Rožínka čp. 26 (rodina doložena křtem syna Václava 1914)
+1 FAMS @F8@
+1 FAMC @F11@
+1 FAMS @F30@
+1 FAMS @F31@
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+1 SOUR @S8@
+2 PAGE 4. 5. 1903; snímek 34
+1 SOUR @S7@
+2 PAGE 15. 9. 1914; snímek 215
+1 SOUR @S20@
+2 PAGE 7. 10. 1905; snímek 131
+1 SOUR @S21@
+2 PAGE 28. 6. 1908; snímek 135
+1 SOUR @S22@
+2 PAGE 25. 2. 1910; snímek 207
+1 SOUR @S23@
+2 PAGE 28. 10. 1912; snímek 212
+1 SOUR @S24@
+2 PAGE 3. 3. 1919; snímek 218
+1 OBJE @MS9@
+1 OBJE @MS8@
+1 OBJE @MS7@
+1 OBJE @MS20@
+1 OBJE @MS21@
+1 OBJE @MS22@
+1 OBJE @MS23@
+1 OBJE @MS24@
+0 @I29@ INDI
+1 NAME Josefa /Vykutilová/
+2 GIVN Josefa
+2 SURN Vykutilová
+1 SEX F
+1 BIRT
+2 DATE 25 DEC 1880
+2 NOTE * 25. 12. 1880
+2 SOUR @S8@
+3 PAGE 4. 5. 1903; snímek 34
+2 SOUR @S7@
+3 PAGE 15. 9. 1914; snímek 215
+2 SOUR @S20@
+3 PAGE 7. 10. 1905; snímek 131
+2 SOUR @S21@
+3 PAGE 28. 6. 1908; snímek 135
+2 SOUR @S22@
+3 PAGE 25. 2. 1910; snímek 207
+2 SOUR @S23@
+3 PAGE 28. 10. 1912; snímek 212
+2 SOUR @S24@
+3 PAGE 3. 3. 1919; snímek 218
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Příjmení potvrzeno oddací matrikou 1903 (ve křtu syna 1914 nečitelně „Oyketila“). Při sňatku nezletilá – svolil otec.
+2 CONT * 25. 12. 1880
+2 CONT služka v Bystřici čp. 337 (1903)
+2 CONT × 4. 5. 1903 Bystřice Ignác Kaštánek
+2 CONT Dolní Rožínka čp. 26 (rodina doložena křtem syna Václava 1914)
+1 FAMS @F8@
+1 FAMC @F12@
+1 SOUR @S8@
+2 PAGE 4. 5. 1903; snímek 34
+1 SOUR @S7@
+2 PAGE 15. 9. 1914; snímek 215
+1 SOUR @S20@
+2 PAGE 7. 10. 1905; snímek 131
+1 SOUR @S21@
+2 PAGE 28. 6. 1908; snímek 135
+1 SOUR @S22@
+2 PAGE 25. 2. 1910; snímek 207
+1 SOUR @S23@
+2 PAGE 28. 10. 1912; snímek 212
+1 SOUR @S24@
+2 PAGE 3. 3. 1919; snímek 218
+1 OBJE @MS8@
+1 OBJE @MS7@
+1 OBJE @MS20@
+1 OBJE @MS21@
+1 OBJE @MS22@
+1 OBJE @MS23@
+1 OBJE @MS24@
+0 @I48@ INDI
+1 NAME Jan /Polák/
+2 GIVN Jan
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 10 AUG 1838
+2 PLAC Křemenec čp. 32
+2 NOTE * 10. 8. 1838 Křemenec čp. 32
+2 SOUR @S37@
+3 PAGE 18. 10. 1860; snímek 101
+2 SOUR @S38@
+3 PAGE 16. 11. 1868; snímek 93
+2 SOUR @S39@
+3 PAGE 19. 3. 1872; snímek 105
+2 SOUR @S40@
+3 PAGE 24. 12. 1873; snímek 111
+2 SOUR @S41@
+3 PAGE 6. 4. 1876; snímek 99
+2 SOUR @S42@
+3 PAGE 13. 12. 1878; snímek 88
+2 SOUR @S28@
+3 PAGE 10. 8. 1838; snímek 133
+2 SOUR @S5@
+3 PAGE 18. 11. 1862; snímek 46
+2 SOUR @S4@
+3 PAGE 6. 6. 1865; snímek 109
+2 SOUR @S3@
+3 PAGE 16. 2. 1892; snímek 154
+2 SOUR @S2@
+3 PAGE 27. 12. 1905; snímek 516
+1 DEAT
+2 DATE 9 MAR 1915
+2 NOTE † 9. 3. 1915
+2 SOUR @S37@
+3 PAGE 18. 10. 1860; snímek 101
+2 SOUR @S38@
+3 PAGE 16. 11. 1868; snímek 93
+2 SOUR @S39@
+3 PAGE 19. 3. 1872; snímek 105
+2 SOUR @S40@
+3 PAGE 24. 12. 1873; snímek 111
+2 SOUR @S41@
+3 PAGE 6. 4. 1876; snímek 99
+2 SOUR @S42@
+3 PAGE 13. 12. 1878; snímek 88
+2 SOUR @S28@
+3 PAGE 10. 8. 1838; snímek 133
+2 SOUR @S5@
+3 PAGE 18. 11. 1862; snímek 46
+2 SOUR @S4@
+3 PAGE 6. 6. 1865; snímek 109
+2 SOUR @S3@
+3 PAGE 16. 2. 1892; snímek 154
+2 SOUR @S2@
+3 PAGE 27. 12. 1905; snímek 516
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT 1892 „podruh z Čunína“, 1904 „domkář“, 1905 „zahradník“.
+2 CONT * 10. 8. 1838 Křemenec čp. 32
+2 CONT † 9. 3. 1915
+2 CONT podruh v Křemenci, pak v Čuníně (1865, 1892), později zahradník/domkář
+2 CONT × 18. 11. 1862 Konice Anna Pospíšilová
+1 FAMS @F9@
+1 FAMC @F13@
+1 SOUR @S37@
+2 PAGE 18. 10. 1860; snímek 101
+1 SOUR @S38@
+2 PAGE 16. 11. 1868; snímek 93
+1 SOUR @S39@
+2 PAGE 19. 3. 1872; snímek 105
+1 SOUR @S40@
+2 PAGE 24. 12. 1873; snímek 111
+1 SOUR @S41@
+2 PAGE 6. 4. 1876; snímek 99
+1 SOUR @S42@
+2 PAGE 13. 12. 1878; snímek 88
+1 SOUR @S28@
+2 PAGE 10. 8. 1838; snímek 133
+1 SOUR @S5@
+2 PAGE 18. 11. 1862; snímek 46
+1 SOUR @S4@
+2 PAGE 6. 6. 1865; snímek 109
+1 SOUR @S3@
+2 PAGE 16. 2. 1892; snímek 154
+1 SOUR @S2@
+2 PAGE 27. 12. 1905; snímek 516
+1 OBJE @MS37@
+1 OBJE @MS38@
+1 OBJE @MS39@
+1 OBJE @MS40@
+1 OBJE @MS41@
+1 OBJE @MS42@
+1 OBJE @MS28@
+1 OBJE @MS5@
+1 OBJE @MS4@
+1 OBJE @MS3@
+1 OBJE @MS2@
+0 @I49@ INDI
+1 NAME Anna /Pospíšilová/
+2 GIVN Anna
+2 SURN Pospíšilová
+1 SEX F
+1 BIRT
+2 DATE ABT 1835
+2 NOTE * asi 1835
+2 SOUR @S37@
+3 PAGE 18. 10. 1860; snímek 101
+2 SOUR @S38@
+3 PAGE 16. 11. 1868; snímek 93
+2 SOUR @S39@
+3 PAGE 19. 3. 1872; snímek 105
+2 SOUR @S40@
+3 PAGE 24. 12. 1873; snímek 111
+2 SOUR @S41@
+3 PAGE 6. 4. 1876; snímek 99
+2 SOUR @S42@
+3 PAGE 13. 12. 1878; snímek 88
+2 SOUR @S5@
+3 PAGE 18. 11. 1862; snímek 46
+2 SOUR @S4@
+3 PAGE 6. 6. 1865; snímek 109
+2 SOUR @S3@
+3 PAGE 16. 2. 1892; snímek 154
+2 SOUR @S2@
+3 PAGE 27. 12. 1905; snímek 516
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Dcera Jiřího Pospíšila, domkaře v Čuníně, a Anny roz. Švedové (?).
+2 CONT * asi 1835
+2 CONT z Čunína
+2 CONT × 18. 11. 1862 Konice Jan Polák
+1 FAMS @F9@
+1 FAMC @F14@
+1 SOUR @S37@
+2 PAGE 18. 10. 1860; snímek 101
+1 SOUR @S38@
+2 PAGE 16. 11. 1868; snímek 93
+1 SOUR @S39@
+2 PAGE 19. 3. 1872; snímek 105
+1 SOUR @S40@
+2 PAGE 24. 12. 1873; snímek 111
+1 SOUR @S41@
+2 PAGE 6. 4. 1876; snímek 99
+1 SOUR @S42@
+2 PAGE 13. 12. 1878; snímek 88
+1 SOUR @S5@
+2 PAGE 18. 11. 1862; snímek 46
+1 SOUR @S4@
+2 PAGE 6. 6. 1865; snímek 109
+1 SOUR @S3@
+2 PAGE 16. 2. 1892; snímek 154
+1 SOUR @S2@
+2 PAGE 27. 12. 1905; snímek 516
+1 OBJE @MS37@
+1 OBJE @MS38@
+1 OBJE @MS39@
+1 OBJE @MS40@
+1 OBJE @MS41@
+1 OBJE @MS42@
+1 OBJE @MS5@
+1 OBJE @MS4@
+1 OBJE @MS3@
+1 OBJE @MS2@
+0 @I50@ INDI
+1 NAME Antonín /Bavlnka/
+2 GIVN Antonín
+2 SURN Bavlnka
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT
+2 CONT domkař ve Stínavě (čp. 29, 1892 čp. 36)
+2 CONT syn podruha z Prostějoviček
+1 FAMS @F10@
+1 FAMC @F15@
+1 SOUR @S6@
+2 PAGE 19. 11. 1870; snímek 199
+1 SOUR @S3@
+2 PAGE 16. 2. 1892; snímek 154
+1 SOUR @S2@
+2 PAGE 27. 12. 1905; snímek 516
+1 OBJE @MS6@
+1 OBJE @MS3@
+1 OBJE @MS2@
+0 @I51@ INDI
+1 NAME Františka /Burešová/
+2 GIVN Františka
+2 SURN Burešová
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Dcera Františka Bureše, domkaře ze Stinavy.
+2 CONT ze Stínavy
+1 FAMS @F10@
+1 FAMC @F16@
+1 SOUR @S6@
+2 PAGE 19. 11. 1870; snímek 199
+1 SOUR @S3@
+2 PAGE 16. 2. 1892; snímek 154
+1 SOUR @S2@
+2 PAGE 27. 12. 1905; snímek 516
+1 OBJE @MS6@
+1 OBJE @MS3@
+1 OBJE @MS2@
+0 @I56@ INDI
+1 NAME Ignác /Kaštánek/
+2 GIVN Ignác
+2 SURN Kaštánek
+1 SEX M
+1 DEAT
+2 DATE BEF 1903
+2 NOTE † před 1903
+2 SOUR @S9@
+3 PAGE 25. 4. 1878; snímek 114
+2 SOUR @S8@
+3 PAGE 4. 5. 1903; snímek 34
+2 SOUR @S7@
+3 PAGE 15. 9. 1914; snímek 215
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Ze křtu syna 1878, sňatku syna 1903 a křtu vnuka 1914. Syn Karla Kaštánka, podruha v Domaníně.
+2 CONT podruh v Domaníně (1878, 1903)
+2 CONT † před 1903
+1 FAMS @F11@
+1 FAMC @F17@
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+1 SOUR @S8@
+2 PAGE 4. 5. 1903; snímek 34
+1 SOUR @S7@
+2 PAGE 15. 9. 1914; snímek 215
+1 OBJE @MS9@
+1 OBJE @MS8@
+1 OBJE @MS7@
+0 @I57@ INDI
+1 NAME Františka /Hradešínská/
+2 GIVN Františka
+2 SURN Hradešínská
+1 SEX F
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Ze křtu syna 1878, sňatku syna 1903 a křtu vnuka 1914.
+2 CONT dcera domkáře z Blažovic
+2 CONT žila 1903
+1 FAMS @F11@
+1 FAMC @F18@
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+1 SOUR @S8@
+2 PAGE 4. 5. 1903; snímek 34
+1 SOUR @S7@
+2 PAGE 15. 9. 1914; snímek 215
+1 OBJE @MS9@
+1 OBJE @MS8@
+1 OBJE @MS7@
+0 @I58@ INDI
+1 NAME František /Vykutil/
+2 GIVN František
+2 SURN Vykutil
+1 SEX M
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Ze sňatku dcery 1903 (svolil k němu) a křtu vnuka 1914.
+2 CONT podruh v Bystřici (1903)
+2 CONT nádeník v Bystřici (1914)
+1 FAMS @F12@
+1 SOUR @S8@
+2 PAGE 4. 5. 1903; snímek 34
+1 SOUR @S7@
+2 PAGE 15. 9. 1914; snímek 215
+1 OBJE @MS8@
+1 OBJE @MS7@
+0 @I59@ INDI
+1 NAME Kateřina /Kroutilová/
+2 GIVN Kateřina
+2 SURN Kroutilová
+1 SEX F
+1 DEAT
+2 DATE BEF 1903
+2 NOTE † před 1903
+2 SOUR @S8@
+3 PAGE 4. 5. 1903; snímek 34
+2 SOUR @S7@
+3 PAGE 15. 9. 1914; snímek 215
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Ze sňatku dcery 1903 a křtu vnuka 1914.
+2 CONT † před 1903
+1 FAMS @F12@
+1 SOUR @S8@
+2 PAGE 4. 5. 1903; snímek 34
+1 SOUR @S7@
+2 PAGE 15. 9. 1914; snímek 215
+1 OBJE @MS8@
+1 OBJE @MS7@
+0 @I96@ INDI
+1 NAME Martin /Polák/
+2 GIVN Martin
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 25 OCT 1816
+2 PLAC Křemenec čp. 7
+2 NOTE * 25. 10. 1816 Křemenec čp. 7
+2 SOUR @S30@
+3 PAGE 25. 10. 1816; snímek 188
+2 SOUR @S29@
+3 PAGE 18. 10. 1837; snímek 125
+2 SOUR @S28@
+3 PAGE 10. 8. 1838; snímek 133
+2 SOUR @S5@
+3 PAGE 18. 11. 1862; snímek 46
+2 SOUR @S4@
+3 PAGE 6. 6. 1865; snímek 109
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Syn sedláka (pololáníka) Jiřího Poláka z Křemence čp. 7. Při sňatku 1837 nezletilý, otec již nežil.
+2 CONT * 25. 10. 1816 Křemenec čp. 7
+2 CONT × 18. 10. 1837 Konice Marianna Tilšerová
+2 CONT zahradník v Křemenci (1838, 1865), 1862 výměnkář
+1 FAMS @F13@
+1 FAMC @F19@
+1 SOUR @S30@
+2 PAGE 25. 10. 1816; snímek 188
+1 SOUR @S29@
+2 PAGE 18. 10. 1837; snímek 125
+1 SOUR @S28@
+2 PAGE 10. 8. 1838; snímek 133
+1 SOUR @S5@
+2 PAGE 18. 11. 1862; snímek 46
+1 SOUR @S4@
+2 PAGE 6. 6. 1865; snímek 109
+1 OBJE @MS30@
+1 OBJE @MS29@
+1 OBJE @MS28@
+1 OBJE @MS5@
+1 OBJE @MS4@
+0 @I97@ INDI
+1 NAME Marianna /Tilšerová/
+2 GIVN Marianna
+2 SURN Tilšerová
+1 SEX F
+1 BIRT
+2 DATE ABT 1812
+2 PLAC Veselá (Fröhlichsdorf) čp. 10
+2 NOTE * asi 1812 Veselá (Fröhlichsdorf) čp. 10
+2 SOUR @S29@
+3 PAGE 18. 10. 1837; snímek 125
+2 SOUR @S28@
+3 PAGE 10. 8. 1838; snímek 133
+2 SOUR @S5@
+3 PAGE 18. 11. 1862; snímek 46
+2 SOUR @S4@
+3 PAGE 6. 6. 1865; snímek 109
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Dcera familianta Jiřího Tilšera z Veselé; při sňatku 1837 25 let. Příjmení potvrzeno oddací matrikou 1837 a křtem syna 1838.
+2 CONT * asi 1812 Veselá (Fröhlichsdorf) čp. 10
+2 CONT × 18. 10. 1837 Konice Martin Polák
+1 FAMS @F13@
+1 FAMC @F20@
+1 SOUR @S29@
+2 PAGE 18. 10. 1837; snímek 125
+1 SOUR @S28@
+2 PAGE 10. 8. 1838; snímek 133
+1 SOUR @S5@
+2 PAGE 18. 11. 1862; snímek 46
+1 SOUR @S4@
+2 PAGE 6. 6. 1865; snímek 109
+1 OBJE @MS29@
+1 OBJE @MS28@
+1 OBJE @MS5@
+1 OBJE @MS4@
+0 @I98@ INDI
+1 NAME Jiří /Pospíšil/
+2 GIVN Jiří
+2 SURN Pospíšil
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT
+2 CONT domkář v Čuníně (1865), 1862 uvedeno Bílsko (?)
+1 FAMS @F14@
+1 SOUR @S5@
+2 PAGE 18. 11. 1862; snímek 46
+1 SOUR @S4@
+2 PAGE 6. 6. 1865; snímek 109
+1 OBJE @MS5@
+1 OBJE @MS4@
+0 @I99@ INDI
+1 NAME Anna /Švédová/
+2 GIVN Anna
+2 SURN Švédová
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Dcera Josefa Švédy, domkáře ve Studénkách (čteno ve křtech vnoučat 1868–1878).
+2 CONT ze Studének
+1 FAMS @F14@
+1 FAMC @F21@
+1 SOUR @S5@
+2 PAGE 18. 11. 1862; snímek 46
+1 SOUR @S4@
+2 PAGE 6. 6. 1865; snímek 109
+1 OBJE @MS5@
+1 OBJE @MS4@
+0 @I100@ INDI
+1 NAME Antonín /Bavlnka/
+2 GIVN Antonín
+2 SURN Bavlnka
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Dědeček Františky Bavlnkové.
+2 CONT podruh z Prostějoviček
+1 FAMS @F15@
+1 SOUR @S6@
+2 PAGE 19. 11. 1870; snímek 199
+1 OBJE @MS6@
+0 @I101@ INDI
+1 NAME Josefa /Nezvalová/
+2 GIVN Josefa
+2 SURN Nezvalová
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT
+2 CONT z Prostějoviček
+1 FAMS @F15@
+1 SOUR @S6@
+2 PAGE 19. 11. 1870; snímek 199
+1 OBJE @MS6@
+0 @I102@ INDI
+1 NAME František /Bureš/
+2 GIVN František
+2 SURN Bureš
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT
+2 CONT podruh (1870), domkář (1892) ve Stínavě
+1 FAMS @F16@
+1 SOUR @S6@
+2 PAGE 19. 11. 1870; snímek 199
+1 SOUR @S3@
+2 PAGE 16. 2. 1892; snímek 154
+1 OBJE @MS6@
+1 OBJE @MS3@
+0 @I103@ INDI
+1 NAME Františka /Jelínková/
+2 GIVN Františka
+2 SURN Jelínková
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT
+2 CONT z Hradiska
+1 FAMS @F16@
+1 SOUR @S6@
+2 PAGE 19. 11. 1870; snímek 199
+1 OBJE @MS6@
+0 @I112@ INDI
+1 NAME Karel /Kaštánek/
+2 GIVN Karel
+2 SURN Kaštánek
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Ze křtu vnuka Ignáce 1878.
+2 CONT podruh v Domaníně
+1 FAMS @F17@
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+1 OBJE @MS9@
+0 @I113@ INDI
+1 NAME Terezie //
+2 GIVN Terezie
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Manželka Karla Kaštánka; rodné příjmení ve křtu vnuka 1878 přepsané přípiskem – zjistit ze sňatku nebo křtu syna Ignáce st.
+2 CONT
+1 FAMS @F17@
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+1 OBJE @MS9@
+0 @I114@ INDI
+1 NAME Josef /Hradešínský/
+2 GIVN Josef
+2 SURN Hradešínský
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Ze křtu vnuka Ignáce 1878.
+2 CONT domkář v Blažovicích
+1 FAMS @F18@
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+1 OBJE @MS9@
+0 @I115@ INDI
+1 NAME Josefa /Žilková/
+2 GIVN Josefa
+2 SURN Žilková
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Ze křtu vnuka Ignáce 1878.
+2 CONT
+1 FAMS @F18@
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+1 OBJE @MS9@
+0 @I192@ INDI
+1 NAME Jiří /Polák/
+2 GIVN Jiří
+2 SURN Polák
+1 SEX M
+1 CHR
+2 DATE 20 APR 1786
+2 PLAC Křemenec čp. 7
+2 NOTE * (křest) 20. 4. 1786 Křemenec čp. 7
+2 SOUR @S32@
+3 PAGE 20. 4. 1786; snímek 38
+2 SOUR @S31@
+3 PAGE 28. 1. 1812; snímek 45
+2 SOUR @S30@
+3 PAGE 25. 10. 1816; snímek 188
+2 SOUR @S29@
+3 PAGE 18. 10. 1837; snímek 125
+1 DEAT
+2 DATE BEF 1837
+2 NOTE † před 1837
+2 SOUR @S32@
+3 PAGE 20. 4. 1786; snímek 38
+2 SOUR @S31@
+3 PAGE 28. 1. 1812; snímek 45
+2 SOUR @S30@
+3 PAGE 25. 10. 1816; snímek 188
+2 SOUR @S29@
+3 PAGE 18. 10. 1837; snímek 125
+1 BIRT
+2 DATE 1786
+2 NOTE Rok narození podle souhrnu; míra jistoty viz poznámka.
+2 SOUR @S32@
+3 PAGE 20. 4. 1786; snímek 38
+2 SOUR @S31@
+3 PAGE 28. 1. 1812; snímek 45
+2 SOUR @S30@
+3 PAGE 25. 10. 1816; snímek 188
+2 SOUR @S29@
+3 PAGE 18. 10. 1837; snímek 125
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Syn zemřelého Josefa Poláka, sedláka z Křemence; při sňatku 1812 26 let.
+2 CONT * (křest) 20. 4. 1786 Křemenec čp. 7
+2 CONT sedlák (pololáník) v Křemenci čp. 7
+2 CONT × 28. 1. 1812 Konice Marianna Paulíková
+2 CONT † před 1837
+1 FAMS @F19@
+1 FAMC @F22@
+1 SOUR @S32@
+2 PAGE 20. 4. 1786; snímek 38
+1 SOUR @S31@
+2 PAGE 28. 1. 1812; snímek 45
+1 SOUR @S30@
+2 PAGE 25. 10. 1816; snímek 188
+1 SOUR @S29@
+2 PAGE 18. 10. 1837; snímek 125
+1 OBJE @MS32@
+1 OBJE @MS31@
+1 OBJE @MS30@
+1 OBJE @MS29@
+0 @I193@ INDI
+1 NAME Marianna /Paulíková/
+2 GIVN Marianna
+2 SURN Paulíková
+1 SEX F
+1 BIRT
+2 DATE ABT 1790
+2 PLAC Čunín čp. 9
+2 NOTE * asi 1790 Čunín čp. 9
+2 SOUR @S31@
+3 PAGE 28. 1. 1812; snímek 45
+2 SOUR @S30@
+3 PAGE 25. 10. 1816; snímek 188
+2 SOUR @S29@
+3 PAGE 18. 10. 1837; snímek 125
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Dcera sedláka Václava Paulíka z Čunína čp. 9; při sňatku 1812 22 let.
+2 CONT * asi 1790 Čunín čp. 9
+2 CONT × 28. 1. 1812 Konice Jiří Polák
+1 FAMS @F19@
+1 FAMC @F23@
+1 SOUR @S31@
+2 PAGE 28. 1. 1812; snímek 45
+1 SOUR @S30@
+2 PAGE 25. 10. 1816; snímek 188
+1 SOUR @S29@
+2 PAGE 18. 10. 1837; snímek 125
+1 OBJE @MS31@
+1 OBJE @MS30@
+1 OBJE @MS29@
+0 @I194@ INDI
+1 NAME Jiří /Tilšer/
+2 GIVN Jiří
+2 SURN Tilšer
+1 SEX M
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Otec Marianny (sňatek 1837, křest vnuka 1838).
+2 CONT familiant ve Veselé (Fröhlichsdorf) čp. 10
+1 FAMS @F20@
+1 SOUR @S29@
+2 PAGE 18. 10. 1837; snímek 125
+1 SOUR @S28@
+2 PAGE 10. 8. 1838; snímek 133
+1 SOUR @S5@
+2 PAGE 18. 11. 1862; snímek 46
+1 OBJE @MS29@
+1 OBJE @MS28@
+1 OBJE @MS5@
+0 @I195@ INDI
+1 NAME Barbora /Hirthová (?)/
+2 GIVN Barbora
+2 SURN Hirthová (?)
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Matka Marianny Tilšerové; rodné příjmení čteno nejistě („Hirth“) – ze sňatku dcery 1837.
+2 CONT
+1 FAMS @F20@
+1 SOUR @S29@
+2 PAGE 18. 10. 1837; snímek 125
+1 OBJE @MS29@
+0 @I198@ INDI
+1 NAME Josef /Švéda/
+2 GIVN Josef
+2 SURN Švéda
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Otec Anny Švedové; čtení nejisté.
+2 CONT domkář ve Studénkách
+1 FAMS @F21@
+1 SOUR @S5@
+2 PAGE 18. 11. 1862; snímek 46
+1 OBJE @MS5@
+0 @I384@ INDI
+1 NAME Josef /Polák/
+2 GIVN Josef
+2 SURN Polák
+1 SEX M
+1 DEAT
+2 DATE BEF 1812
+2 NOTE † před 1812
+2 SOUR @S33@
+3 PAGE 4. 7. 1779; snímek 6
+2 SOUR @S32@
+3 PAGE 20. 4. 1786; snímek 38
+2 SOUR @S31@
+3 PAGE 28. 1. 1812; snímek 45
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Syn Josefa Poláka z Křemence. Sňatek 1779 (latinsky), křest syna Jiřího 1786, zemřelý při sňatku syna 1812.
+2 CONT sedlák v Křemenci čp. 7
+2 CONT × 4. 7. 1779 Konice Anna Popelková
+2 CONT † před 1812
+1 FAMS @F22@
+1 FAMC @F24@
+1 SOUR @S33@
+2 PAGE 4. 7. 1779; snímek 6
+1 SOUR @S32@
+2 PAGE 20. 4. 1786; snímek 38
+1 SOUR @S31@
+2 PAGE 28. 1. 1812; snímek 45
+1 OBJE @MS33@
+1 OBJE @MS32@
+1 OBJE @MS31@
+0 @I385@ INDI
+1 NAME Anna /Popelková/
+2 GIVN Anna
+2 SURN Popelková
+1 SEX F
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Dcera Pavla Popelky z Budětska.
+2 CONT z Budětska
+2 CONT × 4. 7. 1779 Konice Josef Polák
+1 FAMS @F22@
+1 FAMC @F25@
+1 SOUR @S33@
+2 PAGE 4. 7. 1779; snímek 6
+1 SOUR @S32@
+2 PAGE 20. 4. 1786; snímek 38
+1 OBJE @MS33@
+1 OBJE @MS32@
+0 @I386@ INDI
+1 NAME Václav /Paulík/
+2 GIVN Václav
+2 SURN Paulík
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Ze sňatku dcery 1812 a křtu vnuka 1816.
+2 CONT sedlák v Čuníně čp. 9
+1 FAMS @F23@
+1 SOUR @S31@
+2 PAGE 28. 1. 1812; snímek 45
+1 SOUR @S30@
+2 PAGE 25. 10. 1816; snímek 188
+1 OBJE @MS31@
+1 OBJE @MS30@
+0 @I768@ INDI
+1 NAME Josef /Polák/
+2 GIVN Josef
+2 SURN Polák
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Otec ženicha Josefa ve sňatku 1779 – nejstarší známý Polák.
+2 CONT Křemenec
+1 FAMS @F24@
+1 SOUR @S33@
+2 PAGE 4. 7. 1779; snímek 6
+1 OBJE @MS33@
+0 @I770@ INDI
+1 NAME Pavel /Popelka/
+2 GIVN Pavel
+2 SURN Popelka
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Otec nevěsty Anny ve sňatku 1779.
+2 CONT Budětsko
+1 FAMS @F25@
+1 SOUR @S33@
+2 PAGE 4. 7. 1779; snímek 6
+1 OBJE @MS33@
+0 @B0@ INDI
+1 NAME Jan /Polák/
+2 GIVN Jan
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 16 APR 1893
+2 PLAC Čunín čp. 71
+2 NOTE * 16. 4. 1893 Čunín čp. 71
+2 SOUR @S34@
+3 PAGE 16. 4. 1893; snímek 223
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratranec Františka Poláka (*1905) a lednového Jana (*17. 1. 1893). Narozen v Čuníně čp. 71, křest 17. 4.; rodiče Eduard Polák a Filomena. Otcovi rodiče Jan Polák a Anna Pospíšilová přímo doloženi v rod
+2 CONC ném zápisu. Není dosud ztotožněn s padlým z čunínského pomníku.
+2 CONT * 16. 4. 1893 Čunín čp. 71
+1 FAMC @F27@
+1 SOUR @S34@
+2 PAGE 16. 4. 1893; snímek 223
+1 OBJE @MS34@
+0 @B1@ INDI
+1 NAME Marie /Trnková/
+2 GIVN Marie
+2 SURN Trnková
+1 SEX F
+1 BIRT
+2 DATE ABT 1862
+2 NOTE * asi 1862
+2 SOUR @S27@
+3 PAGE 17. 10. 1887; snímek 76
+2 SOUR @S25@
+3 PAGE 4. 7. 1890; snímek 134
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Matka legionáře Františka Poláka (* 1890), dcera Josefa Trnky, domkáře v Čuníně, a Anny (její rodné příjmení zatím neověřeno). Sňatek s Františkem Polákem 17. 10. 1887; tehdy 25 let a 7 měsíců. Dat
+2 CONC um narození odhadnuto z věku, přesný křest dosud nemáme.
+2 CONT * asi 1862
+1 FAMS @F26@
+1 FAMC @F28@
+1 SOUR @S27@
+2 PAGE 17. 10. 1887; snímek 76
+1 SOUR @S25@
+2 PAGE 4. 7. 1890; snímek 134
+1 OBJE @MS27@
+1 OBJE @MS25@
+0 @B2@ INDI
+1 NAME František /Polák/
+2 GIVN František
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 4 JUL 1890
+2 PLAC Čunín čp. 13
+2 NOTE * 4. 7. 1890 Čunín čp. 13
+2 SOUR @S25@
+3 PAGE 4. 7. 1890; snímek 134
+2 SOUR @S26@
+3 PAGE 1915–1920; snímek 
+1 EVEN
+2 TYPE Zajetí
+2 DATE 2 MAR 1915
+2 PLAC Karpaty
+2 NOTE Zajetí; rakousko-uherský 93. pěší pluk.
+2 SOUR @S25@
+3 PAGE 4. 7. 1890; snímek 134
+2 SOUR @S26@
+3 PAGE 1915–1920; snímek 
+1 EVEN
+2 TYPE Nástup k 1. československému střeleckému pluku ruských legií.
+2 DATE 24 MAY 1917
+2 PLAC Rusko
+2 NOTE Nástup k 1. československému střeleckému pluku ruských legií.
+2 SOUR @S25@
+3 PAGE 4. 7. 1890; snímek 134
+2 SOUR @S26@
+3 PAGE 1915–1920; snímek 
+1 EVEN
+2 TYPE Demobilizace z legií
+2 DATE 8 JUL 1920
+2 NOTE Demobilizace z legií; hodnost vojín.
+2 SOUR @S25@
+3 PAGE 4. 7. 1890; snímek 134
+2 SOUR @S26@
+3 PAGE 1915–1920; snímek 
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratranec Františka Poláka (* 1905). Narozen 4. 7. 1890 v Čuníně čp. 13, syn Františka Poláka a Marie Trnkové; prarodiče Jan Polák a Anna Pospíšilová. Krejčí, domovsky Prostějov. Zajat 2. 3. 1915 v Karpa
+2 CONC tech, od 24. 5. 1917 u 1. střeleckého pluku ruských legií, demobilizován 8. 7. 1920. Spojení větve s Miloslavem (*1932) potvrdil Dominik 22. 10. 2026 jako definitivní rodinný údaj.
+2 CONT Osobní účast u Zborova a na Transsibiřské magistrále dosud není doložena. Historie pluku není dokladem osobní účasti.
+2 CONT * 4. 7. 1890 Čunín čp. 13
+2 CONT krejčí, domovsky Prostějov
+1 FAMC @F26@
+1 SOUR @S25@
+2 PAGE 4. 7. 1890; snímek 134
+1 SOUR @S26@
+2 PAGE 1915–1920; snímek 
+1 OBJE @MPHOTO@
+1 WWW https://rodokmen.dominikkulich.cz/legionar/
+1 OBJE @MS25@
+0 @B3@ INDI
+1 NAME František /Polák/
+2 GIVN František
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 18 OCT 1860
+2 PLAC Čunín čp. 64
+2 NOTE * 18. 10. 1860 Čunín čp. 64
+2 SOUR @S37@
+3 PAGE 18. 10. 1860; snímek 101
+2 SOUR @S27@
+3 PAGE 17. 10. 1887; snímek 76
+2 SOUR @S25@
+3 PAGE 4. 7. 1890; snímek 134
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Nejstarší bratr Jana (* 1865); narozen 18. 10. 1860 v Čuníně čp. 64 jako nemanželský syn Anny Pospíšilové, legitimován sňatkem rodičů 18. 11. 1862 (přípisek v N Konice kn. 9077, sn. 101 – otec Jan Pol
+2 CONC ák se k němu přihlásil). Domkář v Čuníně čp. 25, oženil se 17. 10. 1887 v Konici s Marií Trnkovou z Čunína čp. 30; otec legionáře Františka (* 1890).
+2 CONT * 18. 10. 1860 Čunín čp. 64
+1 FAMC @F9@
+1 FAMS @F26@
+1 SOUR @S37@
+2 PAGE 18. 10. 1860; snímek 101
+1 SOUR @S27@
+2 PAGE 17. 10. 1887; snímek 76
+1 SOUR @S25@
+2 PAGE 4. 7. 1890; snímek 134
+1 OBJE @MS37@
+1 OBJE @MS27@
+1 OBJE @MS25@
+0 @B4@ INDI
+1 NAME Eduard /Polák/
+2 GIVN Eduard
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 16 NOV 1868
+2 PLAC Čunín čp. 64
+2 NOTE * 16. 11. 1868 Čunín čp. 64
+2 SOUR @S38@
+3 PAGE 16. 11. 1868; snímek 93
+2 SOUR @S34@
+3 PAGE 16. 4. 1893; snímek 223
+1 DEAT
+2 DATE 25 JUL 1923
+2 NOTE † 25. 7. 1923
+2 SOUR @S38@
+3 PAGE 16. 11. 1868; snímek 93
+2 SOUR @S34@
+3 PAGE 16. 4. 1893; snímek 223
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Jana (* 1865); narozen 16. 11. 1868 v Čuníně čp. 64 (N Konice kn. 9079, sn. 93), zemřel 25. 7. 1923 (přípisek). Oženil se 19. 5. 1891 v Konici s Filomenou Hrušákovou (?) ze Strážiska; jako nezletilému 
+2 CONC dal souhlas otec Jan Polák. Syn Jan * 16. 4. 1893 (Čunín čp. 71).
+2 CONT * 16. 11. 1868 Čunín čp. 64
+2 CONT † 25. 7. 1923
+1 FAMC @F9@
+1 FAMS @F27@
+1 SOUR @S38@
+2 PAGE 16. 11. 1868; snímek 93
+1 SOUR @S34@
+2 PAGE 16. 4. 1893; snímek 223
+1 OBJE @MS38@
+1 OBJE @MS34@
+0 @B5@ INDI
+1 NAME Josefa /Poláková/
+2 GIVN Josefa
+2 SURN Poláková
+1 SEX F
+1 BIRT
+2 DATE 19 MAR 1872
+2 PLAC Čunín čp. 25
+2 NOTE * 19. 3. 1872 Čunín čp. 25
+2 SOUR @S39@
+3 PAGE 19. 3. 1872; snímek 105
+1 DEAT
+2 DATE 1872
+2 NOTE † 1872
+2 SOUR @S39@
+3 PAGE 19. 3. 1872; snímek 105
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Sestra Jana (* 1865); narozena 19. 3. 1872 v Čuníně čp. 25 (N Konice kn. 9079, sn. 105), zemřela jako nemluvně 1872.
+2 CONT * 19. 3. 1872 Čunín čp. 25
+2 CONT † 1872
+1 FAMC @F9@
+1 SOUR @S39@
+2 PAGE 19. 3. 1872; snímek 105
+1 OBJE @MS39@
+0 @B6@ INDI
+1 NAME Marianna /Poláková/
+2 GIVN Marianna
+2 SURN Poláková
+1 SEX F
+1 BIRT
+2 DATE 24 DEC 1873
+2 PLAC Čunín čp. 25
+2 NOTE * 24. 12. 1873 Čunín čp. 25
+2 SOUR @S40@
+3 PAGE 24. 12. 1873; snímek 111
+1 DEAT
+2 DATE DEC 1873
+2 NOTE Přípisek v křestním zápisu.
+2 SOUR @S40@
+3 PAGE 24. 12. 1873; snímek 111
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Sestra Jana (* 1865); narozena 24. 12. 1873 v Čuníně čp. 25 (N Konice kn. 9079, sn. 111), zemřela jako nemluvně.
+2 CONT * 24. 12. 1873 Čunín čp. 25
+1 FAMC @F9@
+1 SOUR @S40@
+2 PAGE 24. 12. 1873; snímek 111
+1 OBJE @MS40@
+0 @B7@ INDI
+1 NAME Marie /Poláková/
+2 GIVN Marie
+2 SURN Poláková
+1 SEX F
+1 BIRT
+2 DATE 6 APR 1876
+2 PLAC Čunín čp. 25
+2 NOTE * 6. 4. 1876 Čunín čp. 25
+2 SOUR @S41@
+3 PAGE 6. 4. 1876; snímek 99
+1 DEAT
+2 DATE 6 APR 1876
+2 NOTE † 6. 4. 1876
+2 SOUR @S41@
+3 PAGE 6. 4. 1876; snímek 99
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Sestra Jana (* 1865); narozena 6. 4. 1876 v Čuníně čp. 25 (N Konice kn. 9080, sn. 99), zemřela týž den.
+2 CONT * 6. 4. 1876 Čunín čp. 25
+2 CONT † 6. 4. 1876
+1 FAMC @F9@
+1 SOUR @S41@
+2 PAGE 6. 4. 1876; snímek 99
+1 OBJE @MS41@
+0 @B8@ INDI
+1 NAME Alois /Polák/
+2 GIVN Alois
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 13 DEC 1878
+2 PLAC Čunín čp. 25
+2 NOTE * 13. 12. 1878 Čunín čp. 25
+2 SOUR @S42@
+3 PAGE 13. 12. 1878; snímek 88
+1 DEAT
+2 DATE 13 DEC 1878
+2 NOTE † 13. 12. 1878
+2 SOUR @S42@
+3 PAGE 13. 12. 1878; snímek 88
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Jana (* 1865); narozen 13. 12. 1878 v Čuníně čp. 25 (N Konice kn. 9080, sn. 88), zemřel týž den.
+2 CONT * 13. 12. 1878 Čunín čp. 25
+2 CONT † 13. 12. 1878
+1 FAMC @F9@
+1 SOUR @S42@
+2 PAGE 13. 12. 1878; snímek 88
+1 OBJE @MS42@
+0 @B9@ INDI
+1 NAME Jan /Polák/
+2 GIVN Jan
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 17 JAN 1893
+2 PLAC Čunín čp. 25
+2 NOTE * 17. 1. 1893 Čunín čp. 25
+2 SOUR @S10@
+3 PAGE 17. 1. 1893; snímek 222
+2 SOUR @S35@
+3 PAGE 31. 8. 1915; snímek 77
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Františka; narozen 17. 1. 1893 v Čuníně čp. 25 (N Konice kn. 9083 (Čunín 1893–1905), sn. 222); oddací zápis potvrzuje sňatek 31. 8. 1915 v Přemyslovicích s Helenou Kmentovou (*10. 2. 1895). Tehdy voj
+2 CONC ín c. k. zeměbraneckého pluku č. 13, na dovolené v Čuníně. Jeho ztotožnění s padlým z pomníku dosud není doloženo.
+2 CONT * 17. 1. 1893 Čunín čp. 25
+1 FAMC @F6@
+1 FAMS @F29@
+1 SOUR @S10@
+2 PAGE 17. 1. 1893; snímek 222
+1 SOUR @S35@
+2 PAGE 31. 8. 1915; snímek 77
+1 OBJE @MS10@
+1 OBJE @MS35@
+0 @B10@ INDI
+1 NAME Vincencie /Poláková/
+2 GIVN Vincencie
+2 SURN Poláková
+1 SEX F
+1 BIRT
+2 DATE 1894
+2 PLAC Čunín čp. 26
+2 NOTE * 1894 Čunín čp. 26
+2 SOUR @S11@
+3 PAGE 1894; snímek 229
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Sestra Františka; narozena 1894 v Čuníně čp. 26 (N Konice kn. 9083 (Čunín 1893–1905), sn. 229); podle přípisku sezdána 1. 10. 1917 v Konici s Methodějem Veselým (?).
+2 CONT * 1894 Čunín čp. 26
+1 FAMC @F6@
+1 FAMS @F32@
+1 SOUR @S11@
+2 PAGE 1894; snímek 229
+1 OBJE @MS11@
+0 @B11@ INDI
+1 NAME Růžena /Poláková/
+2 GIVN Růžena
+2 SURN Poláková
+1 SEX F
+1 BIRT
+2 DATE 18 DEC 1896
+2 PLAC Čunín čp. 26
+2 NOTE * 18. 12. 1896 Čunín čp. 26
+2 SOUR @S12@
+3 PAGE 18. 12. 1896; snímek 236
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Sestra Františka; narozena 18. 12. 1896 v Čuníně čp. 26 (N Konice kn. 9083 (Čunín 1893–1905), sn. 236); podle přípisku sezdána 29. 8. 1921 v Konici s Bedřichem Kuplou (?).
+2 CONT * 18. 12. 1896 Čunín čp. 26
+1 FAMC @F6@
+1 FAMS @F33@
+1 SOUR @S12@
+2 PAGE 18. 12. 1896; snímek 236
+1 OBJE @MS12@
+0 @B12@ INDI
+1 NAME Arnošt /Polák/
+2 GIVN Arnošt
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 12 JAN 1899
+2 PLAC Čunín čp. 26
+2 NOTE * 12. 1. 1899 Čunín čp. 26
+2 SOUR @S13@
+3 PAGE 12. 1. 1899; snímek 242
+1 DEAT
+2 DATE 13 FEB 1899
+2 NOTE † 13. 2. 1899
+2 SOUR @S13@
+3 PAGE 12. 1. 1899; snímek 242
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Františka; narozen 12. 1. 1899 v Čuníně čp. 26 (N Konice kn. 9083 (Čunín 1893–1905), sn. 242), zemřel 13. 2. 1899.
+2 CONT * 12. 1. 1899 Čunín čp. 26
+2 CONT † 13. 2. 1899
+1 FAMC @F6@
+1 SOUR @S13@
+2 PAGE 12. 1. 1899; snímek 242
+1 OBJE @MS13@
+0 @B13@ INDI
+1 NAME Josef /Polák/
+2 GIVN Josef
+2 SURN Polák
+1 SEX M
+1 DEAT
+2 DATE 23 OCT 1900
+2 NOTE † 23. 10. 1900
+2 SOUR @S14@
+3 PAGE 12. 7. 1900; snímek 248
+1 BIRT
+2 DATE JUL 1900
+2 PLAC Čunín čp. 26
+2 NOTE Datum narození uvedeno pouze měsícem a rokem.
+2 SOUR @S14@
+3 PAGE 12. 7. 1900; snímek 248
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Františka; narozen v červenci 1900 v Čuníně čp. 26 (N Konice kn. 9083 (Čunín 1893–1905), sn. 248), zemřel 23. 10. 1900.
+2 CONT † 23. 10. 1900
+1 FAMC @F6@
+1 SOUR @S14@
+2 PAGE 12. 7. 1900; snímek 248
+1 OBJE @MS14@
+0 @B14@ INDI
+1 NAME Bohumila /Poláková/
+2 GIVN Bohumila
+2 SURN Poláková
+1 SEX F
+1 BIRT
+2 DATE 4 OCT 1901
+2 PLAC Čunín čp. 26
+2 NOTE * 4. 10. 1901 Čunín čp. 26
+2 SOUR @S15@
+3 PAGE 4. 10. 1901; snímek 253
+1 DEAT
+2 DATE 14 JAN 1959
+2 PLAC Senice na Hané
+2 NOTE † 14. 1. 1959 Senice na Hané
+2 SOUR @S15@
+3 PAGE 4. 10. 1901; snímek 253
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Sestra Františka; narozena 4. 10. 1901 v Čuníně čp. 26 (N Konice kn. 9083 (Čunín 1893–1905), sn. 253); zemřela 14. 1. 1959 v Senici na Hané (přípisek).
+2 CONT * 4. 10. 1901 Čunín čp. 26
+2 CONT † 14. 1. 1959 Senice na Hané
+1 FAMC @F6@
+1 SOUR @S15@
+2 PAGE 4. 10. 1901; snímek 253
+1 OBJE @MS15@
+0 @B15@ INDI
+1 NAME Josef /Polák/
+2 GIVN Josef
+2 SURN Polák
+1 SEX M
+1 DEAT
+2 DATE 19 FEB 1905
+2 NOTE † 19. 2. 1905
+2 SOUR @S16@
+3 PAGE 5. 1. 1904; snímek 260
+1 BIRT
+2 DATE JAN 1904
+2 PLAC Čunín čp. 26
+2 NOTE Datum narození uvedeno pouze měsícem a rokem.
+2 SOUR @S16@
+3 PAGE 5. 1. 1904; snímek 260
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Františka; narozen v lednu 1904 v Čuníně čp. 26 (N Konice kn. 9083 (Čunín 1893–1905), sn. 260), zemřel 19. 2. 1905.
+2 CONT † 19. 2. 1905
+1 FAMC @F6@
+1 SOUR @S16@
+2 PAGE 5. 1. 1904; snímek 260
+1 OBJE @MS16@
+0 @B16@ INDI
+1 NAME Marie /Poláková/
+2 GIVN Marie
+2 SURN Poláková
+1 SEX F
+1 BIRT
+2 DATE 9 MAR 1908
+2 PLAC Čunín čp. 26
+2 NOTE * 9. 3. 1908 Čunín čp. 26
+2 SOUR @S17@
+3 PAGE 9. 3. 1908; snímek 266
+1 DEAT
+2 DATE 28 JAN 1912
+2 NOTE † 28. 1. 1912
+2 SOUR @S17@
+3 PAGE 9. 3. 1908; snímek 266
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Sestra Františka; narozena 9. 3. 1908 v Čuníně čp. 26 (N Konice kn. 9084 (Čunín 1906–1922), sn. 266), zemřela 28. 1. 1912.
+2 CONT * 9. 3. 1908 Čunín čp. 26
+2 CONT † 28. 1. 1912
+1 FAMC @F6@
+1 SOUR @S17@
+2 PAGE 9. 3. 1908; snímek 266
+1 OBJE @MS17@
+0 @B17@ INDI
+1 NAME Františka /Poláková/
+2 GIVN Františka
+2 SURN Poláková
+1 SEX F
+1 BIRT
+2 DATE 10 MAR 1912
+2 PLAC Čunín čp. 26
+2 NOTE * 10. 3. 1912 Čunín čp. 26
+2 SOUR @S18@
+3 PAGE 10. 3. 1912; snímek 280
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Sestra Františka; narozena 10. 3. 1912 v Čuníně čp. 26 (N Konice kn. 9084 (Čunín 1906–1922), sn. 280); podle přípisku oddána 23. 2. 1936 (Strážisko?).
+2 CONT * 10. 3. 1912 Čunín čp. 26
+1 FAMC @F6@
+1 SOUR @S18@
+2 PAGE 10. 3. 1912; snímek 280
+1 OBJE @MS18@
+0 @B18@ INDI
+1 NAME Antonín /Polák/
+2 GIVN Antonín
+2 SURN Polák
+1 SEX M
+1 BIRT
+2 DATE 26 FEB 1914
+2 PLAC Čunín čp. 26
+2 NOTE * 26. 2. 1914 Čunín čp. 26
+2 SOUR @S19@
+3 PAGE 26. 2. 1914; snímek 285
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Františka; narozen 26. 2. 1914 v Čuníně čp. 26 (N Konice kn. 9084 (Čunín 1906–1922), sn. 285); oddán 18. 10. 1941 v Konici s Annou Hýblovou.
+2 CONT * 26. 2. 1914 Čunín čp. 26
+1 FAMC @F6@
+1 FAMS @F34@
+1 SOUR @S19@
+2 PAGE 26. 2. 1914; snímek 285
+1 OBJE @MS19@
+0 @B19@ INDI
+1 NAME Pavel /Polák/
+2 GIVN Pavel
+2 SURN Polák
+1 SEX M
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Bratr Jany (Dominikův strýc). Havíř.
+2 CONT
+1 FAMC @F3@
+0 @B20@ INDI
+1 NAME Marcela /Kulichová/
+2 GIVN Marcela
+2 SURN Kulichová
+1 SEX F
+1 NOTE Údaj od rodiny, nikoli samostatně ověřený matriční doklad.
+2 CONT Sestra Luboše (Dominikova teta).
+2 CONT
+1 FAMC @F2@
+0 @B21@ INDI
+1 NAME Božena /Kaštánková/
+2 GIVN Božena
+2 SURN Kaštánková
+1 SEX F
+1 BIRT
+2 DATE 7 OCT 1905
+2 PLAC Dolní Rožínka čp. 26
+2 NOTE * 7. 10. 1905 Dolní Rožínka čp. 26
+2 SOUR @S20@
+3 PAGE 7. 10. 1905; snímek 131
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Sestra Václava; narozena 7. 10. 1905 v Dolní Rožínce čp. 26 (Matrika N Zvole kn. 16569, oddíl Dolní (Zámecká) Rožínka, sn. 131); kmotra Ludmila Vykutilová, svobodná nádenice v Bystřici (asi sestra matky); 
+2 CONC biřmována 1. 6. 1922 v Rozsochách; přípisek „Bystřice … 1934“ (asi sňatek).
+2 CONT * 7. 10. 1905 Dolní Rožínka čp. 26
+1 FAMC @F8@
+1 SOUR @S20@
+2 PAGE 7. 10. 1905; snímek 131
+1 OBJE @MS20@
+0 @B22@ INDI
+1 NAME Josef Vincenc /Kaštánek/
+2 GIVN Josef Vincenc
+2 SURN Kaštánek
+1 SEX M
+1 BIRT
+2 DATE 28 JUN 1908
+2 PLAC Dolní Rožínka čp. 26
+2 NOTE * 28. 6. 1908 Dolní Rožínka čp. 26
+2 SOUR @S21@
+3 PAGE 28. 6. 1908; snímek 135
+1 DEAT
+2 DATE 1909
+2 NOTE † 1909
+2 SOUR @S21@
+3 PAGE 28. 6. 1908; snímek 135
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Václava; narozen 28. 6. 1908 v Dolní Rožínce čp. 26 (Matrika N Zvole kn. 16569, oddíl Dolní (Zámecká) Rožínka, sn. 135), zemřel 1909.
+2 CONT * 28. 6. 1908 Dolní Rožínka čp. 26
+2 CONT † 1909
+1 FAMC @F8@
+1 SOUR @S21@
+2 PAGE 28. 6. 1908; snímek 135
+1 OBJE @MS21@
+0 @B23@ INDI
+1 NAME Ignác /Kaštánek/
+2 GIVN Ignác
+2 SURN Kaštánek
+2 NICK Hynek
+1 SEX M
+1 BIRT
+2 DATE 25 FEB 1910
+2 PLAC Zámecká Rožínka čp. 26
+2 NOTE * 25. 2. 1910 Zámecká Rožínka čp. 26
+2 SOUR @S22@
+3 PAGE 25. 2. 1910; snímek 207
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Václava; v rodině Hynek (česká podoba jména Ignác; podle Dominika 22. 10. 2026); narozen 25. 2. 1910 v Zámecké Rožínce čp. 26 (Matrika N Zvole kn. 16569, oddíl Dolní (Zámecká) Rožínka, sn. 207); bi
+2 CONC řmován 1. 6. 1922 v Rozsochách; podle přípisku oddán 22. 9. 1935 (nevěsta Marie Pl…ová?).
+2 CONT * 25. 2. 1910 Zámecká Rožínka čp. 26
+1 FAMC @F8@
+1 FAMS @F35@
+1 SOUR @S22@
+2 PAGE 25. 2. 1910; snímek 207
+1 OBJE @MS22@
+0 @B24@ INDI
+1 NAME Hubert /Kaštánek/
+2 GIVN Hubert
+2 SURN Kaštánek
+1 SEX M
+1 BIRT
+2 DATE 28 OCT 1912
+2 PLAC Dolní Rožínka čp. 26
+2 NOTE * 28. 10. 1912 Dolní Rožínka čp. 26
+2 SOUR @S23@
+3 PAGE 28. 10. 1912; snímek 212
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Václava; narozen 28. 10. 1912 v Dolní Rožínce čp. 26 (Matrika N Zvole kn. 16569, oddíl Dolní (Zámecká) Rožínka, sn. 212); podle přípisku oddán 24. 10. 1935 s Helenou Vítkovou (?).
+2 CONT * 28. 10. 1912 Dolní Rožínka čp. 26
+1 FAMC @F8@
+1 FAMS @F36@
+1 SOUR @S23@
+2 PAGE 28. 10. 1912; snímek 212
+1 OBJE @MS23@
+0 @B25@ INDI
+1 NAME Josef /Kaštánek/
+2 GIVN Josef
+2 SURN Kaštánek
+1 SEX M
+1 BIRT
+2 DATE 3 MAR 1919
+2 PLAC Dolní Rožínka
+2 NOTE * 3. 3. 1919 Dolní Rožínka
+2 SOUR @S24@
+3 PAGE 3. 3. 1919; snímek 218
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Bratr Václava; narozen 3. 3. 1919 v Dolní Rožínce (Matrika N Zvole kn. 16569, oddíl Dolní (Zámecká) Rožínka, sn. 218); biřmován 17. 6. 1929 v Rozsochách; oddán v Bystřici 24. 9. 1939 se Štěpánkou Škudo
+2 CONC vou (?).
+2 CONT * 3. 3. 1919 Dolní Rožínka
+1 FAMC @F8@
+1 FAMS @F37@
+1 SOUR @S24@
+2 PAGE 3. 3. 1919; snímek 218
+1 OBJE @MS24@
+0 @E1@ INDI
+1 NAME Filomena /Hrušáková (?)/
+2 GIVN Filomena
+2 SURN Hrušáková (?)
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Matka Jana narozeného 16. 4. 1893; rodné příjmení čteno nejistě. Sňatek s Eduardem Polákem 19. 5. 1891 uveden v poznámkách výzkumu.
+2 CONT
+1 FAMS @F27@
+1 SOUR @S34@
+2 PAGE 16. 4. 1893; snímek 223
+1 OBJE @MS34@
+0 @E2@ INDI
+1 NAME Josef /Trnka/
+2 GIVN Josef
+2 SURN Trnka
+1 SEX M
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT
+2 CONT domkář v Čuníně
+1 FAMS @F28@
+1 SOUR @S27@
+2 PAGE 17. 10. 1887; snímek 76
+1 OBJE @MS27@
+0 @E3@ INDI
+1 NAME Anna //
+2 GIVN Anna
+1 SEX F
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Matka Marie Trnkové; rodné příjmení není ověřeno.
+2 CONT
+1 FAMS @F28@
+1 SOUR @S27@
+2 PAGE 17. 10. 1887; snímek 76
+1 OBJE @MS27@
+0 @E4@ INDI
+1 NAME Helena /Kmentová/
+2 GIVN Helena
+2 SURN Kmentová
+1 SEX F
+1 BIRT
+2 DATE 10 FEB 1895
+2 NOTE * 10. 2. 1895
+2 SOUR @S35@
+3 PAGE 31. 8. 1915; snímek 77
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT
+2 CONT * 10. 2. 1895
+1 FAMS @F29@
+1 SOUR @S35@
+2 PAGE 31. 8. 1915; snímek 77
+1 OBJE @MS35@
+0 @E5@ INDI
+1 NAME Albína /Šmerdová (?)/
+2 GIVN Albína
+2 SURN Šmerdová (?)
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Partner/partnerka uvedený/á v přípisku. Nejisté čtení příjmení zachováno podle výzkumu.
+2 CONT
+1 FAMS @F30@
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+1 OBJE @MS9@
+0 @E6@ INDI
+1 NAME Růžena /Vaší…ová (?)/
+2 GIVN Růžena
+2 SURN Vaší…ová (?)
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Partner/partnerka uvedený/á v přípisku. Nejisté čtení příjmení zachováno podle výzkumu.
+2 CONT
+1 FAMS @F31@
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+1 OBJE @MS9@
+0 @E7@ INDI
+1 NAME Methoděj /Veselý (?)/
+2 GIVN Methoděj
+2 SURN Veselý (?)
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Partner/partnerka uvedený/á v přípisku. Nejisté čtení příjmení zachováno podle výzkumu.
+2 CONT
+1 FAMS @F32@
+1 SOUR @S11@
+2 PAGE 1894; snímek 229
+1 OBJE @MS11@
+0 @E8@ INDI
+1 NAME Bedřich /Kupla (?)/
+2 GIVN Bedřich
+2 SURN Kupla (?)
+1 SEX M
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Partner/partnerka uvedený/á v přípisku. Nejisté čtení příjmení zachováno podle výzkumu.
+2 CONT
+1 FAMS @F33@
+1 SOUR @S12@
+2 PAGE 18. 12. 1896; snímek 236
+1 OBJE @MS12@
+0 @E9@ INDI
+1 NAME Anna /Hýblová/
+2 GIVN Anna
+2 SURN Hýblová
+1 SEX F
+1 NOTE Doloženo původním zápisem; jednotlivé nejistoty viz poznámky.
+2 CONT Partner/partnerka uvedený/á v přípisku. Nejisté čtení příjmení zachováno podle výzkumu.
+2 CONT
+1 FAMS @F34@
+1 SOUR @S19@
+2 PAGE 26. 2. 1914; snímek 285
+1 OBJE @MS19@
+0 @E10@ INDI
+1 NAME Marie /Pl…ová (?)/
+2 GIVN Marie
+2 SURN Pl…ová (?)
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Partner/partnerka uvedený/á v přípisku. Nejisté čtení příjmení zachováno podle výzkumu.
+2 CONT
+1 FAMS @F35@
+1 SOUR @S22@
+2 PAGE 25. 2. 1910; snímek 207
+1 OBJE @MS22@
+0 @E11@ INDI
+1 NAME Helena /Vítková (?)/
+2 GIVN Helena
+2 SURN Vítková (?)
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Partner/partnerka uvedený/á v přípisku. Nejisté čtení příjmení zachováno podle výzkumu.
+2 CONT
+1 FAMS @F36@
+1 SOUR @S23@
+2 PAGE 28. 10. 1912; snímek 212
+1 OBJE @MS23@
+0 @E12@ INDI
+1 NAME Štěpánka /Škudová (?)/
+2 GIVN Štěpánka
+2 SURN Škudová (?)
+1 SEX F
+1 NOTE Pravděpodobné / nejisté údaje, nutno ověřit.
+2 CONT Partner/partnerka uvedený/á v přípisku. Nejisté čtení příjmení zachováno podle výzkumu.
+2 CONT
+1 FAMS @F37@
+1 SOUR @S24@
+2 PAGE 3. 3. 1919; snímek 218
+1 OBJE @MS24@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I1@
+0 @F2@ FAM
+1 HUSB @I4@
+1 WIFE @I5@
+1 CHIL @I2@
+1 CHIL @B20@
+0 @F3@ FAM
+1 HUSB @I6@
+1 WIFE @I7@
+1 CHIL @I3@
+1 CHIL @B19@
+0 @F4@ FAM
+1 HUSB @I12@
+1 WIFE @I13@
+1 CHIL @I6@
+1 MARR
+2 DATE 9 NOV 1929
+2 PLAC Strážisko
+0 @F5@ FAM
+1 HUSB @I14@
+1 WIFE @I15@
+1 CHIL @I7@
+1 MARR
+2 DATE 19 OCT 1941
+2 PLAC Zvole
+0 @F6@ FAM
+1 HUSB @I24@
+1 WIFE @I25@
+1 CHIL @I12@
+1 CHIL @B9@
+1 CHIL @B10@
+1 CHIL @B11@
+1 CHIL @B12@
+1 CHIL @B13@
+1 CHIL @B14@
+1 CHIL @B15@
+1 CHIL @B16@
+1 CHIL @B17@
+1 CHIL @B18@
+1 MARR
+2 DATE 16 FEB 1892
+2 PLAC Ptení
+0 @F7@ FAM
+1 WIFE @I27@
+1 CHIL @I13@
+0 @F8@ FAM
+1 HUSB @I28@
+1 WIFE @I29@
+1 CHIL @I14@
+1 CHIL @B21@
+1 CHIL @B22@
+1 CHIL @B23@
+1 CHIL @B24@
+1 CHIL @B25@
+1 MARR
+2 DATE 4 MAY 1903
+2 PLAC Bystřice
+0 @F9@ FAM
+1 HUSB @I48@
+1 WIFE @I49@
+1 CHIL @I24@
+1 CHIL @B3@
+1 CHIL @B4@
+1 CHIL @B5@
+1 CHIL @B6@
+1 CHIL @B7@
+1 CHIL @B8@
+1 MARR
+2 DATE 18 NOV 1862
+2 PLAC Konice
+0 @F10@ FAM
+1 HUSB @I50@
+1 WIFE @I51@
+1 CHIL @I25@
+0 @F11@ FAM
+1 HUSB @I56@
+1 WIFE @I57@
+1 CHIL @I28@
+0 @F12@ FAM
+1 HUSB @I58@
+1 WIFE @I59@
+1 CHIL @I29@
+0 @F13@ FAM
+1 HUSB @I96@
+1 WIFE @I97@
+1 CHIL @I48@
+1 MARR
+2 DATE 18 OCT 1837
+2 PLAC Konice
+0 @F14@ FAM
+1 HUSB @I98@
+1 WIFE @I99@
+1 CHIL @I49@
+0 @F15@ FAM
+1 HUSB @I100@
+1 WIFE @I101@
+1 CHIL @I50@
+0 @F16@ FAM
+1 HUSB @I102@
+1 WIFE @I103@
+1 CHIL @I51@
+0 @F17@ FAM
+1 HUSB @I112@
+1 WIFE @I113@
+1 CHIL @I56@
+0 @F18@ FAM
+1 HUSB @I114@
+1 WIFE @I115@
+1 CHIL @I57@
+0 @F19@ FAM
+1 HUSB @I192@
+1 WIFE @I193@
+1 CHIL @I96@
+1 MARR
+2 DATE 28 JAN 1812
+2 PLAC Konice
+0 @F20@ FAM
+1 HUSB @I194@
+1 WIFE @I195@
+1 CHIL @I97@
+0 @F21@ FAM
+1 HUSB @I198@
+1 CHIL @I99@
+0 @F22@ FAM
+1 HUSB @I384@
+1 WIFE @I385@
+1 CHIL @I192@
+1 MARR
+2 DATE 4 JUL 1779
+2 PLAC Konice
+0 @F23@ FAM
+1 HUSB @I386@
+1 CHIL @I193@
+0 @F24@ FAM
+1 HUSB @I768@
+1 CHIL @I384@
+0 @F25@ FAM
+1 HUSB @I770@
+1 CHIL @I385@
+0 @F26@ FAM
+1 HUSB @B3@
+1 WIFE @B1@
+1 CHIL @B2@
+1 MARR
+2 DATE 17 OCT 1887
+2 PLAC Konice
+2 SOUR @S27@
+3 PAGE 17. 10. 1887; snímek 76
+1 SOUR @S27@
+2 PAGE 17. 10. 1887; snímek 76
+0 @F27@ FAM
+1 HUSB @B4@
+1 WIFE @E1@
+1 CHIL @B0@
+1 MARR
+2 DATE 19 MAY 1891
+2 PLAC Konice
+2 SOUR @S34@
+3 PAGE 16. 4. 1893; snímek 223
+1 SOUR @S34@
+2 PAGE 16. 4. 1893; snímek 223
+0 @F28@ FAM
+1 HUSB @E2@
+1 WIFE @E3@
+1 CHIL @B1@
+0 @F29@ FAM
+1 HUSB @B9@
+1 WIFE @E4@
+1 MARR
+2 DATE 31 AUG 1915
+2 PLAC Přemyslovice
+2 SOUR @S35@
+3 PAGE 31. 8. 1915; snímek 77
+1 SOUR @S35@
+2 PAGE 31. 8. 1915; snímek 77
+0 @F30@ FAM
+1 HUSB @I28@
+1 WIFE @E5@
+1 MARR
+2 DATE 5 JUL 1923
+2 PLAC Rozsochy
+2 SOUR @S9@
+3 PAGE 25. 4. 1878; snímek 114
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+0 @F31@ FAM
+1 HUSB @I28@
+1 WIFE @E6@
+1 MARR
+2 DATE 16 OCT 1934
+2 PLAC Rozsochy
+2 SOUR @S9@
+3 PAGE 25. 4. 1878; snímek 114
+1 SOUR @S9@
+2 PAGE 25. 4. 1878; snímek 114
+0 @F32@ FAM
+1 HUSB @E7@
+1 WIFE @B10@
+1 MARR
+2 DATE 1 OCT 1917
+2 PLAC Konice
+2 SOUR @S11@
+3 PAGE 1894; snímek 229
+1 SOUR @S11@
+2 PAGE 1894; snímek 229
+0 @F33@ FAM
+1 HUSB @E8@
+1 WIFE @B11@
+1 MARR
+2 DATE 29 AUG 1921
+2 PLAC Konice
+2 SOUR @S12@
+3 PAGE 18. 12. 1896; snímek 236
+1 SOUR @S12@
+2 PAGE 18. 12. 1896; snímek 236
+0 @F34@ FAM
+1 HUSB @B18@
+1 WIFE @E9@
+1 MARR
+2 DATE 18 OCT 1941
+2 PLAC Konice
+2 SOUR @S19@
+3 PAGE 26. 2. 1914; snímek 285
+1 SOUR @S19@
+2 PAGE 26. 2. 1914; snímek 285
+0 @F35@ FAM
+1 HUSB @B23@
+1 WIFE @E10@
+1 MARR
+2 DATE 22 SEP 1935
+2 SOUR @S22@
+3 PAGE 25. 2. 1910; snímek 207
+1 SOUR @S22@
+2 PAGE 25. 2. 1910; snímek 207
+0 @F36@ FAM
+1 HUSB @B24@
+1 WIFE @E11@
+1 MARR
+2 DATE 24 OCT 1935
+2 SOUR @S23@
+3 PAGE 28. 10. 1912; snímek 212
+1 SOUR @S23@
+2 PAGE 28. 10. 1912; snímek 212
+0 @F37@ FAM
+1 HUSB @B25@
+1 WIFE @E12@
+1 MARR
+2 DATE 24 SEP 1939
+2 PLAC Bystřice
+2 SOUR @S24@
+3 PAGE 3. 3. 1919; snímek 218
+1 SOUR @S24@
+2 PAGE 3. 3. 1919; snímek 218
+0 @S1@ SOUR
+1 TITL Sňatek Františka Poláka a Františky Krejčí
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL O Konice 1922–1940, kniha č. 9106 (sv. XII), oddíly po obcích; 9. 11. 1929; snímek 33
+1 TEXT František Polák (23 l.), řezník v Čuníně čp. 26, nar. 27. 12. 1905 v Čuníně, syn Jana Poláka, zahradníka v Čuníně, a Františky roz. Bavlnkové ze Stinavy; nevěsta Františka Krejčí (22 l.) z Konice č
+2 CONC p. 233, nar. 10. 11. 1906 v porodnici v Olomouci, dcera svobodné Filomeny Krejčí. Oddáni ve Strážisku.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/10939?image=216000010-000253-003375-000000-009106-000000-00-B00578-00330.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/konice_snatek_frantisek_polak_frantiska_krejci_1929/
+1 TEXT Přepis originálu:
+2 CONT [Svazek a str.] sv. XII, str. 31
+2 CONT [Rok, měsíc, den a místo oddavek] 1929, listopad 9, ve farním kostele ve Strážisku
+2 CONT [Oddávající kněz] Z delegace far. úřadu Konice dto 7/11. 1929 č. 1146, dle se off. odd. listu far. úřad Strážisko dto 13/XI. 1929 č. 214 oddal Josef Klos, farář ve Strážisku
+2 CONT [Ohlášeni] Ohlášeni byli ve far. kostele v Konici XXI., XXII., XXIII. neděli po sv. Duchu, t. j. 13., 20., 27. října 1929
+2 CONT [Ženich – bydliště a č. domu] Čunín 26
+2 CONT [Ženich] Polák František, řezník v Čuníně, narozený 27. prosince 1905 v Čuníně, pol. okres Litovel, syn Jana Poláka, zahradníka v Čuníně, a jeho manželky Františky, dcery Antonína Bavlnky, domkáře v
+2 CONC e Stinavě.
+2 CONT  1) Ohl. protokol snoubenců f. ú. Konice dto 10/10. 1929 č. 32
+2 CONT  2) Křest. list nevěsty f. úřad Olomouc-Nová Ulice dto 14/XI. 1929 č. 2519
+2 CONT  3) Se off. odd. list f. ú. Strážisko dto 13/XI. 1929 č. 214 [uložen] v archivu
+2 CONT [Náboženství] řím.-katolické [Stáří] 23 let 10 měs. [Stav] svobodný
+2 CONT [Nevěsta – bydliště a č. domu] Konice 233
+2 CONT [Nevěsta] Františka Krejčí, továrnická (?) dělnice v Konici, narozená v zemské porodnici Olomouc-Nová Ulice 10. listopadu 1906, pol. okres Olomouc-město, dcera Filomeny Krejčí, svobodné, dcery Františka Kr
+2 CONC ejčího, domkáře v Konici, a jeho manželky Františky
+2 CONT [Náboženství] řím.-katolické [Stáří] 22 let 11 měs. [Stav] svobodná
+2 CONT [Svědci] Kupka Bedřich, zedník v Čuníně; Krejčí Vilém, obuvník v Konici 232
+2 CONT [Poznámka] Vyrozumění o dodání se off. odd. listu posláno f. úřadu ve Strážisku dne 16/XI. 1929 č. 1183 (?)
+2 CONT Český překlad:
+2 CONT 9. listopadu 1929 se ve farním kostele ve Strážisku vzali František Polák, řezník z Čunína čp. 26 (narozen 27. prosince 1905 v Čuníně, 23 let, svobodný), a Františka Krejčí z Konice čp. 233 (narozena 10
+2 CONC . listopadu 1906 v zemské porodnici v Olomouci, 22 let, svobodná). Ženichovi rodiče: Jan Polák, zahradník v Čuníně, a Františka, dcera Antonína Bavlnky, domkáře ve Stinavě. Nevěsta byla nemanželská dcera
+2 CONC  Filomeny Krejčí; její dědeček František Krejčí byl domkář v Konici. Oddával strážišťský farář Josef Klos z pověření konického faráře, svědky byli zedník Bedřich Kupka z Čunína a obuvník Vil
+2 CONC ém Krejčí z Konice. Domkář = majitel malého domku s malým nebo žádným polem.
+1 OBJE @MS1@
+0 @S2@ SOUR
+1 TITL Křest Františka Poláka
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1893–1905, kniha č. 9083 (sv. XVIII), oddíly po obcích; I-N 1893–1905; 27. 12. 1905; snímek 516
+1 TEXT František, syn Jana Poláka (* 6. 6. 1865), zahradníka v Čuníně čp. 26, a Františky roz. Bavlnkové (* 19. 11. 1870) ze Stínavy; sňatek rodičů zde uveden 9. 2. 1892 (oddací matrika: 16. 2. 1892). Na okraji po
+2 CONC známka o sňatku s Františkou Krejčí 1929.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-05160.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_frantisek_polak_1905/
+1 TEXT Přepis originálu:
+2 CONT [Kniha a strana] XVIII, 553 [Poř. č.] 13
+2 CONT [Rok, měsíc a den – narození / křest] 1905 prosinec 27 / 28
+2 CONT [Číslo domu] 26
+2 CONT [Jméno] František [Nábož.] římsko-katolické [Pohlaví] mužské [Rod] manželský
+2 CONT [Na okraji] Oddán s Františkou Krejčí z Konice dne 9/11 1929 ve Strážisku. [nad jménem: 263]
+2 CONT [Otec] Polák Jan, narozený 6. června 1865, zahradník v Čuníně, syn Jana Poláka, zahradníka v Čuníně, a jeho manželky Anny z rodu Jiřího Pospíšila, domkaře v Čuníně. Oddáni: [viz u matky]
+2 CONT [Nábož.] římsko-katolické
+2 CONT [Matka] Františka, narozená 19. listopadu 1870, dcera Antonína Bavlnky, domkaře ve Stinavě, a manželky jeho Františky z rodu Františka Bureše, domkaře ze Stinavy. 9. února 1892
+2 CONT [Nábož.] římsko-katolické
+2 CONT [Křtitel] Josef Ohrenščík (?), kaplan
+2 CONT [Zkoušená bába] Josefa Štaffová v Čuníně číslo 18
+2 CONT [Kmotrové] Antonín Šmehlík (?), Vincencie – domkař ve Stinavě a manželka jeho
+2 CONT Český překlad:
+2 CONT František Polák se narodil 27. prosince 1905 v Čuníně v domě čp. 26 a druhý den byl pokřtěn (farnost Konice). Otec Jan Polák (narozen 6. června 1865) byl zahradník v Čuníně, syn zahradníka Jana Poláka a
+2 CONC  Anny, dcery domkáře Jiřího Pospíšila z Čunína. Matka Františka (narozena 19. listopadu 1870) byla dcerou Antonína Bavlnky, domkáře ve Stinavě, a Františky, dcery domkáře Františka Bureše ze Stinavy. Ro
+2 CONC diče se podle křtu vzali 9. února 1892 (oddací matrika Ptení uvádí 16. února 1892). Porodní bábou byla Josefa Štaffová z Čunína čp. 18, kmotry manželé Šmehlíkovi (?) ze Stinavy. Pozdější přípisek 
+2 CONC na okraji: sňatek s Františkou Krejčí z Konice 9. 11. 1929 ve Strážisku. (Zahradník = drobný venkovský usedlík s domkem a zahradou.)
+1 OBJE @MS2@
+0 @S3@ SOUR
+1 TITL Sňatek Jana Poláka a Františky Bavlnkové
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Ptení
+1 PUBL O Ptení 1851–1894, kniha č. 9698, oddíly po obcích (Stínava sn. 130–157); 16. 2. 1892; snímek 154
+1 TEXT Jan Polák (26 l.), domkář v Čuníně, vdovec, syn Jana Poláka, podruha z Čunína, a Anny roz. Pospíšilové; nevěsta Františka (21 l.), nezletilá dcera Antonína Bavlnky, domkáře ze Stínavy čp. 36, a Franti
+2 CONC šky roz. Burešové. Oddáni v Ptení.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/6054?image=216000010-000253-003375-000000-009698-000000-00-B03772-01540.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/stinava_snatek_jan_polak_frantiska_bavlnkova_1892/
+1 TEXT Přepis originálu:
+2 CONT [Pag.] 311, Stínava 1892
+2 CONT [Monat, Tag und trauender Priester] 1892 únor 16. – Antonín Mohapl, kooperátor
+2 CONT [Ženich – č. d.] 25 [Jméno a stav] Jan Polák, domkař v Čuníně, vdovec, syn Jana Poláka, podruha z Čunína, a jeho manželky Anny rozené Pospíšil z Čunína. [kath.] 1 [Alter] 26 měs. 8 [Witwer] 1
+2 CONT [Nevěsta – č. d.] 36 [Jméno a stav] Františka, svobodná neplnoletá dcera Antonína Bavlnky, domkaře ze Stínavy, a jeho manželky Františky rozené Františka (?) Bureš ze Stínavy. [kath.] 1 [Alter] 21 měs. 
+2 CONC 2 [ledig] 1
+2 CONT [Svědci] Franc Polák, škadler (?) v Čuníně; Josef Krejčí, kovář ve Stínavě
+2 CONT Ku sňátku neplnoleté nevěsty dávám před dvěma svědky své svolení já: Antonín Bavlnka, otec. [podpisy:] Josef Krejčí svědek; Franc Polák svědek; [podpis nečitelný – nejspíš za Antonína Bavlnku] [
+2 CONC …]
+2 CONT Ptení 16. února 1892, coram me: Jan Fiurbíček (?), farář.
+2 CONT Rodní list ženichův dto Konice far. úřad 29. ledna 1892 č. 60, jeho ohláškový list dto far. úřad Konice 14. února 1892 č. 94, úmrtní list 1. ženy dto far. úřad Konice 29. ledna 1892 č. 54 – v archivu
+2 CONC  XIII, 1.
+2 CONT Ohlášeni byli ve Ptení a v Konici: Dom. 4ta Epiph. 31/1 I. – festo Purif. B. M. V. 2/2 II. – Dom. 5ta Epiph. 7/2 III.
+2 CONT Český překlad:
+2 CONT 16. února 1892 se v Ptení vzali Jan Polák, domkář z Čunína, vdovec, 26 let a 8 měsíců (syn Jana Poláka, podruha z Čunína, a Anny rozené Pospíšilové z Čunína), a Františka, 21 let a 2 měsíce, svobodn
+2 CONC á a ještě nezletilá dcera Antonína Bavlnky, domkáře ze Stínavy čp. 36, a Františky rozené Burešové ze Stínavy. Protože nevěsta nebyla plnoletá (tehdy do 24 let), dal k sňatku souhlas její otec Antonín
+2 CONC  Bavlnka. Svědky byli Franc Polák z Čunína (nejspíš příbuzný ženicha) a Josef Krejčí, kovář ze Stínavy. Jan Polák byl už jednou ženatý – k sňatku doložil úmrtní list první manželky z farnosti K
+2 CONC onice. Oddával kooperátor Antonín Mohapl. (Podruh = člověk bez vlastního domu, bydlící v cizím.)
+1 OBJE @MS3@
+0 @S4@ SOUR
+1 TITL Křest Jana Poláka
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1856–1866, kniha č. 9077 (sv. XIII), oddíly po obcích; 6. 6. 1865; snímek 109
+1 TEXT Jan (Joannes), Čunín čp. 64, syn Jana Poláka, podruha v Čuníně (syna Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové (?) z Veselé), a Anny, dcery Jiřího Pospíšila, domkáře v Čuníně,
+2 CONC  a Anny roz. Švedové (?). Přípisek: † 11. 2. 1943 v Kostelci.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5703?image=216000010-000253-003375-000000-009077-000000-00-B01739-01090.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_jan_polak_1865/
+1 TEXT Přepis originálu:
+2 CONT [Geburtsbuch, Čunín 1865, fol. XIII/205]
+2 CONT [Zeit der Geburt und Taufe] 1865 Juni geb. 6, getft. 7 – Ant. Libowarský (?), Coop.
+2 CONT [Haus-Nro.] 64
+2 CONT [Namen des Täuflings] Joannes [nad jménem přípisek: † 11/2 1943 v Kostelci]
+2 CONT [Hebamme] Heb. Marianna Klapka N. 23 von Rosenberg (?)
+2 CONT [kath., Knabe, ehelich] 1 · 1 · 1
+2 CONT [Vater] Johann Polach, Inmann in Čunin, Sohn des Martin Polach, Gärtler in Kremenec, und dess. Eheweibes Marianna geb. Tilšar (?), Familiant in Fröhlichsdorf
+2 CONT [Mutter] Anna, Tochter des Georg Pospišil, Häusler in Čunín, und dessen Eheweibes Anna geborne Šveda (?) [škrtnuto: aus Konitz] Häusler in St…(?)
+2 CONT [Pathen] Jan Kříž (?), … ; Anna, Gattin (?) [čtení kmotrů nejisté]
+2 CONT Český překlad:
+2 CONT Jan Polák se narodil 6. června 1865 v Čuníně v domě čp. 64 a druhý den byl pokřtěn. Otec Jan Polák byl podruh (bydlel v cizím domě) v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny rozen
+2 CONC é Tilšerové (?) z rodiny familianta ve Veselé (Fröhlichsdorf). Matka Anna byla dcerou Jiřího Pospíšila, domkáře v Čuníně, a Anny rozené Švedové (?). Porodní bábou byla Marianna Klapková. Pozdější p
+2 CONC řípisek nad jménem: zemřel 11. 2. 1943 v Kostelci (nejspíš Kostelec na Hané). (Familiant = usedlík na malé parcele z rozparcelovaného panského dvora; Gärtler = zahradník.)
+1 OBJE @MS4@
+0 @S5@ SOUR
+1 TITL Sňatek Jana Poláka a Anny Pospíšilové
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL O Konice 1856–1872, kniha č. 9103, oddíly po obcích (Čunín pag. 84–107); 18. 11. 1862; snímek 46
+1 TEXT Jan Polák (24 l.), podruh v Křemenci (č. d. 64/21), syn Martina Poláka, výměnkáře v Křemenci, a Marianny roz. Tilšerové (?) z Veselé (Fröhlichsdorf); nevěsta Anna (27 l.), dcera Jiřího Pospíšila, domká
+2 CONC ře, a Anny roz. Švedové (?).
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5734?image=216000010-000253-003375-000000-009103-000000-AP-B11459-00460.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/konice_snatek_jan_polak_anna_pospisilova_1862/
+1 TEXT Přepis originálu:
+2 CONT [Trauungs-Matrik, Čunín 1862, pag. 90]
+2 CONT [Monat, Tag und trauender Priester] 1862 November 18. – cum licentia ordinarii Florianus Deutsch (?), cooper.
+2 CONT [Haus-Nro.] 64 / 21
+2 CONT [Bräutigam] Johann Polák, Inmann (?) in Kremenec, Sohn des Martin Polák, Ausgedinger in Kremenec, u. dessen Gattin Marianna geb. Georg Tilšer (?), Familiant in Fröhlichsdorf. [kath.] 1 [Alter] 24 [ledig] 1
+2 CONT [Braut] Anna, Tochter des Georg Pospíšil, Häusler in Bilsko (?), u. dessen Gattin Anna geb. Josef Šveda (?), Häusler in Hradyně (?). [kath.] 1 [Alter] 27 [ledig] 1
+2 CONT [Beistände] Johann Dankmar (?), … ; Anton (?) Pilař (?), … [čtení svědků nejisté]
+2 CONT Die politische Bewilligung des k. k. Bezirksamtes Konic dto 8. November 1862 N. 195 der Trauschein liegt im Pfarrarchiv … fasc. XXV ad N. 213/195.
+2 CONT Český překlad:
+2 CONT 18. listopadu 1862 se v Konici vzali Jan Polák, 24 let, svobodný, podruh v Křemenci (syn Martina Poláka, výměnkáře v Křemenci, a Marianny, dcery Jiřího Tilšera (?), familianta ve Veselé), a Anna, 27 let, svo
+2 CONC bodná, dcera Jiřího Pospíšila, domkáře v Bílsku (?), a Anny, dcery Josefa Švedy (?), domkáře. Úřední povolení ke sňatku vydal okresní úřad v Konici 8. listopadu 1862 – tehdy bylo nutné politické po
+2 CONC volení k sňatku u nemajetných lidí. (Výměnkář = hospodář, který předal usedlost a žije z „výměnku“; podruh = bez vlastního domu.)
+1 OBJE @MS5@
+0 @S6@ SOUR
+1 TITL Křest Františky Bavlnkové
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Ptení
+1 PUBL N Ptení 1857–1879, kniha č. 9692, oddíly po obcích (Stínava sn. 175–210); 19. 11. 1870; snímek 199
+1 TEXT Františka, Stínava čp. 29; otec Antonín Bavlnka, domkář ve Stínavě, syn Antonína Bavlnky, podruha z Prostějoviček, a Josefy roz. Nezvalové z Prostějoviček; matka Františka, dcera Františka Bureše, podruh
+2 CONC a ze Stínavy, a Františky roz. Jelínkové z Hradiska.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/6050?image=216000010-000253-003375-000000-009692-000000-00-B03680-01990.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/stinava_krest_frantiska_bavlnkova_1870/
+1 TEXT Přepis originálu:
+2 CONT [Geburtsbuch Stinava, pag. 375]
+2 CONT [Zeit der Geburt und Taufe] 1870 listopad 19 naroz., 20 křtěn – Vincenc Zdráhal, koop.; bába: Antonie Hradečný ze Stínavy č. 23
+2 CONT [Haus-Nro.] 29
+2 CONT [Täufling] Františka [kath., weiblich, ehelich] 1 · 1 · 1
+2 CONT [Vater] Antonín Bavlnka, domkař ze Stínavy, syn Antonína Bavlnky, podruha z Prostějoviček, a manželky jeho Josefy rozené Nezval z Prostějoviček
+2 CONT [Mutter] Františka, dcera Františka Bureše, podruha ze Stínavy, a manželky jeho Františky rozené Jelínek z Hradiska
+2 CONT [Pathen] Jan … (?), Josefa (?) – výměník ze Staro-Ptení, jeho manželka
+2 CONT Český překlad:
+2 CONT Františka se narodila 19. listopadu 1870 ve Stínavě v domě čp. 29 a 20. listopadu byla pokřtěna (farnost Ptení). Otec Antonín Bavlnka byl domkář ve Stínavě; jeho rodiče byli Antonín Bavlnka, podruh z Prost
+2 CONC ějoviček, a Josefa rozená Nezvalová z Prostějoviček. Matka Františka byla dcerou Františka Bureše, podruha ze Stínavy, a Františky rozené Jelínkové z Hradiska. Kmotry byli manželé, výměnkáři ze Staré
+2 CONC ho Ptení (jméno kmotra nečitelné). Pozn.: v roce 1892 bydlela rodina v čp. 36.
+1 OBJE @MS6@
+0 @S7@ SOUR
+1 TITL Křest Václava Kaštánka
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Zvole
+1 PUBL N Zvole 1844–1924, kniha č. 16569 (oddíly po obcích; Dolní Rožínka 1910–1924 sn. 207–223); 15. 9. 1914; snímek 215
+1 TEXT Václav, narozen 15. 9. 1914 v Dolní Rožínce čp. 26, pokřtěn 20. 9.; syn Ignáce Kaštánka (* 26. 4. 1878), kočího v Dolní Rožínce, a Josefy roz. Vykutilové (* 25. 12. 1880) z Bystřice; rodiče oddáni v By
+2 CONC střici 4. 5. 1903. Na okraji: biřmován 17. 6. 1929, oddán ve Zvoli s Helenou Šlosárovou 19. 10. 1941.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02150.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/rozinka_krest_vaclav_kastanek_1914/
+1 TEXT Přepis originálu:
+2 CONT [Narození a křest] 15. září / 20. [září 1914]; křtil František Pokora, farář
+2 CONT [Č. domu] 26
+2 CONT [Jméno křtěnce] Václav – chlapec, manželský. Biřmován 17/6 1929. Zkouš. bába Antonie Zábrsová (?) ze Zvole č. 61.
+2 CONT [Přípisek] Oddán ve Zvoli s Helenou Šlosarovou 19/10 1941.
+2 CONT [Otec] Kaštánek Ignác, kočí v Dolní Rožínce, manželský syn Ignáce Kaštánka, nádeníka v Domaníně, a Františky rodem Hradešínský, 26/4 1878.
+2 CONT [Matka] Josefa, manželská dcera Františka Vykutila (čteno podle oddací matriky 1903; zde „Oyketila“), nádeníka v Bystřici, a Kateřiny rodem Kroutil, 25/12 1880.
+2 CONT [Kmotr] Vincenc Koutník, dráb v Dolní Rožínce.
+2 CONT Oddáni v Bystřici 4/5 1903.
+2 CONT Český překlad:
+2 CONT Dne 15. září 1914 se v Dolní Rožínce v domě čp. 26 narodil chlapec Václav, manželský; 20. září ho pokřtil farář František Pokora. Porodila ho zkoušená porodní bába Antonie Zábrsová (?) ze Zvole č
+2 CONC . 61. Biřmován byl 17. 6. 1929.
+2 CONT Otec: Ignác Kaštánek, kočí v Dolní Rožínce, narozen 26. 4. 1878, syn Ignáce Kaštánka, nádeníka v Domaníně, a Františky roz. Hradešínské.
+2 CONT Matka: Josefa, narozena 25. 12. 1880, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové.
+2 CONT Rodiče se vzali v Bystřici 4. 5. 1903. Kmotrem byl Vincenc Koutník, dráb v Dolní Rožínce.
+2 CONT Pozdější přípisek: 19. 10. 1941 se Václav ve Zvoli oženil s Helenou Šlosárovou.
+1 OBJE @MS7@
+0 @S8@ SOUR
+1 TITL Sňatek Ignáce Kaštánka a Josefy Vykutilové
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Bystřice nad Pernštejnem
+1 PUBL O Bystřice nad Pernštejnem 1895–1942, kniha č. 15461 (Bystřice sn. 2–176, Dvořiště sn. 177–190); 4. 5. 1903; snímek 34
+1 TEXT Ignác Kaštánek (25 l., * 26. 4. 1878), čeledín v Domaníně čp. 32, syn Ignáce Kaštánka, podruha v Domaníně (zemřelý), a Františky roz. Hradešínské × Josefa Vykutilová (22 l., * 25. 12. 1880), služka 
+2 CONC v Bystřici čp. 337, dcera Františka Vykutila, podruha v Bystřici, a Kateřiny roz. Kroutilové (zemřelé). Otec nezletilé nevěsty dal svolení. Oddával kooperátor Karel Endl.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/11311?image=216000010-000253-003380-000000-015461-000000-00-B01185-00340.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/bystrice_snatek_ignac_kastanek_josefa_vykutilova_1903/
+1 TEXT Přepis originálu:
+2 CONT [Č.] 5
+2 CONT [Den oddavek a oddával] 4. května [1903]; Karel Endl, kooperátor
+2 CONT [Ženich – bydliště, č. d.] Domanín 32
+2 CONT [Ženich] Ignác Kaštánek, čeledín v Domaníně, manž. syn Ignáce Kaštánka, podruha v Domaníně, a Františky roz. Hradešínský, oba rodiče katolíci, otec zemřel, matka žije; n. 26/4 1878 – katol., 25 le
+2 CONC t, svobodný
+2 CONT [Nevěsta – bydliště, č. d.] Bystřice 337
+2 CONT [Nevěsta] Josefa Vykutilova, služka v Bystřici, manž. dcera Františka Vykutila, podruha v Bystřici, a Kateřiny rozené Kroutilovy, oba rodiče katolíci, otec žije, matka zemřela; n. 25/12 1880 – katol., 22 le
+2 CONC t, svobodná
+2 CONT [Svědci] Franz Illek (?), krejčí v Rozsochách; František Karásek, kovářský tovaryš z Bystřice; oba nábož. katol.
+2 CONT [Poznámka] K tomuto sňatku své nezletilé dcery dávám v přítomnosti podepsaných svědků své otcovské svolení. Frant. Vykutil, otec; podepsal R. Vágner, farář. František Hek (?) svědek, František Karáse
+2 CONC k svědek, oba podepsal R. Vágner, far.
+2 CONT Rapulář s přílohami uložen ve far. arch. f. III ... č. 19
+2 CONT Český překlad:
+2 CONT 4. května 1903 oddal kooperátor Karel Endl v Bystřici nad Pernštejnem tyto snoubence:
+2 CONT Ženich: Ignác Kaštánek, čeledín v Domaníně čp. 32, narozen 26. 4. 1878, 25 let, svobodný, katolík; syn Ignáce Kaštánka, podruha v Domaníně (již zemřelého), a Františky roz. Hradešínské (žijící).
+2 CONT Nevěsta: Josefa Vykutilová, služka v Bystřici čp. 337, narozena 25. 12. 1880, 22 let, svobodná, katolička; dcera Františka Vykutila, podruha v Bystřici (žijícího), a Kateřiny roz. Kroutilové (již zemřelé
+2 CONC ).
+2 CONT Svědci: Franz Illek (?), krejčí v Rozsochách, a František Karásek, kovářský tovaryš z Bystřice.
+2 CONT Protože nevěsta byla nezletilá, dal její otec František Vykutil ke sňatku před svědky své svolení.
+1 OBJE @MS8@
+0 @S9@ SOUR
+1 TITL Křest Ignáce Kaštánka
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Bystřice nad Pernštejnem
+1 PUBL N Bystřice nad Pernštejnem – obce 1865–1889, kniha č. 15440 (Domanín sn. 77–146); 25. 4. 1878; snímek 114
+1 TEXT Ignát, narozen 25. 4. 1878 v Domaníně čp. 15, pokřtěn 26. 4.; syn Ignáta Kaštánka, podruha v Domaníně (syna Karla K., podruha v Domaníně, a Terezie), a Františky, dcery Josefa Hradešínského, domkáře v 
+2 CONC Blažovicích, a Josefy roz. Žilkové. Přípisky: oddán 4. 5. 1903 s Josefou Vykutilovou, 5. 7. 1923 v Rozsochách s Albínou Šmerdovou (?), 16. 10. 1934 v Rozsochách s Růženou Vaší…ovou (?); zemřel 9. 5. 195
+2 CONC 2 v Bratrušíně.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5035?image=216000010-000253-003380-000000-015440-000000-00-B07997-01140.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/domanin_krest_ignac_kastanek_1878/
+1 TEXT Přepis originálu:
+2 CONT [Čas narození a křtu; křtil] 25/26 dubna [1878]; Augustin Brzobohatý, koop.
+2 CONT [Č. d.] 15
+2 CONT [Jméno] Ignát – chlapec, manželský. Bába táž [Františka Pöringerová, Bystřice č. 191].
+2 CONT [Přípisky] Oddán 4/5 1903 zde s Josefou Vykutilovou. Sezdán se Šmerdovou (?) Albínou v Rozsochách 5/7 1923. Oddán s Vaší[…]ovou Růženou v Rozsochách 16/10 1934.
+2 CONT Zemřel dne 9. května 1952 v Bratrušíně, okr. Bystřice n. P., zapsal dne 10. 5. 1952 [podpis matrikáře].
+2 CONT [Otec] Ignát Kaštánek, podruh v Domaníně, syn Karla Kaštánka, podruha v Domaníně, a Terezie rodem […] (přepsáno přípiskem)
+2 CONT [Matka] Františka, dcera Josefa Hradešínského, domkáře v Blažovicích, a Josefy rodem Žilkovy
+2 CONT [Kmotři] Ignac Peron (Paroň), celoláník v Domaníně; Josefa Peron, manželka Josefa Paroně, výminkáře v Domaníně
+2 CONT Český překlad:
+2 CONT Ignác (Ignát) se narodil 25. dubna 1878 v Domaníně čp. 15 a druhý den ho pokřtil kooperátor Augustin Brzobohatý. Byl manželský.
+2 CONT Otec: Ignác Kaštánek, podruh v Domaníně, syn Karla Kaštánka, podruha v Domaníně, a Terezie (rodné příjmení přepsáno pozdějším přípiskem).
+2 CONT Matka: Františka, dcera Josefa Hradešínského, domkáře v Blažovicích, a Josefy roz. Žilkové.
+2 CONT Kmotři: Ignác Paroň, celoláník v Domaníně, a Josefa Paroňová, manželka výměnkáře Josefa Paroně.
+2 CONT Pozdější přípisky: oženil se 4. 5. 1903 v Bystřici s Josefou Vykutilovou, 5. 7. 1923 v Rozsochách s Albínou Šmerdovou (?) a 16. 10. 1934 v Rozsochách s Růženou Vaší…ovou (?). Zemřel 9. května 1952 v Br
+2 CONC atrušíně (okres Bystřice nad Pernštejnem).
+1 OBJE @MS9@
+0 @S10@ SOUR
+1 TITL Křest Jana Poláka (bratr Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1893–1905, kniha č. 9083 (sv. XVIII), oddíly po obcích; I-N 1893–1905; 17. 1. 1893; snímek 222
+1 TEXT Jan, nar. 17. 1. 1893 v Čuníně čp. 25, pokřtěn 19. 1.. Oddán 31. 8. 1915 v Přemyslovicích s Helenou Kmentovou. Příjmení nevěsty ověřeno v samostatném oddacím zápisu z roku 1915.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02190.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_jan_polak_1893/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Jan, nar. 17. 1. 1893 v Čuníně čp. 25, pokřtěn 19. 1.
+2 CONT [Otec] Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domkáře v Čuníně)
+2 CONT [Matka] Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě)
+2 CONT [Přípisek] Oddán 31. 8. 1915 v Přemyslovicích s Helenou Kmentovou [příjmení upřesněno podle oddacího zápisu 1915].
+2 CONT Český překlad:
+2 CONT Jan, nar. 17. 1. 1893 v Čuníně čp. 25, pokřtěn 19. 1.. Otec: Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domkáře v 
+2 CONC Čuníně). Matka: Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě). Pozdější přípisek: Oddán 31. 8. 1915 v Pře
+2 CONC myslovicích s Helenou Kmentovou [příjmení upřesněno podle oddacího zápisu 1915].
+1 OBJE @MS10@
+0 @S11@ SOUR
+1 TITL Křest Vincencie Polákové (sestra Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1893–1905, kniha č. 9083 (sv. XVIII), oddíly po obcích; I-N 1893–1905; 1894; snímek 229
+1 TEXT Vincencie, nar. 1894 v Čuníně čp. 26 (přesné datum v zápise špatně čitelné). Sezdána 1. 10. 1917 v Konici s Methodějem Veselým (?).
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02260.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_vincencie_polakova_1894/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Vincencie, nar. 1894 v Čuníně čp. 26 (přesné datum v zápise špatně čitelné)
+2 CONT [Otec] Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domkáře v Čuníně)
+2 CONT [Matka] Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě)
+2 CONT [Přípisek] Sezdána 1. 10. 1917 v Konici s Methodějem Veselým (?).
+2 CONT Český překlad:
+2 CONT Vincencie, nar. 1894 v Čuníně čp. 26 (přesné datum v zápise špatně čitelné). Otec: Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiříh
+2 CONC o Pospíšila, domkáře v Čuníně). Matka: Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě). Pozdější přípisek
+2 CONC : Sezdána 1. 10. 1917 v Konici s Methodějem Veselým (?).
+1 OBJE @MS11@
+0 @S12@ SOUR
+1 TITL Křest Růženy Polákové (sestra Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1893–1905, kniha č. 9083 (sv. XVIII), oddíly po obcích; I-N 1893–1905; 18. 12. 1896; snímek 236
+1 TEXT Růžena, nar. 18. 12. 1896 v Čuníně čp. 26, pokřtěna 19. 12.. Sezdána 29. 8. 1921 v Konici s Bedřichem Kuplou (?).
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02330.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_ruzena_polakova_1896/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Růžena, nar. 18. 12. 1896 v Čuníně čp. 26, pokřtěna 19. 12.
+2 CONT [Otec] Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domkáře v Čuníně)
+2 CONT [Matka] Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě)
+2 CONT [Přípisek] Sezdána 29. 8. 1921 v Konici s Bedřichem Kuplou (?).
+2 CONT Český překlad:
+2 CONT Růžena, nar. 18. 12. 1896 v Čuníně čp. 26, pokřtěna 19. 12.. Otec: Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domk
+2 CONC áře v Čuníně). Matka: Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě). Pozdější přípisek: Sezdána 29. 8. 1
+2 CONC 921 v Konici s Bedřichem Kuplou (?).
+1 OBJE @MS12@
+0 @S13@ SOUR
+1 TITL Křest Arnošta Poláka (bratr Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1893–1905, kniha č. 9083 (sv. XVIII), oddíly po obcích; I-N 1893–1905; 12. 1. 1899; snímek 242
+1 TEXT Arnošt, nar. 12. 1. 1899 v Čuníně čp. 26, pokřtěn 14. 1.. Zemřel 13. 2. 1899.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02390.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_arnost_polak_1899/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Arnošt, nar. 12. 1. 1899 v Čuníně čp. 26, pokřtěn 14. 1.
+2 CONT [Otec] Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domkáře v Čuníně)
+2 CONT [Matka] Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě)
+2 CONT [Přípisek] Zemřel 13. 2. 1899.
+2 CONT Český překlad:
+2 CONT Arnošt, nar. 12. 1. 1899 v Čuníně čp. 26, pokřtěn 14. 1.. Otec: Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domkář
+2 CONC e v Čuníně). Matka: Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě). Pozdější přípisek: Zemřel 13. 2. 1899.
+1 OBJE @MS13@
+0 @S14@ SOUR
+1 TITL Křest Josefa Poláka (bratr Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1893–1905, kniha č. 9083 (sv. XVIII), oddíly po obcích; I-N 1893–1905; 12. 7. 1900; snímek 248
+1 TEXT Josef, nar. 12. 7. 1900 v Čuníně čp. 26, pokřtěn 14. 7.. Zemřel 23. 10. 1900.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02450.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_josef_polak_1900/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Josef, nar. 12. 7. 1900 v Čuníně čp. 26, pokřtěn 14. 7.
+2 CONT [Otec] Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domkáře v Čuníně)
+2 CONT [Matka] Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě)
+2 CONT [Přípisek] Zemřel 23. 10. 1900.
+2 CONT Český překlad:
+2 CONT Josef, nar. 12. 7. 1900 v Čuníně čp. 26, pokřtěn 14. 7.. Otec: Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domkáře 
+2 CONC v Čuníně). Matka: Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě). Pozdější přípisek: Zemřel 23. 10. 1900.
+1 OBJE @MS14@
+0 @S15@ SOUR
+1 TITL Křest Bohumily Polákové (sestra Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1893–1905, kniha č. 9083 (sv. XVIII), oddíly po obcích; I-N 1893–1905; 4. 10. 1901; snímek 253
+1 TEXT Bohumila, nar. 4. 10. 1901 v Čuníně čp. 26, pokřtěna 5. 10.. Zemřela 14. 1. 1959 v Senici na Hané.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02500.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_bohumila_polakova_1901/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Bohumila, nar. 4. 10. 1901 v Čuníně čp. 26, pokřtěna 5. 10.
+2 CONT [Otec] Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domkáře v Čuníně)
+2 CONT [Matka] Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě)
+2 CONT [Přípisek] Zemřela 14. 1. 1959 v Senici na Hané.
+2 CONT Český překlad:
+2 CONT Bohumila, nar. 4. 10. 1901 v Čuníně čp. 26, pokřtěna 5. 10.. Otec: Jan Polák, zahradník v Čuníně čp. 26, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové (dcery Jiřího Pospíšila, domká
+2 CONC ře v Čuníně). Matka: Františka, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové (dcery Františka Bureše, podruha/zahradníka ve Stínavě). Pozdější přípisek: Zemřela 14. 1. 195
+2 CONC 9 v Senici na Hané.
+1 OBJE @MS15@
+0 @S16@ SOUR
+1 TITL Křest Josefa Poláka (bratr Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1893–1905, kniha č. 9083 (sv. XVIII), oddíly po obcích; I-N 1893–1905; 5. 1. 1904; snímek 260
+1 TEXT Josef, nar. 5. 1. 1904 v Čuníně čp. 26, pokřtěn 6. 1.. Zemřel 19. 2. 1905.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02570.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_josef_polak_1904/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Josef, nar. 5. 1. 1904 v Čuníně čp. 26, pokřtěn 6. 1.
+2 CONT [Otec] Jan Polák, nar. 6. 6. 1865, zahradník v Čuníně, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové
+2 CONT [Matka] Františka, nar. 19. 11. 1870, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové; sezdáni 9. 2. 1892
+2 CONT [Přípisek] Zemřel 19. 2. 1905.
+2 CONT Český překlad:
+2 CONT Josef, nar. 5. 1. 1904 v Čuníně čp. 26, pokřtěn 6. 1.. Otec: Jan Polák, nar. 6. 6. 1865, zahradník v Čuníně, syn Jana Poláka, domkáře v Čuníně, a Anny roz. Pospíšilové. Matka: Františka, nar. 19. 11.
+2 CONC  1870, dcera Antonína Bavlnky, domkáře ve Stínavě, a Františky roz. Burešové; sezdáni 9. 2. 1892. Pozdější přípisek: Zemřel 19. 2. 1905.
+1 OBJE @MS16@
+0 @S17@ SOUR
+1 TITL Křest Marie Polákové (sestra Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1906–1922, kniha č. 9084 (oddíly po obcích; Čunín 1906–6/1922 sn. 259–306); 9. 3. 1908; snímek 266
+1 TEXT Marie, nar. 9. 3. 1908 v Čuníně čp. 26, pokřtěna 12. 3.. Zemřela 28. 1. 1912.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/12085?image=216000010-000253-003375-000000-009084-000000-00-B11974-02750.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_marie_polakova_1908/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Marie, nar. 9. 3. 1908 v Čuníně čp. 26, pokřtěna 12. 3.
+2 CONT [Otec] Jan Polák, nar. 6. 6. 1865, zahradník v Čuníně
+2 CONT [Matka] Františka, nar. 19. 11. 1870, dcera Antonína Bavlnky ze Stínavy
+2 CONT [Přípisek] Zemřela 28. 1. 1912.
+2 CONT Český překlad:
+2 CONT Marie, nar. 9. 3. 1908 v Čuníně čp. 26, pokřtěna 12. 3.. Otec: Jan Polák, nar. 6. 6. 1865, zahradník v Čuníně. Matka: Františka, nar. 19. 11. 1870, dcera Antonína Bavlnky ze Stínavy. Pozdější přípisek:
+2 CONC  Zemřela 28. 1. 1912.
+1 OBJE @MS17@
+0 @S18@ SOUR
+1 TITL Křest Františky Polákové (sestra Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1906–1922, kniha č. 9084 (oddíly po obcích; Čunín 1906–6/1922 sn. 259–306); 10. 3. 1912; snímek 280
+1 TEXT Františka, nar. 10. 3. 1912 v Čuníně čp. 26, pokřtěna 11. 3.. Oddána 23. 2. 1936 (ve Strážisku?).
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/12085?image=216000010-000253-003375-000000-009084-000000-00-B11974-02890.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_frantiska_polakova_1912/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Františka, nar. 10. 3. 1912 v Čuníně čp. 26, pokřtěna 11. 3.
+2 CONT [Otec] Jan Polák, nar. 6. 6. 1865, zahradník v Čuníně
+2 CONT [Matka] Františka, nar. 19. 11. 1870, dcera Antonína Bavlnky ze Stínavy
+2 CONT [Přípisek] Oddána 23. 2. 1936 (ve Strážisku?).
+2 CONT Český překlad:
+2 CONT Františka, nar. 10. 3. 1912 v Čuníně čp. 26, pokřtěna 11. 3.. Otec: Jan Polák, nar. 6. 6. 1865, zahradník v Čuníně. Matka: Františka, nar. 19. 11. 1870, dcera Antonína Bavlnky ze Stínavy. Pozdější pří
+2 CONC pisek: Oddána 23. 2. 1936 (ve Strážisku?).
+1 OBJE @MS18@
+0 @S19@ SOUR
+1 TITL Křest Antonína Poláka (bratr Františka)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1906–1922, kniha č. 9084 (oddíly po obcích; Čunín 1906–6/1922 sn. 259–306); 26. 2. 1914; snímek 285
+1 TEXT Antonín, nar. 26. 2. 1914 v Čuníně čp. 26, pokřtěn 1. 3.. Oddán 18. 10. 1941 v Konici s Annou Hýblovou.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/12085?image=216000010-000253-003375-000000-009084-000000-00-B11974-02940.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_antonin_polak_1914/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Antonín, nar. 26. 2. 1914 v Čuníně čp. 26, pokřtěn 1. 3.
+2 CONT [Otec] Jan Polák, nar. 6. 6. 1865, zahradník v Čuníně
+2 CONT [Matka] Františka, nar. 19. 11. 1870, dcera Antonína Bavlnky ze Stínavy
+2 CONT [Přípisek] Oddán 18. 10. 1941 v Konici s Annou Hýblovou.
+2 CONT Český překlad:
+2 CONT Antonín, nar. 26. 2. 1914 v Čuníně čp. 26, pokřtěn 1. 3.. Otec: Jan Polák, nar. 6. 6. 1865, zahradník v Čuníně. Matka: Františka, nar. 19. 11. 1870, dcera Antonína Bavlnky ze Stínavy. Pozdější přípise
+2 CONC k: Oddán 18. 10. 1941 v Konici s Annou Hýblovou.
+1 OBJE @MS19@
+0 @S20@ SOUR
+1 TITL Křest Boženy Kaštánkové (sestra Václava)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Zvole
+1 PUBL N Zvole 1844–1924, kniha č. 16569 (oddíly po obcích; Dolní Rožínka 1910–1924 sn. 207–223); 7. 10. 1905; snímek 131
+1 TEXT Božena, nar. 7. 10. 1905 v Dolní Rožínce čp. 26, pokřtěna 8. 10.; kmotra Ludmila Vykutilová, svobodná nádenice v Bystřici. Biřmována 1. 6. 1922 v Rozsochách; přípisek „Bystřice … 1934“.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-01310.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/rozinka_krest_bozena_kastankova_1905/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Božena, nar. 7. 10. 1905 v Dolní Rožínce čp. 26, pokřtěna 8. 10.; kmotra Ludmila Vykutilová, svobodná nádenice v Bystřici
+2 CONT [Otec] Ignác Kaštánek, nádeník/kočí v Dolní Rožínce, syn Ignáce Kaštánka, podruha v Domaníně, a Františky roz. Hradešínské; nar. 26. 4. 1878
+2 CONT [Matka] Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bystřici 4. 5. 1903
+2 CONT [Přípisek] Biřmována 1. 6. 1922 v Rozsochách; přípisek „Bystřice … 1934“.
+2 CONT Český překlad:
+2 CONT Božena, nar. 7. 10. 1905 v Dolní Rožínce čp. 26, pokřtěna 8. 10.; kmotra Ludmila Vykutilová, svobodná nádenice v Bystřici. Otec: Ignác Kaštánek, nádeník/kočí v Dolní Rožínce, syn Ignáce Kaštánka, 
+2 CONC podruha v Domaníně, a Františky roz. Hradešínské; nar. 26. 4. 1878. Matka: Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bystřici 4. 5. 1903.
+2 CONC  Pozdější přípisek: Biřmována 1. 6. 1922 v Rozsochách; přípisek „Bystřice … 1934“.
+1 OBJE @MS20@
+0 @S21@ SOUR
+1 TITL Křest Josefa Vincence Kaštánka (bratr Václava)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Zvole
+1 PUBL N Zvole 1844–1924, kniha č. 16569 (oddíly po obcích; Dolní Rožínka 1910–1924 sn. 207–223); 28. 6. 1908; snímek 135
+1 TEXT Josef Vincenc, nar. 28. 6. 1908 v Dolní Rožínce čp. 26, pokřtěn 29. 6.; kmotři Vincenc a Anna Koutníkovi, topič v lihovaru v Dolní Rožínce. Zemřel 1909.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-01350.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/rozinka_krest_josef_vincenc_kastanek_1908/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Josef Vincenc, nar. 28. 6. 1908 v Dolní Rožínce čp. 26, pokřtěn 29. 6.; kmotři Vincenc a Anna Koutníkovi, topič v lihovaru v Dolní Rožínce
+2 CONT [Otec] Ignác Kaštánek, nádeník/kočí v Dolní Rožínce, syn Ignáce Kaštánka, podruha v Domaníně, a Františky roz. Hradešínské; nar. 26. 4. 1878
+2 CONT [Matka] Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bystřici 4. 5. 1903
+2 CONT [Přípisek] Zemřel 1909.
+2 CONT Český překlad:
+2 CONT Josef Vincenc, nar. 28. 6. 1908 v Dolní Rožínce čp. 26, pokřtěn 29. 6.; kmotři Vincenc a Anna Koutníkovi, topič v lihovaru v Dolní Rožínce. Otec: Ignác Kaštánek, nádeník/kočí v Dolní Rožínce, syn Ig
+2 CONC náce Kaštánka, podruha v Domaníně, a Františky roz. Hradešínské; nar. 26. 4. 1878. Matka: Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bys
+2 CONC třici 4. 5. 1903. Pozdější přípisek: Zemřel 1909.
+1 OBJE @MS21@
+0 @S22@ SOUR
+1 TITL Křest Ignáce (Hynka) Kaštánka (bratr Václava)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Zvole
+1 PUBL N Zvole 1844–1924, kniha č. 16569 (oddíly po obcích; Dolní Rožínka 1910–1924 sn. 207–223); 25. 2. 1910; snímek 207
+1 TEXT Ignác, nar. 25. 2. 1910 v Zámecké (Dolní) Rožínce čp. 26; kmotři Vincenc a Anna Koutníkovi. Biřmován 1. 6. 1922 v Rozsochách; oddán 22. 9. 1935 (Marie Pl…ová?).
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02070.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/rozinka_krest_ignac_kastanek_1910/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Ignác, nar. 25. 2. 1910 v Zámecké (Dolní) Rožínce čp. 26; kmotři Vincenc a Anna Koutníkovi
+2 CONT [Otec] Ignác Kaštánek, nádeník/kočí v Dolní Rožínce, syn Ignáce Kaštánka, podruha v Domaníně, a Františky roz. Hradešínské; nar. 26. 4. 1878
+2 CONT [Matka] Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bystřici 4. 5. 1903
+2 CONT [Přípisek] Biřmován 1. 6. 1922 v Rozsochách; oddán 22. 9. 1935 (Marie Pl…ová?).
+2 CONT Český překlad:
+2 CONT Ignác, nar. 25. 2. 1910 v Zámecké (Dolní) Rožínce čp. 26; kmotři Vincenc a Anna Koutníkovi. Otec: Ignác Kaštánek, nádeník/kočí v Dolní Rožínce, syn Ignáce Kaštánka, podruha v Domaníně, a Františk
+2 CONC y roz. Hradešínské; nar. 26. 4. 1878. Matka: Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bystřici 4. 5. 1903. Pozdější přípisek: Biřmov
+2 CONC án 1. 6. 1922 v Rozsochách; oddán 22. 9. 1935 (Marie Pl…ová?).
+1 OBJE @MS22@
+0 @S23@ SOUR
+1 TITL Křest Huberta Kaštánka (bratr Václava)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Zvole
+1 PUBL N Zvole 1844–1924, kniha č. 16569 (oddíly po obcích; Dolní Rožínka 1910–1924 sn. 207–223); 28. 10. 1912; snímek 212
+1 TEXT Hubert, nar. 28. 10. 1912 v Dolní Rožínce čp. 26, pokřtěn 3. 11.; kmotři Vincenc a Anna Koutníkovi. Oddán 24. 10. 1935 s Helenou Vítkovou (?).
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02120.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/rozinka_krest_hubert_kastanek_1912/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Hubert, nar. 28. 10. 1912 v Dolní Rožínce čp. 26, pokřtěn 3. 11.; kmotři Vincenc a Anna Koutníkovi
+2 CONT [Otec] Ignác Kaštánek, panský kočí v Dolní Rožínce, syn Ignáce Kaštánka, podruha v Domaníně, a Františky roz. Hradešínské; nar. 26. 4. 1878
+2 CONT [Matka] Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bystřici 4. 5. 1903
+2 CONT [Přípisek] Oddán 24. 10. 1935 s Helenou Vítkovou (?).
+2 CONT Český překlad:
+2 CONT Hubert, nar. 28. 10. 1912 v Dolní Rožínce čp. 26, pokřtěn 3. 11.; kmotři Vincenc a Anna Koutníkovi. Otec: Ignác Kaštánek, panský kočí v Dolní Rožínce, syn Ignáce Kaštánka, podruha v Domaníně, a Fran
+2 CONC tišky roz. Hradešínské; nar. 26. 4. 1878. Matka: Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bystřici 4. 5. 1903. Pozdější přípisek: Odd
+2 CONC án 24. 10. 1935 s Helenou Vítkovou (?).
+1 OBJE @MS23@
+0 @S24@ SOUR
+1 TITL Křest Josefa Kaštánka (bratr Václava)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Zvole
+1 PUBL N Zvole 1844–1924, kniha č. 16569 (oddíly po obcích; Dolní Rožínka 1910–1924 sn. 207–223); 3. 3. 1919; snímek 218
+1 TEXT Josef, nar. 3. 3. 1919 v Dolní Rožínce čp. 26, pokřtěn 9. 3.; kmotři Vincenc a Anna Koutníkovi. Biřmován 17. 6. 1929 v Rozsochách; oddán v Bystřici 24. 9. 1939 se Štěpánkou Škudovou (?).
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02180.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/rozinka_krest_josef_kastanek_1919/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Josef, nar. 3. 3. 1919 v Dolní Rožínce čp. 26, pokřtěn 9. 3.; kmotři Vincenc a Anna Koutníkovi
+2 CONT [Otec] Ignác Kaštánek, kočí v Dolní Rožínce, syn Ignáce Kaštánka, podruha v Domaníně, a Františky roz. Hradešínské; nar. 26. 4. 1878
+2 CONT [Matka] Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bystřici 4. 5. 1903
+2 CONT [Přípisek] Biřmován 17. 6. 1929 v Rozsochách; oddán v Bystřici 24. 9. 1939 se Štěpánkou Škudovou (?).
+2 CONT Český překlad:
+2 CONT Josef, nar. 3. 3. 1919 v Dolní Rožínce čp. 26, pokřtěn 9. 3.; kmotři Vincenc a Anna Koutníkovi. Otec: Ignác Kaštánek, kočí v Dolní Rožínce, syn Ignáce Kaštánka, podruha v Domaníně, a Františky roz. 
+2 CONC Hradešínské; nar. 26. 4. 1878. Matka: Josefa, dcera Františka Vykutila, nádeníka v Bystřici, a Kateřiny roz. Kroutilové; nar. 25. 12. 1880; oddáni v Bystřici 4. 5. 1903. Pozdější přípisek: Biřmován 17. 
+2 CONC 6. 1929 v Rozsochách; oddán v Bystřici 24. 9. 1939 se Štěpánkou Škudovou (?).
+1 OBJE @MS24@
+0 @S25@ SOUR
+1 TITL Narození Františka Poláka – pozdějšího legionáře
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1886–1892, kniha č. 9082 (sv. XVII), oddíl Čunín; 4. 7. 1890; snímek 134
+1 TEXT František se narodil 4. července 1890 v Čuníně čp. 13, pokřtěn 7. července. Otec František Polák, podruh v Čuníně, syn Jana Poláka a Anny z rodu Jiřího Pospíšila. Matka Marie, dcera Josefa Trnky z Čun
+2 CONC ína. Shoda jména, přesného dne a obce narození s legionářským záznamem ČsOL č. 83965. Příloha je snímek obrazovky digitální badatelny, nikoli původní JP2.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5708?image=216000010-000253-003375-000000-009082-000000-00-B03146-01340.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_frantisek_polak_1890_legionar/
+1 TEXT Přepis originálu:
+2 CONT Výběrový přepis, jen bezpečně čitelné údaje:
+2 CONT [Narození / křest] 1890 červenec 4 / 7
+2 CONT [Dům] 13
+2 CONT [Jméno] František
+2 CONT [Otec] František Polák, podruh v Čuníně, syn Jana Poláka podruha v Čuníně a jeho ženy Anny z rodu Jiřího Pospíšila domkáře v Čuníně.
+2 CONT [Matka – začátek] Marie, dcera Josefa Trnky domkáře v Čuníně […]
+2 CONT Nejde o úplný diplomatický přepis všech sloupců.
+2 CONT Český překlad:
+2 CONT Narození 4. 7. 1890 a křest 7. 7. 1890 v Čuníně čp. 13. Rodiče František Polák a Marie Trnková. Prarodiče z otcovy strany Jan Polák a Anna Pospíšilová spojují legionáře s již vedenou polákovskou větv
+2 CONC í.
+1 OBJE @MS25@
+0 @S26@ SOUR
+1 TITL František Polák (* 1890) v ruských legiích
+1 AUTH Původní pramen
+1 PUBL ; 1915–1920; snímek 
+1 TEXT ČsOL, záznam 83965, podle údajů VÚA: narozen 4. 7. 1890 Čunín, krejčí, domovská obec Prostějov. Příslušník rakousko-uherského 93. pěšího pluku, zajat 2. 3. 1915 v Karpatech. Do ruských legií zařazen
+2 CONC  24. 5. 1917 k 1. střeleckému pluku; demobilizován 8. 7. 1920 jako vojín. Příbuznost určuje samostatně citovaný křest, nikoli shoda příjmení.
+1 NOTE Archivní odkaz: https://www.csol.cz/legionar/83965/
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/legie_frantisek_polak_1890/
+0 @S27@ SOUR
+1 TITL Sňatek rodičů legionáře: František Polák a Marie Trnková
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL O Konice 1873–1892, kniha 9104, oddíl Čunín; 17. 10. 1887; snímek 76
+1 TEXT František Polák, domkář v Čuníně čp. 25, 27 let, syn Jana Poláka a Anny z rodu Jiřího Pospíšila, se oženil s Marií, 25 let a 7 měsíců, dcerou Josefa Trnky, domkáře v Čuníně, a Anny. Nevěsta z Čun
+2 CONC ína čp. 30. Rodiče budoucího legionáře Františka narozeného 4. 7. 1890; jejich totožnost a společné prarodiče spojuje i jeho křest. Další podrobnosti rodného příjmení matky nevěsty zůstávají k ově
+2 CONC ření.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5735
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_snatek_frantisek_polak_marie_trnkova_1887/
+1 TEXT Přepis originálu:
+2 CONT Výběrový přepis:
+2 CONT [Datum] 1887 Říjen 17
+2 CONT [Ženich] František Polák […] syn Jana Poláka Domkáře v Čuníně a jeho manželky Anny z rodu Jiří Pospíšil Domkář v Čuníně
+2 CONT [Věk ženicha] 27
+2 CONT [Nevěsta] Marie […] dcera Josefa Trnky domkáře v Čuníně a jeho manželky Anny […]
+2 CONT [Věk nevěsty] 25 7/12
+2 CONT Přepis nezahrnuje všechny sloupce; nejisté rodné příjmení Anny nebylo doplněno.
+2 CONT Český překlad:
+2 CONT 17. října 1887 se vzali František Polák (27 let) a Marie Trnková (25 let a 7 měsíců). Ženichovi rodiče byli Jan Polák a Anna Pospíšilová. Nevěstin otec Josef Trnka, matka Anna. Marie se podle věku narodil
+2 CONC a přibližně roku 1862; přesné datum zatím nemáme.
+1 OBJE @MS27@
+0 @S28@ SOUR
+1 TITL Křest Jana Poláka
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1834–1846, kniha č. 9075 (oddíly po obcích); 10. 8. 1838; snímek 133
+1 TEXT Johann Lorenz (Jan Vavřinec), nar. 10. 8. 1838 v Křemenci čp. 32, pokřtěn 11. 8.; otec Martin Polák, zahradník tamtéž; matka Marianna, dcera Jiřího Tilšera, familianta ve Veselé (Fröhlichsdorf). Kmotři Jos
+2 CONC ef Tilšer, familiant ve Veselé, a Eleonora jeho manželka. Přípisek: † 9. 3. 1915.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5701?image=216000010-000253-003375-000000-009075-000000-AP-B11457-01330.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/kremenec_krest_jan_polak_1838/
+1 TEXT Přepis originálu:
+2 CONT [Zeit der Geburt und Taufe] 1838 August 10–11; Jos. Mikulka (?), Coop.
+2 CONT [Haus Nro.] 32
+2 CONT [Namen des Täuflings] Johann Lorenz [přípisek: † 9/III 1915]
+2 CONT [Hebamme] geb. Hebamme Jos. Svoboda (?) aus Konitz No. 85
+2 CONT [Vater] Martin Polach, Gärtler allda
+2 CONT [Mutter] Marianna, Tochter des Georg Tilšer, Familiant in Fröhlichsdorf
+2 CONT [Pathen] Jos. Tilšer, Familiant in Fröhlichsdorf; Eleonora, sein Eheweib
+2 CONT Český překlad:
+2 CONT Jan Vavřinec se narodil 10. srpna 1838 v Křemenci čp. 32 a druhý den byl pokřtěn. Otec: Martin Polák, zahradník v Křemenci. Matka: Marianna, dcera Jiřího Tilšera, familianta ve Veselé. Kmotři: Josef Tilšer
+2 CONC , familiant ve Veselé, a jeho manželka Eleonora. Pozdější přípisek: zemřel 9. 3. 1915.
+1 OBJE @MS28@
+0 @S29@ SOUR
+1 TITL Sňatek Martina Poláka a Marianny Tilšerové
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL O Konice 1817–1838, kniha č. 9101 (oddíly po obcích); 18. 10. 1837; snímek 125
+1 TEXT Martin Polák (21 l.), syn zemřelého Jiřího Poláka, pololáníka v Křemenci, a Marianny roz. Paulíkové, Křemenec čp. 7 × Marianna (25 l.), dcera Jiřího Tilšera, familianta ve Veselé, a Barbory roz. Hirthov
+2 CONC é (?), Veselá čp. 10. Svědci Josef Polák, sedlák v Křemenci, a Josef Tilšer, familiant ve Veselé. Ženich nezletilý – svolení vrchního poručenského úřadu z 22. 9. 1837.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5720?image=216000010-000253-003375-000000-009101-000000-00-B04005-01260.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/kremenec_snatek_martin_polak_marianna_tilserova_1837/
+1 TEXT Přepis originálu:
+2 CONT [Jahr, Monat und Tag der Trauung] 1837 October 18
+2 CONT [Haus Nro.] 7
+2 CONT [Bräutigam] Martin, Sohn nach Georg Polach, Halblehner in Krzemenetz, und der Marianna geborne Paulich – kath., 21, ledig
+2 CONT [Braut] Marianna, Tochter des Georg Tilšer, Familianten in Fröhlichsdorf, und der Barbara geb. Hirth (?), No. 10 – kath., 25, ledig
+2 CONT [Beistände] Joseph Polach, Bauer in Krzemenetz; Jos. Tilšer, Familiant in Fröhlichsdorf
+2 CONT [Hat getraut] Johann Pazz (?), Pfarrer
+2 CONT Mit obervormundschaftlicher Bewilligung dto 22. Sept. 1837
+2 CONT Český překlad:
+2 CONT 18. října 1837 se v Konici oddali Martin (21 let), syn zemřelého Jiřího Poláka, pololáníka v Křemenci čp. 7, a Marianny roz. Paulíkové, a Marianna (25 let), dcera Jiřího Tilšera, familianta ve Veselé čp
+2 CONC . 10, a Barbory roz. Hirthové (?). Svědci: Josef Polák, sedlák v Křemenci, a Josef Tilšer, familiant ve Veselé. Ženich byl nezletilý, proto bylo třeba svolení vrchního poručenského úřadu (22. 9. 1837).
+1 OBJE @MS29@
+0 @S30@ SOUR
+1 TITL Křest Martina Poláka
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1804–1817, kniha č. 9072 (oddíly po obcích); 25. 10. 1816; snímek 188
+1 TEXT Martin, nar. a pokřtěn 25. 10. 1816 v Křemenci čp. 7; otec Jiří Polák, sedlák; matka Marianna, dcera Václava Paulíka, sedláka z Čunína. Kmotři Anton Kubín (?), písař z Runářova, a Eleonora jeho manžel
+2 CONC ka; křtil Martin Pospíšil, kaplan.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5698?image=216000010-000253-003375-000000-009072-000000-00-B03997-01890.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/kremenec_krest_martin_polak_1816/
+1 TEXT Přepis originálu:
+2 CONT [Jahr, Monat und Tag der Geburt und Tauf] 1816 October 25 / 25
+2 CONT [Hausnummer] 7
+2 CONT [Namen des Täuflings] Martin – Knab, ehelich
+2 CONT [Vater] Georg Pollach, Bauer
+2 CONT [Mutter] Marianne, Tochter des Wenzel Paulich, Bauer von Čunin
+2 CONT [Pathen] Anton Kubin (?), Schreiber von Runarz; Eleonora, dessen Eheweib
+2 CONT [Hat getauft] Martin Pospišil, Kaplan
+2 CONT [Hebamme] geb. Hebamme Rosina … von Konitz No. 168
+2 CONT Český překlad:
+2 CONT Martin se narodil a byl pokřtěn 25. října 1816 v Křemenci čp. 7. Otec: Jiří Polák, sedlák. Matka: Marianna, dcera Václava Paulíka, sedláka z Čunína. Kmotři: Antonín Kubín (?), písař z Runářova, a je
+2 CONC ho manželka Eleonora. Křtil kaplan Martin Pospíšil.
+1 OBJE @MS30@
+0 @S31@ SOUR
+1 TITL Sňatek Jiřího Poláka a Marianny Paulíkové
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL O Konice 1804–1817, kniha č. 9100 (Křemenec sn. 44–47); 28. 1. 1812; snímek 45
+1 TEXT Jiří (26 l.), syn zemřelého Josefa Poláka, sedláka z Křemence, Křemenec čp. 7 × Marianna (22 l.), dcera Václava Paulíka, sedláka z Čunína čp. 9. Svědci Jiří Koplar (?), sedlák, a Tomáš …, čtvrtl
+2 CONC áník, oba z Křemence; oddával Josef Schubert, kaplan.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5718?image=216000010-000253-003375-000000-009100-000000-00-B02640-00450.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/kremenec_snatek_jiri_polak_marianna_paulikova_1812/
+1 TEXT Přepis originálu:
+2 CONT [Jahr 1812, Januarius] 28ten Jänner
+2 CONT [Hausnummer] 7
+2 CONT [Bräutigam] Georg, Sohn nach dem † Joseph Polach, Bauer von Křemenetz – kath., 26, unverehelicht
+2 CONT [Braut] Marianne, Tochter des Wenzel Paulich, Bauer von Čunin No. 9 – kath., 22, unverehelicht
+2 CONT [Beistände] Georg Koplar (?), Bauer; Thomas Schmid (?), Viertler, beyde von Kremenetz
+2 CONT [Hat getraut] Joseph Schubert, Caplan
+2 CONT Hos rite catholice copulatos esse testatur …
+2 CONT Český překlad:
+2 CONT 28. ledna 1812 byli v Konici oddáni Jiří (26 let), syn zemřelého Josefa Poláka, sedláka v Křemenci (čp. 7), a Marianna (22 let), dcera Václava Paulíka, sedláka v Čuníně čp. 9. Svědci: Jiří Koplar (?), 
+2 CONC sedlák, a Tomáš … , čtvrtláník, oba z Křemence.
+1 OBJE @MS31@
+0 @S32@ SOUR
+1 TITL Křest Jiřího Poláka
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1786–1804, kniha č. 9071 (Křemenec od sn. 38); 20. 4. 1786; snímek 38
+1 TEXT Jiří (Georg), pokřtěn 20. 4. 1786 v Konici, Křemenec čp. 7 – první zápis nové knihy „Geburtsbuch von dem Dorf Křemenetz“; otec Josef Polák, sedlák (Bauer), matka Anna Poláková. Kmotři František Krü
+2 CONC ber, kožešník z Konice, a Magdalena, jeho dcera; křtil Karel Novák, kooperátor.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5697?image=216000010-000253-003375-000000-009071-000000-00-B03996-00380.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/kremenec_krest_jiri_polak_1786/
+1 TEXT Přepis originálu:
+2 CONT Tom. II Geburtsbuch von dem Dorf Křemenetz
+2 CONT [Anno 1786 Aprilis] 20ten hat P. Karl Nowak Cooperator getauft
+2 CONT [Haus No.] 7
+2 CONT [Namen] Georg Polach – kath., Knab, ehelich
+2 CONT [Vater] Joseph Polach, Bauer
+2 CONT [Mutter] Anna Polachin
+2 CONT [Pathen] Franz Krüber (?) +, Magdalena seine Tochter +
+2 CONT [Stand] Kürschner (?) v Konitz
+2 CONT Český překlad:
+2 CONT 20. dubna 1786 pokřtil kooperátor Karel Novák Jiřího, syna Josefa Poláka, sedláka v Křemenci čp. 7, a jeho manželky Anny. Kmotři: František Krüber (?), kožešník z Konice, a jeho dcera Magdalena. Matka je 
+2 CONC zapsána jen jako „Polachin“ – rodné příjmení tehdejší matriky neuváděly.
+1 OBJE @MS32@
+0 @S33@ SOUR
+1 TITL Sňatek Josefa Poláka a Anny Popelkové
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL O Konice 1771–1785, kniha č. 9098 (Křemenec sn. 6), latinsky; 4. 7. 1779; snímek 6
+1 TEXT 4. 7. 1779 v Konici: mládenec Josef Polák, syn Josefa Poláka z Křemence, × panna Anna, dcera Pavla Popelky z Budětska; Křemenec čp. 7. Svědci Libor Popelka, rychtář (consul), a Josef Schnoll, podruh, oba z Kř
+2 CONC emence; oddával Karel Novák, kooperátor.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5711?image=216000010-000253-003375-000000-009098-000000-00-B04004-00060.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/kremenec_snatek_josef_polak_anna_popelkova_1779/
+1 TEXT Přepis originálu:
+2 CONT [Pagus Křzemenetz] Anno 1779 In Julio
+2 CONT [Dies] 4. [Copulans] Idem (Carolus Novak, Cooperator)
+2 CONT [Sponsi] Honestus Adolescens Polach Josephus filius Josephi Křzemenecio, cum honesta Virgine Anna filia Popelka Pauli Budiecio.
+2 CONT [Testes] Popelka Liborius Consul, et Schnoll Josephus Inquilinus ambo Křzemenecio.
+2 CONT [Religio] Cathol. [Locus] Křzemenecio [Num. Domus] 7.
+2 CONT Český překlad:
+2 CONT 4. července 1779 oddal kooperátor Karel Novák počestného mládence Josefa Poláka, syna Josefa Poláka z Křemence, a počestnou pannu Annu, dceru Pavla Popelky z Budětska. Svědci: Libor Popelka, rychtář, a Jose
+2 CONC f Schnoll, podruh, oba z Křemence. Dům č. 7 v Křemenci.
+1 OBJE @MS33@
+0 @S34@ SOUR
+1 TITL Jan Polák, syn Eduarda – druhý Jan ročníku 1893
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1893–1905, kniha č. 9083 (sv. XVIII), oddíly po obcích; I-N 1893–1905; 16. 4. 1893; snímek 223
+1 TEXT Jan, narozen 16. 4. 1893, pokřtěn 17. 4., Čunín čp. 71. Otec Eduard Polák, podruh v Čuníně, syn Jana Poláka a Anny z rodu Jiřího Pospíšila. Matka Filomena. Tím doložena příbuznost Eduardovy větve. Nen
+2 CONC í ztotožněn s padlým z pomníku. Příloha je výřez snímku obrazovky badatelny, nikoli původní JP2.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02200.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_jan_polak_1893_eduard/
+1 TEXT Přepis originálu:
+2 CONT Výběrový přepis:
+2 CONT [Datum narození / křtu] 1893 dubna 16 / 17
+2 CONT [Dům] 71
+2 CONT [Jméno] Jan
+2 CONT [Otec] Eduard Polák podruh v Čuníně, syn Jana Poláka domkáře v Čuníně a jeho manželky Anny z rodu Jiřího Pospíšila domkáře v Čuníně.
+2 CONT [Matka – začátek] Filomena […]
+2 CONT Další příjmení v mateřské části zde nepřepisována; nejde o úplný diplomatický přepis.
+2 CONT Český překlad:
+2 CONT Jan se narodil 16. dubna 1893 v Čuníně čp. 71 a druhý den byl pokřtěn. Otec Eduard Polák byl synem Jana Poláka a Anny Pospíšilové, matka se jmenovala Filomena. Jde o dalšího doloženého vnuka společných 
+2 CONC předků; případné válečné úmrtí tohoto Jana není potvrzeno.
+1 OBJE @MS34@
+0 @S35@ SOUR
+1 TITL Jan Polák a Helena Kmentová – doložená vojenská služba
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Přemyslovice
+1 PUBL O Přemyslovice 1895–1947, kniha 9681; 31. 8. 1915; snímek 77
+1 TEXT Přemyslovice, tištěná str. 74. Jan Polák *17. 1. 1893, syn Jana a Františky Bavlnkové, tovární pomocník, toho času vojín c. k. zeměbraneckého pluku číslo 13, na dovolené v Čuníně, se oženil s Helenou
+2 CONC  Kmentovou *10. 2. 1895. Oprava staršího nejistého čtení Kunerová. Odlišná jednotka od padlého FJB 5, totožnost není rozhodnuta. Příloha je výřez snímku obrazovky badatelny.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/12111?image=216000010-000253-003375-000000-009681-000000-00-B12012-00770.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/premyslovice_snatek_jan_polak_helena_kmentova_1915/
+1 TEXT Přepis originálu:
+2 CONT Výběrový přepis:
+2 CONT [Datum] 1915 srpen 31
+2 CONT [Ženich] Polák Jan narozený 17. ledna 1893, tovární pomocník, toho času vojín c. k. zeměbraneckého pluku číslo 13., nyní na dovolené v Čuníně, […] syn Jana Poláka domkáře v Čuníně a jeho manželk
+2 CONC y Františky z rodu Antonína Bavlnky, domkáře ve Stínavě.
+2 CONT [Nevěsta – začátek] Kmentova Helena, narozená 10. února 1895 […]
+2 CONT Přepis nezahrnuje všechny sloupce a doklady.
+2 CONT Český překlad:
+2 CONT 31. srpna 1915 se Jan Polák (*17. 1. 1893), bratr Františka (*1905), oženil s Helenou Kmentovou (*10. 2. 1895). Zápis přímo dokládá jeho vojenskou službu u c. k. zeměbraneckého pluku č. 13. Služba u tohoto p
+2 CONC luku sama nedokazuje totožnost s padlým u FJB 5.
+1 OBJE @MS35@
+0 @S36@ SOUR
+1 TITL Nepřiřazený kandidát: Johann Polak (*1893), FJB 5
+1 AUTH VÚA–VHA, Sbírka vojenských matrik, signatura 1202
+1 PUBL Matrika c. a k. praporu polních myslivců č. 5, 1903–1917; později hraničářský prapor 7; 11. 9. 1915; snímek str. 38
+1 TEXT Vojenská matrika: Johann Polak, ročník 1893, rodiště Čunin, Littau, Mähren, ženatý; FJB 5, 2. setnina. Padl 11. 9. 1915 východně od Janowky u Tarnopolu v Haliči, pohřben na bojišti 12. 9. Jde o kandidáta k
+2 CONC  pomníku, ne o potvrzené úmrtí některého konkrétního Jana v rodokmenu. Chybí přesné narození, rodiče i manželka.
+1 NOTE Archivní odkaz: https://digitalnistudovna.army.cz/view/uuid:bb36cbf6-73e9-40dd-af82-13731a6d8ba3?page=uuid:0e16098c-f379-407e-8978-2306c9431047
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/vojenske_umrti_johann_polak_1893_neprirazeno/
+1 TEXT Přepis originálu:
+2 CONT Výběrový přepis třetího řádku strany 38:
+2 CONT [Útvar] Feldjäger Baon No. 5
+2 CONT [Datum a místo] 11. September 1915; oestlich Janowka b. Tarnopol, Galizien
+2 CONT [Setnina / hodnost] 2. Komp.; Landst. Jg.
+2 CONT [Jméno] Johann Polak
+2 CONT [Rodiště] Čunin; Littau; Mähren
+2 CONT [Vyznání / rok / pohlaví / stav] röm. kath.; 1893; männlich; verheirat.
+2 CONT [Příčina] Gefallen laut Todesfallanzeige
+2 CONT [Pohřeb] 1915 am 12. September am Gefechtsfelde oestlich Janowka
+2 CONT Jde o výběrový přepis; není to přesné přiřazení k osobě v rodokmenu.
+2 CONT Český překlad:
+2 CONT Johann Polak, ročník 1893, z Čunína na Litovelsku na Moravě, ženatý katolík, u 2. setniny 5. praporu polních myslivců. Padl 11. září 1915 východně od Janowky u Tarnopolu v Haliči a byl pohřben následuj
+2 CONC ící den na bojišti. Zápis neuvádí rodiče, manželku ani den a měsíc narození. Přesná totožnost v rodině zůstává neověřena.
+1 NOTE NEPŘIŘAZENO: totožnost s někým z rodiny dosud není doložena. Pramen se necituje jako úmrtí žádné rodinné osoby.
+1 OBJE @MS36@
+0 @S37@ SOUR
+1 TITL Křest Františka Poláka (nejstarší bratr Jana)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1856–1866, kniha č. 9077 (sv. XIII), oddíly po obcích; 18. 10. 1860; snímek 101
+1 TEXT Franz, nar. 18. 10. 1860 v Čuníně čp. 64, pokřtěn 20. 10.; nemanželský syn Anny Pospíšilové. Přípisek: legitimován sňatkem rodičů 18. 11. 1862, otec Jan Polák se k němu přihlásil podpisem.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5703?image=216000010-000253-003375-000000-009077-000000-00-B01739-01010.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_frantisek_polak_1860/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Franz, nar. 18. 10. 1860 v Čuníně čp. 64, pokřtěn 20. 10.; nemanželský syn Anny Pospíšilové. Přípisek: legitimován sňatkem rodičů 18. 11. 1862, otec Jan Polák se k němu přihlásil podpisem.
+2 CONT [Otec] Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé
+2 CONT [Matka] Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének
+2 CONT Český překlad:
+2 CONT Franz, nar. 18. 10. 1860 v Čuníně čp. 64, pokřtěn 20. 10.; nemanželský syn Anny Pospíšilové. Přípisek: legitimován sňatkem rodičů 18. 11. 1862, otec Jan Polák se k němu přihlásil podpisem. Otec: Jan 
+2 CONC Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé. Matka: Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studéne
+2 CONC k.
+1 OBJE @MS37@
+0 @S38@ SOUR
+1 TITL Křest Eduarda Poláka (bratr Jana)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1867–1873, kniha č. 9079 (Čunín sn. 88–129); 16. 11. 1868; snímek 93
+1 TEXT Eduard, nar. 16. 11. 1868 v Čuníně čp. 64, pokřtěn 17. 11. Přípisek: † 25. 7. 1923.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5705?image=216000010-000253-003375-000000-009079-000000-00-B02902-00930.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_eduard_polak_1868/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Eduard, nar. 16. 11. 1868 v Čuníně čp. 64, pokřtěn 17. 11. Přípisek: † 25. 7. 1923.
+2 CONT [Otec] Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé
+2 CONT [Matka] Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének
+2 CONT Český překlad:
+2 CONT Eduard, nar. 16. 11. 1868 v Čuníně čp. 64, pokřtěn 17. 11. Přípisek: † 25. 7. 1923. Otec: Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Ves
+2 CONC elé. Matka: Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének.
+1 OBJE @MS38@
+0 @S39@ SOUR
+1 TITL Křest Josefy Polákové (sestra Jana)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1867–1873, kniha č. 9079 (Čunín sn. 88–129); 19. 3. 1872; snímek 105
+1 TEXT Josefa, nar. 19. 3. 1872 v Čuníně čp. 25. Přípisek: † 1872.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5705?image=216000010-000253-003375-000000-009079-000000-00-B02902-01050.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_josefa_polakova_1872/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Josefa, nar. 19. 3. 1872 v Čuníně čp. 25. Přípisek: † 1872.
+2 CONT [Otec] Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé
+2 CONT [Matka] Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének
+2 CONT Český překlad:
+2 CONT Josefa, nar. 19. 3. 1872 v Čuníně čp. 25. Přípisek: † 1872. Otec: Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé. Matka: Anna, dcera J
+2 CONC iřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének.
+1 OBJE @MS39@
+0 @S40@ SOUR
+1 TITL Křest Marianny Polákové (sestra Jana)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1867–1873, kniha č. 9079 (Čunín sn. 88–129); 24. 12. 1873; snímek 111
+1 TEXT Marianna, nar. a pokřtěna 24. 12. 1873 v Čuníně čp. 25. Přípisek: † (v prosinci 1873).
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5705?image=216000010-000253-003375-000000-009079-000000-00-B02902-01110.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_marianna_polakova_1873/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Marianna, nar. a pokřtěna 24. 12. 1873 v Čuníně čp. 25. Přípisek: † (v prosinci 1873).
+2 CONT [Otec] Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé
+2 CONT [Matka] Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének
+2 CONT Český překlad:
+2 CONT Marianna, nar. a pokřtěna 24. 12. 1873 v Čuníně čp. 25. Přípisek: † (v prosinci 1873). Otec: Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z 
+2 CONC Veselé. Matka: Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének.
+1 OBJE @MS40@
+0 @S41@ SOUR
+1 TITL Křest Marie Polákové (sestra Jana)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1874–1879, kniha č. 9080 (Čunín sn. 88–112); 6. 4. 1876; snímek 99
+1 TEXT Marie, nar. a pokřtěna 6. 4. 1876 v Čuníně čp. 25. Přípisek: † 6. 4. 1876.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5706?image=216000010-000253-003375-000000-009080-000000-00-B04001-00990.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_marie_polakova_1876/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Marie, nar. a pokřtěna 6. 4. 1876 v Čuníně čp. 25. Přípisek: † 6. 4. 1876.
+2 CONT [Otec] Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé
+2 CONT [Matka] Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének
+2 CONT Český překlad:
+2 CONT Marie, nar. a pokřtěna 6. 4. 1876 v Čuníně čp. 25. Přípisek: † 6. 4. 1876. Otec: Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé. Mat
+2 CONC ka: Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének.
+1 OBJE @MS41@
+0 @S42@ SOUR
+1 TITL Křest Aloise Poláka (bratr Jana)
+1 AUTH Moravský zemský archiv v Brně – Sbírka matrik (E 67), fara Konice
+1 PUBL N Konice 1874–1879, kniha č. 9080 (Čunín sn. 88–112); 13. 12. 1878; snímek 88
+1 TEXT Alois, nar. a pokřtěn 13. 12. 1878 v Čuníně čp. 25. Přípisek: † 13. 12. 1878.
+1 NOTE Archivní odkaz: https://www.mza.cz/actapublica/matrika/detail/5706?image=216000010-000253-003375-000000-009080-000000-00-B04001-00880.jp2
+2 CONT Doklad a výřez: https://rodokmen.dominikkulich.cz/zdroj/cunin_krest_alois_polak_1878/
+1 TEXT Přepis originálu:
+2 CONT [Dítě] Alois, nar. a pokřtěn 13. 12. 1878 v Čuníně čp. 25. Přípisek: † 13. 12. 1878.
+2 CONT [Otec] Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé
+2 CONT [Matka] Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének
+2 CONT Český překlad:
+2 CONT Alois, nar. a pokřtěn 13. 12. 1878 v Čuníně čp. 25. Přípisek: † 13. 12. 1878. Otec: Jan Polák, podruh/domkář v Čuníně, syn Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové z Veselé. 
+2 CONC Matka: Anna, dcera Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švédové ze Studének.
+1 OBJE @MS42@
+0 @MS1@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/konice_snatek_frantisek_polak_frantiska_krejci_1929.jpg
+2 FORM jpg
+2 TITL Sňatek Františka Poláka a Františky Krejčí
+0 @MS2@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_frantisek_polak_1905.jpg
+2 FORM jpg
+2 TITL Křest Františka Poláka
+0 @MS3@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/stinava_snatek_jan_polak_frantiska_bavlnkova_1892.jpg
+2 FORM jpg
+2 TITL Sňatek Jana Poláka a Františky Bavlnkové
+0 @MS4@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_jan_polak_1865.jpg
+2 FORM jpg
+2 TITL Křest Jana Poláka
+0 @MS5@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/konice_snatek_jan_polak_anna_pospisilova_1862.jpg
+2 FORM jpg
+2 TITL Sňatek Jana Poláka a Anny Pospíšilové
+0 @MS6@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/stinava_krest_frantiska_bavlnkova_1870.jpg
+2 FORM jpg
+2 TITL Křest Františky Bavlnkové
+0 @MS7@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/rozinka_krest_vaclav_kastanek_1914.jpg
+2 FORM jpg
+2 TITL Křest Václava Kaštánka
+0 @MS8@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/bystrice_snatek_ignac_kastanek_josefa_vykutilova_1903.jpg
+2 FORM jpg
+2 TITL Sňatek Ignáce Kaštánka a Josefy Vykutilové
+0 @MS9@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/domanin_krest_ignac_kastanek_1878.jpg
+2 FORM jpg
+2 TITL Křest Ignáce Kaštánka
+0 @MS10@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_jan_polak_1893.jpg
+2 FORM jpg
+2 TITL Křest Jana Poláka (bratr Františka)
+0 @MS11@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_vincencie_polakova_1894.jpg
+2 FORM jpg
+2 TITL Křest Vincencie Polákové (sestra Františka)
+0 @MS12@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_ruzena_polakova_1896.jpg
+2 FORM jpg
+2 TITL Křest Růženy Polákové (sestra Františka)
+0 @MS13@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_arnost_polak_1899.jpg
+2 FORM jpg
+2 TITL Křest Arnošta Poláka (bratr Františka)
+0 @MS14@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_josef_polak_1900.jpg
+2 FORM jpg
+2 TITL Křest Josefa Poláka (bratr Františka)
+0 @MS15@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_bohumila_polakova_1901.jpg
+2 FORM jpg
+2 TITL Křest Bohumily Polákové (sestra Františka)
+0 @MS16@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_josef_polak_1904.jpg
+2 FORM jpg
+2 TITL Křest Josefa Poláka (bratr Františka)
+0 @MS17@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_marie_polakova_1908.jpg
+2 FORM jpg
+2 TITL Křest Marie Polákové (sestra Františka)
+0 @MS18@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_frantiska_polakova_1912.jpg
+2 FORM jpg
+2 TITL Křest Františky Polákové (sestra Františka)
+0 @MS19@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_antonin_polak_1914.jpg
+2 FORM jpg
+2 TITL Křest Antonína Poláka (bratr Františka)
+0 @MS20@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/rozinka_krest_bozena_kastankova_1905.jpg
+2 FORM jpg
+2 TITL Křest Boženy Kaštánkové (sestra Václava)
+0 @MS21@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/rozinka_krest_josef_vincenc_kastanek_1908.jpg
+2 FORM jpg
+2 TITL Křest Josefa Vincence Kaštánka (bratr Václava)
+0 @MS22@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/rozinka_krest_ignac_kastanek_1910.jpg
+2 FORM jpg
+2 TITL Křest Ignáce (Hynka) Kaštánka (bratr Václava)
+0 @MS23@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/rozinka_krest_hubert_kastanek_1912.jpg
+2 FORM jpg
+2 TITL Křest Huberta Kaštánka (bratr Václava)
+0 @MS24@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/rozinka_krest_josef_kastanek_1919.jpg
+2 FORM jpg
+2 TITL Křest Josefa Kaštánka (bratr Václava)
+0 @MS25@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_frantisek_polak_1890_legionar.jpg
+2 FORM jpg
+2 TITL Narození Františka Poláka – pozdějšího legionáře
+0 @MS27@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_snatek_frantisek_polak_marie_trnkova_1887.jpg
+2 FORM jpg
+2 TITL Sňatek rodičů legionáře: František Polák a Marie Trnková
+0 @MS28@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/kremenec_krest_jan_polak_1838.jpg
+2 FORM jpg
+2 TITL Křest Jana Poláka
+0 @MS29@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/kremenec_snatek_martin_polak_marianna_tilserova_1837.jpg
+2 FORM jpg
+2 TITL Sňatek Martina Poláka a Marianny Tilšerové
+0 @MS30@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/kremenec_krest_martin_polak_1816.jpg
+2 FORM jpg
+2 TITL Křest Martina Poláka
+0 @MS31@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/kremenec_snatek_jiri_polak_marianna_paulikova_1812.jpg
+2 FORM jpg
+2 TITL Sňatek Jiřího Poláka a Marianny Paulíkové
+0 @MS32@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/kremenec_krest_jiri_polak_1786.jpg
+2 FORM jpg
+2 TITL Křest Jiřího Poláka
+0 @MS33@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/kremenec_snatek_josef_polak_anna_popelkova_1779.jpg
+2 FORM jpg
+2 TITL Sňatek Josefa Poláka a Anny Popelkové
+0 @MS34@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_jan_polak_1893_eduard.jpg
+2 FORM jpg
+2 TITL Jan Polák, syn Eduarda – druhý Jan ročníku 1893
+0 @MS35@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/premyslovice_snatek_jan_polak_helena_kmentova_1915.jpg
+2 FORM jpg
+2 TITL Jan Polák a Helena Kmentová – doložená vojenská služba
+0 @MS36@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/vojenske_umrti_johann_polak_1893_neprirazeno.jpg
+2 FORM jpg
+2 TITL Nepřiřazený kandidát: Johann Polak (*1893), FJB 5
+0 @MS37@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_frantisek_polak_1860.jpg
+2 FORM jpg
+2 TITL Křest Františka Poláka (nejstarší bratr Jana)
+0 @MS38@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_eduard_polak_1868.jpg
+2 FORM jpg
+2 TITL Křest Eduarda Poláka (bratr Jana)
+0 @MS39@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_josefa_polakova_1872.jpg
+2 FORM jpg
+2 TITL Křest Josefy Polákové (sestra Jana)
+0 @MS40@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_marianna_polakova_1873.jpg
+2 FORM jpg
+2 TITL Křest Marianny Polákové (sestra Jana)
+0 @MS41@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_marie_polakova_1876.jpg
+2 FORM jpg
+2 TITL Křest Marie Polákové (sestra Jana)
+0 @MS42@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/cunin_krest_alois_polak_1878.jpg
+2 FORM jpg
+2 TITL Křest Aloise Poláka (bratr Jana)
+0 @MPHOTO@ OBJE
+1 FILE https://rodokmen.dominikkulich.cz/img/frantisek-polak-legionar-foto-2.jpg
+2 FORM jpg
+2 TITL František Polák (1890), legionář – archivní fotografie ČsOL
+1 NOTE Původní fotografie ČsOL, včetně zachovaného označení původu.
+0 TRLR

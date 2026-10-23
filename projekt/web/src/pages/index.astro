@@ -1,11 +1,12 @@
 ---
 import Base from '../layouts/Base.astro';
-import { stats, lines, href, config, linesTitle } from '../lib/data.js';
+import { stats, lines, href, config, linesTitle, records } from '../lib/data.js';
 import StromIlustrace from '../components/StromIlustrace.astro';
 import { frontmatter as pribeh } from '../generated/pribeh.md';
 const lineList = Object.values(lines).sort((a, b) => a.k - b.k);
 const uvod = config.uvod ?? {};
 const cards = config.zajimavosti_na_uvodu ?? [];
+const featuredRecords = ['cunin_krest_frantisek_polak_1905', 'rozinka_krest_vaclav_kastanek_1914', 'kremenec_krest_jan_polak_1838'].map(key => records[key]).filter(r => r?.img);
 ---
 <Base title="" wide>
   <section class="archive-hero">
@@ -13,7 +14,7 @@ const cards = config.zajimavosti_na_uvodu ?? [];
     <h1>V naší rodině<br/>byl legionář.</h1>
     <p><strong>František Polák · 4. července 1890 · Čunín</strong><br/>Krejčí z naší polákovské větve. Ze zajetí v Karpatech vedla jeho cesta k československým legiím v Rusku. Jeho původ potvrzuje matrika, vojenskou službu legionářský záznam.</p>
     <p class="small">Vnuk našeho předka Jana Poláka (*asi 1838) a bratranec Františka Poláka narozeného roku 1905.</p>
-    <div class="hero-actions"><a class="btn" href="/legionar/">Příběh našeho legionáře →</a><a href="#legionarska-vetev">Jeho větev ve stromu ↓</a></div></div>
+    <div class="hero-actions"><a class="btn" href="/legionar/">Příběh našeho legionáře →</a><a class="btn btn-light" href="/zapisy/">Zápisy z matrik →</a><a href="#legionarska-vetev">Jeho větev ve stromu ↓</a></div></div>
     <figure class="hero-photo"><a href="/legionar/"><img src="/img/frantisek-polak-legionar-foto-2.jpg" width="1500" height="2000" alt="František Polák, legionář narozený 4. července 1890" fetchpriority="high" /></a><figcaption>František Polák · fotografie ze sbírky ČsOL<br/><a href="/legionar/">Jeho příběh a původní fotografie →</a></figcaption></figure>
   </section>
 
@@ -25,7 +26,7 @@ const cards = config.zajimavosti_na_uvodu ?? [];
         {config.maPribeh && <a class="btn" href="/pribehy/">{config.pribeh?.tlacitko || `Přečíst: ${pribeh.title}`} →</a>}
       </div>
       {uvod.foto && (
-        <a href={config.maPribeh ? '/pribehy/' : `/img/${uvod.foto}.jpg`}><img src={`/img/${uvod.foto}.jpg`} alt={uvod.foto_popis || ''} /></a>
+        <a href={records[uvod.foto] ? href.record(uvod.foto) : config.maPribeh ? '/pribehy/' : `/img/${uvod.foto}.jpg`}><img src={`/img/${uvod.foto}.jpg`} alt={uvod.foto_popis || ''} /></a>
       )}
     </section>
   )}
@@ -39,6 +40,19 @@ const cards = config.zajimavosti_na_uvodu ?? [];
       </div>
     </section>
   )}
+
+  <section class="home-records" aria-labelledby="home-records-title">
+    <p class="eyebrow">Nahlédněte do rodinného archivu</p>
+    <h2 id="home-records-title">Zápisy z matrik</h2>
+    <p>Původní rukopis, jména našich předků i čísla jejich domů. Otevřete si výřez zápisu, jeho přepis a překlad nebo přejděte přímo do archivu.</p>
+    <div class="record-previews">
+      {featuredRecords.map(r => <a class="record-preview" href={href.record(r.key)}>
+        <img src={`/img/${r.key}.jpg`} alt={`Výřez zápisu: ${r.title}`} loading="lazy" />
+        <span class="small muted">{r.date} · {r.kindName}</span><strong>{r.title}</strong><span class="small">Prohlédnout zápis a přepis →</span>
+      </a>)}
+    </div>
+    <p><a class="btn" href="/zapisy/">Prohlédnout všechny zápisy →</a></p>
+  </section>
 
   <div class="stats">
     <div><strong>{stats.ancestors}</strong>známých předků</div>
@@ -82,3 +96,12 @@ const cards = config.zajimavosti_na_uvodu ?? [];
 
   <p><a href="/vejir/">Vějíř předků</a> · <a href="/predci/">Seznam všech předků</a></p>
 </Base>
+<style>
+  .home-records {margin:2.5rem 0;padding:1.5rem;border:1px solid var(--gold);background:var(--paper);}
+  .home-records h2 {margin-top:.3rem;}
+  .record-previews {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;margin-top:1.5rem;}
+  .record-preview {display:flex;flex-direction:column;gap:.45rem;color:inherit;text-decoration:none;}
+  .record-preview img {display:block;width:100%;aspect-ratio:3/1;object-fit:contain;background:#e7d9bc;border:1px solid var(--line);}
+  .record-preview:hover strong {text-decoration:underline;}
+  @media(max-width:700px) {.record-previews {grid-template-columns:1fr;}}
+</style>

@@ -6,8 +6,8 @@ const siteName = config.nazev || 'Rodokmen';
 const { title, description = config.popis || siteName, wide = false, full = false } = Astro.props;
 const path = Astro.url.pathname;
 const groups = [
-  [['/', 'Úvod'], ['/legionar/', 'Náš legionář'], ...(config.maPribeh ? [['/pribehy/', config.pribeh?.menu || 'Příběh rodu']] : []), ['/zajimavosti/', 'Zajímavosti'], ['/casova-osa/', 'Časová osa'], ['/statistiky/', 'Statistiky']],
-  [['/rody/', 'Rody'], ['/mapa/', 'Mapa'], ['/obce/', 'Obce'], ['/strom/', 'Strom'], ['/vejir/', 'Vějíř'], ['/predci/', 'Předci'], ['/zapisy/', 'Zápisy'], ['/hledame/', 'Co hledáme'], ['/kniha/', 'Kniha / PDF']],
+  [['/', 'Úvod'], ['/zapisy/', 'Zápisy z matrik'], ['/legionar/', 'Náš legionář'], ...(config.maPribeh ? [['/pribehy/', config.pribeh?.menu || 'Příběh rodu']] : []), ['/zajimavosti/', 'Zajímavosti'], ['/casova-osa/', 'Časová osa'], ['/statistiky/', 'Statistiky']],
+  [['/rody/', 'Rody'], ['/mapa/', 'Mapa'], ['/obce/', 'Obce'], ['/strom/', 'Strom'], ['/vejir/', 'Vějíř'], ['/predci/', 'Předci'], ['/hledame/', 'Co hledáme'], ['/kniha/', 'Kniha / PDF']],
   [['/hledat/', 'Hledat']],
 ];
 const current = (url) => ((url === '/' ? path === '/' : path.startsWith(url)) ? 'page' : undefined);
