@@ -14,9 +14,9 @@
  "uvod": {
   "nadpis": "Z Čech přes Moravu až na Slovensko",
   "odstavce": [
-   "Rodokmen Kulichových propojuje Čechy, Moravu a Slovensko. Tátova větev vede přes Horní Beřkovice do Ledčic, mámina přes Polákovy z Čunína u Konice, Kaštánkovy z Dolní Rožínky a Domanína až ke Šlosárovým z Malého Lapáše. Z jednotlivých zápisů postupně vystupují příběhy našich příbuzných – včetně Františka Poláka, československého legionáře v Rusku.",
-   "Rodinné vzpomínky doplňujeme údaji z matrik a archivních dokumentů. Výřezy původních zápisů, přepisy a překlady umožňují sledovat, z čeho při sestavování rodokmenu vycházíme. Co máme doložené a co ještě čeká na ověření, průběžně rozlišujeme.",
-   "Jedno číslo se v rodině překvapivě opakuje: 26. Polákovi jsou doloženi v Čuníně čp. 26, Kaštánkovi v Dolní Rožínce čp. 26 a Dominik s maminkou dnes bydlí v Chudoslavicích čp. 26. Tři různé domy ve třech obcích spojuje stejné číslo."
+   "Rodokmen  propojuje Čechy, Moravu a Slovensko. Tátova větev vede přes Horní Beřkovice do Ledčic, mámina přes Polákovy z Čunína u Konice, Kaštánkovy z Dolní Rožínky a Domanína až ke Šlosárovým z Malého Lapáše. Z jednotlivých zápisů postupně vystupují příběhy našich příbuzných – včetně Františka Poláka, československého legionáře v Rusku.",
+   "Rodinné vzpomínky doplňuju údaji z matrik a archivních dokumentů. Výřezy původních zápisů, přepisy a překlady umožňují sledovat, z čeho při sestavování rodokmenu vycházíme. Co máme doložené a co ještě čeká na ověření, průběžně rozlišujeme.",
+   "Jedno číslo se v rodině překvapivě opakuje: 26. Polákovi jsou doloženi v Čuníně čp. 26, Kaštánkovi v Dolní Rožínce čp. 26 a já  v Chudoslavicích čp. 26. Tři různé domy ve třech obcích spojuje stejné číslo."
   ],
   "foto": "cunin_krest_frantisek_polak_1905",
   "foto_popis": "Křestní zápis Františka Poláka, Čunín 1905 (matrika fary Konice, MZA Brno)."
@@ -29,11 +29,11 @@
  "zajimavosti_na_uvodu": [
   {
    "nadpis": "Legionář v rodině",
-   "text": "František Polák (*1890), vnuk našeho předka Jana Poláka, sloužil v ruských legiích. Jeho portrét, matriční doklady a vojenský záznam už známe."
+   "text": "František Polák (*1890), vnuk našeho předka Jana Poláka a bratranec pradědy Františka Poláka, sloužil v Československých legiích. Jeho portrét, matriční doklady a vojenský záznam už známe."
   },
   {
    "nadpis": "Rodinná šestadvacítka",
-   "text": "Polákovi v Čuníně čp. 26, Kaštánkovi v Dolní Rožínce čp. 26 – a dnes Dominik s maminkou v Chudoslavicích čp. 26. Shoda potvrzená matrikami a rodinným sdělením."
+   "text": "Polákovi v Čuníně čp. 26, Kaštánkovi v Dolní Rožínce čp. 26 – a dnes já v Chudoslavicích čp. 26. Shoda potvrzená matrikami a rodinným sdělením."
   },
   {
    "nadpis": "Svatba s otcovým svolením",
@@ -46,7 +46,7 @@
  ],
  "shoda_cisla_domu": {
   "nadpis": "Tři domy, jedno číslo: 26",
-  "text": "Čunín čp. 26 u Polákových, Dolní Rožínka čp. 26 u Kaštánkových a dnešní Chudoslavice čp. 26, kde žije Dominik s maminkou. Tři různé domy ve třech obcích spojuje stejné číslo.",
-  "doklady": "Čunín: narození Františka Poláka 1905 a sňatek 1929. Dolní Rožínka: narození Václava Kaštánka 1914. Chudoslavice: Dominikovo rodinné sdělení z 23. října 2026; datum sdělení není datem nastěhování."
+  "text": "Čunín čp. 26 u Polákových, Dolní Rožínka čp. 26 u Kaštánkových a dnešní Chudoslavice čp. 26. Tři různé domy ve třech obcích spojuje stejné číslo.",
+  "doklady": "Čunín: narození Františka Poláka 1905 a sňatek 1929. Dolní Rožínka: narození Václava Kaštánka 1914. "
  }
 }
