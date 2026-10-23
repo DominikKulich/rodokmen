@@ -6,11 +6,35 @@ from datetime import datetime
 import os
 import re
 import shutil
+import tempfile
+import time
 from urllib.parse import urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'web' / 'dist'
 DEST = ROOT.parent / 'web_rodokmen'
+
+
+def write_text_safely(target, text):
+    """Nahradí celý soubor, aby export netrunkoval soubor právě synchronizovaný OneDrivem."""
+    temporary = None
+    try:
+        with tempfile.NamedTemporaryFile(mode='w', encoding='utf-8', dir=target.parent,
+                                         prefix='.export-', suffix='.tmp', delete=False) as stream:
+            temporary = Path(stream.name)
+            stream.write(text)
+        for attempt in range(5):
+            try:
+                os.replace(temporary, target)
+                return
+            except OSError as error:
+                # OneDrive může krátce vracet EACCES, EINVAL nebo chybu sdílení.
+                if attempt == 4 or (error.errno not in (13, 22) and getattr(error, 'winerror', None) not in (5, 32, 33)):
+                    raise
+                time.sleep(0.2 * (attempt + 1))
+    finally:
+        if temporary is not None and temporary.exists():
+            temporary.unlink()
 
 
 def main():
@@ -48,7 +72,7 @@ def main():
         chunks = re.split(r'(<script\b[^>]*>.*?</script>)', text, flags=re.S | re.I)
         for i in range(0, len(chunks), 2):
             chunks[i] = re.sub(r'''\b(href|src|action)=(["'])(/(?!/)[^"']*)\2''', replace, chunks[i])
-        target.write_text(''.join(chunks), encoding='utf-8')
+        write_text_safely(target, ''.join(chunks))
         count += 1
     (DEST / 'CTI_ME.txt').write_text(
         'Rodokmen Kulichových – lokální kopie webu\n'

@@ -27,3 +27,8 @@ Data narození/úmrtí jsou ve starém binárním formátu, zatím nedekódován
 - Rodiče babičky Jany Kaštánkové: Václav Kaštánek, * 15. 9. 1914 Dolní Rožínka, pak Bratrušín; Helena Šlosárová, * 20. 10. 1920 Lapáš (Slovensko) – upřesněno: Malý Lapáš.
 
 - Dominik 22. 10. 2026: spojení Miloslava Poláka (*1932) s Františkem Polákem (*1905) výslovně potvrdil jako definitivní. Rodinná vazba je nyní potvrzená uživatelem; nebyl nově předložen matriční doklad.
+
+## 23. 10. 2026 – rodinná šestadvacítka
+- Dominik výslovně uvedl, že s maminkou Janou bydlí v Chudoslavicích čp. 26, a požádal o doplnění této zajímavosti na web. Současné bydliště je rodinný údaj, ne nový matriční nález; datum nastěhování nebylo sděleno.
+- Souhlas se zveřejněním tohoto konkrétního bydliště vyplývá z přímého požadavku „zkontroluj a případně všude doplň a uprav“.
+- Čunín čp. 26 viz křest Františka Poláka 1905 a sňatek 1929; Dolní Rožínka čp. 26 viz křest Václava Kaštánka 1914. Čísla znovu osobně přečtena v uložených výřezech 23. 10. 2026.

@@ -1,0 +1,11 @@
+---
+import { config } from '../lib/data.js';
+const shoda = config.shoda_cisla_domu;
+---
+{shoda && <section class="card">
+  <p class="eyebrow">Rodinná shoda</p>
+  <h2>{shoda.nadpis}</h2>
+  <p>{shoda.text}</p>
+  <p class="small muted">{shoda.doklady}</p>
+  <p><a href="/zajimavosti/#cislo-26">Přečíst příběh a otevřít matriční doklady →</a></p>
+</section>}

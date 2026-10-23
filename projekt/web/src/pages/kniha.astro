@@ -5,6 +5,7 @@ import Record from '../components/Record.astro';
 import StromIlustrace from '../components/StromIlustrace.astro';
 import LegionarKarta from '../components/LegionarKarta.astro';
 import LegionarSouvislosti from '../components/LegionarSouvislosti.astro';
+import RodinnaSestadvacitka from '../components/RodinnaSestadvacitka.astro';
 import { people, records, config, genName, href, dateKey, statusClass, recordList, stats } from '../lib/data.js';
 const all = Object.values(people).sort((a, b) => a.k - b.k);
 const gens = [...new Set(all.map((p) => p.gen))].sort((a, b) => a - b).map((g) => ({ g, ps: all.filter((p) => p.gen === g) }));
@@ -30,6 +31,7 @@ const today = new Date().toLocaleDateString('cs-CZ');
     <h2>Obsah</h2>
     <ol class="kn-toc">
       <li><a href="#legionar-v-knize">Legionář v rodině – František Polák (*1890)</a></li>
+      <li><a href="#cislo-26-v-knize">Rodinná šestadvacítka – tři domy se stejným číslem</a></li>
       {gens.map(({ g, ps }) => <li><a href={`#gen-${g}`}>{g === 0 ? 'Výchozí osoba' : genName(g)[0].toUpperCase() + genName(g).slice(1)}</a> <span class="muted small">– {ps.map((p) => p.name).join(', ')}</span></li>)}
     </ol>
   </section>
@@ -38,6 +40,11 @@ const today = new Date().toLocaleDateString('cs-CZ');
     <h2>Legionář v naší rodině</h2><LegionarKarta /><LegionarSouvislosti />
     <h3>Doklady legionářské větve</h3>
     <div class="recs">{['cunin_krest_frantisek_polak_1890_legionar','cunin_snatek_frantisek_polak_marie_trnkova_1887','legie_frantisek_polak_1890'].map(id=><Record id={id} open />)}</div>
+  </section>
+  <section class="page-break" id="cislo-26-v-knize">
+    <RodinnaSestadvacitka />
+    <h3>Matriční doklady čísel domů</h3>
+    <div class="recs">{['cunin_krest_frantisek_polak_1905', 'konice_snatek_frantisek_polak_frantiska_krejci_1929', 'rozinka_krest_vaclav_kastanek_1914'].map(id => <Record id={id} open />)}</div>
   </section>
   {gens.map(({ g, ps }) => (
     <section class="page-break" id={`gen-${g}`}>

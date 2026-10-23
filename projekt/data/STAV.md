@@ -55,3 +55,6 @@ Každý nalezený matriční zápis – i u sourozenců a bočních příbuznýc
 ## Sestavení webu (22. 10. 2026)
 Před každým `astro build` spustit export dat (`npm run data` = `tools/export_web.py`), jinak web ukazuje starý `site.json`. Hotový web se kopíruje do `web/dist` i do `../web_rodokmen` (relativní odkazy).
 - Polákové Čunín: děti Jana P. (*1838) kompletně 1860–1885 (7 dětí, doloženo). Otevřené: totožnost padlého Jana 1893–1915 – rejstřík O Konice 1893–1943 (kn. 9105) má jen sňatek Jana Poláka z Veselé 1917 (* 1890, syn Antonína – nesouvisí); Eduardův Jan (*16. 4. 1893) se v Konici do 1943 neoženil, sňatek vdovy Heleny Kmentové v Přemyslovicích 1916–1925 nenalezen. Dál: Z Konice 9125 (dodatečné zápisy 1919–1925), úmrtí Heleny, děti Eduarda.
+
+## Rodinná šestadvacítka (23. 10. 2026)
+Čunín čp. 26 u Františka Poláka (křest 1905, sňatek 1929) a Dolní Rožínka čp. 26 u Václava Kaštánka (křest 1914) znovu přečteny v obrazech. Dominik doplnil současné bydliště s maminkou Janou: Chudoslavice čp. 26, a výslovně požádal o zveřejnění v zajímavosti. Rozlišovat matriční doklady a současný rodinný údaj; datum sdělení není nastěhováním. Úvod aktualizován o Kaštánkovy i Šlosárovy.

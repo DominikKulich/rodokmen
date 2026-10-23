@@ -15,3 +15,7 @@ zapracuje do skillu, aby je měli i ostatní. Děkujeme!
 - Acta Publica (MZA Brno): snímky bez přihlášení. Nový nástroj tools/mza_dz.py (Deepzoom dlaždice z /iipsrv/iipsrv.fcgi?Deepzoom=/srv/LUNxxx/…/<kniha>-NNNNN.jp2.dzi). CVT=jpeg vrací 403, Deepzoom chce Referer, urllib dostane 426 → curl; plné rozlišení ~500 dlaždic → paralelně. LUN složka se liší podle knihy (LUN105, LUN106…) – vzít z network requestu v prohlížeči. Číslování souborů: některé knihy začínají -00000, jiné -00010.
 - Konice kn. 9106: oddací kniha s oddíly po obcích, hlavička „Str.“ = strana z rejstříku (sn. ≈ str. + 2 pro Konici, sn. ≈ str. − 5 pro Čunín).
 - Past: v rejstříku psaném zkratkovitě se snadno splete Polák/Pavlík – ověřit na stránce zápisu.
+# 23. 10. 2026 – export do složky synchronizované OneDrivem
+
+Přímé přepsání HTML krátce po kopírování může ve Windows vracet přechodné OSError EINVAL/EACCES. Osvědčil se zápis do dočasného souboru ve stejné složce a atomické nahrazení přes os.replace s omezeným opakováním při chybě sdílení; potom kontrola všech místních odkazů a obrázků. Samotné opakované spuštění celého exportu nebylo spolehlivé.
+

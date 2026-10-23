@@ -130,5 +130,12 @@
   "lat": 49.523,
   "lon": 16.261,
   "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Chudoslavice": {
+  "re": "Chudoslav",
+  "dotaz": "Chudoslavice, okres Litoměřice, Česko",
+  "lat": 50.581,
+  "lon": 14.1855,
+  "osm": "Chudoslavice, okres Litoměřice, Ústecký kraj, Česko"
  }
 }

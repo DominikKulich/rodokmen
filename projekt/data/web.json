@@ -1,6 +1,6 @@
 {
  "nazev": "Rodokmen Kulichových",
- "popis": "Rodokmen Dominika Kulicha – Kulichové z Ledčic, Polákové z Čunína a další rody.",
+ "popis": "Rodokmen Dominika Kulicha – Kulichové z Ledčic, Polákové z Čunína, Kaštánkové z Vysočiny a Šlosárovi ze Slovenska.",
  "zapati": "Dohledáno v digitalizovaných matrikách Moravského zemského archivu v Brně (Acta Publica) a SOA Litoměřice",
  "kontakt": {
   "jmeno": "Dominikovi",
@@ -12,10 +12,11 @@
   "odpoved": ""
  },
  "uvod": {
-  "nadpis": "Od Ledčic pod Řípem po Čunín na Hané",
+  "nadpis": "Z Čech přes Moravu až na Slovensko",
   "odstavce": [
-   "Rodokmen Kulichových teprve roste. Táta Luboš vyrůstal v Horních Beřkovicích, děda Václav pocházel z nedalekých Ledčic. Mámina rodina vede na Moravu – Polákovi žili po generace v Čuníně u Konice.",
-   "Ke každému údaji z matrik je tu výřez původního zápisu s přepisem a překladem, takže si všechno můžete sami ověřit."
+   "Rodokmen Kulichových propojuje Čechy, Moravu a Slovensko. Tátova větev vede přes Horní Beřkovice do Ledčic, mámina přes Polákovy z Čunína u Konice, Kaštánkovy z Dolní Rožínky a Domanína až ke Šlosárovým z Malého Lapáše. Z jednotlivých zápisů postupně vystupují příběhy našich příbuzných – včetně Františka Poláka, československého legionáře v Rusku.",
+   "Rodinné vzpomínky doplňujeme údaji z matrik a archivních dokumentů. Výřezy původních zápisů, přepisy a překlady umožňují sledovat, z čeho při sestavování rodokmenu vycházíme. Co máme doložené a co ještě čeká na ověření, průběžně rozlišujeme.",
+   "Jedno číslo se v rodině překvapivě opakuje: 26. Polákovi jsou doloženi v Čuníně čp. 26, Kaštánkovi v Dolní Rožínce čp. 26 a Dominik s maminkou dnes bydlí v Chudoslavicích čp. 26. Tři různé domy ve třech obcích spojuje stejné číslo."
   ],
   "foto": "cunin_krest_frantisek_polak_1905",
   "foto_popis": "Křestní zápis Františka Poláka, Čunín 1905 (matrika fary Konice, MZA Brno)."
@@ -31,8 +32,8 @@
    "text": "František Polák (*1890), vnuk našeho předka Jana Poláka, sloužil v ruských legiích. Jeho portrét, matriční doklady a vojenský záznam už známe."
   },
   {
-   "nadpis": "Nejstarší doložený předek",
-   "text": "Jan Polák, podruh v Čuníně u Konice – otec zahradníka Jana Poláka narozeného 1865."
+   "nadpis": "Rodinná šestadvacítka",
+   "text": "Polákovi v Čuníně čp. 26, Kaštánkovi v Dolní Rožínce čp. 26 – a dnes Dominik s maminkou v Chudoslavicích čp. 26. Shoda potvrzená matrikami a rodinným sdělením."
   },
   {
    "nadpis": "Svatba s otcovým svolením",
@@ -42,5 +43,10 @@
    "nadpis": "Chyba v matrice",
    "text": "Křestní zápis z roku 1905 uvádí svatbu rodičů 9. února 1892, oddací matrika ale 16. února."
   }
- ]
+ ],
+ "shoda_cisla_domu": {
+  "nadpis": "Tři domy, jedno číslo: 26",
+  "text": "Čunín čp. 26 u Polákových, Dolní Rožínka čp. 26 u Kaštánkových a dnešní Chudoslavice čp. 26, kde žije Dominik s maminkou. Tři různé domy ve třech obcích spojuje stejné číslo.",
+  "doklady": "Čunín: narození Františka Poláka 1905 a sňatek 1929. Dolní Rožínka: narození Václava Kaštánka 1914. Chudoslavice: Dominikovo rodinné sdělení z 23. října 2026; datum sdělení není datem nastěhování."
+ }
 }

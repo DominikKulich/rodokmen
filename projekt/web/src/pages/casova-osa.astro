@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
+import RodinnaSestadvacitka from '../components/RodinnaSestadvacitka.astro';
 import { people, lineByK, records, href, statusClass, places, placesIn, dateKey, legionnaire } from '../lib/data.js';
 
 // Události z faktů osob: „* …“ narození, „× …“ sňatek, „† …“ úmrtí.
@@ -73,6 +74,8 @@ const rows = all.map((e) => {
   <h1>Časová osa</h1>
   <p class="lead">Rodinné události v čase včetně služby Františka Poláka v ruských legiích. Šedě jsou dějinné souvislosti; samy o sobě nepotvrzují osobní účast příbuzného. Kliknutím na jméno otevřete jeho údaje, ikonou 📜 citovaný pramen.</p>
   <p><a class="btn" href="#legionar-19150302">Přejít k válečnému příběhu legionáře ↓</a> <a href="/legionar/">Portrét a příběh →</a></p>
+
+  <RodinnaSestadvacitka />
 
   <div class="to-filter" role="group" aria-label="Filtr podle rodu">
     <button type="button" class="to-chip active" data-line="all">Všechny rody</button>
