@@ -14,18 +14,24 @@ const p = people[Astro.params.slug];
 const line = p.line ? lineByK[p.line] : null;
 const recs = [...new Set(p.records)].filter((r) => records[r]).sort((a, b) => dateKey(records[a].date) - dateKey(records[b].date));
 const path = [...p.path].reverse().filter(Boolean);
+const portrait = p.docs.find(d => /foto|portr/i.test(d.caption));
+const documents = p.docs.filter(d => d !== portrait);
 ---
 <Base title={p.name} description={`${p.name} ${p.years} – ${p.rel}`}>
   <div class="crumbs">
     {path.map((s, i) => <>{i > 0 && <span>→</span>}{s === p.slug ? <span>{people[s].name}</span> : <a href={href.person(s)}>{people[s].name.split(' ')[0]} {people[s].years}</a>}</>)}
   </div>
   <p class="print-only print-head">{config.nazev} – rodový list</p>
+  <div class:list={['person-heading', { 'with-portrait': portrait }]}><div>
   <h1>{p.name}</h1>
   <div class="chips">
     {p.years && <span class="chip">{p.years}</span>}
     <span class="chip">{p.rel}</span>
     {line && <a class="chip" href={href.line(line.slug)}><span class="dot" style={`background:${line.color}`}></span>rod {line.name}</a>}
     <span class={`chip ${statusClass(p.st)}`}>{p.status}</span>
+  </div>
+  </div>
+  {portrait && <figure class="person-portrait"><a href={`/zdroje/${portrait.img}.jpg`} target="_blank" rel="noopener"><img src={`/img/${portrait.img}.jpg`} alt={portrait.caption} fetchpriority="high" /></a><figcaption>{portrait.caption}</figcaption></figure>}
   </div>
   <div class="print-bar no-print"><button type="button" class="btn btn-light" onclick="window.print()">🖨 Rodový list / PDF</button><a class="btn btn-light" href="/kniha/">Celá rodová kniha</a></div>
 
@@ -77,10 +83,10 @@ const path = [...p.path].reverse().filter(Boolean);
   <div class="only-desktop"><Pedigree k={p.k} /></div>
   <div class="only-mobile"><MobileTree k={p.k} /></div>
 
-  {p.docs.length > 0 && (
+  {documents.length > 0 && (
     <>
       <h2>Rodinné dokumenty</h2>
-      <div class="docs">{p.docs.map((d) => <figure><a href={`/img/${d.img}.jpg`} target="_blank" rel="noopener"><img src={`/img/${d.img}.jpg`} alt={d.caption} loading="lazy" /></a><figcaption>{d.caption}</figcaption></figure>)}</div>
+      <div class="docs">{documents.map((d) => <figure><a href={`/img/${d.img}.jpg`} target="_blank" rel="noopener"><img src={`/img/${d.img}.jpg`} alt={d.caption} loading="lazy" /></a><figcaption>{d.caption}</figcaption></figure>)}</div>
     </>
   )}
 
@@ -90,6 +96,12 @@ const path = [...p.path].reverse().filter(Boolean);
     : <p class="muted">K této osobě zatím nemáme vlastní matriční zápis – údaje pocházejí ze zápisů jejích dětí{p.st === 'fam' ? ' nebo od rodiny' : ''}.</p>}
 </Base>
 <style>
+  .person-heading.with-portrait {display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:1.5rem;align-items:center;margin:1rem 0;}
+  .person-portrait {margin:0;}
+  .person-portrait a {display:block;border:4px double var(--gold);padding:5px;background:var(--paper);}
+  .person-portrait img {display:block;width:100%;height:auto;}
+  .person-portrait figcaption {font-size:.75rem;line-height:1.5;color:var(--muted);margin-top:.5rem;}
+  @media(max-width:600px) {.person-heading.with-portrait {grid-template-columns:1fr;}.person-portrait {max-width:280px;}}
   .pov-note { background: var(--accent-soft, #eadfbf); border-left: 4px solid var(--gold, #c9a13a); border-radius: 6px; padding: .5rem .9rem; margin: .6rem 0 1rem; max-width: 46rem; }
   .pov-note summary { cursor: pointer; font-weight: 600; color: var(--wood, #1f3a28); }
   .pov-note p { margin: .4rem 0; }

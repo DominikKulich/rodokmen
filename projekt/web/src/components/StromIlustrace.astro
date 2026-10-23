@@ -141,7 +141,7 @@ const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fathe
             <ellipse rx="28" ry="34" fill="url(#ovalBg)"/>
             <g clip-path="url(#oval)">
               {photoOf(n.p)
-                ? <image href={`/img/${photoOf(n.p).img}.jpg`} x="-28" y="-34" width="56" height="68" preserveAspectRatio="xMidYMid slice"/>
+                ? <image href={`/img/${photoOf(n.p).img}.jpg`} x="-28" y="-34" width="56" height="68" preserveAspectRatio={photoOf(n.p).align || 'xMidYMid slice'}/>
                 : <g transform="translate(0,4) scale(.95)" set:html={portrait(n.p)}/>}
               <ellipse rx="28" ry="34" fill="url(#ovalLight)"/><ellipse rx="28" ry="34" fill="url(#ovalShade)"/>
             </g>

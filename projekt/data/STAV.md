@@ -61,3 +61,6 @@ Před každým `astro build` spustit export dat (`npm run data` = `tools/export_
 
 ## Sčítání Krejčích (23. 10. 2026)
 Na výslovnou žádost Dominika přidány na web oba dodané výřezy sčítání Konice 1910 a 1921 s přepisy a vyznačením Františky. Vazba na Filomenu je silně podpořená, čtení zkratky Fil. předběžné; data prarodičů rozporná, číslo domu a archivní signaturu ověřit. Nové jisté osoby z těchto výřezů nevytvářeny.
+
+## Miloslav a Třebařov (23. 10. 2026)
+Dominik doplnil bydliště Miloslava s rodiči Františkem (*1905) a Františkou Krejčí (*1906) v Třebařově, bez roku přesunu a čísla domu. Přidán bratr Zdeněk Polák (SIDE u č. 6), životní data neznámá, a kolorovaná rodinná fotografie Miloslava pro kartu a strom. Vše nové evidováno jako rodinné sdělení.

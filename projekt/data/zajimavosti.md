@@ -32,3 +32,7 @@ Za tři generace se Polákové v Čuníně posunuli: praděd Jan byl „podruh�
 Ve [sčítání roku 1910](/zdroj/konice_scitani_frantiska_krejci_1910/) je Františka Krejčí, narozená **10. listopadu 1906**, uvedena jako nemanželská vnučka v domácnosti Františka a Františky Krejčích v Konici. Na pravém okraji je oprava **„narozena v Olomouci“**, která odpovídá jejímu oddacímu zápisu z roku 1929. Přepis MyHeritage přitom ponechává původní rodiště Konice.
 
 V [archu z roku 1921](/zdroj/konice_scitani_frantiska_krejci_1921/) příbuzenskou poznámku předběžně čteme jako **„nem. dítě dcery Fil. Krejčí“**, tedy nemanželské dítě dcery Filomeny Krejčí. Jde o silnou stopu k domácnosti jejích prarodičů. **Filomena sama na zaslaných výřezech uvedená není.** Data narození staršího páru se mezi oběma sčítáními liší; ověření v matrikách a číslo domu zatím chybějí. Oba výřezy, označené řádky a výběrové přepisy jsou přístupné přes odkazy výše a v přehledu zápisů.
+
+## Z Čunína do Třebařova
+
+[Miloslav Polák (*1932)](/osoba/miloslav-polak-1932/) se podle Dominikova rodinného sdělení přestěhoval se svým otcem [Františkem Polákem (*1905)](/osoba/frantisek-polak-1905/) a matkou [Františkou Krejčí (*1906)](/osoba/frantiska-krejci-1906/) do [Třebařova](/obec/trebarov/). **Rok stěhování zatím neznáme.** Miloslav měl také bratra **Zdeňka Poláka**, jehož životní data ještě doplníme. Miloslavův portrét pochází z rodinné fotografie, kterou Dominik dodal v kolorované variantě.

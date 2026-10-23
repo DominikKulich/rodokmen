@@ -32,3 +32,10 @@ Data narození/úmrtí jsou ve starém binárním formátu, zatím nedekódován
 - Dominik výslovně uvedl, že s maminkou Janou bydlí v Chudoslavicích čp. 26, a požádal o doplnění této zajímavosti na web. Současné bydliště je rodinný údaj, ne nový matriční nález; datum nastěhování nebylo sděleno.
 - Souhlas se zveřejněním tohoto konkrétního bydliště vyplývá z přímého požadavku „zkontroluj a případně všude doplň a uprav“.
 - Čunín čp. 26 viz křest Františka Poláka 1905 a sňatek 1929; Dolní Rožínka čp. 26 viz křest Václava Kaštánka 1914. Čísla znovu osobně přečtena v uložených výřezech 23. 10. 2026.
+
+- Dominik (23. 10. 2026): dodal restaurovanou a kolorovanou fotografii a výslovně ji označil jako Helenu Šlosárovou (*1920), osobu č. 15. Požádal o umístění na její kartu i do stromu. Datum pořízení fotografie neuvedeno; soubor zachován beze změny.
+
+- Dominik (23. 10. 2026): dodal další snímek označený „Helena Šlosárová – svatební foto“. Přiřazen Heleně jako rodinný dokument; samostatný portrét zůstává hlavní fotografií. Datum pořízení ani totožnost muže nebyly v tomto sdělení výslovně uvedeny.
+
+## Miloslav Polák – fotografie, Třebařov a bratr Zdeněk (23. 10. 2026)
+Dominik dodal kolorovanou fotografii a označil ji jako svého dědečka Miloslava Poláka (*1932). Doplnil, že Miloslav později bydlel v Třebařově, kam se přestěhoval s otcem Františkem Polákem (*1905) a matkou Františkou Krejčí (*1906). Datum přesunu, adresa ani datum pořízení snímku neuvedeny. Miloslav měl bratra Zdeňka Poláka; jeho narození, úmrtí ani další životopis nebyly sděleny. Informace vedeny jako rodinné, ne jako nové matriční doklady.

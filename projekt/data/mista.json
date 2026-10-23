@@ -137,5 +137,12 @@
   "lat": 50.581,
   "lon": 14.1855,
   "osm": "Chudoslavice, okres Litoměřice, Ústecký kraj, Česko"
+ },
+ "Třebařov": {
+  "re": "Třebařov",
+  "lat": 49.829697,
+  "lon": 16.702519,
+  "pozn": "Souřadnice středu obce podle Místopisy.cz; nikoli konkrétního domu. Bydliště rodiny podle Dominika, datum přesunu neznámé.",
+  "zdroj": "https://www.mistopisy.cz/pruvodce/obec/8565/trebarov/"
  }
 }
