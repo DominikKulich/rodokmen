@@ -95,11 +95,24 @@ input[type='search'], select { background: var(--paper); border-color: var(--lin
 
 /* Rodový archiv: tmavá tkanina, patinovaná mosaz a světlé listy kroniky. */
 :root { --wood:#182822; --wood-dark:#0e1915; --wood-light:#2d4034; --gold:#a88c56; --gold-light:#d8c394; --parch:#e8dfc7; --paper:#f2ecdd; --ink:#302d23; --muted:#6b6250; --line:#c8b993; --radius:2px; }
-body { background-color:#101b17; background-image:radial-gradient(ellipse at 50% 0%,#35433355,transparent 65%),repeating-linear-gradient(0deg,transparent 0 3px,#bca66b05 3px 4px); }
-.site-header { padding:1.3rem 3vw; gap:1rem 3rem; border-top:1px solid #a88c56; box-shadow:none; }
+body {
+  background-color:#0d1917;
+  background-image:radial-gradient(ellipse at 50% 0%,#80917722,transparent 65%),linear-gradient(90deg,#050e0bbb,transparent 22%,transparent 78%,#050e0bbb),url('../assets/archive-tapestry.svg'),linear-gradient(135deg,#24372f,#101e1a 65%,#1b2922);
+  background-size:100% 100vh,100% 100vh,240px 300px,100% 100vh;
+  background-attachment:fixed;
+}
+.site-header { padding:1.3rem 3vw; gap:1rem 3rem; border-top:2px solid #bda16a; background:linear-gradient(110deg,#12231e,#203329 48%,#101e19); box-shadow:0 8px 28px #0003,inset 0 -1px #d1b87530; }
 .site-header .brand { font-style:normal; font-size:1.5rem; letter-spacing:.04em; }
 .site-header nav a { font-size:.8rem; letter-spacing:.025em; }
-main { margin:2rem auto 0; padding:3rem; border-radius:0; background:linear-gradient(110deg,#eee7d5,#e6dcc2); box-shadow:0 20px 65px #0004,inset 0 0 0 1px #a88c56,inset 0 0 0 8px #e8dfc7,inset 0 0 0 9px #b8a77955; }
+main {
+  position:relative;isolation:isolate;margin:2.2rem auto 0;padding:3rem;border-radius:2px;
+  background-image:url('../assets/paper-grain.svg'),radial-gradient(ellipse at 15% 4%,#fffdf1bb,transparent 48%),linear-gradient(110deg,#f3eddd,#ece2cc 70%,#e3d4b7);
+  background-size:180px 180px,100% 100%,100% 100%;
+  box-shadow:0 28px 80px #0007,0 2px 10px #0004,inset 0 0 0 1px #ccb276,inset 0 0 0 7px #eadfc9,inset 0 0 0 8px #ad92565e,inset 0 0 65px #a8823720;
+}
+main::before {content:'';position:absolute;z-index:-1;inset:13px;pointer-events:none;border:1px solid #b69c6338;background:url('../assets/archive-corner.svg') left top/65px 65px no-repeat;}
+main.full::before {display:none;}
+.eyebrow {font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);}
 h1 {font-size:clamp(2.5rem,5vw,4.4rem);font-style:normal;letter-spacing:-.035em;}
 h2 {font-size:1.8rem;margin-top:2.8rem;}
 .card,.teaser,.rec {border-radius:2px;box-shadow:none;padding:1.5rem;}
@@ -115,6 +128,7 @@ h2 {font-size:1.8rem;margin-top:2.8rem;}
 .stats {border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:1.5rem 0;gap:2rem;background:none;}
 .stats strong {font-family:var(--serif);font-weight:normal;font-size:2.5rem;color:var(--wood);}
 @media(max-width:700px) {main {padding:1.5rem;margin:0;} .archive-hero {grid-template-columns:1fr;padding:1rem 0 2rem;} .archive-hero .hero-art {max-height:230px;} .site-header {padding:1rem;} .grid2 {grid-template-columns:1fr;} }
+@media(max-width:700px) {body{background-attachment:scroll;}main::before{inset:7px;background-size:46px 46px;}main{box-shadow:inset 0 0 0 1px #b59a62,inset 0 0 35px #a8823715;}}
 
 /* ---------- tisk / PDF ---------- */
 .print-only { display: none; }
@@ -125,6 +139,7 @@ h2 {font-size:1.8rem;margin-top:2.8rem;}
   .site-header, .site-footer, .no-print, .menu-btn, .to-filter, .fan-tools, .next-step .btn { display: none !important; }
   .print-only { display: block; }
   main, main.wide { box-shadow: none !important; background: #fff !important; margin: 0 !important; padding: 0 !important; max-width: none !important; }
+  main::before {display:none;}
   a { color: #000; text-decoration: none; }
   .card, .rec, .to-body { break-inside: avoid; box-shadow: none; }
   .card-link::after { display: none; }

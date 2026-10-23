@@ -96,3 +96,6 @@ Na přání uživatele je legionářská větev nalevo od hlavní větve Polák�
 Na další výslovné přání uživatele zobrazuje hlavní strom jen Františka Poláka (*asi1860), syna Jana Poláka a Anny Pospíšilové, a pod ním jeho syna legionáře Františka (*1890). Medailony Marie Trnkové, Josefa Trnky a Anny jsou z hlavní malby odstraněny; příběh legionáře, citace a genealogická data zůstávají úplné. Levý prostor je zúžen a přiblížení je označeno „Legionář a otec“.
 
 Poslední upřesnění: oba Františkové jsou přímo pod Janem Polákem (*asi1838), na jeho souřadnici X, po jedné generaci dolů. Boční rámeček a vložená mezera byly odstraněny; větev je začleněná do hlavní malby. Anna Pospíšilová zůstává vysvětlená jako matka staršího Františka v legendě i pramenech.
+
+## 23. 10. 2026 – prémiovější pozadí
+Na přání Dominika hlubší lesní zelená s jemným zlatým rostlinným damaskem, světlý pergamen s jemným zrnem, mosazné linky a rohový ornament. Vektorové dekorace v src/assets; nepoužívají externí zdroje ani animace. Tisk zůstává bílý a mobil omezuje pevná pozadí. Přidány Novinky v menu a na úvodní stránku.

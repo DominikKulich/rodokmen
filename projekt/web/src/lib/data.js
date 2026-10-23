@@ -6,6 +6,7 @@ export const { people, families, lines, stats, issues, hypotheses, docs, config 
 export const linesTitle = (n) => (['Žádný rod', 'Jeden rod', 'Dva rody', 'Tři rody', 'Čtyři rody', 'Pět rodů', 'Šest rodů', 'Sedm rodů', 'Osm rodů'][n] ?? `${n} rodů`);
 export const root = people[site.root];
 export const legionnaire = site.legionnaire ?? {};
+export const myheritageAudit = site.myheritageAudit ?? {};
 export const records = Object.fromEntries(site.records.map((r) => [r.key, r]));
 export const recordList = site.records;
 export const byK = Object.fromEntries([

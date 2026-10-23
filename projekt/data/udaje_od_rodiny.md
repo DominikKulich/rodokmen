@@ -39,3 +39,6 @@ Data narození/úmrtí jsou ve starém binárním formátu, zatím nedekódován
 
 ## Miloslav Polák – fotografie, Třebařov a bratr Zdeněk (23. 10. 2026)
 Dominik dodal kolorovanou fotografii a označil ji jako svého dědečka Miloslava Poláka (*1932). Doplnil, že Miloslav později bydlel v Třebařově, kam se přestěhoval s otcem Františkem Polákem (*1905) a matkou Františkou Krejčí (*1906). Datum přesunu, adresa ani datum pořízení snímku neuvedeny. Miloslav měl bratra Zdeňka Poláka; jeho narození, úmrtí ani další životopis nebyly sděleny. Informace vedeny jako rodinné, ne jako nové matriční doklady.
+
+## 23. 10. 2026 – doplnění v Dominikově MyHeritage
+Dodaný aktuální GEDCOM uvádí u Jany Heleny Kaštánkové rok narození 1942 (na veřejný web pouze rok) a bratra Jany Polákové Miloslava Poláka (*1960), syna Miloslava *1932 a Jany Heleny. Tyto ruční údaje bez cizího zdroje evidujeme jako rodinné; nejsou novým matričním ověřením. Fotografie Václava Kaštánka a původní varianta Heleny přeneseny z přiřazení v uživatelově MyHeritage. Přesná nová data úmrtí ze Smart Matches zatím rodinné potvrzení ani původní doklad nenahrazují.

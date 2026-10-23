@@ -317,6 +317,7 @@ def main():
     public_cfg["prihlaseniZapnuto"] = bool(norm_answer((cfg.get("prihlaseni") or {}).get("odpoved", "")))
     site = dict(config=public_cfg, places=places, root=slugs[1], aliases={a: slugs[a] for a in SAME}, people=people,
                 families=families, records=records, lines=lines, legionnaire=jload("legionar.json", {}),
+                myheritageAudit=jload("myheritage_audit.json", {}),
                 issues=[dict(title=i, text="") if isinstance(i, str) else dict(title=i[0], text=i[1]) for i in ISSUES], stats=stats, hypotheses=hypotheses,
                 docs=[dict(img=d["img"], caption=d["popis"], people=[slugs[k] for k in d.get("osoby", []) if k in slugs])
                       for d in docs_cfg if os.path.exists(os.path.join(VYREZY, d["img"] + ".jpg"))])
@@ -336,6 +337,9 @@ def main():
                     os.path.join(gen_dir, "fan.svg"), "--web", hrefs], check=True, capture_output=True)
 
     gated = login_files(cfg)
+    audit_report = os.path.join(ROOT, 'AUDIT_MYHERITAGE_2026-10-23.md')
+    if os.path.exists(audit_report):
+        shutil.copy2(audit_report, os.path.join(WEB, 'public', 'AUDIT_MYHERITAGE_2026-10-23.md'))
     for name in os.listdir(ROOT):
         if name.startswith('VALKY_') and name.endswith('.md'):
             shutil.copy2(os.path.join(ROOT, name), os.path.join(WEB, 'public', name))

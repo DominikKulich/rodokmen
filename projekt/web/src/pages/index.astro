@@ -18,6 +18,11 @@ const featuredRecords = ['cunin_krest_frantisek_polak_1905', 'rozinka_krest_vacl
     <figure class="hero-photo"><a href="/legionar/"><img src="/img/frantisek-polak-legionar-foto-2.jpg" width="1500" height="2000" alt="František Polák, legionář narozený 4. července 1890" fetchpriority="high" /></a><figcaption>František Polák · fotografie ze sbírky ČsOL<br/><a href="/legionar/">Jeho příběh a původní fotografie →</a></figcaption></figure>
   </section>
 
+  <aside class="home-news" aria-label="Novinky v rodokmenu">
+    <div><p class="eyebrow">Z rodinné kroniky · 23. října 2026</p><h2>Nové tváře a nové stopy</h2><p>Portrét Václava Kaštánka, původní fotografie Heleny a kontrola rozšířených větví z MyHeritage. U každé stopy uvádíme, co už dokládá zápis a co ještě ověřujeme.</p></div>
+    <a class="btn btn-light" href="/novinky/">Novinky v rodokmenu →</a>
+  </aside>
+
   {(uvod.nadpis || uvod.odstavce?.length) && (
     <section class="teaser">
       <div>
@@ -97,6 +102,10 @@ const featuredRecords = ['cunin_krest_frantisek_polak_1905', 'rozinka_krest_vacl
   <p><a href="/vejir/">Vějíř předků</a> · <a href="/predci/">Seznam všech předků</a></p>
 </Base>
 <style>
+  .home-news {display:flex;align-items:center;gap:2rem;margin:2rem 0;padding:1.5rem 1.8rem;border:1px solid var(--gold);background:linear-gradient(120deg,#fbf6e9,#e8ddc3);box-shadow:inset 0 0 0 4px #fff4;}
+  .home-news h2 {margin:.2rem 0 .5rem;border:0;} .home-news h2::before {display:none;} .home-news p {margin:.3rem 0;} .home-news .btn {flex-shrink:0;}
+  @media(max-width:750px) {.home-news {display:block;padding:1rem;}.home-news .btn {margin-top:1rem;}}
+
   .home-records {margin:2.5rem 0;padding:1.5rem;border:1px solid var(--gold);background:var(--paper);}
   .home-records h2 {margin-top:.3rem;}
   .record-previews {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;margin-top:1.5rem;}

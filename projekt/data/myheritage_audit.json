@@ -1,0 +1,478 @@
+{
+ "date": "23. 10. 2026",
+ "baseline": 84,
+ "current": 133,
+ "added": 49,
+ "namedAdded": 47,
+ "media": 48,
+ "complete": false,
+ "summary": "Porovnán celý dodaný export: 133 osob, 44 rodin a 50 zdrojových položek. Oproti prvnímu importu přibylo 49 osob, z toho dva bezejmenné záznamy. Matriční kontrola všech nových větví zatím dokončena není: MZA během kontroly přestal odpovídat. Neověřené větve se do doloženého hlavního stromu nepřipojují.",
+ "findings": [
+  {
+   "id": "vykutilovi",
+   "title": "Marie Vykutilová má v exportu nesprávně přiřazenou matku",
+   "text": "U Marie (*1870 podle MyHeritage) je připojena Kateřina Kroutilová. Dochovaný výřez však uvádí Kateřinu, dceru Václava Hrnčíře z Pohledce. Otec je František Vykutil, syn Marie Vykutilové; ta je dcerou Martina Vykutila a Anny rozené Krejčí. Zápis dokládá tuto domácnost, ale spojení s naší Josefou (*1880) musí potvrdit její křest. Tento záznam nelze zaměňovat se záznamem Marie Prochaska (*1881) z americké stopy. Jejich totožnost ani americká návaznost nebyly doloženy.",
+   "record": "olesna_marie_vykutilova_vyrez_1870"
+  },
+  {
+   "id": "cisla-domu",
+   "title": "Čunín 25 a 26 se nesmějí sloučit",
+   "text": "U Josefy 1872, Marianny 1873, Marie 1876, Aloise 1878 a Jana 17. 1. 1893 je v novém exportu Čunín 26. Na znovu přečtených uložených zápisech je čp. 25. Web zachovává 25; shoda rodinné šestadvacítky se týká jiných konkrétních zápisů."
+  },
+  {
+   "id": "nezvalovi",
+   "title": "Nezvalovi: rozšíření čeká na původní zápisy",
+   "text": "Nově převzatá větev vede přes Josefu Nezvalovou (*9. 12. 1806) k Františkovi Nezvalovi a Justýně Vysloužilové. Jména a přesná data jsou zatím tvrzení cizího stromu. Děti Johanna 1823, Antonín 1825 a Augustýn 1827 mají v exportu jen otce; Justýna má úmrtí 1821. Tyto děti k ní nelze automaticky připojit."
+  },
+  {
+   "id": "kastankovi",
+   "title": "Kaštánkovi: chybí ověření přechodu ke Křižánkám",
+   "text": "Kandidát Karel Kaštánek (*1808 Křižánky 32) má nově rodiče Josefa Kaštánka a Annu Peňázovou. Matriční návaznost z našeho Domanína na tohoto Karla zatím ověřena není. Jeho údajné narození před sňatkem rodičů 1809 samo o sobě ztotožnění ani nepotvrzuje, ani nevylučuje. Převzaté poznámky odkazují na knihy 16219, 16278, 16298 a 16299; snímky dosud nebyly přečteny."
+  },
+  {
+   "id": "legionar-rodina",
+   "title": "Možná manželka a syn legionáře",
+   "text": "Export přidává k Františku Polákovi (*1890) Aloisii Kedroutkovou (*1894) a syna Josefa (*1926). Pochází z převzaté shody; oddací ani rodný zápis zde zatím nemáme. Do doložené legionářské větve se tato návaznost ještě nepřidává."
+  },
+  {
+   "id": "nova-data",
+   "title": "Nová úmrtí pocházejí ze shod, nikoli z nově přečtených matrik",
+   "text": "František Polák (*1905): 1. 8. 1983, Třebařov; Františka Krejčí (*1906): 2. 3. 1984; Anna Pospíšilová: 20. 3. 1905, Čunín 72; Františka Bavlnková: 17. 3. 1947, Mostkovice. Tyto údaje jsou užitečná vodítka, ale čekají na úmrtní zápis, parte nebo jiný původní doklad."
+  },
+  {
+   "id": "miloslav-misto",
+   "title": "Miloslavovo rodiště je potřeba upřesnit",
+   "text": "Původní rodinný údaj zní Čunín; nově v MyHeritage stojí Konice. Bez rodného listu nelze rozhodnout, zda jde o skutečné místo narození, nebo širší současný místní název. Web zatím nepřepisuje původní údaj."
+  },
+  {
+   "id": "americka-stopa",
+   "title": "Americká příbuznost zůstává neověřenou stopou",
+   "text": "Frank Vykutil z Macek Family Tree nemá údaje, které by jej bezpečně ztotožnily s naším Františkem. Samotné potvrzení jiné shody ve Smolkově stromu tuto mezeru neřeší."
+  }
+ ],
+ "people": [
+  {
+   "id": "I500002",
+   "name": "Aloisie Kedroutková",
+   "birth": "29. 9. 1894 Jaroměřitz, Mährisch Trübau, Moravia, Austria",
+   "death": "25. 1. 1959",
+   "parents": "neuvedeni",
+   "source": "Rodokmen FamilySearch",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500003",
+   "name": "Josef Polák",
+   "birth": "13. 10. 1926 Prostějov, Moravia, Czechoslovakia",
+   "death": "2000",
+   "parents": "František Polák, Aloisie Kedroutková",
+   "source": "Rodokmen FamilySearch",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500004",
+   "name": "František Bavlnka",
+   "birth": "asi 1844 Prostějovičky",
+   "death": "Krumsín",
+   "parents": "Antonín Bavlnka, Josefa Nezvalová",
+   "source": "Domanický Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500005",
+   "name": "Amálie Bavlnková",
+   "birth": "Prostějovičky, Prostějov District, Olomouc Region, Czechia",
+   "death": "Čechovice , Prostějov",
+   "parents": "Antonín Bavlnka, Josefa Nezvalová",
+   "source": "Domanický Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500006",
+   "name": "Jan Bavlnka",
+   "birth": "29. 4. 1862 Stínava 29",
+   "death": "25. 10. 1868 Stínava 29",
+   "parents": "Antonín Bavlnka, Františka Burešová",
+   "source": "Domanický Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500007",
+   "name": "Antonín Bavlnka",
+   "birth": "15. 4. 1868 Stínava 29",
+   "death": "neuvedeno",
+   "parents": "Antonín Bavlnka, Františka Burešová",
+   "source": "Domanický Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500008",
+   "name": "František Bavlnka",
+   "birth": "26. 3. 1875 Stínava 29",
+   "death": "č.p. 36, Stínava, Prostějov",
+   "parents": "Antonín Bavlnka, Františka Burešová",
+   "source": "Domanický Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500009",
+   "name": "Franz ( František ) Nezval",
+   "birth": "1. 4. 1770 Prostějovičky",
+   "death": "1. 5. 1834 Prostějovičky č.6",
+   "parents": "neuvedeni",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500010",
+   "name": "Justýna Vysloužilová",
+   "birth": "29. 12. 1767 Prostějovičky",
+   "death": "17. 3. 1821 Prostějovičky č.6",
+   "parents": "neuvedeni",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500011",
+   "name": "Josefa Nezvalová",
+   "birth": "21. 3. 1791 Prostějovičky č.6",
+   "death": "Před rokem 1806",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500012",
+   "name": "Thomas ( Tomáš ) Nezval",
+   "birth": "30. 7. 1792 Prostějovičky č.6",
+   "death": "neuvedeno",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500013",
+   "name": "Terezie Nezvalová",
+   "birth": "1. 10. 1794 Prostějovičky č.6",
+   "death": "neuvedeno",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500014",
+   "name": "Johan ( Jan ) Nezval",
+   "birth": "26. 12. 1796 Prostějovičky č.6",
+   "death": "neuvedeno",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500015",
+   "name": "Anna Nezvalová",
+   "birth": "27. 4. 1798 Prostějovičky č.6",
+   "death": "neuvedeno",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500016",
+   "name": "Raphael ( Rafael ) Nezval",
+   "birth": "18. 9. 1800 Prostějovičky č.6",
+   "death": "10. 10. 1804 Prostějovičky č.6",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500017",
+   "name": "Josef Nezval",
+   "birth": "22. 1. 1803 Prostějovičky č.6",
+   "death": "20. 8. 1803 Prostějovičky č.6",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500018",
+   "name": "Franz ( František ) Nezval",
+   "birth": "11. 10. 1804 Prostějovičky č.6",
+   "death": "25. 1. 1810 Prostějovičky č.6",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500019",
+   "name": "Magdalena Nezvalová",
+   "birth": "28. 3. 1809 Prostějovičky č.6",
+   "death": "5. 6. 1809 Prostějovičky č.6",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500020",
+   "name": "Johannes ( Jan ) Nezval",
+   "birth": "8. 5. 1811 Prostějovičky č.6",
+   "death": "1. 2. 1812 Prostějovičky č.6",
+   "parents": "Franz ( František ) Nezval, Justýna Vysloužilová",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500021",
+   "name": "Johanna Nezvalová",
+   "birth": "26. 5. 1823 Prostějovičky č.6",
+   "death": "neuvedeno",
+   "parents": "Franz ( František ) Nezval",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500022",
+   "name": "Antonín Nezval",
+   "birth": "3. 6. 1825 Prostějovičky č.6",
+   "death": "neuvedeno",
+   "parents": "Franz ( František ) Nezval",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500023",
+   "name": "Augustýn Nezval",
+   "birth": "30. 4. 1827 Prostějovičky č.6",
+   "death": "29. 1. 1830 Prostějovičky č.6",
+   "parents": "Franz ( František ) Nezval",
+   "source": "Guldová Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500024",
+   "name": "Marie Vykutil",
+   "birth": "5. 5. 1814 olešná 37",
+   "death": "asi 25. 5. 1882 olešná, ústav chudých",
+   "parents": "Martin Vykutil, Anna Krejčí",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500025",
+   "name": "Josefa Vykutil",
+   "birth": "19. 4. 1847 Olešná 37",
+   "death": "3. 6. 1864 Olešná",
+   "parents": "Marie Vykutil",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500026",
+   "name": "Marie Vykutilová",
+   "birth": "11. 8. 1870 Olešná 19",
+   "death": "17. 7. 1924 Vojetin",
+   "parents": "František Vykutil, Kateřina Kroutilová",
+   "source": "Smolkova Web Site",
+   "status": "Rozpor v matce; výřez přečten, návaznost na naši větev čeká na ověření"
+  },
+  {
+   "id": "I500027",
+   "name": "Anna Vykutil",
+   "birth": "11. 11. 1873 olešná 46",
+   "death": "neuvedeno",
+   "parents": "František Vykutil, (beze jména)",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500029",
+   "name": "František Vykutil",
+   "birth": "13. 7. 1878 olešná 52",
+   "death": "26. 2. 1955 Nové Město na Moravě",
+   "parents": "František Vykutil, (beze jména)",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500030",
+   "name": "Frantiska Vykutil",
+   "birth": "1875",
+   "death": "2. 5. 1884 olešná 46",
+   "parents": "František Vykutil, (beze jména)",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500031",
+   "name": "Martin Vykutil",
+   "birth": "asi 1782",
+   "death": "30. 9. 1854 Olešná 37",
+   "parents": "neuvedeni",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500032",
+   "name": "Anna Krejčí",
+   "birth": "1782",
+   "death": "3. 7. 1849 Olešná",
+   "parents": "neuvedeni",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500033",
+   "name": "Mathias Vykutil",
+   "birth": "11. 2. 1819 olešná 37",
+   "death": "4. 2. 1873 Nové Město na Moravě",
+   "parents": "Martin Vykutil, Anna Krejčí",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500034",
+   "name": "Martin Vykutil",
+   "birth": "9. 10. 1816 olešná 37",
+   "death": "asi 29. 7. 1842 Olešná",
+   "parents": "Martin Vykutil, Anna Krejčí",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500035",
+   "name": "Georgius Vykutil",
+   "birth": "22. 6. 1812 olešná 37",
+   "death": "21. 5. 1871 pohledec",
+   "parents": "Martin Vykutil, Anna Krejčí",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500036",
+   "name": "Josephus Vykutil",
+   "birth": "17. 3. 1806 Olešná 37",
+   "death": "neuvedeno",
+   "parents": "Martin Vykutil, Anna Krejčí",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500037",
+   "name": "Johannes Vykutil",
+   "birth": "18. 5. 1808",
+   "death": "neuvedeno",
+   "parents": "Martin Vykutil, Anna Krejčí",
+   "source": "Smolkova Web Site",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500038",
+   "name": "Josef Kaštánek",
+   "birth": "25. 5. 1788 Milovy 16",
+   "death": "24. 2. 1840 Milovy 16",
+   "parents": "neuvedeni",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500039",
+   "name": "Anna Peňázová",
+   "birth": "1790 Blatiny 1",
+   "death": "18. 6. 1872 Křižánky 32",
+   "parents": "neuvedeni",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500040",
+   "name": "František Kaštánek",
+   "birth": "1816 Blatiny",
+   "death": "neuvedeno",
+   "parents": "Josef Kaštánek, Anna Peňázová",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500041",
+   "name": "Josef Kaštánek",
+   "birth": "19. 3. 1823 Křižánky 32",
+   "death": "22. 3. 1900 Křižánky 32",
+   "parents": "Josef Kaštánek, Anna Peňázová",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500042",
+   "name": "Jan Kaštánek",
+   "birth": "27. 1. 1832 Křižánky 32",
+   "death": "neuvedeno",
+   "parents": "Josef Kaštánek, Anna Peňázová",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500043",
+   "name": "Antonín Kaštánek",
+   "birth": "20. 9. 1841 Křižánky 32",
+   "death": "25. 7. 1918 Křižánky 32",
+   "parents": "Karel Kaštánek, Terezie",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500044",
+   "name": "Josef Kaštánek",
+   "birth": "6. 4. 1838 Křižánky 32",
+   "death": "neuvedeno",
+   "parents": "Karel Kaštánek, Terezie",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500045",
+   "name": "Karel Kaštánek",
+   "birth": "10. 6. 1845 Křižánky 32",
+   "death": "11. 11. 1845 Křižánky 32",
+   "parents": "Karel Kaštánek, Terezie",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500046",
+   "name": "František Kaštánek",
+   "birth": "28. 7. 1852 Křižánky 32",
+   "death": "1853 Křižánky 32",
+   "parents": "Karel Kaštánek, Terezie",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500047",
+   "name": "Josefa Kaštánková",
+   "birth": "1834 ?",
+   "death": "neuvedeno",
+   "parents": "Karel Kaštánek, Terezie",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500048",
+   "name": "Anna Kaštánková",
+   "birth": "1836 ?",
+   "death": "neuvedeno",
+   "parents": "Karel Kaštánek, Terezie",
+   "source": "Utikal-rod Čechy",
+   "status": "Převzato z cizího stromu; matrika dosud neověřena"
+  },
+  {
+   "id": "I500049",
+   "name": "Miloslav Polák",
+   "birth": "1960",
+   "death": "neuvedeno",
+   "parents": "Miloslav Polák, Jana Helena Kaštánková",
+   "source": "ruční rodinné doplnění v MyHeritage",
+   "status": "Rodinný údaj, bez matričního ověření"
+  }
+ ]
+}

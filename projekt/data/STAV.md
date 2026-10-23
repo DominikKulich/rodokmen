@@ -67,3 +67,6 @@ Dominik doplnil bydliště Miloslava s rodiči Františkem (*1905) a Františkou
 
 ## Americká stopa Vykutilových (23. 10. 2026)
 Cousin Finder navrhuje vztah přes Macek Family Tree: Marie Prochaska (1881–1916), bratr Frank Vykutil bez narození, bydliště, partnerky a dětí, rodiče skrytí. Ztotožnění Franka s naším Františkem není doložené; nepřipojovat jako jistou rodinnou větev. Na Dominikovu žádost zveřejněno v zajímavostech jako neověřená americká stopa, bez jmen žijících členů cizí rodiny.
+
+## Audit přírůstků MyHeritage (23. 10. 2026)
+Porovnán celý dodaný export 133 osob / 44 rodin s původními 84 osobami. Přibylo 49 záznamů, z toho 2 bezejmenné. Soupis a výsledky jsou v `AUDIT_MYHERITAGE_2026-10-23.md`, veřejný přehled na `/novinky/`, datově `myheritage_audit.json`. Nové cizí větve NEJSOU ověřeny: MZA přestal odpovídat. Přednost má křest Josefy Vykutilové 25. 12. 1880 v Olešné (N 15997; index 16005), aby se prokázala návaznost na Františka *1843. U Marie *1870 v exportu nesprávně Kroutilová; dodaný výřez matky Hrnčířovy a otcovských prarodičů uložen jako samostatný, dosud rodině nepřiřazený pramen. Pět čunínských křtů má znovu přečtené čp. 25, ne 26 z exportu. Hlavní strom neprodloužen podle nepotvrzených shod. Fotografie Václava a původní Heleny přeneseny; 1942 Jana Helena a Miloslav *1960 jako rodinné údaje. Do účtu MyHeritage při auditu nezasahováno.

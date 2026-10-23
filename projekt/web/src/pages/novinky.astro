@@ -1,0 +1,43 @@
+---
+import Base from '../layouts/Base.astro';
+import { myheritageAudit as audit, byK, href } from '../lib/data.js';
+---
+<Base title="Novinky v rodokmenu">
+  <p class="eyebrow">Listy rodinné kroniky · {audit.date}</p>
+  <h1>Novinky v rodokmenu</h1>
+  <p class="lead">Nové tváře, rozšířené větve a doklady, které pomáhají rozlišit příběh od domněnky.</p>
+  <section aria-labelledby="nove-fotografie">
+    <h2 id="nove-fotografie">Další tváře rodinného alba</h2>
+    <div class="album">
+      <a class="card card-link" href={href.person(byK[14].slug)}><img src="/img/vaclav-kastanek-1914-portret.jpg" width="1403" height="1180" alt="Rodinný portrét Václava Kaštánka" /><h3>Václav Kaštánek · 1914</h3><p>Portrét z rodinného alba je nově na jeho kartě i ve stromu.</p></a>
+      <a class="card card-link" href={href.person(byK[15].slug)}><img src="/img/helena-slosarova-puvodni-fotografie.jpg" width="1742" height="1284" alt="Původní varianta fotografie Heleny Šlosárové" /><h3>Helena Šlosárová · 1920</h3><p>Vedle kolorované fotografie je dostupná také původní varianta.</p></a>
+    </div>
+    <p class="small muted">Totožnost osob podle Dominikova přiřazení v MyHeritage. Datum pořízení fotografií neznáme.</p>
+    <p>Jana Helena Kaštánková má doplněný rok narození 1942. U Jany přibyl bratr Miloslav Polák (*1960). Jde o rodinné údaje, dosud bez matričního ověření.</p>
+  </section>
+  <section aria-labelledby="kontrola-shod">
+    <h2 id="kontrola-shod">Co přinesla kontrola shod</h2>
+    <div class="note"><strong>Kontrola matrik ještě není dokončena.</strong><p>{audit.summary}</p></div>
+    {(audit.findings ?? []).map(f => <article class="finding" id={f.id}><h3>{f.title}</h3><p>{f.text}</p>{f.record && <a class="btn btn-light" href={href.record(f.record)}>Výřez zápisu a přepis →</a>}</article>)}
+    <p><a href="/AUDIT_MYHERITAGE_2026-10-23.md">Celá kontrolní zpráva v Markdownu →</a></p>
+  </section>
+  <section aria-labelledby="nove-osoby">
+    <h2 id="nove-osoby">Soupis nových osob k ověření</h2>
+    <p>V exportu přibylo 49 záznamů: 47 pojmenovaných osob a dva záznamy bez jména. <strong>Data v tabulce jsou převzatá tvrzení.</strong> Přesné datum ve shodě samo o sobě není dokladem.</p>
+    <div class="table-box" role="region" aria-label="Nové osoby z MyHeritage" tabindex="0"><table>
+      <thead><tr><th>Osoba</th><th>Narození dle exportu</th><th>Úmrtí dle exportu</th><th>Rodiče dle exportu</th><th>Zdroj a stav</th></tr></thead>
+      <tbody>{(audit.people ?? []).map(p => <tr><td><strong>{p.name}</strong></td><td>{p.birth}</td><td>{p.death}</td><td>{p.parents}</td><td><span class="small">{p.source}</span><p class="small muted">{p.status}</p></td></tr>)}</tbody>
+    </table></div>
+  </section>
+  <p><a class="btn" href="/strom/">Zpět do rodového stromu →</a></p>
+</Base>
+<style>
+  .album {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem;}
+  .album a {color:var(--ink);text-decoration:none;padding:1rem;}
+  .album img {display:block;width:100%;height:260px;object-fit:cover;object-position:center 32%;border:5px double var(--gold);}
+  .album a:nth-child(2) img {object-position:75% 35%;}
+  .finding {padding:.4rem 0 1.3rem;border-bottom:1px solid var(--line);scroll-margin-top:2rem;}
+  .finding h3 {font-size:1.25rem;}
+  .table-box {margin:1.5rem 0;} table {min-width:820px;} td p {margin:.3rem 0 0;}
+  @media(max-width:600px) {.album{grid-template-columns:1fr;}.album img{height:auto;}}
+</style>

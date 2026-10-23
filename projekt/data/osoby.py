@@ -70,7 +70,7 @@ P = {
  26: dict(n="otec neuveden", st="unk", f=[], note="Františka Krejčí je nemanželská dcera Filomeny Krejčí; otec v oddacím zápisu neuveden."),
  27: dict(n="Filomena Krejčí", y="", st="prob", f=["Konice"], r=["konice_scitani_frantiska_krejci_1910", "konice_scitani_frantiska_krejci_1921", "konice_snatek_frantisek_polak_frantiska_krejci_1929"],
          note="Svobodná matka Františky; dcera Františka Krejčího, domkáře v Konici, a Františky. Křest Filomeny zatím nenalezen – v rejstřících Konice 1870–1887 jsou 3 Filomeny Krejčí (1871 Konice str. 26?, 1881 Michnov, 1885 Klužínek); otec není jistý, rozhodne oddací/křestní zápis Františky 1906 (Olomouc) nebo křest Filomeny. Sčítání 1921: u Františky (*10. 11. 1906) předběžně čteme „nem. dítě dcery Fil. Krejčí“. Podporuje spojení Filomeny s domácností Františka a Františky Krejčích, kteří jsou uvedeni i ve sčítání 1910. Filomena sama na těchto výřezech není. Rozdílná narození staršího páru zatím nerozhodnuta; nové osoby podle nich neztotožňujeme jako jisté."),
- 7: dict(n="Jana Helena Kaštánková", y="", st="fam", f=["švadlena"], r=[],
+ 7: dict(n="Jana Helena Kaštánková", y="* 1942", st="fam", f=["* 1942 (rodinné doplnění v MyHeritage, export 23. 10. 2026)", "švadlena"], r=[],
          note="Matka Jany; ze stromu GenoPro („JanaHelena rozená Kaštánková, Poláková“)."),
  14: dict(n="Václav Kaštánek", y="* 1914", st="doc", f=["* 15. 9. 1914 Dolní Rožínka čp. 26", "× 19. 10. 1941 Zvole Helena Šlosárová", "později Bratrušín (u Bystřice nad Pernštejnem)"], r=["rozinka_krest_vaclav_kastanek_1914"],
          note="Otec Jany Heleny. Křest: N Zvole kn. 16569, sn. 215, č. 13; přípisek o sňatku s Helenou Šlosárovou potvrzuje, že jde o něj. Bratrušín (sdělil Dominik 22. 10. 2026) je obec farnosti Bystřice nad Pernštejnem vedle Domanína. Číslo domu 26 je přímo čitelné v křtu 1914. Stejné číslo má dům Polákových v Čuníně a dnešní bydliště Dominika s maminkou v Chudoslavicích (rodinné sdělení 23. 10. 2026)."),
@@ -131,6 +131,7 @@ SIDE = [
  dict(k=14, n="Hubert Kaštánek (* 1912)", t="Bratr Václava; narozen 28. 10. 1912 v Dolní Rožínce čp. 26 (Matrika N Zvole kn. 16569, oddíl Dolní (Zámecká) Rožínka, sn. 212); podle přípisku oddán 24. 10. 1935 s Helenou Vítkovou (?).", r=["rozinka_krest_hubert_kastanek_1912"]),
  dict(k=14, n="Josef Kaštánek (* 1919)", t="Bratr Václava; narozen 3. 3. 1919 v Dolní Rožínce (Matrika N Zvole kn. 16569, oddíl Dolní (Zámecká) Rožínka, sn. 218); biřmován 17. 6. 1929 v Rozsochách; oddán v Bystřici 24. 9. 1939 se Štěpánkou Škudovou (?).", r=["rozinka_krest_josef_kastanek_1919"]),
  {'k': 6, 'n': 'Zdeněk Polák', 't': 'Bratr Miloslava Poláka (*1932), podle rodinného sdělení Dominika z 23. 10. 2026. Životní data zatím neznáme.', 'r': []},
+ dict(k=3, n="Miloslav Polák (*1960)", t="Bratr Jany, syn Miloslava Poláka (*1932) a Jany Heleny Kaštánkové. Rodinné doplnění v Dominikově MyHeritage, export 23. 10. 2026; bez matričního ověření.", r=[]),
 ]
 
 # Rozpory a otevřené otázky (na web do „Co hledáme“) jako dvojice (otázka, odpověď). Odpověď začněte
