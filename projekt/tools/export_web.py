@@ -87,7 +87,7 @@ def years(y):
     if len(ys) == 1:
         return approx + ys[0]
     tail = y.split("–")[-1]
-    second = "?" if "před" in tail else ("≈" if re.search(r"(asi|≈)", tail) else "") + ys[-1]
+    second = ("před " if "před" in tail else "po " if re.search(r"\bpo\b", tail) else "≈" if re.search(r"(asi|≈)", tail) else "") + ys[-1]
     return f"{approx}{ys[0]}–{second}"
 
 
@@ -214,12 +214,12 @@ def main():
         people[slugs[k]] = dict(
             k=k, slug=slugs[k], name=p["n"], y=p.get("y", ""), years=years(p.get("y")), st=p.get("st", "unk"),
             status=STATUS.get(p.get("st"), ""), gen=gen(k), sex="M" if k == 1 and p.get("sex", "M") == "M" or k > 1 and k % 2 == 0 else "F",
-            rel=relation(k), parentLink=p.get("parent_link", ""), line=line_of(k), facts=p.get("f", []), note=p.get("note", ""), records=[r for r in p.get("r", []) if r in recs],
+            rel=relation(k), parentLink=p.get("parent_link", ""), line=line_of(k), facts=p.get("f", []), note=p.get("note", ""), yearsNote=p.get("years_note", ""), myheritageId=p.get("myheritage_id", ""), records=[r for r in p.get("r", []) if r in recs],
             father=slugs.get(2 * k), mother=slugs.get(2 * k + 1),
             fatherUnknown=(2 * k in P and placeholder(P[2 * k])), motherUnknown=(2 * k + 1 in P and placeholder(P[2 * k + 1])),
             child=slugs.get(k // 2) if k > 1 else None, spouse=slugs.get(k ^ 1) if k > 1 else None,
             family=None, ownFamily=None, path=path,
-            side=[dict(name=s["n"], text=s["t"], records=[r for r in s.get("r", []) if r in recs]) for s in SIDE if s["k"] == k],
+            side=[dict(name=s["n"], text=s["t"], myheritageId=s.get("myheritage_id", ""), records=[r for r in s.get("r", []) if r in recs]) for s in SIDE if s["k"] == k],
             docs=[dict(img=d["img"], caption=d["popis"], align=d.get("align", "xMidYMid slice")) for d in docs_cfg if k in d.get("osoby", [])],
             children=[slugs[c] for c in [k // 2] + [a // 2 for a in aliases_of.get(k, [])] if k > 1 and c in slugs],
             also=[dict(k=a, rel=relation(a), line=line_of(a), child=slugs.get(a // 2)) for a in aliases_of.get(k, [])],
@@ -318,6 +318,7 @@ def main():
     site = dict(config=public_cfg, places=places, root=slugs[1], aliases={a: slugs[a] for a in SAME}, people=people,
                 families=families, records=records, lines=lines, legionnaire=jload("legionar.json", {}),
                 myheritageAudit=jload("myheritage_audit.json", {}),
+                myheritageImport=jload("myheritage_import.json", {}),
                 issues=[dict(title=i, text="") if isinstance(i, str) else dict(title=i[0], text=i[1]) for i in ISSUES], stats=stats, hypotheses=hypotheses,
                 docs=[dict(img=d["img"], caption=d["popis"], people=[slugs[k] for k in d.get("osoby", []) if k in slugs])
                       for d in docs_cfg if os.path.exists(os.path.join(VYREZY, d["img"] + ".jpg"))])

@@ -7,6 +7,7 @@ export const linesTitle = (n) => (['Žádný rod', 'Jeden rod', 'Dva rody', 'Tř
 export const root = people[site.root];
 export const legionnaire = site.legionnaire ?? {};
 export const myheritageAudit = site.myheritageAudit ?? {};
+export const myheritageImport = site.myheritageImport ?? {};
 export const records = Object.fromEntries(site.records.map((r) => [r.key, r]));
 export const recordList = site.records;
 export const byK = Object.fromEntries([

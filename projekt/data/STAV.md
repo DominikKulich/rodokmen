@@ -70,3 +70,18 @@ Cousin Finder navrhuje vztah přes Macek Family Tree: Marie Prochaska (1881–19
 
 ## Audit přírůstků MyHeritage (23. 10. 2026)
 Porovnán celý dodaný export 133 osob / 44 rodin s původními 84 osobami. Přibylo 49 záznamů, z toho 2 bezejmenné. Soupis a výsledky jsou v `AUDIT_MYHERITAGE_2026-10-23.md`, veřejný přehled na `/novinky/`, datově `myheritage_audit.json`. Nové cizí větve NEJSOU ověřeny: MZA přestal odpovídat. Přednost má křest Josefy Vykutilové 25. 12. 1880 v Olešné (N 15997; index 16005), aby se prokázala návaznost na Františka *1843. U Marie *1870 v exportu nesprávně Kroutilová; dodaný výřez matky Hrnčířovy a otcovských prarodičů uložen jako samostatný, dosud rodině nepřiřazený pramen. Pět čunínských křtů má znovu přečtené čp. 25, ne 26 z exportu. Hlavní strom neprodloužen podle nepotvrzených shod. Fotografie Václava a původní Heleny přeneseny; 1942 Jana Helena a Miloslav *1960 jako rodinné údaje. Do účtu MyHeritage při auditu nezasahováno.
+
+### Novější pokyn Dominika: převzaté větve zobrazovat i ve stromu
+Sedm nových přímých předků má st=mh a parent_link=prob: 117, 202, 203, 224, 225, 234, 235. Jsou vidět ve stromu; rodičovství a přesná data zatím neověřeny. Nepovažovat předchozí větu „hlavní strom neprodloužen“ za aktuální pokyn.
+
+## Nalezen křest Františky Krejčí 1906 (23. 10. 2026)
+ZA Opava, porodnice Nová Ulice, O IX 13, inv. 11285, sn. 178 / fol. 177 / č. 197. N 10. 11., křest 12. 11. 1906; Filomena 18 let, dcera Františka Krejčího a Františky, Konice. Doplněni předci 54 a 55, Filomena doc a narození pouze odhad asi 1887–1888. Kmotra Marie Wěrník (?) – ověřit přesné příjmení, vdova opakovaná u jiných dětí porodnice, nikoli doložená příbuzná. Křemenec nové rodinné sdělení. Dál vlastní křest Filomeny 1887–1888, sňatek jejích rodičů a pobyt v Křemenci; MZA vyžaduje HTTP/2 (pracovni/krejci_mza_http2.mjs). Rejstřík 9137 detail 5749 sn. 37 pokrývá K 1886–1890, sn. 36 předchozí roky; čtení bledých jmen u vazby nejisté.
+
+### Upřesnění rodinné stopy ke Křemenci
+Dominik 23. 10. 2026 upřesnil: v Křemenci bydlela kmotra Františky Krejčí. Jméno ani čp. neuvedeno. Totožnost této kmotry s Marií Wěrník (?) z porodního zápisu 1906 není prokázána. Pobyt Františky ani Filomeny v Křemenci tím nedokládat.
+
+## Sčítání Polákových 1900 – Čunín 92
+Dominik dodal celý arch, archivní signatura dosud neznámá. Osoby 48/49 doplněny o pramen cunin_scitani_jan_polak_1900. Jan tkalcovství, vedlejší polní hospodářství; gramotnost Jan čte/píše, Anna jen čte. Nový údaj o Anně 26. 6. 1835 Bílsko je ze sčítání, nikoli křest. Dál N Anny a N Josefa Poláka 26. 4. 1887 Křemenec, tovaryš u Jana v roce 1900, příbuznost neprokázána. Nepřidávat Josefa jako syna/vnuka bez křtu. Dům 92 neruší jiné starší adresy rodiny. Zpráva POLAK_SCITANI_1900_2026-10-23.md.
+
+### 23. 10. 2026 – úplný přenos exportu a sčítání
+Dodaný MyHeritage export: 133 osob, 44 rodin, 202 veřejných událostí; všechno v data/myheritage_import.json a na /myheritage/. Zvlášť doplněna úmrtí Františky Bavlnkové 1947, Františka Poláka 1983 a Františky Krejčí 1984 do karet i roků stromu. Jde o data exportu, nikoli automaticky ověřené matriky. Sčítání Čunín 13 nově zpracováno (legionář); Čunín 92 společný doklad Jana a Anny bez duplicit. Anna: polský původ nedoložen; její vlastní křest a úmrtní doklad zůstávají otevřené. Další změny živého MyHeritage po tomto exportu nejsou součástí přenosu.

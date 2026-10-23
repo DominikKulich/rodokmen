@@ -1,0 +1,3467 @@
+{
+ "date": "23. 10. 2026",
+ "source": "Dodaný GEDCOM export MyHeritage, 133 osob; nejde o živou synchronizaci účtu.",
+ "count": 133,
+ "families": 44,
+ "events": 202,
+ "canonicalMatched": 53,
+ "sideMatched": 25,
+ "changed": [
+  {
+   "k": 6,
+   "name": "Miloslav Polák",
+   "years": "1932–asi 2014",
+   "facts": [
+    "Údaj MyHeritage o narození: * 1932 Konice, Česko (převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  },
+  {
+   "k": 12,
+   "name": "František Polák",
+   "years": "1905–1983",
+   "facts": [
+    "† 1. 8. 1983 Třebařov (MyHeritage, převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  },
+  {
+   "k": 13,
+   "name": "Františka Krejčí",
+   "years": "1906–1984",
+   "facts": [
+    "† 2. 3. 1984 (MyHeritage, převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  },
+  {
+   "k": 25,
+   "name": "Františka Bavlnková",
+   "years": "1870–1947",
+   "facts": [
+    "† 17. 3. 1947 Mostkovice, Prostějov (MyHeritage, převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  },
+  {
+   "k": 49,
+   "name": "Anna Pospíšilová",
+   "years": "1835–1905",
+   "facts": [
+    "Údaj MyHeritage o narození: * asi 1835 Bílsko (převzato 23. 10. 2026; původní doklad neověřen)",
+    "† 20. 3. 1905 Čunín 72 (MyHeritage, převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  },
+  {
+   "k": 101,
+   "name": "Josefa Nezvalová",
+   "years": "* 1806",
+   "facts": [
+    "* 9. 12. 1806 Prostějovičky č.6 (MyHeritage, převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  },
+  {
+   "k": 192,
+   "name": "Jiří Polák",
+   "years": "1786–před 1837",
+   "facts": [
+    "Údaj MyHeritage o narození: * 1786 (převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  },
+  {
+   "k": 50,
+   "name": "Antonín Bavlnka",
+   "years": "1833–po 1917",
+   "facts": [
+    "* 14. 1. 1833 Stínava (MyHeritage, převzato 23. 10. 2026; původní doklad neověřen)",
+    "† po 1917 č.p. 36, Stínava, Prostějov (MyHeritage, převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  },
+  {
+   "k": 58,
+   "name": "František Vykutil",
+   "years": "* 1843",
+   "facts": [
+    "* 8. 3. 1843 Olešná (MyHeritage, převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  },
+  {
+   "k": 112,
+   "name": "Karel Kaštánek",
+   "years": "* 1808",
+   "facts": [
+    "* 1808 Křižánky 32 (MyHeritage, převzato 23. 10. 2026; původní doklad neověřen)"
+   ]
+  }
+ ],
+ "people": [
+  {
+   "id": "i1",
+   "name": "Dominik Kulich",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1995",
+     "place": ""
+    }
+   ],
+   "canonicalK": 1,
+   "sideK": null,
+   "father": "i2",
+   "mother": "i3",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i2",
+   "name": "Luboš Kulich",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1962",
+     "place": ""
+    }
+   ],
+   "canonicalK": 2,
+   "sideK": null,
+   "father": "i4",
+   "mother": "i5",
+   "spouses": [
+    "i3"
+   ],
+   "children": [
+    "i1"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i3",
+   "name": "Jana Poláková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1964",
+     "place": ""
+    }
+   ],
+   "canonicalK": 3,
+   "sideK": null,
+   "father": "i6",
+   "mother": "i7",
+   "spouses": [
+    "i2"
+   ],
+   "children": [
+    "i1"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i4",
+   "name": "Václav Kulich",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "asi 1936",
+     "place": ""
+    },
+    {
+     "type": "DEAT",
+     "date": "asi 2000",
+     "place": ""
+    }
+   ],
+   "canonicalK": 4,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i5"
+   ],
+   "children": [
+    "i2",
+    "i67"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i5",
+   "name": "Marcela Krsková",
+   "events": [],
+   "canonicalK": 5,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i4"
+   ],
+   "children": [
+    "i2",
+    "i67"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i6",
+   "name": "Miloslav Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1932",
+     "place": "Konice, Česko"
+    },
+    {
+     "type": "DEAT",
+     "date": "asi 2014",
+     "place": ""
+    }
+   ],
+   "canonicalK": 6,
+   "sideK": null,
+   "father": "i8",
+   "mother": "i9",
+   "spouses": [
+    "i7"
+   ],
+   "children": [
+    "i500049",
+    "i3",
+    "i66"
+   ],
+   "mediaCount": 2,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i7",
+   "name": "Jana Helena Kaštánková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1942",
+     "place": ""
+    }
+   ],
+   "canonicalK": 7,
+   "sideK": null,
+   "father": "i10",
+   "mother": "i11",
+   "spouses": [
+    "i6"
+   ],
+   "children": [
+    "i500049",
+    "i3",
+    "i66"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i8",
+   "name": "František Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "27. 12. 1905",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "DEAT",
+     "date": "1. 8. 1983",
+     "place": "Třebařov"
+    },
+    {
+     "type": "BURI",
+     "date": "",
+     "place": "Třebařov"
+    },
+    {
+     "type": "MARR",
+     "date": "9. 11. 1929",
+     "place": "Strážisko"
+    }
+   ],
+   "canonicalK": 12,
+   "sideK": null,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [
+    "i9"
+   ],
+   "children": [
+    "i6"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i9",
+   "name": "Františka Krejčí",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "10. 11. 1906",
+     "place": "Olomouc (zemská porodnice)"
+    },
+    {
+     "type": "DEAT",
+     "date": "2. 3. 1984",
+     "place": ""
+    },
+    {
+     "type": "BURI",
+     "date": "",
+     "place": "Třebařov"
+    },
+    {
+     "type": "MARR",
+     "date": "9. 11. 1929",
+     "place": "Strážisko"
+    }
+   ],
+   "canonicalK": 13,
+   "sideK": null,
+   "father": "i500001",
+   "mother": "i14",
+   "spouses": [
+    "i8"
+   ],
+   "children": [
+    "i6"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i10",
+   "name": "Václav Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "15. 9. 1914",
+     "place": "Dolní Rožínka čp. 26"
+    },
+    {
+     "type": "MARR",
+     "date": "19. 10. 1941",
+     "place": "Zvole"
+    }
+   ],
+   "canonicalK": 14,
+   "sideK": null,
+   "father": "i15",
+   "mother": "i16",
+   "spouses": [
+    "i11"
+   ],
+   "children": [
+    "i7"
+   ],
+   "mediaCount": 2,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i11",
+   "name": "Helena Šlosárová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "20. 10. 1920",
+     "place": "Malý Lapáš (okres Nitra, Slovensko)"
+    },
+    {
+     "type": "MARR",
+     "date": "19. 10. 1941",
+     "place": "Zvole"
+    }
+   ],
+   "canonicalK": 15,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i10"
+   ],
+   "children": [
+    "i7"
+   ],
+   "mediaCount": 2,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i12",
+   "name": "Jan Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "6. 6. 1865",
+     "place": "Čunín čp. 64"
+    },
+    {
+     "type": "DEAT",
+     "date": "11. 2. 1943",
+     "place": ""
+    },
+    {
+     "type": "MARR",
+     "date": "16. 2. 1892",
+     "place": "Ptení"
+    }
+   ],
+   "canonicalK": 24,
+   "sideK": null,
+   "father": "i17",
+   "mother": "i18",
+   "spouses": [
+    "i13"
+   ],
+   "children": [
+    "i56",
+    "i57",
+    "i58",
+    "i59",
+    "i60",
+    "i61",
+    "i62",
+    "i8",
+    "i63",
+    "i64",
+    "i65"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i13",
+   "name": "Františka Bavlnková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "19. 11. 1870",
+     "place": "Stínava čp. 29"
+    },
+    {
+     "type": "DEAT",
+     "date": "17. 3. 1947",
+     "place": "Mostkovice, Prostějov"
+    },
+    {
+     "type": "BURI",
+     "date": "3. 1947",
+     "place": "Hřbitov Mostkovice"
+    },
+    {
+     "type": "MARR",
+     "date": "16. 2. 1892",
+     "place": "Ptení"
+    }
+   ],
+   "canonicalK": 25,
+   "sideK": null,
+   "father": "i19",
+   "mother": "i20",
+   "spouses": [
+    "i12"
+   ],
+   "children": [
+    "i56",
+    "i57",
+    "i58",
+    "i59",
+    "i60",
+    "i61",
+    "i62",
+    "i8",
+    "i63",
+    "i64",
+    "i65"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i14",
+   "name": "Filomena Krejčí",
+   "events": [],
+   "canonicalK": 27,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i500001"
+   ],
+   "children": [
+    "i9"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i15",
+   "name": "Ignác Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "25. 4. 1878",
+     "place": "Domanín čp. 15"
+    },
+    {
+     "type": "DEAT",
+     "date": "9. 5. 1952",
+     "place": "Bratrušín"
+    },
+    {
+     "type": "MARR",
+     "date": "4. 5. 1903",
+     "place": "Bystřice"
+    },
+    {
+     "type": "MARR",
+     "date": "5. 7. 1923",
+     "place": "Rozsochy"
+    },
+    {
+     "type": "MARR",
+     "date": "16. 10. 1934",
+     "place": "Rozsochy"
+    }
+   ],
+   "canonicalK": 28,
+   "sideK": null,
+   "father": "i21",
+   "mother": "i22",
+   "spouses": [
+    "i16",
+    "i77",
+    "i78"
+   ],
+   "children": [
+    "i68",
+    "i69",
+    "i70",
+    "i71",
+    "i10",
+    "i72"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i16",
+   "name": "Josefa Vykutilová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "25. 12. 1880",
+     "place": ""
+    },
+    {
+     "type": "MARR",
+     "date": "4. 5. 1903",
+     "place": "Bystřice"
+    }
+   ],
+   "canonicalK": 29,
+   "sideK": null,
+   "father": "i23",
+   "mother": "i24",
+   "spouses": [
+    "i15"
+   ],
+   "children": [
+    "i68",
+    "i69",
+    "i70",
+    "i71",
+    "i10",
+    "i72"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i17",
+   "name": "Jan Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "10. 8. 1838",
+     "place": "Křemenec čp. 32"
+    },
+    {
+     "type": "DEAT",
+     "date": "9. 3. 1915",
+     "place": ""
+    },
+    {
+     "type": "MARR",
+     "date": "18. 11. 1862",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": 48,
+   "sideK": null,
+   "father": "i25",
+   "mother": "i26",
+   "spouses": [
+    "i18"
+   ],
+   "children": [
+    "i50",
+    "i12",
+    "i51",
+    "i52",
+    "i53",
+    "i54",
+    "i55"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i18",
+   "name": "Anna Pospíšilová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "asi 1835",
+     "place": "Bílsko"
+    },
+    {
+     "type": "DEAT",
+     "date": "20. 3. 1905",
+     "place": "Čunín 72"
+    },
+    {
+     "type": "MARR",
+     "date": "18. 11. 1862",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": 49,
+   "sideK": null,
+   "father": "i27",
+   "mother": "i28",
+   "spouses": [
+    "i17"
+   ],
+   "children": [
+    "i50",
+    "i12",
+    "i51",
+    "i52",
+    "i53",
+    "i54",
+    "i55"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i19",
+   "name": "Antonín Bavlnka",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "14. 1. 1833",
+     "place": "Stínava"
+    },
+    {
+     "type": "DEAT",
+     "date": "po 1917",
+     "place": "č.p. 36, Stínava, Prostějov"
+    },
+    {
+     "type": "BURI",
+     "date": "po 1917",
+     "place": "Stínava, Prostějov"
+    }
+   ],
+   "canonicalK": 50,
+   "sideK": null,
+   "father": "i29",
+   "mother": "i30",
+   "spouses": [
+    "i20"
+   ],
+   "children": [
+    "i500006",
+    "i500007",
+    "i13",
+    "i500008"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i20",
+   "name": "Františka Burešová",
+   "events": [],
+   "canonicalK": 51,
+   "sideK": null,
+   "father": "i31",
+   "mother": "i32",
+   "spouses": [
+    "i19"
+   ],
+   "children": [
+    "i500006",
+    "i500007",
+    "i13",
+    "i500008"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i21",
+   "name": "Ignác Kaštánek",
+   "events": [
+    {
+     "type": "DEAT",
+     "date": "před 1903",
+     "place": ""
+    }
+   ],
+   "canonicalK": 56,
+   "sideK": null,
+   "father": "i33",
+   "mother": "i34",
+   "spouses": [
+    "i22"
+   ],
+   "children": [
+    "i15"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i22",
+   "name": "Františka Hradešínská",
+   "events": [],
+   "canonicalK": 57,
+   "sideK": null,
+   "father": "i35",
+   "mother": "i36",
+   "spouses": [
+    "i21"
+   ],
+   "children": [
+    "i15"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i23",
+   "name": "František Vykutil",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "8. 3. 1843",
+     "place": "Olešná"
+    }
+   ],
+   "canonicalK": 58,
+   "sideK": null,
+   "father": null,
+   "mother": "i500024",
+   "spouses": [
+    "i24",
+    "i500028"
+   ],
+   "children": [
+    "i500026",
+    "i16",
+    "i500027",
+    "i500030",
+    "i500029"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i24",
+   "name": "Kateřina Kroutilová",
+   "events": [
+    {
+     "type": "DEAT",
+     "date": "před 1903",
+     "place": ""
+    }
+   ],
+   "canonicalK": 59,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i23"
+   ],
+   "children": [
+    "i500026",
+    "i16"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i25",
+   "name": "Martin Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "25. 10. 1816",
+     "place": "Křemenec čp. 7"
+    },
+    {
+     "type": "MARR",
+     "date": "18. 10. 1837",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": 96,
+   "sideK": null,
+   "father": "i37",
+   "mother": "i38",
+   "spouses": [
+    "i26"
+   ],
+   "children": [
+    "i17"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i26",
+   "name": "Marianna Tilšerová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "asi 1812",
+     "place": "Veselá (Fröhlichsdorf) čp. 10"
+    },
+    {
+     "type": "MARR",
+     "date": "18. 10. 1837",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": 97,
+   "sideK": null,
+   "father": "i39",
+   "mother": "i40",
+   "spouses": [
+    "i25"
+   ],
+   "children": [
+    "i17"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i27",
+   "name": "Jiří Pospíšil",
+   "events": [],
+   "canonicalK": 98,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i28"
+   ],
+   "children": [
+    "i18"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i28",
+   "name": "Anna Švédová",
+   "events": [],
+   "canonicalK": 99,
+   "sideK": null,
+   "father": "i41",
+   "mother": null,
+   "spouses": [
+    "i27"
+   ],
+   "children": [
+    "i18"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i29",
+   "name": "Antonín Bavlnka",
+   "events": [],
+   "canonicalK": 100,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i30"
+   ],
+   "children": [
+    "i19",
+    "i500004",
+    "i500005"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i30",
+   "name": "Josefa Nezvalová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "9. 12. 1806",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": 101,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [
+    "i29"
+   ],
+   "children": [
+    "i19",
+    "i500004",
+    "i500005"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i31",
+   "name": "František Bureš",
+   "events": [],
+   "canonicalK": 102,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i32"
+   ],
+   "children": [
+    "i20"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i32",
+   "name": "Františka Jelínková",
+   "events": [],
+   "canonicalK": 103,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i31"
+   ],
+   "children": [
+    "i20"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i33",
+   "name": "Karel Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1808",
+     "place": "Křižánky 32"
+    }
+   ],
+   "canonicalK": 112,
+   "sideK": null,
+   "father": "i500038",
+   "mother": "i500039",
+   "spouses": [
+    "i34"
+   ],
+   "children": [
+    "i500047",
+    "i500048",
+    "i500044",
+    "i500043",
+    "i500045",
+    "i500046",
+    "i21"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i34",
+   "name": "Terezie",
+   "events": [],
+   "canonicalK": 113,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i33"
+   ],
+   "children": [
+    "i500047",
+    "i500048",
+    "i500044",
+    "i500043",
+    "i500045",
+    "i500046",
+    "i21"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i35",
+   "name": "Josef Hradešínský",
+   "events": [],
+   "canonicalK": 114,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i36"
+   ],
+   "children": [
+    "i22"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i36",
+   "name": "Josefa Žilková",
+   "events": [],
+   "canonicalK": 115,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i35"
+   ],
+   "children": [
+    "i22"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i37",
+   "name": "Jiří Polák",
+   "events": [
+    {
+     "type": "CHR",
+     "date": "20. 4. 1786",
+     "place": "Křemenec čp. 7"
+    },
+    {
+     "type": "DEAT",
+     "date": "před 1837",
+     "place": ""
+    },
+    {
+     "type": "BIRT",
+     "date": "1786",
+     "place": ""
+    },
+    {
+     "type": "MARR",
+     "date": "28. 1. 1812",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": 192,
+   "sideK": null,
+   "father": "i42",
+   "mother": "i43",
+   "spouses": [
+    "i38"
+   ],
+   "children": [
+    "i25"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i38",
+   "name": "Marianna Paulíková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "asi 1790",
+     "place": "Čunín čp. 9"
+    },
+    {
+     "type": "MARR",
+     "date": "28. 1. 1812",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": 193,
+   "sideK": null,
+   "father": "i44",
+   "mother": null,
+   "spouses": [
+    "i37"
+   ],
+   "children": [
+    "i25"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i39",
+   "name": "Jiří Tilšer",
+   "events": [],
+   "canonicalK": 194,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i40"
+   ],
+   "children": [
+    "i26"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i40",
+   "name": "Barbora Hirthová (?)",
+   "events": [],
+   "canonicalK": 195,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i39"
+   ],
+   "children": [
+    "i26"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i41",
+   "name": "Josef Švéda",
+   "events": [],
+   "canonicalK": 198,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [],
+   "children": [
+    "i28"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i42",
+   "name": "Josef Polák",
+   "events": [
+    {
+     "type": "DEAT",
+     "date": "před 1812",
+     "place": ""
+    },
+    {
+     "type": "MARR",
+     "date": "4. 7. 1779",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": 384,
+   "sideK": null,
+   "father": "i45",
+   "mother": null,
+   "spouses": [
+    "i43"
+   ],
+   "children": [
+    "i37"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i43",
+   "name": "Anna Popelková",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1779",
+     "place": ""
+    }
+   ],
+   "canonicalK": 385,
+   "sideK": null,
+   "father": "i46",
+   "mother": null,
+   "spouses": [
+    "i42"
+   ],
+   "children": [
+    "i37"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i44",
+   "name": "Václav Paulík",
+   "events": [],
+   "canonicalK": 386,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [],
+   "children": [
+    "i38"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i45",
+   "name": "Josef Polák",
+   "events": [],
+   "canonicalK": 768,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [],
+   "children": [
+    "i42"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i46",
+   "name": "Pavel Popelka",
+   "events": [],
+   "canonicalK": 770,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [],
+   "children": [
+    "i43"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i47",
+   "name": "Jan Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "16. 4. 1893",
+     "place": "Čunín čp. 71"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i51",
+   "mother": "i73",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i48",
+   "name": "Marie Trnková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "asi 1862",
+     "place": ""
+    },
+    {
+     "type": "MARR",
+     "date": "17. 10. 1887",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i74",
+   "mother": "i75",
+   "spouses": [
+    "i50"
+   ],
+   "children": [
+    "i49"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i49",
+   "name": "František Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "4. 7. 1890",
+     "place": "Čunín čp. 13"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i50",
+   "mother": "i48",
+   "spouses": [
+    "i500002"
+   ],
+   "children": [
+    "i500003"
+   ],
+   "mediaCount": 2,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i50",
+   "name": "František Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "18. 10. 1860",
+     "place": "Čunín čp. 64"
+    },
+    {
+     "type": "MARR",
+     "date": "17. 10. 1887",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 24,
+   "father": "i17",
+   "mother": "i18",
+   "spouses": [
+    "i48"
+   ],
+   "children": [
+    "i49"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i51",
+   "name": "Eduard Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "16. 11. 1868",
+     "place": "Čunín čp. 64"
+    },
+    {
+     "type": "DEAT",
+     "date": "25. 7. 1923",
+     "place": ""
+    },
+    {
+     "type": "MARR",
+     "date": "19. 5. 1891",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 24,
+   "father": "i17",
+   "mother": "i18",
+   "spouses": [
+    "i73"
+   ],
+   "children": [
+    "i47"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i52",
+   "name": "Josefa Poláková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "19. 3. 1872",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "DEAT",
+     "date": "1872",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 24,
+   "father": "i17",
+   "mother": "i18",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i53",
+   "name": "Marianna Poláková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "24. 12. 1873",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "DEAT",
+     "date": "12. 1873",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 24,
+   "father": "i17",
+   "mother": "i18",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i54",
+   "name": "Marie Poláková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "6. 4. 1876",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "DEAT",
+     "date": "6. 4. 1876",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 24,
+   "father": "i17",
+   "mother": "i18",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i55",
+   "name": "Alois Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "13. 12. 1878",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "DEAT",
+     "date": "13. 12. 1878",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 24,
+   "father": "i17",
+   "mother": "i18",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i56",
+   "name": "Jan Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "17. 1. 1893",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "MARR",
+     "date": "31. 8. 1915",
+     "place": "Přemyslovice"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [
+    "i76"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i57",
+   "name": "Vincencie Poláková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1894",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "MARR",
+     "date": "1. 10. 1917",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [
+    "i79"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i58",
+   "name": "Růžena Poláková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "18. 12. 1896",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "MARR",
+     "date": "29. 8. 1921",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [
+    "i80"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i59",
+   "name": "Arnošt Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "12. 1. 1899",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "DEAT",
+     "date": "13. 2. 1899",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i60",
+   "name": "Josef Polák",
+   "events": [
+    {
+     "type": "DEAT",
+     "date": "23. 10. 1900",
+     "place": ""
+    },
+    {
+     "type": "BIRT",
+     "date": "7. 1900",
+     "place": "Čunín čp. 26"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i61",
+   "name": "Bohumila Poláková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "4. 10. 1901",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "DEAT",
+     "date": "14. 1. 1959",
+     "place": "Senice na Hané"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i62",
+   "name": "Josef Polák",
+   "events": [
+    {
+     "type": "DEAT",
+     "date": "19. 2. 1905",
+     "place": ""
+    },
+    {
+     "type": "BIRT",
+     "date": "1. 1904",
+     "place": "Čunín čp. 26"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i63",
+   "name": "Marie Poláková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "9. 3. 1908",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "DEAT",
+     "date": "28. 1. 1912",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i64",
+   "name": "Františka Poláková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "10. 3. 1912",
+     "place": "Čunín čp. 26"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i65",
+   "name": "Antonín Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "26. 2. 1914",
+     "place": "Čunín čp. 26"
+    },
+    {
+     "type": "MARR",
+     "date": "18. 10. 1941",
+     "place": "Konice"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 12,
+   "father": "i12",
+   "mother": "i13",
+   "spouses": [
+    "i81"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i66",
+   "name": "Pavel Polák",
+   "events": [],
+   "canonicalK": null,
+   "sideK": 3,
+   "father": "i6",
+   "mother": "i7",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i67",
+   "name": "Marcela Kulichová",
+   "events": [],
+   "canonicalK": null,
+   "sideK": 2,
+   "father": "i4",
+   "mother": "i5",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i68",
+   "name": "Božena Kaštánková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "7. 10. 1905",
+     "place": "Dolní Rožínka čp. 26"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 14,
+   "father": "i15",
+   "mother": "i16",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i69",
+   "name": "Josef Vincenc Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "28. 6. 1908",
+     "place": "Dolní Rožínka čp. 26"
+    },
+    {
+     "type": "DEAT",
+     "date": "1909",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 14,
+   "father": "i15",
+   "mother": "i16",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i70",
+   "name": "Ignác Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "25. 2. 1910",
+     "place": "Zámecká Rožínka čp. 26"
+    },
+    {
+     "type": "MARR",
+     "date": "22. 9. 1935",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 14,
+   "father": "i15",
+   "mother": "i16",
+   "spouses": [
+    "i82"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i71",
+   "name": "Hubert Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "28. 10. 1912",
+     "place": "Dolní Rožínka čp. 26"
+    },
+    {
+     "type": "MARR",
+     "date": "24. 10. 1935",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 14,
+   "father": "i15",
+   "mother": "i16",
+   "spouses": [
+    "i83"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i72",
+   "name": "Josef Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "3. 3. 1919",
+     "place": "Dolní Rožínka"
+    },
+    {
+     "type": "MARR",
+     "date": "24. 9. 1939",
+     "place": "Bystřice"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 14,
+   "father": "i15",
+   "mother": "i16",
+   "spouses": [
+    "i84"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i73",
+   "name": "Filomena Hrušáková (?)",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1891",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i51"
+   ],
+   "children": [
+    "i47"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i74",
+   "name": "Josef Trnka",
+   "events": [],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i75"
+   ],
+   "children": [
+    "i48"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i75",
+   "name": "Anna",
+   "events": [],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i74"
+   ],
+   "children": [
+    "i48"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i76",
+   "name": "Helena Kmentová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "10. 2. 1895",
+     "place": ""
+    },
+    {
+     "type": "MARR",
+     "date": "31. 8. 1915",
+     "place": "Přemyslovice"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i56"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i77",
+   "name": "Albína Šmerdová (?)",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1923",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i15"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i78",
+   "name": "Růžena Vaší…ová (?)",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1934",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i15"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i79",
+   "name": "Methoděj Veselý (?)",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1917",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i57"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i80",
+   "name": "Bedřich Kupla (?)",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1921",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i58"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i81",
+   "name": "Anna Hýblová",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1941",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i65"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i82",
+   "name": "Marie Pl…ová (?)",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1935",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i70"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i83",
+   "name": "Helena Vítková (?)",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1935",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i71"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i84",
+   "name": "Štěpánka Škudová (?)",
+   "events": [
+    {
+     "type": "MARR",
+     "date": "1939",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i72"
+   ],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500001",
+   "name": "(beze jména)",
+   "events": [],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i14"
+   ],
+   "children": [
+    "i9"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500002",
+   "name": "Aloisie Kedroutková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "29. 9. 1894",
+     "place": "Jaroměřitz, Mährisch Trübau, Moravia, Austria"
+    },
+    {
+     "type": "DEAT",
+     "date": "25. 1. 1959",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i49"
+   ],
+   "children": [
+    "i500003"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500003",
+   "name": "Josef Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "13. 10. 1926",
+     "place": "Prostějov, Moravia, Czechoslovakia"
+    },
+    {
+     "type": "DEAT",
+     "date": "2000",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i49",
+   "mother": "i500002",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500004",
+   "name": "František Bavlnka",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "asi 1844",
+     "place": "Prostějovičky"
+    },
+    {
+     "type": "DEAT",
+     "date": "",
+     "place": "Krumsín"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i29",
+   "mother": "i30",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500005",
+   "name": "Amálie Bavlnková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "",
+     "place": "Prostějovičky, Prostějov District, Olomouc Region, Czechia"
+    },
+    {
+     "type": "DEAT",
+     "date": "",
+     "place": "Čechovice , Prostějov"
+    },
+    {
+     "type": "BURI",
+     "date": "",
+     "place": "Prostějov, Prostějov"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i29",
+   "mother": "i30",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500006",
+   "name": "Jan Bavlnka",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "29. 4. 1862",
+     "place": "Stínava 29"
+    },
+    {
+     "type": "DEAT",
+     "date": "25. 10. 1868",
+     "place": "Stínava 29"
+    },
+    {
+     "type": "BURI",
+     "date": "asi 10. 1868",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i19",
+   "mother": "i20",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500007",
+   "name": "Antonín Bavlnka",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "15. 4. 1868",
+     "place": "Stínava 29"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i19",
+   "mother": "i20",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500008",
+   "name": "František Bavlnka",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "26. 3. 1875",
+     "place": "Stínava 29"
+    },
+    {
+     "type": "DEAT",
+     "date": "",
+     "place": "č.p. 36, Stínava, Prostějov"
+    },
+    {
+     "type": "BURI",
+     "date": "",
+     "place": "Stínava, Prostějov"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i19",
+   "mother": "i20",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500009",
+   "name": "Franz ( František ) Nezval",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1. 4. 1770",
+     "place": "Prostějovičky"
+    },
+    {
+     "type": "DEAT",
+     "date": "1. 5. 1834",
+     "place": "Prostějovičky č.6"
+    },
+    {
+     "type": "MARR",
+     "date": "16. 5. 1790",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": 202,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i500010"
+   ],
+   "children": [
+    "i500011",
+    "i500012",
+    "i500013",
+    "i500014",
+    "i500015",
+    "i500016",
+    "i500017",
+    "i500018",
+    "i30",
+    "i500019",
+    "i500020",
+    "i500021",
+    "i500022",
+    "i500023"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500010",
+   "name": "Justýna Vysloužilová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "29. 12. 1767",
+     "place": "Prostějovičky"
+    },
+    {
+     "type": "DEAT",
+     "date": "17. 3. 1821",
+     "place": "Prostějovičky č.6"
+    },
+    {
+     "type": "MARR",
+     "date": "16. 5. 1790",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": 203,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i500009"
+   ],
+   "children": [
+    "i500011",
+    "i500012",
+    "i500013",
+    "i500014",
+    "i500015",
+    "i500016",
+    "i500017",
+    "i500018",
+    "i30",
+    "i500019",
+    "i500020"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500011",
+   "name": "Josefa Nezvalová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "21. 3. 1791",
+     "place": "Prostějovičky č.6"
+    },
+    {
+     "type": "DEAT",
+     "date": "Před rokem 1806",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500012",
+   "name": "Thomas ( Tomáš ) Nezval",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "30. 7. 1792",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500013",
+   "name": "Terezie Nezvalová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1. 10. 1794",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500014",
+   "name": "Johan ( Jan ) Nezval",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "26. 12. 1796",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500015",
+   "name": "Anna Nezvalová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "27. 4. 1798",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500016",
+   "name": "Raphael ( Rafael ) Nezval",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "18. 9. 1800",
+     "place": "Prostějovičky č.6"
+    },
+    {
+     "type": "DEAT",
+     "date": "10. 10. 1804",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500017",
+   "name": "Josef Nezval",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "22. 1. 1803",
+     "place": "Prostějovičky č.6"
+    },
+    {
+     "type": "DEAT",
+     "date": "20. 8. 1803",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500018",
+   "name": "Franz ( František ) Nezval",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "11. 10. 1804",
+     "place": "Prostějovičky č.6"
+    },
+    {
+     "type": "DEAT",
+     "date": "25. 1. 1810",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500019",
+   "name": "Magdalena Nezvalová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "28. 3. 1809",
+     "place": "Prostějovičky č.6"
+    },
+    {
+     "type": "DEAT",
+     "date": "5. 6. 1809",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500020",
+   "name": "Johannes ( Jan ) Nezval",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "8. 5. 1811",
+     "place": "Prostějovičky č.6"
+    },
+    {
+     "type": "DEAT",
+     "date": "1. 2. 1812",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": "i500010",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500021",
+   "name": "Johanna Nezvalová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "26. 5. 1823",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": null,
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500022",
+   "name": "Antonín Nezval",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "3. 6. 1825",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": null,
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500023",
+   "name": "Augustýn Nezval",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "30. 4. 1827",
+     "place": "Prostějovičky č.6"
+    },
+    {
+     "type": "DEAT",
+     "date": "29. 1. 1830",
+     "place": "Prostějovičky č.6"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500009",
+   "mother": null,
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500024",
+   "name": "Marie Vykutil",
+   "events": [
+    {
+     "type": "DEAT",
+     "date": "asi 25. 5. 1882",
+     "place": "olešná, ústav chudých"
+    },
+    {
+     "type": "BIRT",
+     "date": "5. 5. 1814",
+     "place": "olešná 37"
+    }
+   ],
+   "canonicalK": 117,
+   "sideK": null,
+   "father": "i500031",
+   "mother": "i500032",
+   "spouses": [],
+   "children": [
+    "i23",
+    "i500025"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500025",
+   "name": "Josefa Vykutil",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "19. 4. 1847",
+     "place": "Olešná 37"
+    },
+    {
+     "type": "DEAT",
+     "date": "3. 6. 1864",
+     "place": "Olešná"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": "i500024",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500026",
+   "name": "Marie Vykutilová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "11. 8. 1870",
+     "place": "Olešná 19"
+    },
+    {
+     "type": "DEAT",
+     "date": "17. 7. 1924",
+     "place": "Vojetin"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i23",
+   "mother": "i24",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 2,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500027",
+   "name": "Anna Vykutil",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "11. 11. 1873",
+     "place": "olešná 46"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i23",
+   "mother": "i500028",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500028",
+   "name": "(beze jména)",
+   "events": [],
+   "canonicalK": null,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i23"
+   ],
+   "children": [
+    "i500027",
+    "i500030",
+    "i500029"
+   ],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500029",
+   "name": "František Vykutil",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "13. 7. 1878",
+     "place": "olešná 52"
+    },
+    {
+     "type": "DEAT",
+     "date": "26. 2. 1955",
+     "place": "Nové Město na Moravě"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i23",
+   "mother": "i500028",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500030",
+   "name": "Frantiska Vykutil",
+   "events": [
+    {
+     "type": "DEAT",
+     "date": "2. 5. 1884",
+     "place": "olešná 46"
+    },
+    {
+     "type": "BIRT",
+     "date": "1875",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i23",
+   "mother": "i500028",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500031",
+   "name": "Martin Vykutil",
+   "events": [
+    {
+     "type": "DEAT",
+     "date": "30. 9. 1854",
+     "place": "Olešná 37"
+    },
+    {
+     "type": "BIRT",
+     "date": "asi 1782",
+     "place": ""
+    }
+   ],
+   "canonicalK": 234,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i500032"
+   ],
+   "children": [
+    "i500036",
+    "i500037",
+    "i500035",
+    "i500024",
+    "i500034",
+    "i500033"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500032",
+   "name": "Anna Krejčí",
+   "events": [
+    {
+     "type": "DEAT",
+     "date": "3. 7. 1849",
+     "place": "Olešná"
+    },
+    {
+     "type": "BIRT",
+     "date": "1782",
+     "place": ""
+    }
+   ],
+   "canonicalK": 235,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i500031"
+   ],
+   "children": [
+    "i500036",
+    "i500037",
+    "i500035",
+    "i500024",
+    "i500034",
+    "i500033"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500033",
+   "name": "Mathias Vykutil",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "11. 2. 1819",
+     "place": "olešná 37"
+    },
+    {
+     "type": "DEAT",
+     "date": "4. 2. 1873",
+     "place": "Nové Město na Moravě"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500031",
+   "mother": "i500032",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500034",
+   "name": "Martin Vykutil",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "9. 10. 1816",
+     "place": "olešná 37"
+    },
+    {
+     "type": "DEAT",
+     "date": "asi 29. 7. 1842",
+     "place": "Olešná"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500031",
+   "mother": "i500032",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500035",
+   "name": "Georgius Vykutil",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "22. 6. 1812",
+     "place": "olešná 37"
+    },
+    {
+     "type": "DEAT",
+     "date": "21. 5. 1871",
+     "place": "pohledec"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500031",
+   "mother": "i500032",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500036",
+   "name": "Josephus Vykutil",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "17. 3. 1806",
+     "place": "Olešná 37"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500031",
+   "mother": "i500032",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500037",
+   "name": "Johannes Vykutil",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "18. 5. 1808",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500031",
+   "mother": "i500032",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500038",
+   "name": "Josef Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "25. 5. 1788",
+     "place": "Milovy 16"
+    },
+    {
+     "type": "DEAT",
+     "date": "24. 2. 1840",
+     "place": "Milovy 16"
+    },
+    {
+     "type": "MARR",
+     "date": "20. 11. 1809",
+     "place": "Milovy"
+    }
+   ],
+   "canonicalK": 224,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i500039"
+   ],
+   "children": [
+    "i33",
+    "i500040",
+    "i500041",
+    "i500042"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500039",
+   "name": "Anna Peňázová",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1790",
+     "place": "Blatiny 1"
+    },
+    {
+     "type": "DEAT",
+     "date": "18. 6. 1872",
+     "place": "Křižánky 32"
+    },
+    {
+     "type": "MARR",
+     "date": "20. 11. 1809",
+     "place": "Milovy"
+    }
+   ],
+   "canonicalK": 225,
+   "sideK": null,
+   "father": null,
+   "mother": null,
+   "spouses": [
+    "i500038"
+   ],
+   "children": [
+    "i33",
+    "i500040",
+    "i500041",
+    "i500042"
+   ],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500040",
+   "name": "František Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1816",
+     "place": "Blatiny"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500038",
+   "mother": "i500039",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500041",
+   "name": "Josef Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "19. 3. 1823",
+     "place": "Křižánky 32"
+    },
+    {
+     "type": "DEAT",
+     "date": "22. 3. 1900",
+     "place": "Křižánky 32"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500038",
+   "mother": "i500039",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500042",
+   "name": "Jan Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "27. 1. 1832",
+     "place": "Křižánky 32"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i500038",
+   "mother": "i500039",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500043",
+   "name": "Antonín Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "20. 9. 1841",
+     "place": "Křižánky 32"
+    },
+    {
+     "type": "DEAT",
+     "date": "25. 7. 1918",
+     "place": "Křižánky 32"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i33",
+   "mother": "i34",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500044",
+   "name": "Josef Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "6. 4. 1838",
+     "place": "Křižánky 32"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i33",
+   "mother": "i34",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500045",
+   "name": "Karel Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "10. 6. 1845",
+     "place": "Křižánky 32"
+    },
+    {
+     "type": "DEAT",
+     "date": "11. 11. 1845",
+     "place": "Křižánky 32"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i33",
+   "mother": "i34",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500046",
+   "name": "František Kaštánek",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "28. 7. 1852",
+     "place": "Křižánky 32"
+    },
+    {
+     "type": "DEAT",
+     "date": "1853",
+     "place": "Křižánky 32"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i33",
+   "mother": "i34",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500047",
+   "name": "Josefa Kaštánková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1834",
+     "place": "?"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i33",
+   "mother": "i34",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500048",
+   "name": "Anna Kaštánková",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1836",
+     "place": "?"
+    }
+   ],
+   "canonicalK": null,
+   "sideK": null,
+   "father": "i33",
+   "mother": "i34",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  },
+  {
+   "id": "i500049",
+   "name": "Miloslav Polák",
+   "events": [
+    {
+     "type": "BIRT",
+     "date": "1960",
+     "place": ""
+    }
+   ],
+   "canonicalK": null,
+   "sideK": 3,
+   "father": "i6",
+   "mother": "i7",
+   "spouses": [],
+   "children": [],
+   "mediaCount": 0,
+   "privacy": "Žijící nebo nejisté: jen roky, bez přesných míst.",
+   "status": "Údaje exportu; shoda s kartou sama neznamená matriční ověření."
+  }
+ ],
+ "scope": "Úplný soupis osob, událostí a rodinných vazeb z tohoto souboru. Kontakty a surové poznámky se nezveřejňují. Fotografie mají samostatné doklady a nejsou tímto počtem potvrzené jako všechny přenesené."
+}

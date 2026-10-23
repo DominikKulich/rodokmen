@@ -173,5 +173,26 @@
   "svazek": "N Olešná 1860–1909, kniha 15997",
   "popis": "Výřez bez úplné datové hlavičky; přiřazení ke snímku 30 podle odkazu v exportu, úplný snímek zatím neověřen",
   "url": "https://www.mza.cz/actapublica/matrika/detail/9999"
+ },
+ "zao_o_ix_13": {
+  "archiv": "Zemský archiv v Opavě, Sbírka matrik Severomoravského kraje I, NAD 165",
+  "portal": "Digitální badatelna ZA v Opavě",
+  "svazek": "Nová Ulice – Zemská nemocnice a porodnice, N a I-N 1904–1909, inv. č. 11285, sign. O IX 13",
+  "popis": "Svazek X, folio 177, pořadové číslo 197; digitální snímek 178.",
+  "url": "https://digi.archives.cz/da/permalink?xid=dd4acd7737c68136:5e44cc3e:12c9fad6ac6:-7ce2&scan=b5f8361722cc4ffcb315633f81c3acb0"
+ },
+ "scitani_cunin_1900_92": {
+  "archiv": "Sčítání lidu 1900 – snímek dodaný Dominikem; původní archiv a signatura dosud nezjištěny",
+  "portal": "uloženého snímku",
+  "svazek": "Čunín, politický okres Litovel, čp. 92, arch popisný IX, stav k 31. 12. 1900",
+  "popis": "Celý dodaný arch, první domácnost řádky 1–4. Osm osob ve dvou domácnostech. Archivní odkaz nebyl dodán.",
+  "url": "/zdroje/cunin_scitani_jan_polak_1900.jpg"
+ },
+ "scitani_cunin_1900_13": {
+  "archiv": "Sčítání lidu 1900 – celý snímek dodaný Dominikem; původní archiv a signatura dosud nezjištěny",
+  "portal": "uloženého snímku",
+  "svazek": "Čunín čp. 13, politický okres Litovel, Morava, stav k 31. 12. 1900",
+  "popis": "Dvě domácnosti, deset osob. První řádky 1–9 jsou domácnost Františka Poláka. Archivní odkaz k tomuto snímku nebyl dodán.",
+  "url": "/zdroje/cunin_scitani_legionarska_rodina_1900.jpg"
  }
 }

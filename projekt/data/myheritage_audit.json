@@ -6,7 +6,7 @@
  "namedAdded": 47,
  "media": 48,
  "complete": false,
- "summary": "Porovnán celý dodaný export: 133 osob, 44 rodin a 50 zdrojových položek. Oproti prvnímu importu přibylo 49 osob, z toho dva bezejmenné záznamy. Matriční kontrola všech nových větví zatím dokončena není: MZA během kontroly přestal odpovídat. Neověřené větve se do doloženého hlavního stromu nepřipojují.",
+ "summary": "Porovnán celý dodaný export: 133 osob, 44 rodin a 50 zdrojových položek. Oproti prvnímu importu přibylo 49 osob, z toho dva bezejmenné záznamy. Matriční kontrola všech nových větví zatím dokončena není: MZA během kontroly přestal odpovídat. Na Dominikovu žádost jsou nové přímé větve ve stromu zobrazené jako neověřené údaje z MyHeritage, s přerušovanými vazbami; matriční ověření tím nenahrazujeme.",
  "findings": [
   {
    "id": "vykutilovi",
@@ -27,7 +27,7 @@
   {
    "id": "kastankovi",
    "title": "Kaštánkovi: chybí ověření přechodu ke Křižánkám",
-   "text": "Kandidát Karel Kaštánek (*1808 Křižánky 32) má nově rodiče Josefa Kaštánka a Annu Peňázovou. Matriční návaznost z našeho Domanína na tohoto Karla zatím ověřena není. Jeho údajné narození před sňatkem rodičů 1809 samo o sobě ztotožnění ani nepotvrzuje, ani nevylučuje. Převzaté poznámky odkazují na knihy 16219, 16278, 16298 a 16299; snímky dosud nebyly přečteny."
+   "text": "Kandidát Karel Kaštánek (*1808 Křižánky 32) má nově rodiče Josefa Kaštánka a Annu Peňázovou. Matriční návaznost z našeho Domanína na tohoto Karla zatím ověřena není. Jeho údajné narození před sňatkem rodičů 1809 samo o sobě ztotožnění ani nepotvrzuje, ani nevylučuje. Převzaté poznámky odkazují na knihy 16219, 16278, 16298 a 16299; snímky dosud nebyly přečteny. Josef a Anna jsou nyní vidět v hlavním stromu jako neověření rodiče Karla."
   },
   {
    "id": "legionar-rodina",
@@ -474,5 +474,6 @@
    "source": "ruční rodinné doplnění v MyHeritage",
    "status": "Rodinný údaj, bez matričního ověření"
   }
- ]
+ ],
+ "treeUpdate": "Do hlavního stromu přidáno sedm převzatých předků: Josef Kaštánek a Anna Peňázová; Marie Vykutilová, Martin Vykutil a Anna Krejčí; František Nezval a Justýna Vysloužilová. Všichni mají označení MyHeritage – neověřeno a přerušovanou příbuzenskou vazbu."
 }

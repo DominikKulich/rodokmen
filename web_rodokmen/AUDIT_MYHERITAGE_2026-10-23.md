@@ -130,3 +130,6 @@ Raw GEDCOM, původní porovnání a fotografie jsou pouze v ignorované pracovn�
 
 ## Formální kontrola exportu
 Zkontrolováno všech 133 osob a 44 rodin: odkazy na osoby existují, vazby dítě–rodina jsou vzájemné, v síti rodičů není cyklus a známý rok úmrtí nepředchází roku narození. Tato formální kontrola nepotvrzuje skutečné příbuzenství ani správnost přesných dat.
+
+## Doplnění na přímou žádost Dominika: nové větve viditelné ve stromu
+Do hlavního stromu přidáno sedm převzatých předků: Josef Kaštánek a Anna Peňázová; Marie Vykutilová, Martin Vykutil a Anna Krejčí; František Nezval a Justýna Vysloužilová. Všichni mají označení MyHeritage – neověřeno a přerušovanou příbuzenskou vazbu. Původní rozhodnutí zobrazovat je pouze v přehledu je tím překonáno. Stav ověření zůstává nezměněný; rozpor u matky Marie 1870 se nepřebírá jako rodinná vazba.

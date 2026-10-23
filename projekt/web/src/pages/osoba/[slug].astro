@@ -40,6 +40,7 @@ const documents = p.docs.filter(d => d !== portrait);
       Podruhé jako {p.also.map((a) => a.rel).join(', ')}.</p>
   )}
   {p.parentLink === 'prob' && <p class="note">Příbuzenství k dítěti v této linii zatím není potvrzeno přímým dokladem. Doložení osoby v matrice samo o sobě tuto vazbu nepotvrzuje.</p>}
+  {p.yearsNote && <p class="note" id="puvod-dat">{p.yearsNote} {p.myheritageId && <a href={`/myheritage/#${p.myheritageId}`}>Porovnat všechny údaje dodaného exportu →</a>}</p>}
   {p.facts.length > 0 && <ul class="facts">{p.facts.map((f) => <li>{f}</li>)}</ul>}
   {(() => { const pv = povolaniV(vlastniFakta(p.facts).join(' ')); return pv.length > 0 && (
     <details class="pov-note" open>
@@ -71,7 +72,7 @@ const documents = p.docs.filter(d => d !== portrait);
       <h2 id="sourozenci">Sourozenci a další příbuzní</h2>
       <div class="grid2">
         {p.side.map((s) => (
-          <div class="card"><h3>{s.name}</h3><p class="small">{s.text}</p>
+          <div class="card"><h3>{s.name}</h3><p class="small">{s.text}</p>{s.myheritageId && <p class="small"><a href={`/myheritage/#${s.myheritageId}`}>Údaje v exportu MyHeritage →</a></p>}
             {s.records.filter((r) => records[r]).map((r) => <Record id={r} />)}
           </div>
         ))}

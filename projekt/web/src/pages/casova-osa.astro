@@ -4,7 +4,7 @@ import RodinnaSestadvacitka from '../components/RodinnaSestadvacitka.astro';
 import { people, lineByK, records, href, statusClass, places, placesIn, dateKey, legionnaire } from '../lib/data.js';
 
 // Události z faktů osob: „* …“ narození, „× …“ sňatek, „† …“ úmrtí.
-const KIND = { '*': { n: 'narození', i: '✶' }, '×': { n: 'sňatek', i: '⚭' }, '†': { n: 'úmrtí', i: '✝' }, L: { n:'legionářská větev',i:'★' } };
+const KIND = { '*': { n: 'narození', i: '✶' }, '×': { n: 'sňatek', i: '⚭' }, '†': { n: 'úmrtí', i: '✝' }, L: { n:'legionářská větev',i:'★' }, S: { n:'sčítání lidu',i:'▤' } };
 const dateRe = /^(asi\s+)?(?:(\d{1,2})\.\s*(\d{1,2})\.\s*)?(\d{4})\s*(.*)$/;
 const events = [];
 const seen = new Set();
@@ -32,15 +32,17 @@ for (const p of Object.values(people)) {
     events.push({
       year, sort: year * 10000 + Number(mo || 0) * 100 + Number(d || 0),
       date: d ? `${d}. ${mo}. ${y}` : (asi ? `asi ${y}` : y),
-      kind: sym, p, partner, place,
+      kind: sym, p: /MyHeritage/.test(f) ? {...p,st:'mh',status:'datum převzato z MyHeritage; původní doklad neověřen'} : p, partner, place,
       line: p.line ?? partner?.line ?? null,
-      rec: (p.records || []).find((k) => records[k]?.kind === ({'*':'N','×':'O','†':'Z'}[sym]) && dateKey(records[k].date) === year * 10000 + Number(mo || 0) * 100 + Number(d || 0))
-        ?? (p.records || []).find((k) => records[k]),
+      rec: /MyHeritage/.test(f) ? undefined : (p.records || []).find((k) => records[k]?.kind === ({'*':'N','×':'O','†':'Z'}[sym]) && dateKey(records[k].date) === year * 10000 + Number(mo || 0) * 100 + Number(d || 0))
+        ?? undefined,
     });
   }
 }
 for (const e of legionnaire.events ?? []) events.push({year:e.year,sort:e.year*10000+e.month*100+e.day,date:e.date,kind:'L',p:{name:legionnaire.name,st:'doc',status:'doloženo pramenem'},url:'/legionar/',title:e.title,detail:e.text,place:e.place,line:12,rec:e.record});
+if (records.cunin_scitani_jan_polak_1900) events.push({year:1900,sort:19001231,date:'31. 12. 1900',kind:'S',p:{name:'Jan a Anna Polákovi',st:'doc',status:'doloženo sčítacím archem'},url:href.record('cunin_scitani_jan_polak_1900'),title:'Tkalcovská domácnost v Čuníně čp. 92',detail:'Jan a Anna s dvěma tovaryši; Jan čte i píše, Anna jen čte. Příbuznost Josefa Poláka (*1887) zatím neznáme.',place:'Čunín čp. 92',line:12,rec:'cunin_scitani_jan_polak_1900'});
 // Dějinné mezníky pro kontext; nejde o tvrzení osobní účasti legionáře.
+if (records.cunin_scitani_legionarska_rodina_1900) events.push({year:1900,sort:19001231,date:'31. 12. 1900',kind:'S',p:{name:'František Polák s rodiči a sourozenci',st:'doc',status:'doloženo sčítacím archem'},url:href.record('cunin_scitani_legionarska_rodina_1900'),title:'Budoucí legionář jako desetiletý školák',detail:'Rodina v Čuníně čp. 13; otec pracuje v obuvnictví, arch uvádí Wolf Fr. v Prostějově.',place:'Čunín čp. 13',line:12,rec:'cunin_scitani_legionarska_rodina_1900'});
 const history = [
   [1848, 'Zrušení roboty – poddaní se stávají svobodnými rolníky'],
   [1866, 'Prusko-rakouská válka, epidemie cholery na Moravě'],

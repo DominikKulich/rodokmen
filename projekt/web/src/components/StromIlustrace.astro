@@ -38,7 +38,7 @@ const commonFather = nodes.find(n => n.k === 48);
 const familyY = commonFather.y;
 const legionX = commonFather.x;
 const lateral = [
-  {id:'legion-father',x:legionX,y:familyY+190,name:'František Polák',years:'* asi 1860',sex:'M',url:'/zdroj/cunin_snatek_frantisek_polak_marie_trnkova_1887/',seed:901},
+  {id:'legion-father',x:legionX,y:familyY+190,name:'František Polák',years:'* 18. 10. 1860',sex:'M',url:'/legionar/#rodice',seed:901},
   {id:'legionnaire',x:legionX,y:familyY+380,name:'František Polák',years:'* 4. 7. 1890',sex:'M',url:'/legionar/',seed:905,legionnaire:true},
 ];
 lateral.forEach(p => nodes.push({k:p.id,g:4,x:p.x,y:p.y,span:1,children:[],url:p.url,legionnaire:p.legionnaire,p:{name:p.name,years:p.years,sex:p.sex,artSeed:p.seed,gen:4,st:'doc',records:[],side:[],docs:p.legionnaire?[{img:'frantisek-polak-legionar-foto-2',caption:'Archivní fotografie ČsOL'}]:[]}}));
@@ -78,13 +78,23 @@ function portrait(p) {
 const sibLabel = (c) => `${c} ${c === 1 ? 'sourozenec' : c < 5 ? 'sourozenci' : 'sourozenců'}`;
 const fit = (t, max, px) => (t.length * px > max ? { textLength: max, lengthAdjust: 'spacingAndGlyphs' } : {});
 const initials = (name) => name.replace(/\(.*?\)/g, '').trim().split(/\s+/).slice(0, 2).map(s => s[0]).join('');
-const status = { doc: 'Osoba doložena zápisem', fam: 'Údaj od rodiny', prob: 'Pravděpodobné' };
+const status = { doc: 'Osoba doložena zápisem', fam: 'Údaj od rodiny', prob: 'Pravděpodobné', mh: 'MyHeritage – neověřeno matrikou' };
 const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fatherUnknown'] ? 'v zápisu neuvedeno' : 'dosud hledáme';
+const focusRegions = [{k:56,label:'Kaštánkovi'},{k:29,label:'Vykutilovi'},{k:101,label:'Nezvalovi'}].map(region => {
+  const branch = nodes.filter(n => {
+    if (typeof n.k !== 'number' || !n.p) return false;
+    let k=n.k; while(k>region.k) k=Math.floor(k/2);
+    return k===region.k;
+  });
+  const xs=branch.map(n=>n.x),ys=branch.map(n=>n.y);
+  return {...region,x:(Math.min(...xs)+Math.max(...xs))/2,y:(Math.min(...ys)+Math.max(...ys))/2,
+    width:Math.max(...xs)-Math.min(...xs)+260,height:Math.max(...ys)-Math.min(...ys)+270};
+});
 ---
 <div class="tapestry" id="legionarska-vetev" data-tree data-legion-x={legionX} data-legion-y={familyY+190}>
   <div class="tree-tools no-print" role="group" aria-label="Velikost stromu">
     <span>Rodová malba <small>· kolečkem přibližujte, tažením posouvejte; na mobilu dvěma prsty</small></span>
-    <div><button type="button" data-focus-legion>Legionář a otec</button><button type="button" data-zoom="out" aria-label="Oddálit">−</button><button type="button" data-zoom="fit">Celý strom</button><button type="button" data-zoom="in" aria-label="Přiblížit">+</button><output data-zoom-level aria-label="Přiblížení stromu">100 %</output></div>
+    <div><button type="button" data-focus-legion>Legionář a otec</button>{focusRegions.map(r=><button type="button" data-focus-branch data-focus-x={r.x} data-focus-y={r.y} data-focus-width={r.width} data-focus-height={r.height}>{r.label}</button>)}<button type="button" data-zoom="out" aria-label="Oddálit">−</button><button type="button" data-zoom="fit">Celý strom</button><button type="button" data-zoom="in" aria-label="Přiblížit">+</button><output data-zoom-level aria-label="Přiblížení stromu">100 %</output></div>
   </div>
   <div class="strom-wrap" tabindex="0" role="region" aria-label="Rodový strom: kolečkem nebo dvěma prsty přibližujte, tažením posouvejte. Klávesami plus a minus změníte přiblížení, nulou zobrazíte celý strom.">
     <svg class="strom" viewBox={`0 0 ${W} ${H}`} xmlns="http://www.w3.org/2000/svg" aria-label={`Rodový strom – ${config.nazev}`}>
@@ -133,7 +143,7 @@ const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fathe
         <path d={`M${legionX} ${familyY+254}C${legionX-5} ${familyY+264} ${legionX+5} ${familyY+272} ${legionX} ${familyY+282}`}/>
       </g>
       {nodes.map(n => n.p ? <g><a href={n.url || href.person(n.p.slug)} class={`ancestor ${n.p.st}`}>
-        <title>{n.p.name} · {status[n.p.st] || 'Neověřeno'}{n.p.parentLink === 'prob' ? ' · Vazba k dítěti nepotvrzena' : ''}</title>
+        <title>{n.p.name} · {status[n.p.st] || 'Neověřeno'}{n.p.parentLink === 'prob' ? ' · Vazba k dítěti nepotvrzena' : ''}{n.p.yearsNote ? ' · '+n.p.yearsNote : ''}</title>
         <g transform={`translate(${n.x},${n.y})`}>
           <path class="nameplate" d="M-82-18Q-86-25-78-30H-28Q0-42 28-30H78Q86-25 82-18V32H-82Z" fill="url(#portrait)" stroke="url(#antique-gold)" stroke-width="2"/>
           <path d="M-85-20q-18 12-7 26M85-20q18 12 7 26M-66 30q66 15 132 0" fill="none" stroke="url(#antique-gold)" stroke-width="2"/>
@@ -151,6 +161,8 @@ const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fathe
           <text y="-6" text-anchor="middle" class="person-name" {...fit(n.p.name.split(' ')[0], 150, 11)}>{n.p.name.split(' ')[0]}</text>
           <text y="16" text-anchor="middle" class="person-name surname" {...fit(n.p.name.split(' ').slice(1).join(' '), 152, 11.5)}>{n.p.name.split(' ').slice(1).join(' ')}</text>
           <text y="56" text-anchor="middle" class="person-years">{timeLabel(n.p)}</text>
+          {n.p.st === 'mh' && <text y="76" text-anchor="middle" class="mh-label">MYHERITAGE · NEOVĚŘENO</text>}
+          {n.p.st !== 'mh' && n.p.yearsNote && <text y="76" text-anchor="middle" class="mh-label">ČÁST DAT Z MYHERITAGE</text>}
           {n.legionnaire && <text y="84" text-anchor="middle" class="person-years">LEGIONÁŘ · RUSKO</text>}
           {n.p.st === 'doc' && <circle cx="79" cy="-29" r="5" fill="#d2be88"/>}
         </g>
@@ -169,7 +181,7 @@ const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fathe
     </svg>
   </div>
 </div>
-<p class="strom-legend">Přímo pod Janem Polákem (* asi 1838) je jeho syn František a pod ním vnuk František — legionář. Matkou staršího Františka byla Anna Pospíšilová. Tlačítkem „Legionář a otec“ větev přiblížíte. Zlatý bod: osoba zachycená v matrice · Přerušovaná větev: nepotvrzené příbuzenství · Kurzíva: pravděpodobné údaje. „Zmínka“ označuje rok zápisu, nikoli narození či úmrtí. Kliknutím na jméno otevřete doklady.</p>
+<p class="strom-legend">Přímo pod Janem Polákem (* asi 1838) je jeho syn František a pod ním vnuk František — legionář. Matkou staršího Františka byla Anna Pospíšilová. Tlačítkem „Legionář a otec“ větev přiblížíte. Zlatý bod: osoba zachycená v matrice · Přerušovaná větev: nepotvrzené příbuzenství · Kurzíva: pravděpodobné údaje. Štítek „MYHERITAGE · NEOVĚŘENO“ označuje převzaté větve; i jejich životní data ještě čekají na kontrolu matrik. „Zmínka“ označuje rok zápisu, nikoli narození či úmrtí. Kliknutím na jméno otevřete doklady.</p>
 <script>
   import { initTree } from '../lib/tree-controls';
   document.querySelectorAll<HTMLElement>('[data-tree]').forEach(initTree);
@@ -198,7 +210,9 @@ const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fathe
   .sib-badge:hover rect { fill:#2c4d33; }
   .missing-text { fill:#d6caa6;font:italic 11.5px Georgia,serif;paint-order:stroke;stroke:#0b1510;stroke-width:3px; }
   .ancestor:hover .nameplate,.ancestor:focus .nameplate {fill:#384337;stroke:#f4dc98;stroke-width:2;}
-  .ancestor.prob .person-name {font-style:italic;}
+  .ancestor.prob .person-name, .ancestor.mh .person-name {font-style:italic;}
+  .ancestor.mh .nameplate {stroke-dasharray:5 3;}
+  .mh-label {fill:#ead5a3;font-size:9px;letter-spacing:.5px;font-family:var(--sans);}
   .strom-legend {font-size:.8rem;color:var(--muted);}
   @media(max-width:640px) {.strom {min-width:1100px;}.tree-tools {flex-direction:column;align-items:flex-start;gap:.6rem;}}
   @media print {.strom-wrap {max-height:none;overflow:visible}.strom {width:100%!important;min-width:0}}

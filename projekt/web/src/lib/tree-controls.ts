@@ -110,5 +110,13 @@ export function initTree(tree: HTMLElement) {
     stage.scrollLeft = Number(tree.dataset.legionX) / box.width * svg.getBoundingClientRect().width - stage.clientWidth / 2;
     stage.scrollTop = Number(tree.dataset.legionY) / box.height * svg.getBoundingClientRect().height - stage.clientHeight / 2;
   });
+  tree.querySelectorAll<HTMLButtonElement>('[data-focus-branch]').forEach(button => button.addEventListener('click', () => {
+    const box = svg.viewBox.baseVal;
+    const width = Number(button.dataset.focusWidth), height = Number(button.dataset.focusHeight);
+    setZoom(Math.min(stage.clientWidth / width, window.innerHeight * .66 / height) * box.width / stage.clientWidth);
+    tree.scrollIntoView({ block: 'start' });
+    stage.scrollLeft = Number(button.dataset.focusX) / box.width * svg.getBoundingClientRect().width - stage.clientWidth / 2;
+    stage.scrollTop = Number(button.dataset.focusY) / box.height * svg.getBoundingClientRect().height - stage.clientHeight / 2;
+  }));
   window.addEventListener('resize', () => setZoom(zoom));
 }

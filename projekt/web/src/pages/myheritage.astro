@@ -1,0 +1,42 @@
+---
+import Base from '../layouts/Base.astro';
+import { myheritageImport as audit, byK, href } from '../lib/data.js';
+const all = audit.people ?? [];
+const lookup = Object.fromEntries(all.map(p => [p.id,p]));
+const label = id => lookup[id]?.name || 'Jméno neuvedeno';
+const kinds = { BIRT:'Narození', DEAT:'Úmrtí', MARR:'Sňatek', CHR:'Křest', BURI:'Pohřeb' };
+---
+<Base title="Kontrola přenosu z MyHeritage">
+  <p class="eyebrow">Úplný soupis dodaného exportu · {audit.date}</p>
+  <h1>Co je převzaté z MyHeritage</h1>
+  <p class="lead">{audit.count} osob, {audit.families} rodin a {audit.events} událostí. Každá osoba z dodaného souboru má níže vlastní položku, včetně těch bez jména.</p>
+  <p class="note">Toto je kontrola konkrétního exportu, nikoli živé propojení účtu. Níže uvedené vazby zachycují obsah MyHeritage; nejsou tím automaticky potvrzené matrikami. Vlastní karty předků zachovávají přečtené doklady a známé rozpory. Fotografie se přenášejí samostatně. U žijících nebo nejistých osob jsou jen roky a vynechaná místa.</p>
+  <p>Rozpory k ověření: pět křtů Polákových uvádí dům 25 místo exportovaného 26; výřez Marie Vykutilové uvádí matku Hrnčířovou místo Kroutilové. U Miloslava (*1932) se liší rodinné místo narození Čunín a exportované Konice. Americká vazba přes Marii Prochaska a totožnost některých Vykutilů a Kaštánků zůstávají neověřené.</p>
+  <p><a href="/KONTROLA_PRENOSU_MYHERITAGE_2026-10-23.md">Stáhnout kontrolní soupis v Markdownu →</a> · <a href="/novinky/">Novinky a opravy →</a></p>
+  <label class="search-label">Najít osobu <input type="search" id="mh-search" placeholder="Jméno, datum nebo obec…" /></label>
+  <p id="mh-count" aria-live="polite">Zobrazeno {all.length} osob</p>
+  <div class="inventory">
+    {all.map(p => <article class="card import-person" id={p.id} data-search={[p.name,...p.events.map(e=>e.date+' '+e.place)].join(' ')}>
+      <h2>{p.name || 'Jméno neuvedeno'}</h2>
+      <p class="small muted">Položka exportu {p.id} · údaje MyHeritage</p>
+      {p.events.length ? <ul>{p.events.map(e=><li><strong>{kinds[e.type] || e.type}:</strong> {e.date} {e.place}</li>)}</ul> : <p class="muted">Bez uvedených dat událostí.</p>}
+      <p>Otec: {p.father ? <a href={`#${p.father}`}>{label(p.father)}</a> : 'neuveden'}<br/>Matka: {p.mother ? <a href={`#${p.mother}`}>{label(p.mother)}</a> : 'neuvedena'}</p>
+      {p.spouses.length > 0 && <p>Partneři: {p.spouses.map((id,i)=><>{i>0 && ', '}<a href={`#${id}`}>{label(id)}</a></>)}</p>}
+      {p.children.length > 0 && <p>Děti: {p.children.map((id,i)=><>{i>0 && ', '}<a href={`#${id}`}>{label(id)}</a></>)}</p>}
+      {p.privacy && <p class="small muted">{p.privacy}</p>}
+      {byK[p.canonicalK] ? <a href={href.person(byK[p.canonicalK].slug)}>Porovnat s kartou předka a doklady →</a> : byK[p.sideK] ? <a href={`${href.person(byK[p.sideK].slug)}#sourozenci`}>Příbuzný na rodinné kartě →</a> : <p class="small muted">Zachováno v úplném soupisu; samostatná doložená karta zatím není.</p>}
+    </article>)}
+  </div>
+</Base>
+<script>
+ const input=document.querySelector<HTMLInputElement>('#mh-search');
+ const cards=[...document.querySelectorAll<HTMLElement>('.import-person')];
+ const norm=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+ function apply(){const q=norm(input?.value || '');let n=0;cards.forEach(c=>{c.hidden=!norm(c.dataset.search || '').includes(q);if(!c.hidden)n++;});document.getElementById('mh-count')!.textContent=`Zobrazeno ${n} z ${cards.length} osob`;}
+ input?.addEventListener('input',apply);
+ function reveal(){const id=decodeURIComponent(location.hash.slice(1));const target=document.getElementById(id);if(target?.classList.contains('import-person')){if(input)input.value='';apply();target.scrollIntoView({block:'start'});}}
+ window.addEventListener('hashchange',reveal);reveal();
+</script>
+<style>
+ .inventory{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:1rem}.import-person{scroll-margin-top:9rem}.import-person:target{outline:3px solid var(--gold)}.import-person h2{font-size:1.3rem;margin-top:0}.import-person[hidden]{display:none}.search-label{display:block;max-width:36rem;font-weight:bold}.search-label input{display:block;width:100%;padding:.8rem;margin-top:.4rem;background:var(--paper);border:1px solid var(--gold);font:inherit}
+</style>

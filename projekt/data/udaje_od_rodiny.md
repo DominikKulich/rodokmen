@@ -42,3 +42,6 @@ Dominik dodal kolorovanou fotografii a označil ji jako svého dědečka Milosla
 
 ## 23. 10. 2026 – doplnění v Dominikově MyHeritage
 Dodaný aktuální GEDCOM uvádí u Jany Heleny Kaštánkové rok narození 1942 (na veřejný web pouze rok) a bratra Jany Polákové Miloslava Poláka (*1960), syna Miloslava *1932 a Jany Heleny. Tyto ruční údaje bez cizího zdroje evidujeme jako rodinné; nejsou novým matričním ověřením. Fotografie Václava Kaštánka a původní varianta Heleny přeneseny z přiřazení v uživatelově MyHeritage. Přesná nová data úmrtí ze Smart Matches zatím rodinné potvrzení ani původní doklad nenahrazují.
+
+## Krejčí a Křemenec (23. 10. 2026)
+Dominik podle maminky nejprve uvedl bydliště v Křemenci; následně 23. 10. 2026 výslovně upřesnil, že se vzpomínka týká kmotry Františky Krejčí. Jméno, období a číslo domu zatím nesdělil. Totožnost této rodinné kmotry s Marií Wěrník (?) zapsanou u křtu v olomoucké porodnici zatím není prokázána. Nejde o doložení pobytu Františky ani Filomeny v Křemenci.

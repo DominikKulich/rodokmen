@@ -19,3 +19,6 @@ zapracuje do skillu, aby je měli i ostatní. Děkujeme!
 
 Přímé přepsání HTML krátce po kopírování může ve Windows vracet přechodné OSError EINVAL/EACCES. Osvědčil se zápis do dočasného souboru ve stejné složce a atomické nahrazení přes os.replace s omezeným opakováním při chybě sdílení; potom kontrola všech místních odkazů a obrázků. Samotné opakované spuštění celého exportu nebylo spolehlivé.
 
+
+## 23. 10. 2026 – MZA a HTTP/2; porodní knihy ZA Opava
+Windows systémový curl nemusí podporovat HTTP/2; obrazový server MZA pak vrací HTTP 426 a prázdné tělo. Není to doklad neexistující stránky. Pomohlo nativní node:http2, standardní Deepzoom, omezené souběžné stahování. ZA Opava: katalog porodnice má oddělené knihy N a Z; rozsah let sám nestačí. Signatura O IX 13, inv. 11285, N 1904–1909, má společný chronologický rejstřík jmen na konci. V porodní knize je číslo domu ústavu, nikoli automaticky bydliště matky; opakovaný kmotr nemusí být rodinný příbuzný.

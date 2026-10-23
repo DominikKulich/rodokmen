@@ -6,6 +6,32 @@ import { myheritageAudit as audit, byK, href } from '../lib/data.js';
   <p class="eyebrow">Listy rodinné kroniky · {audit.date}</p>
   <h1>Novinky v rodokmenu</h1>
   <p class="lead">Nové tváře, rozšířené větve a doklady, které pomáhají rozlišit příběh od domněnky.</p>
+  <section aria-labelledby="uplny-prenos">
+    <h2 id="uplny-prenos">Doplněná životní data a úplný kontrolní soupis</h2>
+    <p>Opravena chybějící úmrtí: <a href={href.person(byK[25].slug)}>Františka Bavlnková · 17. 3. 1947</a>, <a href={href.person(byK[12].slug)}>František Polák · 1. 8. 1983</a> a <a href={href.person(byK[13].slug)}>Františka Krejčí · 2. 3. 1984</a>. Data jsou na kartách i v letech stromu. U Anny Pospíšilové je také doplněno úmrtí 20. 3. 1905.</p>
+    <p>Zkontrolován celý dodaný export: <strong>133 osob, 44 rodin a 202 veřejně zobrazitelných událostí</strong>. Všechny osoby a vazby exportu mají kontrolní položku. Přečtené matriky mají přednost při rozporech; převzatá data mají označený původ. Tento soupis nepotvrzuje všechny údaje matrikami a není živým propojením účtu.</p>
+    <a class="btn" href="/myheritage/">Zkontrolovat všechny osoby a data →</a>
+  </section>
+  <section aria-labelledby="legionar-skola">
+    <h2 id="legionar-skola">Legionář s rodiči a sourozenci ve sčítání 1900</h2>
+    <p>V Čuníně čp. 13 žije desetiletý František se čtyřmi sourozenci. Jeho otec pracuje v obuvnictví, arch uvádí továrníka Wolf Fr. v Prostějově. Celý snímek a přepis jsou u příběhu legionáře a příslušných rodinných karet.</p>
+    <a class="btn btn-light" href="/legionar/#scitani-1900">Příběh a sčítací arch →</a>
+  </section>
+  <section aria-labelledby="polakovi-scitani-1900">
+    <h2 id="polakovi-scitani-1900">Jan a Anna Polákovi v roce 1900</h2>
+    <p>Celý sčítací arch z <strong>Čunína čp. 92</strong> zachycuje Jana narozeného 10. srpna 1838 v Křemenci a jeho manželku Annu. Jan pracoval v <strong>tkalcovství</strong>, vedle toho měl polní hospodářství; zápis zmiňuje také faktorování a dovoz osnov ze Šternberka a Prostějova.</p>
+    <p>Jan uměl číst i psát, Anna jen číst. S nimi bydleli dva tovaryši: Josef Svoboda (*1860) a Josef Polák (*1887). Příbuznost mladšího Josefa zatím není prokázaná. Na celém archu jsou dvě domácnosti a osm osob.</p>
+    <p>Anna je v archu narozena 26. 6. 1835 v Bílsku, okres Litovel, Morava; vlastní křest zatím chybí. Dorozumívací řeč je česká. Příjmení Poláková po manželovi samo o sobě polský původ nedokládá.</p>
+    <a class="btn btn-light" href={href.record('cunin_scitani_jan_polak_1900')}>Celý snímek a přepis →</a>
+    <a class="btn btn-light" href={href.person(byK[48].slug)}>Janův příběh a doklady →</a>
+  </section>
+  <section aria-labelledby="krest-frantisky-1906">
+    <h2 id="krest-frantisky-1906">Nalezen křest Františky Krejčí</h2>
+    <p>Olomoucká porodní matrika potvrzuje narození <strong>10. listopadu 1906</strong> a křest o dva dny později. Filomeně bylo <strong>18 let</strong>; její narození tedy předběžně klademe do let 1887–1888. Zápis jmenuje také její rodiče, Františka Krejčího, domkáře z Konice, a Františku. Oba jsou nově ve stromu.</p>
+    <p>Kmotra je předběžně přečtena jako <strong>Marie Wěrník (?)</strong>, vdova. Příjmení ještě ověřujeme a příbuzenství není doloženo. Podle rodinné vzpomínky bydlela kmotra Františky v Křemenci. Zatím nevíme, zda jde o tutéž ženu jako v porodním zápisu.</p>
+    <a class="btn btn-light" href={href.record('olomouc_porodnice_krest_frantiska_krejci_1906')}>Prohlédnout křest a přepis →</a>
+    <a class="btn btn-light" href={href.person(byK[27].slug)}>Filomena a její rodiče →</a>
+  </section>
   <section aria-labelledby="nove-fotografie">
     <h2 id="nove-fotografie">Další tváře rodinného alba</h2>
     <div class="album">
@@ -18,6 +44,7 @@ import { myheritageAudit as audit, byK, href } from '../lib/data.js';
   <section aria-labelledby="kontrola-shod">
     <h2 id="kontrola-shod">Co přinesla kontrola shod</h2>
     <div class="note"><strong>Kontrola matrik ještě není dokončena.</strong><p>{audit.summary}</p></div>
+    {audit.treeUpdate && <p class="note"><strong>Nově také ve stromu:</strong> {audit.treeUpdate} <a href="/strom/">Prohlédnout větve →</a></p>}
     {(audit.findings ?? []).map(f => <article class="finding" id={f.id}><h3>{f.title}</h3><p>{f.text}</p>{f.record && <a class="btn btn-light" href={href.record(f.record)}>Výřez zápisu a přepis →</a>}</article>)}
     <p><a href="/AUDIT_MYHERITAGE_2026-10-23.md">Celá kontrolní zpráva v Markdownu →</a></p>
   </section>

@@ -526,5 +526,41 @@
   ],
   "status": "ok",
   "note": "Sloupce rodičů v dochovaném výřezu; rok a celá hlavička chybí. Matka Hrnčířova, nikoli Kroutilová."
+ },
+ "olomouc_porodnice_krest_frantiska_krejci_1906": {
+  "boxes": [
+   [
+    0.005,
+    0.62,
+    0.995,
+    0.995
+   ]
+  ],
+  "status": "ok",
+  "note": "Celý řádek Františky: narození, křest, prázdný otec, Filomena s věkem 18 let, kmotra a poznámka; nad ním ponechána hlavička sloupců."
+ },
+ "cunin_scitani_jan_polak_1900": {
+  "boxes": [
+   [
+    0.063,
+    0.429,
+    0.94,
+    0.595
+   ]
+  ],
+  "status": "ok",
+  "note": "První domácnost: Jan a Anna Polákovi a dva tovaryši; plný arch s druhou domácností ponechán pro kontext."
+ },
+ "cunin_scitani_legionarska_rodina_1900": {
+  "boxes": [
+   [
+    0.063,
+    0.435,
+    0.937,
+    0.766
+   ]
+  ],
+  "status": "ok",
+  "note": "První domácnost, řádky 1–9: rodina Polákových, švakrová a host. Desátý řádek je druhá domácnost."
  }
 }
