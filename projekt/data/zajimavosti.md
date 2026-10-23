@@ -36,3 +36,11 @@ V [archu z roku 1921](/zdroj/konice_scitani_frantiska_krejci_1921/) příbuzensk
 ## Z Čunína do Třebařova
 
 [Miloslav Polák (*1932)](/osoba/miloslav-polak-1932/) se podle Dominikova rodinného sdělení přestěhoval se svým otcem [Františkem Polákem (*1905)](/osoba/frantisek-polak-1905/) a matkou [Františkou Krejčí (*1906)](/osoba/frantiska-krejci-1906/) do [Třebařova](/obec/trebarov/). **Rok stěhování zatím neznáme.** Miloslav měl také bratra **Zdeňka Poláka**, jehož životní data ještě doplníme. Miloslavův portrét pochází z rodinné fotografie, kterou Dominik dodal v kolorované variantě.
+
+<h2 id="americka-stopa">Americká stopa přes Vykutilovy – zatím neověřená</h2>
+
+MyHeritage nabídlo **možné propojení na rodokmen s větví ve Spojených státech**. Navržená cesta vede přes našeho [Františka Vykutila](/osoba/frantisek-vykutil/) a Marii Prochaska (1881–1916), kterou cizí rodokmen „Macek Family Tree“ uvádí jako sestru muže jménem **Frank Vykutil**. V této větvi se podle cizího stromu narodila roku 1916 Anne, později Macek, v Chicagu.
+
+**Propojení s naší rodinou zatím není prokázané.** U Franka v americkém stromu nejsou uvedeny datum narození, bydliště, manželka ani děti; rodiče jsou skrytí. Nemáme tedy doloženo, že jde právě o našeho Františka. Navíc rok 1843, který MyHeritage přiřazuje našemu Františkovi podle jiného rodokmenu, a Mariin rok 1881 dělí **38 let**. Takový rozdíl je důvodem ke kontrole, sám o sobě ale neurčuje správný vztah.
+
+Jde o návrh služby **Cousin Finder sestavený z rodokmenů**, nikoli o doloženou příbuznost nebo DNA shodu. Než americkou větev připojíme k hlavnímu stromu, potřebujeme původní doklad, který Franka a Marii spojí s konkrétními rodiči. Do té doby zůstává americké propojení zajímavou badatelskou stopou. Údaje o této větvi pocházejí z cizího stromu a nejsou samostatně matričně ověřené.

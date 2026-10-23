@@ -64,3 +64,6 @@ Na výslovnou žádost Dominika přidány na web oba dodané výřezy sčítán�
 
 ## Miloslav a Třebařov (23. 10. 2026)
 Dominik doplnil bydliště Miloslava s rodiči Františkem (*1905) a Františkou Krejčí (*1906) v Třebařově, bez roku přesunu a čísla domu. Přidán bratr Zdeněk Polák (SIDE u č. 6), životní data neznámá, a kolorovaná rodinná fotografie Miloslava pro kartu a strom. Vše nové evidováno jako rodinné sdělení.
+
+## Americká stopa Vykutilových (23. 10. 2026)
+Cousin Finder navrhuje vztah přes Macek Family Tree: Marie Prochaska (1881–1916), bratr Frank Vykutil bez narození, bydliště, partnerky a dětí, rodiče skrytí. Ztotožnění Franka s naším Františkem není doložené; nepřipojovat jako jistou rodinnou větev. Na Dominikovu žádost zveřejněno v zajímavostech jako neověřená americká stopa, bez jmen žijících členů cizí rodiny.
