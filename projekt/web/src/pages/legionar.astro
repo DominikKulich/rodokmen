@@ -1,0 +1,54 @@
+---
+import Base from '../layouts/Base.astro';
+import LegionarskaVetev from '../components/LegionarskaVetev.astro';
+import LegionarSouvislosti from '../components/LegionarSouvislosti.astro';
+import { byK, href } from '../lib/data.js';
+const birth='cunin_krest_frantisek_polak_1890_legionar';
+---
+<Base title="Náš legionář – František Polák" wide>
+  <div class="legion-intro">
+  <div>
+  <p class="eyebrow">Příběh polákovské větve · doloženo 22. října 2026</p>
+  <h1>František Polák.<br/>Z Čunína do ruských legií.</h1>
+  <p class="lead">Narodil se 4. července 1890 v Čuníně čp. 13. Byl krejčí a bratranec Františka Poláka narozeného roku 1905. Rodinné spojení nám ukázala matrika; jeho vojenskou cestu přibližuje legionářská databáze.</p>
+  </div>
+  <figure class="legion-portrait">
+    <a href="/img/frantisek-polak-legionar-foto-2.jpg" aria-label="Otevřít celou fotografii Františka Poláka"><img src="/img/frantisek-polak-legionar-foto-2.jpg" width="1500" height="2000" alt="Archivní portrét Františka Poláka, narozeného 4. července 1890 v Čuníně, v uniformě" fetchpriority="high" /></a>
+    <figcaption><strong>František Polák · * 4. 7. 1890</strong><br/>Fotografie zpřístupněná <a href="https://www.csol.cz/legionar/83965/">Československou obcí legionářskou</a>, záznam 83965, snímek 83965.006. Doba pořízení není uvedena. Kliknutím otevřete celý snímek.</figcaption>
+  </figure>
+  </div>
+  <ol class="legion-timeline">
+    <li><strong>1890</strong><span>Narozen 4. července v Čuníně, pokřtěn 7. července.</span></li>
+    <li><strong>1915</strong><span>Vojín 93. pěšího pluku rakousko-uherské armády. Zajat 2. března v Karpatech.</span></li>
+    <li><strong>1917</strong><span>24. května zařazen do československých legií v Rusku k 1. střeleckému pluku.</span></li>
+    <li><strong>1920</strong><span>8. července demobilizován. Poslední evidovaná hodnost: vojín.</span></li>
+  </ol>
+  <section id="rodice" class="prose">
+    <h2>Jak patří do rodiny</h2>
+    <p>Jeho otec <strong>František Polák (* asi 1860)</strong> byl bratrem <a href={href.person(byK[24].slug)}>Jana Poláka (* 1865)</a>. Matka <strong>Marie Trnková (* asi 1862)</strong> byla dcerou Josefa Trnky z Čunína a Anny. Přesné datum narození rodičů dosud neznáme; přibližné roky vycházejí z věku při jejich <a href="/zdroj/cunin_snatek_frantisek_polak_marie_trnkova_1887/">sňatku 17. října 1887</a>.</p>
+    <p>Otcovými prarodiči legionáře byli <a href={href.person(byK[48].slug)}>Jan Polák</a> a <a href={href.person(byK[49].slug)}>Anna Pospíšilová</a>. Stejný pár byl prarodiči Františka narozeného 1905. Oba Františkové tak byli bratranci. Tato vazba je čitelná v křestních zápisech; podobnost jmen sama o sobě by nestačila.</p>
+    <p class="note">Dominik 22. října 2026 potvrdil spojení svého dědečka Miloslava (*1932) s Františkem Polákem (*1905). Legionář je tedy vnukem jeho praprapradědečka Jana Poláka (*asi 1838). Zdrojem této navazující rodinné vazby je Dominikovo potvrzení; starší příbuzenské spojení dokládají matriky.</p>
+  </section>
+  <LegionarSouvislosti />
+  <LegionarskaVetev />
+  <section id="doklady">
+    <h2>Doklady, ze kterých příběh vychází</h2>
+    <div class="grid2">
+      <article class="card"><h3>Svatba rodičů · 1887</h3><a href="/zdroj/cunin_snatek_frantisek_polak_marie_trnkova_1887/"><img src="/img/cunin_snatek_frantisek_polak_marie_trnkova_1887.jpg" alt="Sňatek Františka Poláka a Marie Trnkové 17. října 1887" loading="lazy"/></a><p>Oddací zápis uvádí rodiče obou snoubenců. U ženicha potvrzuje Jana Poláka a Annu Pospíšilovou — spojení s hlavní větví rodiny.</p><a href="/zdroj/cunin_snatek_frantisek_polak_marie_trnkova_1887/">Výřez, celý snímek a přepis →</a></article>
+      <article class="card"><h3>Matriční zápis z roku 1890</h3><a href={`/zdroj/${birth}/`}><img src={`/img/${birth}.jpg`} alt="Řádek narození Františka Poláka: 4. července 1890, Čunín 13, rodiče František Polák a Marie Trnková" loading="lazy"/></a><p>MZA Brno, N Konice, kniha 9082, strana 133, snímek 134. Výřez z náhledu digitální badatelny. Přepis bezpečně čitelných údajů a celý uložený náhled jsou u zápisu.</p><a href={`/zdroj/${birth}/`}>Otevřít výřez a přepis →</a></article>
+      <article class="card"><h3>Legionářský záznam č. 83965</h3><p>Československá obec legionářská uvádí stejné jméno, přesné datum i obec narození. Eviduje povolání krejčího a domovskou obec Prostějov, zajetí i službu v legiích.</p><p>Jako podklady jsou uvedeny osobní karta a legionářský poslužný spis. Celý archivní spis zatím nemáme; další životní osudy proto zůstávají otevřené.</p><p><a href="https://www.csol.cz/legionar/83965/">Otevřít záznam ČsOL →</a></p><a href="/zdroj/legie_frantisek_polak_1890/">Uložený souhrn a citace →</a></article>
+    </div>
+    <p><a href="/zdroj/cunin_krest_frantisek_polak_1905/">Porovnat křest bratrance Františka (* 1905)</a> · <a href="/zdroj/cunin_krest_jan_polak_1865/">Křest strýce Jana (* 1865)</a> · <a href="/zdroj/konice_snatek_jan_polak_anna_pospisilova_1862/">Sňatek společných prarodičů</a></p>
+    <p><a href="/VALKY_2026-10-22.md">Celá válečná rešerše v Markdownu</a> · <a href="/strom/#legionarska-vetev">Zpět do rodového stromu →</a></p>
+  </section>
+</Base>
+<style>
+  .legion-intro{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(1.5rem,4vw,4rem);align-items:center;margin-bottom:2rem}
+  .legion-portrait{width:100%;max-width:360px;margin:0 auto}
+  .legion-portrait>a{display:block;border:6px double #ae9255;padding:8px;background:#213b2b;box-shadow:0 12px 30px #30230f30}
+  .legion-portrait img{display:block;width:100%;height:auto}
+  .legion-portrait figcaption{font-size:.8rem;line-height:1.6;color:var(--muted);margin-top:.8rem}
+  .legion-portrait figcaption strong{font-family:Georgia,serif;font-size:1rem;color:var(--wood)}
+  @media(max-width:760px){.legion-intro{grid-template-columns:1fr;gap:1.3rem}.legion-portrait{max-width:330px}}
+</style>
+<style>.eyebrow{font-size:.75rem;text-transform:uppercase;letter-spacing:.15em}.legion-timeline{list-style:none;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin:2rem 0}.legion-timeline li{border-top:2px solid #b29755;padding:1rem;background:#f8f2df}.legion-timeline strong{display:block;font:2rem Georgia;color:#385139}.legion-timeline span{display:block;margin-top:.5rem}section{scroll-margin-top:9rem}@media(max-width:700px){.legion-timeline{grid-template-columns:1fr 1fr}}</style>

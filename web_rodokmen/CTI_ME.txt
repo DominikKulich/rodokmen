@@ -1,0 +1,5 @@
+Rodokmen Kulichových – lokální kopie webu
+Otevři index.html dvojklikem. Odkazy jsou relativní.
+Zdrojové soubory: ../projekt/web/src
+Po sestavení webu aktualizace: python projekt/tools/export_local.py
+Web není chráněn heslem; jde o místní kopii.

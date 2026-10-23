@@ -1,0 +1,21 @@
+{
+  "osoba": "František Polák, 4. 7. 1890, Čunín",
+  "zdroj": "Československá obec legionářská – Krev legionáře",
+  "zaznam": "https://www.csol.cz/legionar/83965/",
+  "overeno": "2026-10-22",
+  "poznamka": "Portrét přiřazený portálem ke stejnému legionářskému záznamu. Datum pořízení a autor fotografie neuvedeny; neodhadovány. Původní soubory uloženy beze změny, včetně značky ČsOL.",
+  "snimky": [
+    {
+      "soubor": "web/public/img/frantisek-polak-legionar-foto-2.jpg",
+      "url": "https://www.csol.cz/wp-content/legionari-obrazky/83965/83965.006.jpg",
+      "rozmery": [1500, 2000],
+      "pouziti": "Hlavní portrét na /legionar/, proklik na celý místní soubor."
+    },
+    {
+      "soubor": "web/public/img/frantisek-polak-legionar-portret.jpg",
+      "url": "https://www.csol.cz/wp-content/legionari-obrazky/83965/83965.005.POL%C1K%20Franti%9Aek%204.7.1890.jpg",
+      "rozmery": [1592, 2000],
+      "pouziti": "Druhá digitální kopie téhož portrétu, uložená jako podklad."
+    }
+  ]
+}

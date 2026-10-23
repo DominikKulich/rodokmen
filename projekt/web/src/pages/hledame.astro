@@ -1,0 +1,55 @@
+---
+import Base from '../layouts/Base.astro';
+import { issues, config } from '../lib/data.js';
+import { Content as Dotazy } from '../generated/dotazy.md';
+---
+<Base title="Co hledáme">
+  <h1>Co ještě hledáme</h1>
+  <p class="lead">Otevřené otázky a hypotézy. Pokud o něčem z toho víte z rodinné paměti nebo dokumentů, ozvěte se{config.kontakt?.email ? <> na <a href={`mailto:${config.kontakt.email}`}>{config.kontakt.email}</a></> : ' autorovi rodokmenu'}.</p>
+  <h2>Otevřené otázky</h2>
+  <div class="grid2">
+    {issues.filter((i) => !i.text.startsWith('Vyřešeno')).map((i) => (
+      <div class="card">
+        <h3>{i.title}</h3>
+        <p class="small"><span class={`chip ${i.text.startsWith('Vyřešeno') ? 'st-doc' : i.text.startsWith('Hypotéza') ? 'st-prob' : 'st-unk'}`}>{i.text.split(':')[0]}</span> {i.text.slice(i.text.indexOf(':') + 1)}</p>
+      </div>
+    ))}
+  </div>
+  <h2>Víte něco? Napište</h2>
+  <form class="card tell no-print" id="tell" data-mail={config.kontakt?.email || ''}>
+    <label>Vaše jméno<input name="kdo" required /></label>
+    <label>O kom nebo o čem<input name="o" placeholder="např. děda Václav Kulich, dům v Ledčicích" /></label>
+    <label>Co víte (data, místa, fotky, dokumenty)<textarea name="text" rows="5" required></textarea></label>
+    <button class="btn" type="submit">Otevřít e-mail s textem</button>
+    <p class="small muted">Formulář nic neodesílá sám – připraví e-mail ve vašem poštovním programu.</p>
+  </form>
+  <script is:inline>
+    document.getElementById('tell')?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const f = e.target, d = new FormData(f);
+      const subj = 'Rodokmen: ' + (d.get('o') || 'doplnění');
+      const body = d.get('text') + '\n\n— ' + d.get('kdo');
+      location.href = 'mailto:' + f.dataset.mail + '?subject=' + encodeURIComponent(subj) + '&body=' + encodeURIComponent(body);
+    });
+  </script>
+
+  <h2>Prameny mimo online matriky</h2>
+  <section class="card" id="jan-polak-pomnik">
+    <h3>Jan Polák z čunínského pomníku</h3>
+    <p>Nově máme vojenský úmrtní zápis Johanna Polaka (*1893), který padl 11. září 1915 u Janowky poblíž Tarnopolu. Přesná totožnost zůstává otevřená: v rodině jsou doloženi dva Janové narození roku 1893. Oddací zápis lednového Jana přímo potvrzuje jeho službu u zeměbraneckého pluku č. 13; padlý sloužil u mysliveckého praporu č. 5.</p>
+    <a href="/VALKY_JAN_POLAK_2026-10-22.md">Nové doklady, příbuzenské vazby a co ještě chybí ověřit →</a>
+  </section>
+  <section class="card" id="druha-svetova">
+    <h3>Rodina za druhé světové války</h3>
+    <p>Dosud nemáme bezpečně přiřazený vojenský nebo vězeňský záznam z let 1939–1945. Rešerše zahrnuje vojenské databáze, evidence Památníku Terezín a vybrané dotazy v Holocaust.cz. Zůstávají neověřené stopy; nenalezení není důkazem, že se nikdo z rodiny války neúčastnil.</p>
+    <a href="/VALKY_WWII_2026-10-22.md">Provedené kontroly, výsledky a další otázky →</a>
+  </section>
+  <div class="prose small"><Dotazy /></div>
+  <p><a href="/denik/">Výzkumný deník – všechna hledání včetně neúspěšných →</a></p>
+</Base>
+<style>
+  .tell { display: grid; gap: .7rem; max-width: 40rem; }
+  .tell label { display: grid; gap: .25rem; font-size: .92rem; color: var(--muted); }
+  .tell input, .tell textarea { font: inherit; color: var(--ink); padding: .5rem .7rem; border: 1px solid var(--line); border-radius: 6px; background: #fffaf0; }
+  .tell .btn { justify-self: start; }
+</style>

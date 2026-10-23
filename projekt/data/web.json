@@ -1,0 +1,46 @@
+{
+ "nazev": "Rodokmen Kulichových",
+ "popis": "Rodokmen Dominika Kulicha – Kulichové z Ledčic, Polákové z Čunína a další rody.",
+ "zapati": "Dohledáno v digitalizovaných matrikách Moravského zemského archivu v Brně (Acta Publica) a SOA Litoměřice",
+ "kontakt": {
+  "jmeno": "Dominikovi",
+  "email": "dominik.kulich@email.cz"
+ },
+ "prihlaseni": {
+  "uvod": "Tenhle web je jen pro rodinu a příbuzné.",
+  "otazka": "",
+  "odpoved": ""
+ },
+ "uvod": {
+  "nadpis": "Od Ledčic pod Řípem po Čunín na Hané",
+  "odstavce": [
+   "Rodokmen Kulichových teprve roste. Táta Luboš vyrůstal v Horních Beřkovicích, děda Václav pocházel z nedalekých Ledčic. Mámina rodina vede na Moravu – Polákovi žili po generace v Čuníně u Konice.",
+   "Ke každému údaji z matrik je tu výřez původního zápisu s přepisem a překladem, takže si všechno můžete sami ověřit."
+  ],
+  "foto": "cunin_krest_frantisek_polak_1905",
+  "foto_popis": "Křestní zápis Františka Poláka, Čunín 1905 (matrika fary Konice, MZA Brno)."
+ },
+ "pribeh": {
+  "menu": "",
+  "rod": 8,
+  "tlacitko": ""
+ },
+ "zajimavosti_na_uvodu": [
+  {
+   "nadpis": "Legionář v rodině",
+   "text": "František Polák (*1890), vnuk našeho předka Jana Poláka, sloužil v ruských legiích. Jeho portrét, matriční doklady a vojenský záznam už známe."
+  },
+  {
+   "nadpis": "Nejstarší doložený předek",
+   "text": "Jan Polák, podruh v Čuníně u Konice – otec zahradníka Jana Poláka narozeného 1865."
+  },
+  {
+   "nadpis": "Svatba s otcovým svolením",
+   "text": "Františka Bavlnková byla v roce 1892 se svými 21 lety ještě nezletilá – k sňatku s vdovcem Janem Polákem musel dát souhlas její otec."
+  },
+  {
+   "nadpis": "Chyba v matrice",
+   "text": "Křestní zápis z roku 1905 uvádí svatbu rodičů 9. února 1892, oddací matrika ale 16. února."
+  }
+ ]
+}

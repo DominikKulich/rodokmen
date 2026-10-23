@@ -1,0 +1,134 @@
+{
+ "Litoměřice": {
+  "re": "Litoměřic",
+  "lat": 50.5335,
+  "lon": 14.1318,
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Leitmeritz"
+ },
+ "Roudnice nad Labem": {
+  "re": "Roudnic",
+  "lat": 50.4253,
+  "lon": 14.2616,
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Raudnitz an der Elbe"
+ },
+ "Horní Beřkovice": {
+  "re": "Beřkovic",
+  "lat": 50.3586,
+  "lon": 14.3383,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Ledčice": {
+  "re": "Ledčic",
+  "lat": 50.3433,
+  "lon": 14.2979,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Mnetěš": {
+  "re": "Mnetěš",
+  "lat": 50.3627,
+  "lon": 14.2797,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Moravská Třebová": {
+  "re": "Moravsk\\w* Třebov",
+  "lat": 49.7579,
+  "lon": 16.6644,
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Mährisch Trübau"
+ },
+ "Čunín": {
+  "re": "Čunín",
+  "lat": 49.5829,
+  "lon": 16.8661,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Konice": {
+  "re": "\\bKonic",
+  "lat": 49.589,
+  "lon": 16.8889,
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Konitz"
+ },
+ "Stínava": {
+  "re": "St[ií]nav",
+  "lat": 49.5413,
+  "lon": 16.9352,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Ptení": {
+  "re": "\\bPtení",
+  "lat": 49.5236,
+  "lon": 16.9583,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Strážisko": {
+  "re": "Strážisk",
+  "lat": 49.5556,
+  "lon": 16.8681,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Olomouc": {
+  "re": "Olomouc",
+  "lat": 49.5938,
+  "lon": 17.2509,
+  "pozn": "souřadnice zadány ručně (přibližně)",
+  "nemecky": "Olmütz"
+ },
+ "Dolní Rožínka": {
+  "re": "Rožínk",
+  "lat": 49.4718,
+  "lon": 16.2125,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Křemenec": {
+  "re": "Křemen",
+  "lat": 49.5728,
+  "lon": 16.8536,
+  "pozn": "ručně"
+ },
+ "Veselá": {
+  "re": "Vesel",
+  "lat": 49.6162,
+  "lon": 16.8869,
+  "pozn": "ručně",
+  "nemecky": "Fröhlichsdorf"
+ },
+ "Prostějovičky": {
+  "re": "Prostějovič",
+  "lat": 49.5197,
+  "lon": 16.9773,
+  "pozn": "ručně"
+ },
+ "Hradisko": {
+  "re": "Hradisk",
+  "lat": 49.53,
+  "lon": 16.91,
+  "pozn": "ručně, nejisté"
+ },
+ "Kostelec na Hané": {
+  "re": "Kostel",
+  "lat": 49.5143,
+  "lon": 17.0581,
+  "pozn": "ručně"
+ },
+ "Zvole": {
+  "re": "Zvol",
+  "lat": 49.497,
+  "lon": 16.172,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Domanín": {
+  "re": "Domanín",
+  "lat": 49.536,
+  "lon": 16.243,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ },
+ "Bystřice nad Pernštejnem": {
+  "re": "Bystřic",
+  "lat": 49.523,
+  "lon": 16.261,
+  "pozn": "souřadnice zadány ručně (přibližně)"
+ }
+}

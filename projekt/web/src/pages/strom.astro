@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import StromIlustrace from '../components/StromIlustrace.astro';
+---
+<Base title="Strom" wide>
+  <div class="strom-print">
+  <h1>Strom předků</h1>
+  <p class="lead">Od Dominika ke starším generacím. Přibližte si tapisérii a kliknutím na jméno otevřete příběh člověka i jeho dochované doklady.</p>
+  <div class="print-bar no-print"><button type="button" class="btn" onclick="window.print()">Vytisknout strom (A3 na šířku) / PDF</button></div>
+  <StromIlustrace />
+  </div>
+</Base>

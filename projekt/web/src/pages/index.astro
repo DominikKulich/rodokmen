@@ -1,0 +1,84 @@
+---
+import Base from '../layouts/Base.astro';
+import { stats, lines, href, config, linesTitle } from '../lib/data.js';
+import StromIlustrace from '../components/StromIlustrace.astro';
+import { frontmatter as pribeh } from '../generated/pribeh.md';
+const lineList = Object.values(lines).sort((a, b) => a.k - b.k);
+const uvod = config.uvod ?? {};
+const cards = config.zajimavosti_na_uvodu ?? [];
+---
+<Base title="" wide>
+  <section class="archive-hero">
+    <div><p class="eyebrow">Nově objevený příběh naší rodiny</p>
+    <h1>V naší rodině<br/>byl legionář.</h1>
+    <p><strong>František Polák · 4. července 1890 · Čunín</strong><br/>Krejčí z naší polákovské větve. Ze zajetí v Karpatech vedla jeho cesta k československým legiím v Rusku. Jeho původ potvrzuje matrika, vojenskou službu legionářský záznam.</p>
+    <p class="small">Vnuk našeho předka Jana Poláka (*asi 1838) a bratranec Františka Poláka narozeného roku 1905.</p>
+    <div class="hero-actions"><a class="btn" href="/legionar/">Příběh našeho legionáře →</a><a href="#legionarska-vetev">Jeho větev ve stromu ↓</a></div></div>
+    <figure class="hero-photo"><a href="/legionar/"><img src="/img/frantisek-polak-legionar-foto-2.jpg" width="1500" height="2000" alt="František Polák, legionář narozený 4. července 1890" fetchpriority="high" /></a><figcaption>František Polák · fotografie ze sbírky ČsOL<br/><a href="/legionar/">Jeho příběh a původní fotografie →</a></figcaption></figure>
+  </section>
+
+  {(uvod.nadpis || uvod.odstavce?.length) && (
+    <section class="teaser">
+      <div>
+        {uvod.nadpis && <h2>{uvod.nadpis}</h2>}
+        {(uvod.odstavce ?? []).map((t) => <p>{t}</p>)}
+        {config.maPribeh && <a class="btn" href="/pribehy/">{config.pribeh?.tlacitko || `Přečíst: ${pribeh.title}`} →</a>}
+      </div>
+      {uvod.foto && (
+        <a href={config.maPribeh ? '/pribehy/' : `/img/${uvod.foto}.jpg`}><img src={`/img/${uvod.foto}.jpg`} alt={uvod.foto_popis || ''} /></a>
+      )}
+    </section>
+  )}
+
+  {config.maPribeh && !(uvod.nadpis || uvod.odstavce?.length) && (
+    <section class="teaser">
+      <div>
+        <h2>{pribeh.title}</h2>
+        {pribeh.lead && <p>{pribeh.lead}</p>}
+        <a class="btn" href="/pribehy/">{config.pribeh?.tlacitko || 'Přečíst příběh'} →</a>
+      </div>
+    </section>
+  )}
+
+  <div class="stats">
+    <div><strong>{stats.ancestors}</strong>známých předků</div>
+    <div><strong>{stats.documented}</strong>doloženo matrikou</div>
+    <div><strong>{stats.generations}</strong>generací</div>
+    <div><strong>{stats.records}</strong>dochovaných pramenů</div>
+  </div>
+
+  {cards.length > 0 && (
+    <>
+      <h2>Zajímavosti</h2>
+      <div class="grid2">
+        {cards.map((c) => (
+          <a class="card card-link" href="/zajimavosti/"><h3>{c.nadpis}</h3><p class="small muted">{c.text}</p></a>
+        ))}
+      </div>
+      <p><a href="/zajimavosti/">Všechny zajímavosti →</a></p>
+    </>
+  )}
+
+  <section aria-labelledby="home-tree-title">
+    <h2 id="home-tree-title">Náš rodový strom</h2>
+    <p class="lead">Jména, která nás spojují. Přibližte si jednotlivé větve a otevřete dochované zápisy.</p>
+    <StromIlustrace />
+    <p><a class="btn" href="/strom/">Otevřít strom a tisk →</a> <a href="/mapa/">Místa našich předků</a></p>
+  </section>
+
+  {lineList.length > 0 && (
+    <>
+      <h2>{linesTitle(lineList.length)}</h2>
+      <div class="grid2">
+        {lineList.map((l) => (
+          <a class="card line-card card-link" style={`--c:${l.color}`} href={href.line(l.slug)}>
+            <h3>{l.name}</h3>
+            <p class="small muted">{l.desc}</p>
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+
+  <p><a href="/vejir/">Vějíř předků</a> · <a href="/predci/">Seznam všech předků</a></p>
+</Base>

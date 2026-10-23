@@ -1,0 +1,58 @@
+---
+import { byK, href } from '../lib/data.js';
+const person = k => byK[k] ? href.person(byK[k].slug) : '/predci/';
+const nodes = [
+  {x:300,y:45,name:'Martin Polák',sub:'a Marianna Tilšerová (?)',date:'doloženi 1862',url:person(96)},
+  {x:900,y:45,name:'Jiří Pospíšil',sub:'a Anna Švedová (?)',date:'doloženi 1862',url:person(98)},
+  {x:600,y:210,name:'Jan Polák',sub:'a Anna Pospíšilová',date:'* asi 1838 · * asi 1835',url:person(48)},
+  {x:300,y:385,name:'Jan Polák',sub:'a Františka Bavlnková',date:'1865–1943 · * 1870',url:person(24)},
+  {x:900,y:385,name:'František Polák',sub:'a Marie Trnková',date:'* asi 1860 · * asi 1862',url:'/legionar/#rodice'},
+  {x:300,y:570,name:'František Polák',sub:'bratranec legionáře',date:'* 27. 12. 1905',url:person(12)},
+  {x:900,y:570,name:'František Polák',sub:'LEGIONÁŘ · 1. střelecký pluk',date:'* 4. 7. 1890 · Čunín',url:'/legionar/',hero:true},
+];
+---
+<section id="legionarska-vetev" class="legion-branch" aria-labelledby="legion-branch-title">
+  <h2 id="legion-branch-title">Větev našeho legionáře</h2>
+  <p>Dvě větve, stejní prarodiče. František narozený 1890 a František narozený 1905 byli bratranci. Kliknutím na jména otevřete rodinné údaje a doklady.</p>
+  <div class="tapestry" data-legion-tree>
+    <div class="tree-tools no-print"><span>Polákové z Čunína · uchopte a táhněte</span><div><button type="button" data-zoom="out" aria-label="Oddálit větev">−</button><button type="button" data-zoom="fit">Celá větev</button><button type="button" data-zoom="in" aria-label="Přiblížit větev">+</button></div></div>
+    <div class="strom-wrap" tabindex="0" role="region" aria-label="Posuvná větev legionáře">
+      <svg class="strom" viewBox="0 0 1200 745" xmlns="http://www.w3.org/2000/svg" aria-label="Příbuznost Františka Poláka legionáře">
+        <rect width="1200" height="745" fill="#192f22"/><rect x="14" y="14" width="1172" height="717" rx="6" fill="none" stroke="#cfb574" stroke-width="2"/>
+        <g fill="none" stroke="#bda468" stroke-width="3"><path d="M300 149V180H600V210M900 149V180H600M600 314V350H300V385M600 350H900V385M300 489V570M900 489V570"/></g>
+        <text x="600" y="342" text-anchor="middle" fill="#eddaab" font-family="Georgia" font-size="15">společní rodiče obou bratrů</text>
+        {nodes.map(n => <a href={n.url}><g transform={`translate(${n.x-213} ${n.y})`}>
+          <rect width="426" height="104" rx="7" fill={n.hero?'#3b4529':'#233d2b'} stroke={n.hero?'#f4d586':'#ac925b'} stroke-width={n.hero?3:1}/>
+          <text x="213" y="30" text-anchor="middle" fill="#fff2ce" font-family="Georgia" font-size="24">{n.name}</text>
+          <text x="213" y="57" text-anchor="middle" fill="#eddfbc" font-family="Georgia" font-size="19">{n.sub}</text>
+          <text x="213" y="84" text-anchor="middle" fill="#e7c97a" font-family="Georgia" font-size="17">{n.date}</text>
+        </g></a>)}
+        <text x="600" y="709" text-anchor="middle" fill="#cfb574" font-family="Georgia" font-size="17">❦  Čunín · příbuznost doložená rodinnými zápisy  ❦</text>
+      </svg>
+    </div>
+  </div>
+  <p class="small"><a href="/legionar/#doklady">Matriční výřez, vysvětlení příbuznosti a vojenský záznam →</a> · Společné starší předky najdete také v hlavní rodové malbě.</p>
+</section>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-legion-tree]').forEach(tree => {
+    const stage=tree.querySelector<HTMLElement>('.strom-wrap')!;
+    const svg=tree.querySelector<SVGElement>('svg.strom')!;
+    let zoom=1, drag:null|{x:number,y:number,left:number,top:number,moved:boolean}=null, suppress=false;
+    tree.querySelectorAll<HTMLButtonElement>('[data-zoom]').forEach(b=>b.addEventListener('click',()=>{
+      zoom=b.dataset.zoom==='fit'?1:Math.max(1,Math.min(4,zoom+(b.dataset.zoom==='in'?.5:-.5)));
+      svg.style.width=`${zoom*100}%`;
+    }));
+    stage.addEventListener('pointerdown',e=>{if(e.button!==0||e.pointerType==='touch')return;suppress=false;drag={x:e.clientX,y:e.clientY,left:stage.scrollLeft,top:stage.scrollTop,moved:false};});
+    stage.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;if(Math.hypot(dx,dy)>5){drag.moved=true;stage.setPointerCapture(e.pointerId);stage.classList.add('dragging');}if(drag.moved){stage.scrollLeft=drag.left-dx;stage.scrollTop=drag.top-dy;e.preventDefault();}});
+    stage.addEventListener('pointerup',e=>{suppress=!!drag?.moved;drag=null;stage.classList.remove('dragging');if(stage.hasPointerCapture(e.pointerId))stage.releasePointerCapture(e.pointerId);});
+    stage.addEventListener('pointercancel',()=>{drag=null;stage.classList.remove('dragging');});
+    stage.addEventListener('dragstart',e=>e.preventDefault());
+    stage.addEventListener('click',e=>{if(suppress){e.preventDefault();e.stopPropagation();suppress=false;}},true);
+  });
+</script>
+<style>
+  .legion-branch {margin:2rem 0;scroll-margin-top:9rem}.legion-branch p {max-width:65rem}
+  .tapestry{border:4px double #b79c62;padding:5px;background:#16231c}.tree-tools{display:flex;justify-content:space-between;gap:1rem;align-items:center;padding:.8rem;color:#e0d2ad;font-size:.8rem}.tree-tools button{background:transparent;color:#e0d2ad;border:1px solid #766541;padding:.4rem .7rem;cursor:pointer}.strom-wrap{overflow:auto;max-height:80vh;cursor:grab}.strom{display:block;width:100%;height:auto;user-select:none}.dragging{cursor:grabbing}.strom a:hover rect,.strom a:focus rect{fill:#465339;stroke:#ffe3a1}
+  @media(max-width:640px){.strom{min-width:900px}.tree-tools{flex-wrap:wrap}}
+  @media print{.strom-wrap{max-height:none;overflow:visible}.strom{min-width:0;width:100%!important}}
+</style>

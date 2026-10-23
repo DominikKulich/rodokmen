@@ -1,0 +1,239 @@
+
+---
+import { byK, href, config, records } from '../lib/data.js';
+// Rok zmínky se nikdy nevydává za datum narození ani důkaz, že osoba tehdy žila.
+function timeLabel(p) {
+  if (p.years) return p.years;
+  const dates = [...new Set((p.records || []).flatMap(key => {
+    const year = records[key]?.date?.match(/\b\d{4}\b/);
+    return year ? [Number(year[0])] : [];
+  }))].sort((a,b) => a-b);
+  return dates.length ? `zmínka ${dates[0]}${dates.length > 1 ? '–' + dates[dates.length-1] : ''}` : 'doba zatím neurčena';
+}
+const DAMASK = `<path transform="translate(80.0,80.0) rotate(0) scale(1.0)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(90) scale(1.0)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(180) scale(1.0)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(270) scale(1.0)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(45) scale(0.55)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(135) scale(0.55)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(225) scale(0.55)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(315) scale(0.55)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="80.0" cy="80.0" r="3.2"/><path transform="translate(0,0) rotate(0) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(90) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(180) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(270) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(45) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(135) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(225) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(315) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="0" cy="0" r="1.984"/><path transform="translate(0,160) rotate(0) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(90) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(180) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(270) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(45) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(135) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(225) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(315) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="0" cy="160" r="1.984"/><path transform="translate(160,0) rotate(0) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(90) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(180) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(270) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(45) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(135) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(225) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(315) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="160" cy="0" r="1.984"/><path transform="translate(160,160) rotate(0) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(90) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(180) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(270) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(45) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(135) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(225) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(315) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="160" cy="160" r="1.984"/><g transform="translate(110.0,50.0) rotate(-45) scale(0.9)"><path d="M0,0 C10,-6 18,-2 22,6 C25,13 20,19 14,17" fill="none" stroke-width="1.6"/><path d="M8,-3 C10,-12 18,-14 22,-10 C18,-6 13,-3 8,-3Z"/><path d="M19,3 C27,1 32,6 31,11 C26,10 22,8 19,3Z"/></g><g transform="translate(110.0,110.0) rotate(45) scale(0.9)"><path d="M0,0 C10,-6 18,-2 22,6 C25,13 20,19 14,17" fill="none" stroke-width="1.6"/><path d="M8,-3 C10,-12 18,-14 22,-10 C18,-6 13,-3 8,-3Z"/><path d="M19,3 C27,1 32,6 31,11 C26,10 22,8 19,3Z"/></g><g transform="translate(50.0,110.0) rotate(135) scale(0.9)"><path d="M0,0 C10,-6 18,-2 22,6 C25,13 20,19 14,17" fill="none" stroke-width="1.6"/><path d="M8,-3 C10,-12 18,-14 22,-10 C18,-6 13,-3 8,-3Z"/><path d="M19,3 C27,1 32,6 31,11 C26,10 22,8 19,3Z"/></g><g transform="translate(50.0,50.0) rotate(225) scale(0.9)"><path d="M0,0 C10,-6 18,-2 22,6 C25,13 20,19 14,17" fill="none" stroke-width="1.6"/><path d="M8,-3 C10,-12 18,-14 22,-10 C18,-6 13,-3 8,-3Z"/><path d="M19,3 C27,1 32,6 31,11 C26,10 22,8 19,3Z"/></g>`;
+const nodes = [];
+function branch(k, g = 0) {
+  const p = byK[k];
+  const n = { k, g, p, children: [], x: 0, y: 0, span: p ? 1 : .32 };
+  nodes.push(n);
+  if (p && g < 10) {
+    n.children = [branch(k * 2, g + 1), branch(k * 2 + 1, g + 1)];
+    n.span = Math.max(1, n.children.reduce((s, c) => s + c.span, 0));
+  }
+  return n;
+}
+const root = branch(1);
+const baseW = Math.max(1600, root.span * 182 + 160);
+const W = baseW;
+const H = Math.max(...nodes.map(n => n.g)) * 190 + 360;
+function place(n, left) {
+  n.x = left + n.span * 91;
+  n.y = H - 200 - n.g * 190;
+  let next = left + (n.span - n.children.reduce((s,c) => s+c.span,0)) * 91;
+  for (const c of n.children) { place(c, next); next += c.span * 182; }
+}
+place(root, (baseW - root.span * 182) / 2);
+// Vedlejší příbuzní mají vlastní identifikátory, nikoli Kekulého čísla předků.
+const commonFather = nodes.find(n => n.k === 48);
+const familyY = commonFather.y;
+const legionX = commonFather.x;
+const lateral = [
+  {id:'legion-father',x:legionX,y:familyY+190,name:'František Polák',years:'* asi 1860',sex:'M',url:'/zdroj/cunin_snatek_frantisek_polak_marie_trnkova_1887/',seed:901},
+  {id:'legionnaire',x:legionX,y:familyY+380,name:'František Polák',years:'* 4. 7. 1890',sex:'M',url:'/legionar/',seed:905,legionnaire:true},
+];
+lateral.forEach(p => nodes.push({k:p.id,g:4,x:p.x,y:p.y,span:1,children:[],url:p.url,legionnaire:p.legionnaire,p:{name:p.name,years:p.years,sex:p.sex,artSeed:p.seed,gen:4,st:'doc',records:[],side:[],docs:p.legionnaire?[{img:'frantisek-polak-legionar-foto-2',caption:'Archivní fotografie ČsOL'}]:[]}}));
+const bez = (a,b,c,d,t) => (1-t)**3*a+3*(1-t)**2*t*b+3*(1-t)*t*t*c+t**3*d;
+const foliage = nodes.flatMap(n => n.children.flatMap(c => {
+  const y1=n.y-58, y2=c.y+58;
+  return Array.from({length:Math.max(3,Math.ceil(Math.abs(c.x-n.x)/55))},(_,i) => {
+    const count=Math.max(3,Math.ceil(Math.abs(c.x-n.x)/55));
+    const t=.15+.7*i/count;
+    return { x:bez(n.x,n.x,c.x,c.x,t),y:bez(y1,n.y-118,c.y+110,y2,t),angle:(i%2?1:-1)*(35+i%3*15),scale:.55+(i%4)*.12 };
+  });
+}));
+// Malovaný portrét: vlastní busta podle pohlaví a doby (bez fotky), nebo fotka z rodinných dokumentů s „foto“/„portrét“ v popisu.
+const birthYear = (p) => Number((p.years || '').match(/\d{4}/)?.[0]) || (p.gen >= 3 ? 1850 : 1940);
+const pick = (arr, k) => arr[k % arr.length];
+const photoOf = (p) => (p.docs || []).find((d) => /foto|portr/i.test(d.caption || ''));
+function portrait(p) {
+  const old = birthYear(p) < 1900, k = p.artSeed ?? p.k;
+  const skin = pick(['#e0b893', '#d6a982', '#e8c4a0', '#cfa17a'], k);
+  const hair = pick(['#3a2a1e', '#5a3d24', '#24180f', '#6e5032', '#8a6a48'], k + 1);
+  const cloth = pick(['#46583a', '#6b2f2a', '#3b4a5e', '#5b4a2e', '#2f4a44', '#4b3a52'], k);
+  const scarf = pick(['#8e2b22', '#b2873a', '#3f5a7a', '#6d3b5c', '#a0522d', '#2f5e4e'], k + 2);
+  const face = `<ellipse cx="0" cy="-5" rx="9.6" ry="12" fill="${skin}"/><ellipse cx="-3.6" cy="-6" rx="1.2" ry="1.4" fill="#2b1d12"/><ellipse cx="3.6" cy="-6" rx="1.2" ry="1.4" fill="#2b1d12"/><path d="M-3,2.5 Q0,4.2 3,2.5" stroke="#8a4b3a" stroke-width="1" fill="none"/><ellipse cx="-5.5" cy="0" rx="2.2" ry="1.4" fill="#d9776a" opacity=".25"/><ellipse cx="5.5" cy="0" rx="2.2" ry="1.4" fill="#d9776a" opacity=".25"/>`;
+  const neck = `<rect x="-4.5" y="4" width="9" height="10" fill="${skin}"/>`;
+  if (p.sex === 'F') {
+    if (old) return neck + `<path d="M-32,44 C-30,20 -16,13 0,13 C16,13 30,20 32,44Z" fill="${cloth}"/><path d="M-12,14 Q0,22 12,14 L9,24 Q0,28 -9,24Z" fill="#efe6cf"/>`
+      + `<path d="M-14,-2 C-16,-24 16,-24 14,-2 L13,10 C8,15 -8,15 -13,10Z" fill="${scarf}"/>` + face
+      + `<path d="M-11,-11 C-8,-19 8,-19 11,-11" fill="none" stroke="${scarf}" stroke-width="5"/><path d="M-3,9 l3,5 3,-5 4,8 -7,-2 -7,2Z" fill="${scarf}"/><path d="M-12,-8 q12,-10 24,0" stroke="#f3e2b8" stroke-width=".8" fill="none" opacity=".6"/>`;
+    return `<ellipse cx="0" cy="-6" rx="13" ry="15" fill="${hair}"/>` + neck + `<path d="M-31,44 C-29,20 -15,13 0,13 C15,13 29,20 31,44Z" fill="${cloth}"/><path d="M-8,13 Q0,20 8,13" fill="none" stroke="#efe6cf" stroke-width="2.5"/>`
+      + face + `<path d="M-10,-8 C-9,-19 9,-19 10,-8 C6,-14 -4,-15 -10,-8Z" fill="${hair}"/><circle cx="0" cy="-19" r="5" fill="${hair}"/>`;
+  }
+  if (old) return neck + `<path d="M-32,44 C-30,19 -16,12 0,12 C16,12 30,19 32,44Z" fill="${cloth}"/><path d="M-9,12 L0,30 L9,12Z" fill="#7a5a32"/><path d="M-6,12 L0,22 L6,12Z" fill="#f1ead8"/><circle cx="0" cy="25" r="1" fill="#d9b44a"/><circle cx="0" cy="30" r="1" fill="#d9b44a"/>`
+    + face + `<path d="M-10.2,-8 C-11,-20 11,-20 10.2,-8 C8,-14 -8,-14 -10.2,-8Z" fill="${hair}"/><path d="M-6.5,1.6 C-3.5,-0.6 -1,0.4 0,1.4 C1,0.4 3.5,-0.6 6.5,1.6 C3.5,3.6 -3.5,3.6 -6.5,1.6Z" fill="${hair}"/>`;
+  return neck + `<path d="M-32,44 C-30,19 -16,12 0,12 C16,12 30,19 32,44Z" fill="${cloth}"/><path d="M-7,12 L0,26 L7,12Z" fill="#f1ead8"/><path d="M-1.8,14 L1.8,14 L2.6,28 L0,31 L-2.6,28Z" fill="${scarf}"/>`
+    + face + `<path d="M-10.2,-7 C-11,-21 11,-21 10.2,-7 C9,-13 2,-15 -4,-13 C-7,-12 -9,-10 -10.2,-7Z" fill="${hair}"/>`;
+}
+const sibLabel = (c) => `${c} ${c === 1 ? 'sourozenec' : c < 5 ? 'sourozenci' : 'sourozenců'}`;
+const fit = (t, max, px) => (t.length * px > max ? { textLength: max, lengthAdjust: 'spacingAndGlyphs' } : {});
+const initials = (name) => name.replace(/\(.*?\)/g, '').trim().split(/\s+/).slice(0, 2).map(s => s[0]).join('');
+const status = { doc: 'Osoba doložena zápisem', fam: 'Údaj od rodiny', prob: 'Pravděpodobné' };
+const missing = n => byK[Math.floor(n.k/2)]?.[n.k % 2 ? 'motherUnknown' : 'fatherUnknown'] ? 'v zápisu neuvedeno' : 'dosud hledáme';
+---
+<div class="tapestry" id="legionarska-vetev" data-tree data-legion-x={legionX} data-legion-y={familyY+190}>
+  <div class="tree-tools no-print" role="group" aria-label="Velikost stromu">
+    <span>Rodová malba <small>· uchopte a táhněte myší</small></span>
+    <div><button type="button" data-focus-legion>Legionář a otec</button><button type="button" data-zoom="out" aria-label="Oddálit">−</button><button type="button" data-zoom="fit">Celý strom</button><button type="button" data-zoom="in" aria-label="Přiblížit">+</button></div>
+  </div>
+  <div class="strom-wrap" tabindex="0" role="region" aria-label="Posuvný rodový strom">
+    <svg class="strom" viewBox={`0 0 ${W} ${H}`} xmlns="http://www.w3.org/2000/svg" aria-label={`Rodový strom – ${config.nazev}`}>
+      <defs>
+        <linearGradient id="antique-gold" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6d4c22"/><stop offset=".23" stop-color="#b3934d"/><stop offset=".45" stop-color="#efdc9c"/><stop offset=".62" stop-color="#947035"/><stop offset=".85" stop-color="#dbc384"/><stop offset="1" stop-color="#795424"/></linearGradient>
+        <linearGradient id="paint-bark"><stop stop-color="#655133"/><stop offset=".45" stop-color="#ad9161"/><stop offset=".7" stop-color="#74613c"/><stop offset="1" stop-color="#443d27"/></linearGradient>
+        <radialGradient id="portrait"><stop stop-color="#3d4937"/><stop offset="1" stop-color="#18271f"/></radialGradient>
+        <g id="corner-scroll" fill="none" stroke="url(#antique-gold)" stroke-width="2">
+          <path d="M0 145V0H145M9 112V9H112M0 72C70 70 66 0 72 0M12 90C80 70 90 48 75 32C56 12 28 38 43 53C55 67 72 52 60 43M90 12C70 80 48 90 32 75C12 56 38 28 53 43C67 55 52 72 43 60"/>
+          <path d="M16 16Q50 19 24 30Q19 50 16 16M80 20q18-25 30-12q-5 20-30 12M20 80q-25 18-12 30q20-5 12-30" fill="#b99c5a"/>
+          <circle cx="16" cy="16" r="4" fill="#ead49a"/>
+        </g>
+        <g id="flourish" fill="none" stroke="url(#antique-gold)" stroke-width="1.5"><path d="M0 0C-30-28-90 20-115 0C-140-24-100-42-88-24C-76-7-109 0-106-18M0 0C30-28 90 20 115 0C140-24 100-42 88-24C76-7 109 0 106-18M-65-5Q0 34 65-5"/><path d="M0-22l8 12-8 14-8-14Z" fill="#ccb273"/></g>
+        <radialGradient id="cloth" cx="50%" cy="46%" r="75%"><stop stop-color="#3b6e47"/><stop offset=".45" stop-color="#244a31"/><stop offset="1" stop-color="#112417"/></radialGradient>
+        <radialGradient id="vign" cx="50%" cy="48%" r="72%"><stop offset=".6" stop-opacity="0"/><stop offset="1" stop-opacity=".5"/></radialGradient>
+        <filter id="soft" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="80"/></filter>
+        <pattern id="damask" width="160" height="160" patternUnits="userSpaceOnUse"><g fill="#d9b44a" stroke="#d9b44a" stroke-width="0" opacity=".07" set:html={DAMASK}/></pattern>
+        <radialGradient id="ovalBg" cx="45%" cy="35%" r="70%"><stop stop-color="#5d6a45"/><stop offset=".6" stop-color="#2c3a26"/><stop offset="1" stop-color="#141e14"/></radialGradient>
+        <radialGradient id="ovalShade" cx="42%" cy="38%" r="65%"><stop offset=".45" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".55"/></radialGradient>
+        <radialGradient id="ovalLight" cx="35%" cy="25%" r="45%"><stop stop-color="#fff3c8" stop-opacity=".22"/><stop offset="1" stop-color="#fff3c8" stop-opacity="0"/></radialGradient>
+        <clipPath id="oval"><ellipse cx="0" cy="0" rx="28" ry="34"/></clipPath>
+        <path id="leaf" d="M0 0Q-14-24 0-36Q14-24 0 0ZM0 0V-29" fill="#7e8157" stroke="#b6a36e" stroke-width=".7"/>
+      </defs>
+      <rect width={W} height={H} fill="url(#cloth)"/><rect width={W} height={H} fill="url(#damask)"/>
+      <ellipse cx={W/2} cy={H*.45} rx={W*.36} ry={H*.34} fill="#f3dc8a" opacity=".1" filter="url(#soft)"/>
+      <rect width={W} height={H} fill="url(#vign)"/>
+      <rect x="19" y="19" width={W-38} height={H-38} fill="none" stroke="#080e0b" stroke-width="25"/>
+      <rect x="19" y="19" width={W-38} height={H-38} fill="none" stroke="url(#antique-gold)" stroke-width="16"/>
+      <rect x="34" y="34" width={W-68} height={H-68} fill="none" stroke="#cfb477" stroke-width="2"/>
+      <rect x="43" y="43" width={W-86} height={H-86} fill="none" stroke="#9c8249" stroke-opacity=".5"/>
+      <use href="#corner-scroll" transform="translate(48 48)"/><use href="#corner-scroll" transform={`translate(${W-48} 48) scale(-1 1)`}/>
+      <use href="#corner-scroll" transform={`translate(48 ${H-48}) scale(1 -1)`}/><use href="#corner-scroll" transform={`translate(${W-48} ${H-48}) scale(-1 -1)`}/>
+      <text x={W/2} y="90" text-anchor="middle" class="tree-caption">KOŘENY A PAMĚŤ NAŠÍ RODINY</text>
+      <use href="#flourish" transform={`translate(${W/2} 120)`}/>
+      <path d={`M${root.x-28} ${H-135}Q${root.x-8} ${root.y+55} ${root.x-7} ${root.y-55}L${root.x+7} ${root.y-55}Q${root.x+8} ${root.y+55} ${root.x+28} ${H-135}Q${root.x} ${H-145} ${root.x-28} ${H-135}`} fill="url(#paint-bark)"/>
+      <g fill="none" stroke="url(#paint-bark)" stroke-linecap="round">
+        {[-1,1].map(side => <><path d={`M${root.x+side*12} ${H-151}Q${root.x+side*55} ${H-112} ${root.x+side*175} ${H-115}`} stroke-width="9"/><path d={`M${root.x+side*18} ${H-150}Q${root.x+side*60} ${H-95} ${root.x+side*100} ${H-100}`} stroke-width="5"/></>)}
+      </g>
+      {nodes.flatMap(n => n.children.map(c => <g>
+        <path d={`M${n.x} ${n.y-58} C${n.x} ${n.y-118} ${c.x} ${c.y+110} ${c.x} ${c.y+60}`} fill="none" stroke="url(#paint-bark)" stroke-width={c.p?.parentLink === 'prob' ? 3 : Math.max(2, 15-n.g*2)} stroke-dasharray={c.p?.parentLink === 'prob' ? '8 7' : undefined}/>
+        <use href="#leaf" transform={`translate(${c.x},${c.y+82}) rotate(40) scale(.7)`}/><use href="#leaf" transform={`translate(${c.x},${c.y+96}) rotate(-45) scale(.65)`}/>
+      </g>))}
+      <g opacity=".75" aria-hidden="true">{foliage.map(l => <use href="#leaf" transform={`translate(${l.x} ${l.y}) rotate(${l.angle}) scale(${l.scale})`}/>)}</g>
+      <g fill="none" stroke="url(#paint-bark)" stroke-width="5">
+        <path d={`M${legionX} ${familyY+64}C${legionX-5} ${familyY+74} ${legionX+5} ${familyY+82} ${legionX} ${familyY+92}`}/>
+        <path d={`M${legionX} ${familyY+254}C${legionX-5} ${familyY+264} ${legionX+5} ${familyY+272} ${legionX} ${familyY+282}`}/>
+      </g>
+      {nodes.map(n => n.p ? <g><a href={n.url || href.person(n.p.slug)} class={`ancestor ${n.p.st}`}>
+        <title>{n.p.name} · {status[n.p.st] || 'Neověřeno'}{n.p.parentLink === 'prob' ? ' · Vazba k dítěti nepotvrzena' : ''}</title>
+        <g transform={`translate(${n.x},${n.y})`}>
+          <path class="nameplate" d="M-82-18Q-86-25-78-30H-28Q0-42 28-30H78Q86-25 82-18V32H-82Z" fill="url(#portrait)" stroke="url(#antique-gold)" stroke-width="2"/>
+          <path d="M-85-20q-18 12-7 26M85-20q18 12 7 26M-66 30q66 15 132 0" fill="none" stroke="url(#antique-gold)" stroke-width="2"/>
+          <g transform="translate(0,-62)">
+            <ellipse rx="28" ry="34" fill="url(#ovalBg)"/>
+            <g clip-path="url(#oval)">
+              {photoOf(n.p)
+                ? <image href={`/img/${photoOf(n.p).img}.jpg`} x="-28" y="-34" width="56" height="68" preserveAspectRatio="xMidYMid slice"/>
+                : <g transform="translate(0,4) scale(.95)" set:html={portrait(n.p)}/>}
+              <ellipse rx="28" ry="34" fill="url(#ovalLight)"/><ellipse rx="28" ry="34" fill="url(#ovalShade)"/>
+            </g>
+            <ellipse rx="28" ry="34" fill="none" stroke="url(#antique-gold)" stroke-width="3.5"/>
+            <ellipse rx="31.5" ry="37.5" fill="none" stroke="#cfb477" stroke-opacity=".55" stroke-width="1"/>
+          </g>
+          <text y="-6" text-anchor="middle" class="person-name" {...fit(n.p.name.split(' ')[0], 150, 11)}>{n.p.name.split(' ')[0]}</text>
+          <text y="16" text-anchor="middle" class="person-name surname" {...fit(n.p.name.split(' ').slice(1).join(' '), 152, 11.5)}>{n.p.name.split(' ').slice(1).join(' ')}</text>
+          <text y="56" text-anchor="middle" class="person-years">{timeLabel(n.p)}</text>
+          {n.legionnaire && <text y="84" text-anchor="middle" class="person-years">LEGIONÁŘ · RUSKO</text>}
+          {n.p.st === 'doc' && <circle cx="79" cy="-29" r="5" fill="#d2be88"/>}
+        </g>
+      </a>
+      {(n.p.side || []).length > 0 && <a href={`${href.person(n.p.slug)}#sourozenci`} class="sib-badge">
+        <title>{'Sourozenci a příbuzní: ' + n.p.side.map(x => x.name).join(', ')}</title>
+        <g transform={`translate(${n.x},${n.y + 80})`}>
+          <rect x="-66" y="-12" width="132" height="22" rx="11" fill="#16261c" stroke="url(#antique-gold)" stroke-width="1.2"/>
+          {n.p.side.slice(0, 5).map((x, i) => <use href="#leaf" transform={`translate(${-56 + i * 4},5) rotate(${-25 + i * 12}) scale(.28)`}/>)}
+          <text x="12" y="4" text-anchor="middle" class="sib-text">{sibLabel(n.p.side.length)}</text>
+        </g>
+      </a>}
+      </g> : <a href="/hledame/"><title>{missing(n)}</title><path d={`M${n.x} ${n.y-12}l10 16-10 16-10-16Z`} fill="none" stroke="#8c805f"/><text x={n.x} y={n.y+40} text-anchor="middle" class="missing-text">{missing(n)}</text></a>)}
+      <use href="#flourish" transform={`translate(${W/2} ${H-72}) scale(.8)`}/>
+      <text x={W/2} y={H-48} text-anchor="middle" class="tree-caption">KAŽDÉ JMÉNO MÁ SVŮJ PŘÍBĚH</text>
+    </svg>
+  </div>
+</div>
+<p class="strom-legend">Přímo pod Janem Polákem (* asi 1838) je jeho syn František a pod ním vnuk František — legionář. Matkou staršího Františka byla Anna Pospíšilová. Tlačítkem „Legionář a otec“ větev přiblížíte. Zlatý bod: osoba zachycená v matrice · Přerušovaná větev: nepotvrzené příbuzenství · Kurzíva: pravděpodobné údaje. „Zmínka“ označuje rok zápisu, nikoli narození či úmrtí. Kliknutím na jméno otevřete doklady.</p>
+<script>
+  document.querySelectorAll<HTMLElement>('[data-tree]').forEach(tree => {
+    const svg = tree.querySelector<SVGElement>('.strom')!;
+    const stage = tree.querySelector<HTMLElement>('.strom-wrap')!;
+    let drag: {id:number; x:number; y:number; left:number; top:number; moved:boolean} | null = null;
+    let suppressClick = false;
+    stage.addEventListener('pointerdown', e => {
+      if (e.pointerType !== 'mouse' || e.button !== 0) return;
+      suppressClick = false;
+      drag = { id:e.pointerId, x:e.clientX, y:e.clientY, left:stage.scrollLeft, top:stage.scrollTop, moved:false };
+    });
+    stage.addEventListener('pointermove', e => {
+      if (!drag || drag.id !== e.pointerId) return;
+      const dx=e.clientX-drag.x, dy=e.clientY-drag.y;
+      if (!drag.moved && Math.hypot(dx,dy) < 5) return;
+      if (!drag.moved) { stage.setPointerCapture(e.pointerId); drag.moved=true; stage.classList.add('dragging'); }
+      stage.scrollLeft=drag.left-dx; stage.scrollTop=drag.top-dy;
+      e.preventDefault();
+    });
+    const finish = (e:PointerEvent) => {
+      if (!drag || drag.id !== e.pointerId) return;
+      suppressClick=drag.moved;
+      if (stage.hasPointerCapture(e.pointerId)) stage.releasePointerCapture(e.pointerId);
+      stage.classList.remove('dragging'); drag=null;
+    };
+    stage.addEventListener('pointerup',finish);
+    stage.addEventListener('pointercancel',finish);
+    stage.addEventListener('lostpointercapture', () => {stage.classList.remove('dragging');drag=null;});
+    stage.addEventListener('pointerleave', () => {if (drag && !drag.moved) drag=null;});
+    stage.addEventListener('dragstart',e => e.preventDefault());
+    stage.addEventListener('click',e => {if (suppressClick) {e.preventDefault();e.stopPropagation();suppressClick=false;}},true);
+    let zoom = 1;
+    tree.querySelectorAll<HTMLButtonElement>('[data-zoom]').forEach(button => button.addEventListener('click', () => {
+      zoom = button.dataset.zoom === 'fit' ? 1 : Math.max(1, Math.min(8, zoom + (button.dataset.zoom === 'in' ? .5 : -.5)));
+      svg.style.width = `${zoom * 100}%`;
+    }));
+    tree.querySelector('[data-focus-legion]')?.addEventListener('click',()=>{
+      const box=(svg as SVGSVGElement).viewBox.baseVal;
+      zoom=Math.min(8,Math.max(1.5,Math.min(stage.clientWidth/940,stage.clientHeight/960)*box.width/stage.clientWidth));svg.style.width=`${zoom*100}%`;
+      tree.scrollIntoView({block:'start'});
+      requestAnimationFrame(()=>{stage.scrollLeft=Number(tree.dataset.legionX)/box.width*svg.clientWidth-stage.clientWidth/2;stage.scrollTop=Number(tree.dataset.legionY)/box.height*svg.clientHeight-stage.clientHeight/2;});
+    });
+  });
+</script>
+<style>
+  .tapestry { scroll-margin-top:105px;border:4px double #b79c62;padding:5px;background:#16231c;box-shadow:0 24px 70px #0005,inset 0 0 0 1px #4d3b21; }
+  .tree-tools { display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.8rem 1rem;color:#c8b681;font-size:.8rem;border-bottom:1px solid #766541; }
+  .tree-tools button { background:transparent;color:#e0d2ad;border:1px solid #766541;padding:.4rem .7rem;cursor:pointer; }
+  .tree-tools button:hover { background:#354136; }
+  .strom-wrap { overflow:auto;max-height:80vh;cursor:grab;touch-action:pan-x pan-y; }
+  .strom-wrap.dragging,.strom-wrap.dragging a {cursor:grabbing;user-select:none;}
+  .tree-tools small {font-size:.8em;opacity:.8;}
+  .strom {user-select:none;}
+  .strom { display:block;width:100%;height:auto; }
+  .tree-caption { fill:#e2cf96;font:600 17px Georgia,serif;letter-spacing:6px;paint-order:stroke;stroke:#0b1510;stroke-width:3px; }
+  .person-name { fill:#fbf1d6;font:600 19px Georgia,serif;paint-order:stroke;stroke:#0b1510;stroke-width:2.5px;stroke-linejoin:round; }
+  .person-name.surname { font-size:20px;letter-spacing:.3px; }
+  .person-years { fill:#f0d58f;font:700 18px Georgia,serif;paint-order:stroke;stroke:#0b1510;stroke-width:4px;stroke-linejoin:round; }
+  .sib-text { fill:#ead9a6;font:italic 600 12.5px Georgia,serif; }
+  .sib-badge:hover rect { fill:#2c4d33; }
+  .missing-text { fill:#d6caa6;font:italic 11.5px Georgia,serif;paint-order:stroke;stroke:#0b1510;stroke-width:3px; }
+  .ancestor:hover .nameplate,.ancestor:focus .nameplate {fill:#384337;stroke:#f4dc98;stroke-width:2;}
+  .ancestor.prob .person-name {font-style:italic;}
+  .strom-legend {font-size:.8rem;color:var(--muted);}
+  @media(max-width:640px) {.strom {min-width:1100px;}}
+  @media print {.strom-wrap {max-height:none;overflow:visible}.strom {width:100%!important;min-width:0}}
+</style>
