@@ -26,3 +26,9 @@ Když si v únoru 1892 bral domkář [Jan Polák](/osoba/jan-polak-1865/) z Čun
 
 ## Od podruha k řezníkovi
 Za tři generace se Polákové v Čuníně posunuli: praděd Jan byl „podruh“ – člověk bez vlastního domu. Jeho syn Jan už byl domkář a zahradník v čp. 26 a vnuk František v témže domě řezník.
+
+## Františka ve sčítání: stopa k Filomeně
+
+Ve [sčítání roku 1910](/zdroj/konice_scitani_frantiska_krejci_1910/) je Františka Krejčí, narozená **10. listopadu 1906**, uvedena jako nemanželská vnučka v domácnosti Františka a Františky Krejčích v Konici. Na pravém okraji je oprava **„narozena v Olomouci“**, která odpovídá jejímu oddacímu zápisu z roku 1929. Přepis MyHeritage přitom ponechává původní rodiště Konice.
+
+V [archu z roku 1921](/zdroj/konice_scitani_frantiska_krejci_1921/) příbuzenskou poznámku předběžně čteme jako **„nem. dítě dcery Fil. Krejčí“**, tedy nemanželské dítě dcery Filomeny Krejčí. Jde o silnou stopu k domácnosti jejích prarodičů. **Filomena sama na zaslaných výřezech uvedená není.** Data narození staršího páru se mezi oběma sčítáními liší; ověření v matrikách a číslo domu zatím chybějí. Oba výřezy, označené řádky a výběrové přepisy jsou přístupné přes odkazy výše a v přehledu zápisů.

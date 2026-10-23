@@ -58,3 +58,6 @@ Před každým `astro build` spustit export dat (`npm run data` = `tools/export_
 
 ## Rodinná šestadvacítka (23. 10. 2026)
 Čunín čp. 26 u Františka Poláka (křest 1905, sňatek 1929) a Dolní Rožínka čp. 26 u Václava Kaštánka (křest 1914) znovu přečteny v obrazech. Dominik doplnil současné bydliště s maminkou Janou: Chudoslavice čp. 26, a výslovně požádal o zveřejnění v zajímavosti. Rozlišovat matriční doklady a současný rodinný údaj; datum sdělení není nastěhováním. Úvod aktualizován o Kaštánkovy i Šlosárovy.
+
+## Sčítání Krejčích (23. 10. 2026)
+Na výslovnou žádost Dominika přidány na web oba dodané výřezy sčítání Konice 1910 a 1921 s přepisy a vyznačením Františky. Vazba na Filomenu je silně podpořená, čtení zkratky Fil. předběžné; data prarodičů rozporná, číslo domu a archivní signaturu ověřit. Nové jisté osoby z těchto výřezů nevytvářeny.
