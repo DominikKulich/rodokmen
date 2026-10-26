@@ -94,3 +94,6 @@ Dodáno8screenshotů západního vojska; 7unikátních obrazů (7/8duplicita). P
 
 ### 26. 10. 2026 – Kulichové z Ledčic
 Praděda Václav Kulich (* 2. 11. 1900 Ledčice 85) × 15. 2. 1925 Černouček Anna Tichá (* 9. 10. 1899 Ledčice 23) – L16/47 s. 62. Pra-prarodiče Václav Kulich († před 1925, domkář a tesař, Ledčice 85) + Julie Koubová (Ledčice 94); Josef Tichý (dělník, Ledčice 23) + Anna Kohlová (?). Evangelická linie z Vražkova čp. 71 (František Kulich, syn Jana Kulicha z Ledčic 82; děti Antonín 1896, Emilie 1900, Marie 1906) zatím jen jako pravděpodobně příbuzná – v zaznamy.json bez napojení na osoby. Prohledáno bez výsledku: N39/20 sňatky 1926–1936, N39/19 narození 1895–1909 (Václav), C21/A civilní sňatky 1927–1933.
+
+### 26. 10. 2026 – sčítání Kulichů 1921
+Otcova větev přes Luboše (upřesnil Dominik). Ledčice85: Anna Kulichová1854 vdova a pět vnoučat včetně Václava2.11.1900. Jaroslav4.6.1908, Jan13.4.1910, Anna22.9.1911, Marie22.8.1914. Vnoučata neoznačovat automaticky za sourozence. Babička bez potvrzeného rodného příjmení a strany příbuzenství, zapsána u vedlejších příbuzných. Dál sčítání1910/1900 a narození dětí.

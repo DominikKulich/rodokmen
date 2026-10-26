@@ -622,5 +622,17 @@
   ],
   "status": "ok",
   "note": "celý řádek zápisu"
+ },
+ "ledcice_scitani_kulich_1921": {
+  "boxes": [
+   [
+    0.09,
+    0.35,
+    0.91,
+    0.72
+   ]
+  ],
+  "status": "ok",
+  "note": "Šest řádků domácnosti; narození, vztahy a povolání."
  }
 }
