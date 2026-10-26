@@ -50,3 +50,10 @@ Dominik podle maminky nejprve uvedl bydliště v Křemenci; následně 23. 10. 2
 - Rodiče dědy Václava Kulicha (* asi 1936): otec Václav Kulich, matka Anna Kulichová (rodné příjmení neznámé).
 - 26. 10. 2026 (dohledáno v matrice): praděda Václav Kulich * 2. 11. 1900 Ledčice čp. 85, × 15. 2. 1925 Černouček Anna Tichá * 9. 10. 1899 Ledčice čp. 23 – souhlasí s rodinným údajem „Václav a Anna“.
 - 26. 10. 2026 (Dominik, z rodinného vyprávění): praděda měl prý dvě manželky jménem Anna, jedna brzy zemřela; „Kohlová byla první žena, dědu měl s druhou, Tichou“. Pozn.: v zápisu sňatku 1925 je Václav i Anna Tichá svobodní (první sňatek obou) a Kohlová (?) je tam rodné příjmení matky Anny Tiché. Případný druhý sňatek pradědy (po smrti jedné z Ann) zatím nenalezen.
+
+### 26. 10. 2026 – vzpomínky otcovy rodiny (Dominik)
+- Otci bylo vyprávěno, že někdo z rodiny sloužil za první světové války. Jméno, jednotka a bojiště zatím neznámé. Nepovažovat automaticky za legionáře.
+- V rodině se traduje písař na zámku v Nelahozevsi. Jméno ani generace zatím nejsou určeny; příjmení Kulich nelze předpokládat jako jistotu.
+- Stav prověřování v ../KULICH_VALKA_PISAR_2026-10-26.md; obě vzpomínky dosud nepotvrzené konkrétním služebním dokladem.
+
+26. 10. 2026, doplnění Dominika: matka dědy Václava není mezi Annou Tichou a Annou Víškovou rozhodnuta. Žádá evidovat i Víškovou jako možnost. Rodinná vzpomínka, že někdo z rodiny byl starostou; jméno, obec a doba nejsou určeny.

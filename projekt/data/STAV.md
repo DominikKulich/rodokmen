@@ -99,3 +99,9 @@ Praděda Václav Kulich (* 2. 11. 1900 Ledčice 85) × 15. 2. 1925 Černouček A
 ### 26. 10. 2026 – sčítání Kulichů 1921
 Otcova větev přes Luboše (upřesnil Dominik). Ledčice85: Anna Kulichová1854 vdova a pět vnoučat včetně Václava2.11.1900. Jaroslav4.6.1908, Jan13.4.1910, Anna22.9.1911, Marie22.8.1914. Vnoučata neoznačovat automaticky za sourozence. Babička bez potvrzeného rodného příjmení a strany příbuzenství, zapsána u vedlejších příbuzných. Dál sčítání1910/1900 a narození dětí.
 - Kulichovi – 26. 10. 2026 (noc): sňatek Josef Kulich × Rozálie ovd. Jindřichová, Nová Ves 15. 1. 1833 (Vepřek 15 sn. 8) – rodné jméno Rozálie Jatlová (?), Jindřich byl její 1. muž. Další kroky: 1. manželství Josefa (Kateřina, Ouholice – fara Vepřek před 1833, kniha do 1824), křest Josefa asi 1785 v Ouholicích, 1. sňatek Rozálie s Janem Jindřichem (před 1833), děti Jindřichovy.
+
+### 26. 10. 2026 – vojenská služba Kulichů a písař v Nelahozevsi
+Rešerše viz ../KULICH_VALKA_PISAR_2026-10-26.md. OCR ztrátových seznamů: 109 nalezených stran, 105 veřejných, bez bezpečné identifikace našich Kulichů; nejde o důkaz absence služby. Kandidáti Václav1877, Josef1870, Václav1900. Nové stopy: kniha Našinci v zákopech Velké války; Anna Kulichová roz. Víšková ze Sázené, Ledčice85, †13.2.1987 (manžel neurčen); fond Velkostatek Nelahozeves–Lobkovice NAD180 pro písaře. Požár Kulichových domů20/17 roku1830 se v textu váže na Vepřek, nepřipojovat automaticky k Ouholicím20. Nový předek ani voják nepotvrzen, web beze změny.
+
+### 26. 10. 2026 – všech 26 zveřejněných ledčických kronik
+Viz ../LEDCICE_KRONIKY_2026-10-26.md. Kulich: jen1981 a1987. Starosta1940 Václav Tošnar čp94, vazba ke Koubovým neprokázána. Anna Víšková evidována v SIDE u8; P9 parent_link=prob, mateřství dědy neznámé. Nová stopa přepisu Sázené: 1.IV. Anna Víšková114 × Václav Kulich Ledčice, rok/originál ještě ověřit.
