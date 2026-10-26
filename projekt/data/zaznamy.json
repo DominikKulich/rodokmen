@@ -1,540 +1,620 @@
 [
- {
-  "klic": "konice_snatek_frantisek_polak_frantiska_krejci_1929",
-  "svazek": "mza9106",
-  "snimek": 33,
-  "druh": "O",
-  "datum": "9. 11. 1929",
-  "nazev": "Sňatek Františka Poláka a Františky Krejčí",
-  "shrnuti": "František Polák (23 l.), řezník v Čuníně čp. 26, nar. 27. 12. 1905 v Čuníně, syn Jana Poláka, zahradníka v Čuníně, a Františky roz. Bavlnkové ze Stinavy; nevěsta Františka Krejčí (22 l.) z Konice čp. 233, nar. 10. 11. 1906 v porodnici v Olomouci, dcera svobodné Filomeny Krejčí. Oddáni ve Strážisku.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/10939?image=216000010-000253-003375-000000-009106-000000-00-B00578-00330.jp2"
- },
- {
-  "klic": "cunin_krest_frantisek_polak_1905",
-  "svazek": "mza9083",
-  "snimek": 516,
-  "druh": "N",
-  "datum": "27. 12. 1905",
-  "nazev": "Křest Františka Poláka",
-  "shrnuti": "František, syn Jana Poláka (* 6. 6. 1865), zahradníka v Čuníně čp. 26, a Františky roz. Bavlnkové (* 19. 11. 1870) ze Stínavy; sňatek rodičů zde uveden 9. 2. 1892 (oddací matrika: 16. 2. 1892). Na okraji poznámka o sňatku s Františkou Krejčí 1929.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-05160.jp2"
- },
- {
-  "klic": "stinava_snatek_jan_polak_frantiska_bavlnkova_1892",
-  "svazek": "mza9698",
-  "snimek": 154,
-  "druh": "O",
-  "datum": "16. 2. 1892",
-  "nazev": "Sňatek Jana Poláka a Františky Bavlnkové",
-  "shrnuti": "Jan Polák (26 l.), domkář v Čuníně, vdovec, syn Jana Poláka, podruha z Čunína, a Anny roz. Pospíšilové; nevěsta Františka (21 l.), nezletilá dcera Antonína Bavlnky, domkáře ze Stínavy čp. 36, a Františky roz. Burešové. Oddáni v Ptení.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/6054?image=216000010-000253-003375-000000-009698-000000-00-B03772-01540.jp2"
- },
- {
-  "klic": "cunin_krest_jan_polak_1865",
-  "svazek": "mza9077",
-  "snimek": 109,
-  "druh": "N",
-  "datum": "6. 6. 1865",
-  "nazev": "Křest Jana Poláka",
-  "shrnuti": "Jan (Joannes), Čunín čp. 64, syn Jana Poláka, podruha v Čuníně (syna Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové (?) z Veselé), a Anny, dcery Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švedové (?). Přípisek: † 11. 2. 1943 v Kostelci.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5703?image=216000010-000253-003375-000000-009077-000000-00-B01739-01090.jp2"
- },
- {
-  "klic": "konice_snatek_jan_polak_anna_pospisilova_1862",
-  "svazek": "mza9103",
-  "snimek": 46,
-  "druh": "O",
-  "datum": "18. 11. 1862",
-  "nazev": "Sňatek Jana Poláka a Anny Pospíšilové",
-  "shrnuti": "Jan Polák (24 l.), podruh v Křemenci (č. d. 64/21), syn Martina Poláka, výměnkáře v Křemenci, a Marianny roz. Tilšerové (?) z Veselé (Fröhlichsdorf); nevěsta Anna (27 l.), dcera Jiřího Pospíšila, domkáře, a Anny roz. Švedové (?).",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5734?image=216000010-000253-003375-000000-009103-000000-AP-B11459-00460.jp2"
- },
- {
-  "klic": "stinava_krest_frantiska_bavlnkova_1870",
-  "svazek": "mza9692",
-  "snimek": 199,
-  "druh": "N",
-  "datum": "19. 11. 1870",
-  "nazev": "Křest Františky Bavlnkové",
-  "shrnuti": "Františka, Stínava čp. 29; otec Antonín Bavlnka, domkář ve Stínavě, syn Antonína Bavlnky, podruha z Prostějoviček, a Josefy roz. Nezvalové z Prostějoviček; matka Františka, dcera Františka Bureše, podruha ze Stínavy, a Františky roz. Jelínkové z Hradiska.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/6050?image=216000010-000253-003375-000000-009692-000000-00-B03680-01990.jp2"
- },
- {
-  "klic": "rozinka_krest_vaclav_kastanek_1914",
-  "svazek": "mza16569",
-  "snimek": 215,
-  "druh": "N",
-  "datum": "15. 9. 1914",
-  "nazev": "Křest Václava Kaštánka",
-  "shrnuti": "Václav, narozen 15. 9. 1914 v Dolní Rožínce čp. 26, pokřtěn 20. 9.; syn Ignáce Kaštánka (* 26. 4. 1878), kočího v Dolní Rožínce, a Josefy roz. Vykutilové (* 25. 12. 1880) z Bystřice; rodiče oddáni v Bystřici 4. 5. 1903. Na okraji: biřmován 17. 6. 1929, oddán ve Zvoli s Helenou Šlosárovou 19. 10. 1941.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02150.jp2"
- },
- {
-  "klic": "bystrice_snatek_ignac_kastanek_josefa_vykutilova_1903",
-  "svazek": "mza15461",
-  "snimek": 34,
-  "druh": "O",
-  "datum": "4. 5. 1903",
-  "nazev": "Sňatek Ignáce Kaštánka a Josefy Vykutilové",
-  "shrnuti": "Ignác Kaštánek (25 l., * 26. 4. 1878), čeledín v Domaníně čp. 32, syn Ignáce Kaštánka, podruha v Domaníně (zemřelý), a Františky roz. Hradešínské × Josefa Vykutilová (22 l., * 25. 12. 1880), služka v Bystřici čp. 337, dcera Františka Vykutila, podruha v Bystřici, a Kateřiny roz. Kroutilové (zemřelé). Otec nezletilé nevěsty dal svolení. Oddával kooperátor Karel Endl.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/11311?image=216000010-000253-003380-000000-015461-000000-00-B01185-00340.jp2"
- },
- {
-  "klic": "domanin_krest_ignac_kastanek_1878",
-  "svazek": "mza15440",
-  "snimek": 114,
-  "druh": "N",
-  "datum": "25. 4. 1878",
-  "nazev": "Křest Ignáce Kaštánka",
-  "shrnuti": "Ignát, narozen 25. 4. 1878 v Domaníně čp. 15, pokřtěn 26. 4.; syn Ignáta Kaštánka, podruha v Domaníně (syna Karla K., podruha v Domaníně, a Terezie), a Františky, dcery Josefa Hradešínského, domkáře v Blažovicích, a Josefy roz. Žilkové. Přípisky: oddán 4. 5. 1903 s Josefou Vykutilovou, 5. 7. 1923 v Rozsochách s Albínou Šmerdovou (?), 16. 10. 1934 v Rozsochách s Růženou Vaší…ovou (?); zemřel 9. 5. 1952 v Bratrušíně.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5035?image=216000010-000253-003380-000000-015440-000000-00-B07997-01140.jp2"
- },
- {
-  "klic": "cunin_krest_jan_polak_1893",
-  "svazek": "mza9083",
-  "snimek": 222,
-  "druh": "N",
-  "datum": "17. 1. 1893",
-  "nazev": "Křest Jana Poláka (bratr Františka)",
-  "shrnuti": "Jan, nar. 17. 1. 1893 v Čuníně čp. 25, pokřtěn 19. 1.. Oddán 31. 8. 1915 v Přemyslovicích s Helenou Kmentovou. Příjmení nevěsty ověřeno v samostatném oddacím zápisu z roku 1915.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02190.jp2"
- },
- {
-  "klic": "cunin_krest_vincencie_polakova_1894",
-  "svazek": "mza9083",
-  "snimek": 229,
-  "druh": "N",
-  "datum": "1894",
-  "nazev": "Křest Vincencie Polákové (sestra Františka)",
-  "shrnuti": "Vincencie, nar. 1894 v Čuníně čp. 26 (přesné datum v zápise špatně čitelné). Sezdána 1. 10. 1917 v Konici s Methodějem Veselým (?).",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02260.jp2"
- },
- {
-  "klic": "cunin_krest_ruzena_polakova_1896",
-  "svazek": "mza9083",
-  "snimek": 236,
-  "druh": "N",
-  "datum": "18. 12. 1896",
-  "nazev": "Křest Růženy Polákové (sestra Františka)",
-  "shrnuti": "Růžena, nar. 18. 12. 1896 v Čuníně čp. 26, pokřtěna 19. 12.. Sezdána 29. 8. 1921 v Konici s Bedřichem Kuplou (?).",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02330.jp2"
- },
- {
-  "klic": "cunin_krest_arnost_polak_1899",
-  "svazek": "mza9083",
-  "snimek": 242,
-  "druh": "N",
-  "datum": "12. 1. 1899",
-  "nazev": "Křest Arnošta Poláka (bratr Františka)",
-  "shrnuti": "Arnošt, nar. 12. 1. 1899 v Čuníně čp. 26, pokřtěn 14. 1.. Zemřel 13. 2. 1899.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02390.jp2"
- },
- {
-  "klic": "cunin_krest_josef_polak_1900",
-  "svazek": "mza9083",
-  "snimek": 248,
-  "druh": "N",
-  "datum": "12. 7. 1900",
-  "nazev": "Křest Josefa Poláka (bratr Františka)",
-  "shrnuti": "Josef, nar. 12. 7. 1900 v Čuníně čp. 26, pokřtěn 14. 7.. Zemřel 23. 10. 1900.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02450.jp2"
- },
- {
-  "klic": "cunin_krest_bohumila_polakova_1901",
-  "svazek": "mza9083",
-  "snimek": 253,
-  "druh": "N",
-  "datum": "4. 10. 1901",
-  "nazev": "Křest Bohumily Polákové (sestra Františka)",
-  "shrnuti": "Bohumila, nar. 4. 10. 1901 v Čuníně čp. 26, pokřtěna 5. 10.. Zemřela 14. 1. 1959 v Senici na Hané.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02500.jp2"
- },
- {
-  "klic": "cunin_krest_josef_polak_1904",
-  "svazek": "mza9083",
-  "snimek": 260,
-  "druh": "N",
-  "datum": "5. 1. 1904",
-  "nazev": "Křest Josefa Poláka (bratr Františka)",
-  "shrnuti": "Josef, nar. 5. 1. 1904 v Čuníně čp. 26, pokřtěn 6. 1.. Zemřel 19. 2. 1905.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02570.jp2"
- },
- {
-  "klic": "cunin_krest_marie_polakova_1908",
-  "svazek": "mza9084",
-  "snimek": 266,
-  "druh": "N",
-  "datum": "9. 3. 1908",
-  "nazev": "Křest Marie Polákové (sestra Františka)",
-  "shrnuti": "Marie, nar. 9. 3. 1908 v Čuníně čp. 26, pokřtěna 12. 3.. Zemřela 28. 1. 1912.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/12085?image=216000010-000253-003375-000000-009084-000000-00-B11974-02750.jp2"
- },
- {
-  "klic": "cunin_krest_frantiska_polakova_1912",
-  "svazek": "mza9084",
-  "snimek": 280,
-  "druh": "N",
-  "datum": "10. 3. 1912",
-  "nazev": "Křest Františky Polákové (sestra Františka)",
-  "shrnuti": "Františka, nar. 10. 3. 1912 v Čuníně čp. 26, pokřtěna 11. 3.. Oddána 23. 2. 1936 (ve Strážisku?).",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/12085?image=216000010-000253-003375-000000-009084-000000-00-B11974-02890.jp2"
- },
- {
-  "klic": "cunin_krest_antonin_polak_1914",
-  "svazek": "mza9084",
-  "snimek": 285,
-  "druh": "N",
-  "datum": "26. 2. 1914",
-  "nazev": "Křest Antonína Poláka (bratr Františka)",
-  "shrnuti": "Antonín, nar. 26. 2. 1914 v Čuníně čp. 26, pokřtěn 1. 3.. Oddán 18. 10. 1941 v Konici s Annou Hýblovou.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/12085?image=216000010-000253-003375-000000-009084-000000-00-B11974-02940.jp2"
- },
- {
-  "klic": "rozinka_krest_bozena_kastankova_1905",
-  "svazek": "mza16569",
-  "snimek": 131,
-  "druh": "N",
-  "datum": "7. 10. 1905",
-  "nazev": "Křest Boženy Kaštánkové (sestra Václava)",
-  "shrnuti": "Božena, nar. 7. 10. 1905 v Dolní Rožínce čp. 26, pokřtěna 8. 10.; kmotra Ludmila Vykutilová, svobodná nádenice v Bystřici. Biřmována 1. 6. 1922 v Rozsochách; přípisek „Bystřice … 1934“.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-01310.jp2"
- },
- {
-  "klic": "rozinka_krest_josef_vincenc_kastanek_1908",
-  "svazek": "mza16569",
-  "snimek": 135,
-  "druh": "N",
-  "datum": "28. 6. 1908",
-  "nazev": "Křest Josefa Vincence Kaštánka (bratr Václava)",
-  "shrnuti": "Josef Vincenc, nar. 28. 6. 1908 v Dolní Rožínce čp. 26, pokřtěn 29. 6.; kmotři Vincenc a Anna Koutníkovi, topič v lihovaru v Dolní Rožínce. Zemřel 1909.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-01350.jp2"
- },
- {
-  "klic": "rozinka_krest_ignac_kastanek_1910",
-  "svazek": "mza16569",
-  "snimek": 207,
-  "druh": "N",
-  "datum": "25. 2. 1910",
-  "nazev": "Křest Ignáce (Hynka) Kaštánka (bratr Václava)",
-  "shrnuti": "Ignác, nar. 25. 2. 1910 v Zámecké (Dolní) Rožínce čp. 26; kmotři Vincenc a Anna Koutníkovi. Biřmován 1. 6. 1922 v Rozsochách; oddán 22. 9. 1935 (Marie Pl…ová?).",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02070.jp2"
- },
- {
-  "klic": "rozinka_krest_hubert_kastanek_1912",
-  "svazek": "mza16569",
-  "snimek": 212,
-  "druh": "N",
-  "datum": "28. 10. 1912",
-  "nazev": "Křest Huberta Kaštánka (bratr Václava)",
-  "shrnuti": "Hubert, nar. 28. 10. 1912 v Dolní Rožínce čp. 26, pokřtěn 3. 11.; kmotři Vincenc a Anna Koutníkovi. Oddán 24. 10. 1935 s Helenou Vítkovou (?).",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02120.jp2"
- },
- {
-  "klic": "rozinka_krest_josef_kastanek_1919",
-  "svazek": "mza16569",
-  "snimek": 218,
-  "druh": "N",
-  "datum": "3. 3. 1919",
-  "nazev": "Křest Josefa Kaštánka (bratr Václava)",
-  "shrnuti": "Josef, nar. 3. 3. 1919 v Dolní Rožínce čp. 26, pokřtěn 9. 3.; kmotři Vincenc a Anna Koutníkovi. Biřmován 17. 6. 1929 v Rozsochách; oddán v Bystřici 24. 9. 1939 se Štěpánkou Škudovou (?).",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02180.jp2"
- },
- {
-  "klic": "cunin_krest_frantisek_polak_1890_legionar",
-  "svazek": "mza9082",
-  "snimek": 134,
-  "druh": "N",
-  "datum": "4. 7. 1890",
-  "nazev": "Narození Františka Poláka – pozdějšího legionáře",
-  "shrnuti": "František se narodil 4. července 1890 v Čuníně čp. 13, pokřtěn 7. července. Otec František Polák, podruh v Čuníně, syn Jana Poláka a Anny z rodu Jiřího Pospíšila. Matka Marie, dcera Josefa Trnky z Čunína. Shoda jména, přesného dne a obce narození s legionářským záznamem ČsOL č. 83965. Příloha je snímek obrazovky digitální badatelny, nikoli původní JP2.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5708?image=216000010-000253-003375-000000-009082-000000-00-B03146-01340.jp2"
- },
- {
-  "klic": "legie_frantisek_polak_1890",
-  "druh": "J",
-  "datum": "1915–1920",
-  "nazev": "František Polák (* 1890) v československých legiích",
-  "shrnuti": "ČsOL, záznam 83965, podle údajů VÚA: narozen 4. 7. 1890 Čunín, krejčí, domovská obec Prostějov. Příslušník rakousko-uherského 93. pěšího pluku, zajat 2. 3. 1915 v Karpatech. Do československých legií zařazen 24. 5. 1917 k 1. střeleckému pluku; demobilizován 8. 7. 1920 jako vojín. Příbuznost určuje samostatně citovaný křest, nikoli shoda příjmení.",
-  "odkaz": "https://www.csol.cz/legionar/83965/"
- },
- {
-  "klic": "cunin_snatek_frantisek_polak_marie_trnkova_1887",
-  "svazek": "mza9104",
-  "snimek": 76,
-  "druh": "O",
-  "datum": "17. 10. 1887",
-  "nazev": "Sňatek rodičů legionáře: František Polák a Marie Trnková",
-  "shrnuti": "František Polák, domkář v Čuníně čp. 25, 27 let, syn Jana Poláka a Anny z rodu Jiřího Pospíšila, se oženil s Marií, 25 let a 7 měsíců, dcerou Josefa Trnky, domkáře v Čuníně, a Anny. Nevěsta z Čunína čp. 30. Rodiče budoucího legionáře Františka narozeného 4. 7. 1890; jejich totožnost a společné prarodiče spojuje i jeho křest. Další podrobnosti rodného příjmení matky nevěsty zůstávají k ověření.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5735"
- },
- {
-  "klic": "kremenec_krest_jan_polak_1838",
-  "svazek": "mza9075",
-  "snimek": 133,
-  "druh": "N",
-  "datum": "10. 8. 1838",
-  "nazev": "Křest Jana Poláka",
-  "shrnuti": "Johann Lorenz (Jan Vavřinec), nar. 10. 8. 1838 v Křemenci čp. 32, pokřtěn 11. 8.; otec Martin Polák, zahradník tamtéž; matka Marianna, dcera Jiřího Tilšera, familianta ve Veselé (Fröhlichsdorf). Kmotři Josef Tilšer, familiant ve Veselé, a Eleonora jeho manželka. Přípisek: † 9. 3. 1915.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5701?image=216000010-000253-003375-000000-009075-000000-AP-B11457-01330.jp2"
- },
- {
-  "klic": "kremenec_snatek_martin_polak_marianna_tilserova_1837",
-  "svazek": "mza9101",
-  "snimek": 125,
-  "druh": "O",
-  "datum": "18. 10. 1837",
-  "nazev": "Sňatek Martina Poláka a Marianny Tilšerové",
-  "shrnuti": "Martin Polák (21 l.), syn zemřelého Jiřího Poláka, pololáníka v Křemenci, a Marianny roz. Paulíkové, Křemenec čp. 7 × Marianna (25 l.), dcera Jiřího Tilšera, familianta ve Veselé, a Barbory roz. Hirthové (?), Veselá čp. 10. Svědci Josef Polák, sedlák v Křemenci, a Josef Tilšer, familiant ve Veselé. Ženich nezletilý – svolení vrchního poručenského úřadu z 22. 9. 1837.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5720?image=216000010-000253-003375-000000-009101-000000-00-B04005-01260.jp2"
- },
- {
-  "klic": "kremenec_krest_martin_polak_1816",
-  "svazek": "mza9072",
-  "snimek": 188,
-  "druh": "N",
-  "datum": "25. 10. 1816",
-  "nazev": "Křest Martina Poláka",
-  "shrnuti": "Martin, nar. a pokřtěn 25. 10. 1816 v Křemenci čp. 7; otec Jiří Polák, sedlák; matka Marianna, dcera Václava Paulíka, sedláka z Čunína. Kmotři Anton Kubín (?), písař z Runářova, a Eleonora jeho manželka; křtil Martin Pospíšil, kaplan.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5698?image=216000010-000253-003375-000000-009072-000000-00-B03997-01890.jp2"
- },
- {
-  "klic": "kremenec_snatek_jiri_polak_marianna_paulikova_1812",
-  "svazek": "mza9100",
-  "snimek": 45,
-  "druh": "O",
-  "datum": "28. 1. 1812",
-  "nazev": "Sňatek Jiřího Poláka a Marianny Paulíkové",
-  "shrnuti": "Jiří (26 l.), syn zemřelého Josefa Poláka, sedláka z Křemence, Křemenec čp. 7 × Marianna (22 l.), dcera Václava Paulíka, sedláka z Čunína čp. 9. Svědci Jiří Koplar (?), sedlák, a Tomáš …, čtvrtláník, oba z Křemence; oddával Josef Schubert, kaplan.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5718?image=216000010-000253-003375-000000-009100-000000-00-B02640-00450.jp2"
- },
- {
-  "klic": "kremenec_krest_jiri_polak_1786",
-  "svazek": "mza9071",
-  "snimek": 38,
-  "druh": "N",
-  "datum": "20. 4. 1786",
-  "nazev": "Křest Jiřího Poláka",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5697?image=216000010-000253-003375-000000-009071-000000-00-B03996-00380.jp2",
-  "shrnuti": "Jiří (Georg), pokřtěn 20. 4. 1786 v Konici, Křemenec čp. 7 – první zápis nové knihy „Geburtsbuch von dem Dorf Křemenetz“; otec Josef Polák, sedlák (Bauer), matka Anna Poláková. Kmotři František Krüber, kožešník z Konice, a Magdalena, jeho dcera; křtil Karel Novák, kooperátor."
- },
- {
-  "klic": "kremenec_snatek_josef_polak_anna_popelkova_1779",
-  "svazek": "mza9098",
-  "snimek": 6,
-  "druh": "O",
-  "datum": "4. 7. 1779",
-  "nazev": "Sňatek Josefa Poláka a Anny Popelkové",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5711?image=216000010-000253-003375-000000-009098-000000-00-B04004-00060.jp2",
-  "shrnuti": "4. 7. 1779 v Konici: mládenec Josef Polák, syn Josefa Poláka z Křemence, × panna Anna, dcera Pavla Popelky z Budětska; Křemenec čp. 7. Svědci Libor Popelka, rychtář (consul), a Josef Schnoll, podruh, oba z Křemence; oddával Karel Novák, kooperátor."
- },
- {
-  "klic": "cunin_krest_jan_polak_1893_eduard",
-  "svazek": "mza9083",
-  "snimek": 223,
-  "druh": "N",
-  "datum": "16. 4. 1893",
-  "nazev": "Jan Polák, syn Eduarda – druhý Jan ročníku 1893",
-  "shrnuti": "Jan, narozen 16. 4. 1893, pokřtěn 17. 4., Čunín čp. 71. Otec Eduard Polák, podruh v Čuníně, syn Jana Poláka a Anny z rodu Jiřího Pospíšila. Matka Filomena. Tím doložena příbuznost Eduardovy větve. Není ztotožněn s padlým z pomníku. Příloha je výřez snímku obrazovky badatelny, nikoli původní JP2.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02200.jp2"
- },
- {
-  "klic": "premyslovice_snatek_jan_polak_helena_kmentova_1915",
-  "svazek": "mza9681",
-  "snimek": 77,
-  "druh": "O",
-  "datum": "31. 8. 1915",
-  "nazev": "Jan Polák a Helena Kmentová – doložená vojenská služba",
-  "shrnuti": "Přemyslovice, tištěná str. 74. Jan Polák *17. 1. 1893, syn Jana a Františky Bavlnkové, tovární pomocník, toho času vojín c. k. zeměbraneckého pluku číslo 13, na dovolené v Čuníně, se oženil s Helenou Kmentovou *10. 2. 1895. Oprava staršího nejistého čtení Kunerová. Odlišná jednotka od padlého FJB 5, totožnost není rozhodnuta. Příloha je výřez snímku obrazovky badatelny.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/12111?image=216000010-000253-003375-000000-009681-000000-00-B12012-00770.jp2"
- },
- {
-  "klic": "vojenske_umrti_johann_polak_1893_neprirazeno",
-  "svazek": "vua1202",
-  "snimek": "str. 38",
-  "druh": "Z",
-  "datum": "11. 9. 1915",
-  "nazev": "Nepřiřazený kandidát: Johann Polak (*1893), FJB 5",
-  "shrnuti": "Vojenská matrika: Johann Polak, ročník 1893, rodiště Čunin, Littau, Mähren, ženatý; FJB 5, 2. setnina. Padl 11. 9. 1915 východně od Janowky u Tarnopolu v Haliči, pohřben na bojišti 12. 9. Jde o kandidáta k pomníku, ne o potvrzené úmrtí některého konkrétního Jana v rodokmenu. Chybí přesné narození, rodiče i manželka.",
-  "odkaz": "https://digitalnistudovna.army.cz/view/uuid:bb36cbf6-73e9-40dd-af82-13731a6d8ba3?page=uuid:0e16098c-f379-407e-8978-2306c9431047"
- },
- {
-  "klic": "cunin_krest_frantisek_polak_1860",
-  "svazek": "mza9077",
-  "snimek": 101,
-  "druh": "N",
-  "datum": "18. 10. 1860",
-  "nazev": "Křest Františka Poláka (nejstarší bratr Jana)",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5703?image=216000010-000253-003375-000000-009077-000000-00-B01739-01010.jp2",
-  "shrnuti": "Franz, nar. 18. 10. 1860 v Čuníně čp. 64, pokřtěn 20. 10.; nemanželský syn Anny Pospíšilové. Přípisek: legitimován sňatkem rodičů 18. 11. 1862, otec Jan Polák se k němu přihlásil podpisem."
- },
- {
-  "klic": "cunin_krest_eduard_polak_1868",
-  "svazek": "mza9079",
-  "snimek": 93,
-  "druh": "N",
-  "datum": "16. 11. 1868",
-  "nazev": "Křest Eduarda Poláka (bratr Jana)",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5705?image=216000010-000253-003375-000000-009079-000000-00-B02902-00930.jp2",
-  "shrnuti": "Eduard, nar. 16. 11. 1868 v Čuníně čp. 64, pokřtěn 17. 11. Přípisek: † 25. 7. 1923."
- },
- {
-  "klic": "cunin_krest_josefa_polakova_1872",
-  "svazek": "mza9079",
-  "snimek": 105,
-  "druh": "N",
-  "datum": "19. 3. 1872",
-  "nazev": "Křest Josefy Polákové (sestra Jana)",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5705?image=216000010-000253-003375-000000-009079-000000-00-B02902-01050.jp2",
-  "shrnuti": "Josefa, nar. 19. 3. 1872 v Čuníně čp. 25. Přípisek: † 1872."
- },
- {
-  "klic": "cunin_krest_marianna_polakova_1873",
-  "svazek": "mza9079",
-  "snimek": 111,
-  "druh": "N",
-  "datum": "24. 12. 1873",
-  "nazev": "Křest Marianny Polákové (sestra Jana)",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5705?image=216000010-000253-003375-000000-009079-000000-00-B02902-01110.jp2",
-  "shrnuti": "Marianna, nar. a pokřtěna 24. 12. 1873 v Čuníně čp. 25. Přípisek: † (v prosinci 1873)."
- },
- {
-  "klic": "cunin_krest_marie_polakova_1876",
-  "svazek": "mza9080",
-  "snimek": 99,
-  "druh": "N",
-  "datum": "6. 4. 1876",
-  "nazev": "Křest Marie Polákové (sestra Jana)",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5706?image=216000010-000253-003375-000000-009080-000000-00-B04001-00990.jp2",
-  "shrnuti": "Marie, nar. a pokřtěna 6. 4. 1876 v Čuníně čp. 25. Přípisek: † 6. 4. 1876."
- },
- {
-  "klic": "cunin_krest_alois_polak_1878",
-  "svazek": "mza9080",
-  "snimek": 88,
-  "druh": "N",
-  "datum": "13. 12. 1878",
-  "nazev": "Křest Aloise Poláka (bratr Jana)",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5706?image=216000010-000253-003375-000000-009080-000000-00-B04001-00880.jp2",
-  "shrnuti": "Alois, nar. a pokřtěn 13. 12. 1878 v Čuníně čp. 25. Přípisek: † 13. 12. 1878."
- },
- {
-  "klic": "konice_scitani_frantiska_krejci_1910",
-  "svazek": "scitani_konice_1910",
-  "snimek": "výřez, řádek 6; číslo snímku nezjištěno",
-  "druh": "S",
-  "datum": "31. 12. 1910",
-  "nazev": "Františka Krejčí a domácnost Krejčích – sčítání 1910",
-  "shrnuti": "Františka Krejčí, narozena 10. 11. 1906, uvedena jako nemanželská vnučka v domácnosti Františka a Františky Krejčích. U rodiště je v tabulce Konice, ale vpravo oprava „narozena v Olomouci“. Přepis MyHeritage tuto opravu nezohledňuje. Data narození staršího páru se mezi sčítáními 1910 a 1921 liší; nepřebíráme je jako potvrzená matriční data. Jde o uložený výřez dodaný Dominikem, nikoli archivní originál v plném rozlišení.",
-  "odkaz": "https://www.myheritage.cz/research/collection-20993/1910-czechia-census?action=showRecord&itemId=403925-"
- },
- {
-  "klic": "konice_scitani_frantiska_krejci_1921",
-  "svazek": "scitani_konice_1921",
-  "snimek": "výřez, řádek 12; číslo snímku nezjištěno",
-  "druh": "S",
-  "datum": "15. 2. 1921",
-  "nazev": "Františka Krejčí a domácnost Krejčích – sčítání 1921",
-  "shrnuti": "Františka Krejčí, narozena 10. 11. 1906 v Olomouci, bydlí v Konici v domácnosti Františka a Františky Krejčích. Příbuzenskou poznámku předběžně čteme jako „nem. dítě dcery Fil. Krejčí“ – nemanželské dítě dcery Filomeny Krejčí. Zkratka jména a vazba se ověřují porovnáním s oddacím zápisem 1929. Data narození staršího páru se mezi sčítáními 1910 a 1921 liší; nepřebíráme je jako potvrzená matriční data. Jde o uložený výřez dodaný Dominikem, nikoli archivní originál v plném rozlišení.",
-  "odkaz": "https://www.myheritage.cz/research/collection-20987/1921-czechia-census?action=showRecord&itemId=82896-"
- },
- {
-  "klic": "olesna_marie_vykutilova_vyrez_1870",
-  "svazek": "mza15997",
-  "snimek": "30 – podle odkazu v exportu; úplný snímek neověřen",
-  "druh": "N",
-  "datum": "1870 (datace podle MyHeritage)",
-  "nazev": "Marie Vykutilová – rodiče v dochovaném výřezu",
-  "shrnuti": "Dochovaný výřez zápisu Marie: otec František Vykutil, nádeník v Olešné, syn Marie Vykutilové, dcery Martina Vykutila a Anny roz. Krejčí. Matka Kateřina, dcera Václava Hrnčíře z Pohledce – nikoli Kroutilová, k níž je Marie připojena v exportu. Rok 1870 a odkaz na snímek 30 jsou převzaty z MyHeritage; hlavička s rokem ve výřezu chybí. Totožnost otce s otcem naší Josefy (*1880) dosud není potvrzena. Výřez není plný archivní snímek.",
-  "odkaz": "https://www.mza.cz/actapublica/matrika/detail/9999?image=216000010-000253-003380-000000-015997-000000-00-B01851-00300.jp2"
- },
- {
-  "klic": "olomouc_porodnice_krest_frantiska_krejci_1906",
-  "svazek": "zao_o_ix_13",
-  "snimek": 178,
-  "druh": "N",
-  "datum": "10. 11. 1906",
-  "nazev": "Křest Františky Krejčí – Filomena a kmotra",
-  "odkaz": "https://digi.archives.cz/da/permalink?xid=dd4acd7737c68136:5e44cc3e:12c9fad6ac6:-7ce2&scan=b5f8361722cc4ffcb315633f81c3acb0",
-  "shrnuti": "Františka se narodila 10. 11. 1906 v zemské porodnici Olomouc–Nová Ulice a byla pokřtěna 12. 11. Matka Filomena Krejčí je výslovně osmnáctiletá svobodná dcera Františka Krejčího, domkáře z Konice, okres Litovel, a jeho manželky Františky. Otec dítěte je nevyplněn. Kmotra Marie Wěrník (?) je v poznámce označena jako vdova; příjmení a zbytek poznámky jsou nejisté. Pozdější přípisek potvrzuje sňatek s Františkem Polákem 9. 11. 1929 ve Strážisku. Číslo 185/16 patří porodnici, nikoli bydlišti rodiny. Křemenec zápis neuvádí."
- },
- {
-  "klic": "cunin_scitani_jan_polak_1900",
-  "svazek": "scitani_cunin_1900_92",
-  "snimek": "dodaný celý arch; číslo archivního snímku neznámé",
-  "druh": "S",
-  "datum": "31. 12. 1900",
-  "nazev": "Jan a Anna Polákovi – sčítání Čunín 1900",
-  "shrnuti": "Jan Polák (*10. 8. 1838 Křemenec) a Anna Poláková v Čuníně čp. 92. Jan je dělník v tkalcovství, vedle toho má polní hospodářství; v zaměstnavatelské části arch zmiňuje faktorování a dovoz osnov ze Šternberka a Prostějova. Jan uměl číst i psát, Anna podle archu jen číst. S nimi dva tovaryši: Josef Svoboda (*15. 9. 1860 Čunín), vdovec, a Josef Polák (*26. 4. 1887 Křemenec), svobodný. Josef Polák není označen jako syn a jeho příbuznost zatím neznáme. Arch uvádí Janův nepřetržitý pobyt v obci od 1862, Annin od 1842; nejde automaticky o pobyt v tomto domě po celou dobu. Celkem jsou v domě sečteny dvě domácnosti a osm osob.",
-  "odkaz": "/zdroje/cunin_scitani_jan_polak_1900.jpg"
- },
- {
-  "klic": "cunin_scitani_legionarska_rodina_1900",
-  "svazek": "scitani_cunin_1900_13",
-  "snimek": "dodaný celý arch; archivní číslo snímku nezjištěno",
-  "druh": "S",
-  "datum": "31. 12. 1900",
-  "nazev": "Legionář jako desetiletý školák – rodina Polákových v Čuníně čp. 13",
-  "shrnuti": "Čunín čp. 13, sčítání 31. 12. 1900: rodiče František a Marie Polákovi s pěti dětmi Janem, Františkem (pozdějším legionářem), Františkou, Marií a Josefem. Otec pracuje v obuvnictví, arch uvádí továrníka Wolf Fr. v Prostějově a částečně samostatnou práci; vedlejší polní hospodářství má jako pachtýř. V domácnosti také Josefa Trnková, označená jako švakrová, a host Emil Vincour. Otcovo narození je zde 22. 10. 1860, kdežto vlastní křest uvádí narození 18. 10. 1860; přednost má křest. Dvě domácnosti, celkem deset osob. Tento arch nepatří rodině Jana (*1865) a Františky Bavlnkové.",
-  "odkaz": "/zdroje/cunin_scitani_legionarska_rodina_1900.jpg"
- },
- {
-  "klic": "cernoucek_oddavky_vaclav_kulich_anna_ticha_1925",
-  "svazek": "soal_L16_47",
-  "snimek": 67,
-  "druh": "O",
-  "datum": "15. 2. 1925",
-  "nazev": "Sňatek Václava Kulicha a Anny Tiché (prarodiče dědy Václava)",
-  "shrnuti": "Černouček, farní kostel, 15. 2. 1925, oddával farář František Holeček. Ženich Václav Kulich, tesařský pomocník v Ledčicích čp. 85, katolík, * 2. 11. 1900 v Ledčicích čp. 85, syn † Václava Kulicha, domkáře a tesaře v Ledčicích čp. 85, a † Julie roz. Koubové z Ledčic čp. 94. Nevěsta Anna Tichá z Ledčic čp. 23, katolička, * 9. 10. 1899 tamtéž, dcera Josefa Tichého, dělníka v Ledčicích čp. 23, a Anny roz. Kohlové (?) z Ledčic čp. 23. Svědci Václav Forner, dělník v Ledčicích čp. 94, a František Hájek, dělník v Ledčicích čp. 123. Snubní protokol 22. 1. 1925, ohlášky 25. 1., 1. a 8. 2. 1925.",
-  "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/a3fd25eb5cf34b6b8760dcd734b904e8"
- },
- {
-  "klic": "krabcice_oddavky_marie_kulichova_1928",
-  "svazek": "soal_N39_20",
-  "snimek": 178,
-  "druh": "O",
-  "datum": "15. 1. 1928",
-  "nazev": "Sňatek Marie Kulichové z Vražkova (možná příbuzná)",
-  "shrnuti": "Evangelický sbor Krabčice, 15. 1. 1928: Václav Hrstka, zedník v Krabčicích čp. 75 (* 1. 11. 1907), a Marie Kulichová, dámská krejčová ve Vražkově čp. 71 (* 11. 10. 1906), dcera Františka Kulicha, domkáře ve Vražkově čp. 71, a Antonie roz. Michalcové z Vražkova. Svědek Antonín Kulich, truhlář, Vražkov čp. 131 (její bratr). Příbuznost s ledčickými Kulichy pravděpodobná (otec František pocházel od Jana Kulicha z Ledčic čp. 82), ale nedoložená.",
-  "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/8d0e01f6cf78fd58:-6ca67971:13f99d54109:-7e4a"
- },
- {
-  "klic": "krabcice_krest_marie_kulichova_1906",
-  "svazek": "soal_N39_19",
-  "snimek": 320,
-  "druh": "N",
-  "datum": "11. 10. 1906",
-  "nazev": "Narození Marie Kulichové, Vražkov čp. 71 (možná příbuzná)",
-  "shrnuti": "Č. 82, nar. 11. 10. 1906, křest 14. 10. v kostele v Krabčicích; Vražkov čp. 71. Otec František Kulich, domkář ve Vražkově čp. 71, nar. ve Zlosejně čp. 18 (29. 10. 1864?), syn Jana Kulicha, domkáře v Ledčicích čp. 82, a Anny roz. Pachmanové ze Zlosejna. Matka Antonie roz. Michalcová z Vražkova čp. 71, dcera Josefa Michalce a Anny roz. Pistorové ze Straškova čp. 4. Evangelíci.",
-  "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/8d0e01f6cf78fd58:-6ca67971:13f99d54109:-7e4b"
- },
- {
-  "klic": "krabcice_krest_antonin_kulich_1896",
-  "svazek": "soal_N39_19",
-  "snimek": 27,
-  "druh": "N",
-  "datum": "21. 5. 1896",
-  "nazev": "Narození Antonína Kulicha, Vražkov čp. 71 (možný příbuzný)",
-  "shrnuti": "Č. 41, nar. 21. 5. 1896, křest 24. 5. v Krabčicích; Vražkov čp. 71. Rodiče František Kulich, nádeník ve Vražkově čp. 71 (z Zlosejna, syn Jana Kulicha, domkáře v Ledčicích čp. 82, a Anny roz. Pachmanové), a Antonie roz. Michalcová. Pozdější truhlář ve Vražkově čp. 131 (svědek 1928).",
-  "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/8d0e01f6cf78fd58:-6ca67971:13f99d54109:-7e4b"
- },
- {
-  "klic": "krabcice_krest_emilie_kulichova_1900",
-  "svazek": "soal_N39_19",
-  "snimek": 147,
-  "druh": "N",
-  "datum": "6. 10. 1900",
-  "nazev": "Narození Emilie Kulichové, Vražkov čp. 71 (možná příbuzná)",
-  "shrnuti": "Č. 65, nar. 6. 10. 1900, křest 7. 10. v Krabčicích; Vražkov čp. 71. Rodiče František Kulich, domkář ve Vražkově čp. 71 (z Zlosejna, syn Jana Kulicha, domkáře v Ledčicích čp. 82, a Anny roz. Pachmanové), a Antonie roz. Michalcová (stejní jako u Antonína 1896 a Marie 1906).",
-  "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/8d0e01f6cf78fd58:-6ca67971:13f99d54109:-7e4b"
- },
- {
-  "klic": "ledcice_scitani_kulich_1921",
-  "svazek": "scitani_ledcice_1921_85",
-  "snimek": "celý arch dodaný Dominikem",
-  "druh": "S",
-  "datum": "1921",
-  "nazev": "Václav Kulich s babičkou Annou – Ledčice 1921",
-  "shrnuti": "Ledčice čp. 85, byt 1, soudní okres Roudnice, Čechy; sčítání 1921. Bytová strana: Kulichová Anna.\n1. Anna Kulichová, majitelka bytu, ovdovělá, nar. 1854; den/měsíc zapsán zlomkem 3/4, význam zatím neověřen. Rodiště je opravované a dosud bezpečně nerozluštěné. V obci od února 1880. Vede vlastní domácnost.\n2. Václav Kulich, vnuk, svobodný, nar. 2. listopadu 1900 v Ledčicích; v obci od narození. Tesařský tovaryš, tesařský závod Jos. Černý (?) v Ledčicích; příjmení zaměstnavatele nejisté. Ve sloupci povolání k 16. červenci 1914 je tesařství, učedník.\n3. Jaroslav Kulich, vnuk, svobodný, nar. 4. června 1908 v Ledčicích.\n4. Jan Kulich, vnuk, svobodný, nar. 13. dubna 1910 v Ledčicích.\n5. Anna Kulichová, vnučka, svobodná, nar. 22. září 1911 v Ledčicích.\n6. Marie Kulichová, vnučka, svobodná, nar. 22. srpna 1914 v Ledčicích.\nVšichni mají českou národnost, římskokatolické vyznání a domovskou příslušnost Ledčice. Anna starší a první čtyři vnoučata čtou a píší; u Marie je údaj o čtení překrytý, nevyvozujeme gramotnost.\nVztah vnuk/vnučka se týká Anny jako hlavy domácnosti. Arch nejmenuje rodiče vnoučat: nedokládá, že všech pět jsou sourozenci, ani zda je Anna babička Václava z otcovy či matčiny strany. Nepřítomnost rodičů sama nedokládá jejich úmrtí před rokem 1921. Shoda přesného narození, jména, řemesla a domu propojuje Václava s jeho oddacím zápisem 1925.",
-  "odkaz": "/zdroje/ledcice_scitani_kulich_1921.jpg"
- }
+  {
+    "klic": "konice_snatek_frantisek_polak_frantiska_krejci_1929",
+    "svazek": "mza9106",
+    "snimek": 33,
+    "druh": "O",
+    "datum": "9. 11. 1929",
+    "nazev": "Sňatek Františka Poláka a Františky Krejčí",
+    "shrnuti": "František Polák (23 l.), řezník v Čuníně čp. 26, nar. 27. 12. 1905 v Čuníně, syn Jana Poláka, zahradníka v Čuníně, a Františky roz. Bavlnkové ze Stinavy; nevěsta Františka Krejčí (22 l.) z Konice čp. 233, nar. 10. 11. 1906 v porodnici v Olomouci, dcera svobodné Filomeny Krejčí. Oddáni ve Strážisku.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/10939?image=216000010-000253-003375-000000-009106-000000-00-B00578-00330.jp2"
+  },
+  {
+    "klic": "cunin_krest_frantisek_polak_1905",
+    "svazek": "mza9083",
+    "snimek": 516,
+    "druh": "N",
+    "datum": "27. 12. 1905",
+    "nazev": "Křest Františka Poláka",
+    "shrnuti": "František, syn Jana Poláka (* 6. 6. 1865), zahradníka v Čuníně čp. 26, a Františky roz. Bavlnkové (* 19. 11. 1870) ze Stínavy; sňatek rodičů zde uveden 9. 2. 1892 (oddací matrika: 16. 2. 1892). Na okraji poznámka o sňatku s Františkou Krejčí 1929.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-05160.jp2"
+  },
+  {
+    "klic": "stinava_snatek_jan_polak_frantiska_bavlnkova_1892",
+    "svazek": "mza9698",
+    "snimek": 154,
+    "druh": "O",
+    "datum": "16. 2. 1892",
+    "nazev": "Sňatek Jana Poláka a Františky Bavlnkové",
+    "shrnuti": "Jan Polák (26 l.), domkář v Čuníně, vdovec, syn Jana Poláka, podruha z Čunína, a Anny roz. Pospíšilové; nevěsta Františka (21 l.), nezletilá dcera Antonína Bavlnky, domkáře ze Stínavy čp. 36, a Františky roz. Burešové. Oddáni v Ptení.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/6054?image=216000010-000253-003375-000000-009698-000000-00-B03772-01540.jp2"
+  },
+  {
+    "klic": "cunin_krest_jan_polak_1865",
+    "svazek": "mza9077",
+    "snimek": 109,
+    "druh": "N",
+    "datum": "6. 6. 1865",
+    "nazev": "Křest Jana Poláka",
+    "shrnuti": "Jan (Joannes), Čunín čp. 64, syn Jana Poláka, podruha v Čuníně (syna Martina Poláka, zahradníka v Křemenci, a Marianny roz. Tilšerové (?) z Veselé), a Anny, dcery Jiřího Pospíšila, domkáře v Čuníně, a Anny roz. Švedové (?). Přípisek: † 11. 2. 1943 v Kostelci.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5703?image=216000010-000253-003375-000000-009077-000000-00-B01739-01090.jp2"
+  },
+  {
+    "klic": "konice_snatek_jan_polak_anna_pospisilova_1862",
+    "svazek": "mza9103",
+    "snimek": 46,
+    "druh": "O",
+    "datum": "18. 11. 1862",
+    "nazev": "Sňatek Jana Poláka a Anny Pospíšilové",
+    "shrnuti": "Jan Polák (24 l.), podruh v Křemenci (č. d. 64/21), syn Martina Poláka, výměnkáře v Křemenci, a Marianny roz. Tilšerové (?) z Veselé (Fröhlichsdorf); nevěsta Anna (27 l.), dcera Jiřího Pospíšila, domkáře, a Anny roz. Švedové (?).",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5734?image=216000010-000253-003375-000000-009103-000000-AP-B11459-00460.jp2"
+  },
+  {
+    "klic": "stinava_krest_frantiska_bavlnkova_1870",
+    "svazek": "mza9692",
+    "snimek": 199,
+    "druh": "N",
+    "datum": "19. 11. 1870",
+    "nazev": "Křest Františky Bavlnkové",
+    "shrnuti": "Františka, Stínava čp. 29; otec Antonín Bavlnka, domkář ve Stínavě, syn Antonína Bavlnky, podruha z Prostějoviček, a Josefy roz. Nezvalové z Prostějoviček; matka Františka, dcera Františka Bureše, podruha ze Stínavy, a Františky roz. Jelínkové z Hradiska.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/6050?image=216000010-000253-003375-000000-009692-000000-00-B03680-01990.jp2"
+  },
+  {
+    "klic": "rozinka_krest_vaclav_kastanek_1914",
+    "svazek": "mza16569",
+    "snimek": 215,
+    "druh": "N",
+    "datum": "15. 9. 1914",
+    "nazev": "Křest Václava Kaštánka",
+    "shrnuti": "Václav, narozen 15. 9. 1914 v Dolní Rožínce čp. 26, pokřtěn 20. 9.; syn Ignáce Kaštánka (* 26. 4. 1878), kočího v Dolní Rožínce, a Josefy roz. Vykutilové (* 25. 12. 1880) z Bystřice; rodiče oddáni v Bystřici 4. 5. 1903. Na okraji: biřmován 17. 6. 1929, oddán ve Zvoli s Helenou Šlosárovou 19. 10. 1941.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02150.jp2"
+  },
+  {
+    "klic": "bystrice_snatek_ignac_kastanek_josefa_vykutilova_1903",
+    "svazek": "mza15461",
+    "snimek": 34,
+    "druh": "O",
+    "datum": "4. 5. 1903",
+    "nazev": "Sňatek Ignáce Kaštánka a Josefy Vykutilové",
+    "shrnuti": "Ignác Kaštánek (25 l., * 26. 4. 1878), čeledín v Domaníně čp. 32, syn Ignáce Kaštánka, podruha v Domaníně (zemřelý), a Františky roz. Hradešínské × Josefa Vykutilová (22 l., * 25. 12. 1880), služka v Bystřici čp. 337, dcera Františka Vykutila, podruha v Bystřici, a Kateřiny roz. Kroutilové (zemřelé). Otec nezletilé nevěsty dal svolení. Oddával kooperátor Karel Endl.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/11311?image=216000010-000253-003380-000000-015461-000000-00-B01185-00340.jp2"
+  },
+  {
+    "klic": "domanin_krest_ignac_kastanek_1878",
+    "svazek": "mza15440",
+    "snimek": 114,
+    "druh": "N",
+    "datum": "25. 4. 1878",
+    "nazev": "Křest Ignáce Kaštánka",
+    "shrnuti": "Ignát, narozen 25. 4. 1878 v Domaníně čp. 15, pokřtěn 26. 4.; syn Ignáta Kaštánka, podruha v Domaníně (syna Karla K., podruha v Domaníně, a Terezie), a Františky, dcery Josefa Hradešínského, domkáře v Blažovicích, a Josefy roz. Žilkové. Přípisky: oddán 4. 5. 1903 s Josefou Vykutilovou, 5. 7. 1923 v Rozsochách s Albínou Šmerdovou (?), 16. 10. 1934 v Rozsochách s Růženou Vaší…ovou (?); zemřel 9. 5. 1952 v Bratrušíně.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5035?image=216000010-000253-003380-000000-015440-000000-00-B07997-01140.jp2"
+  },
+  {
+    "klic": "cunin_krest_jan_polak_1893",
+    "svazek": "mza9083",
+    "snimek": 222,
+    "druh": "N",
+    "datum": "17. 1. 1893",
+    "nazev": "Křest Jana Poláka (bratr Františka)",
+    "shrnuti": "Jan, nar. 17. 1. 1893 v Čuníně čp. 25, pokřtěn 19. 1.. Oddán 31. 8. 1915 v Přemyslovicích s Helenou Kmentovou. Příjmení nevěsty ověřeno v samostatném oddacím zápisu z roku 1915.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02190.jp2"
+  },
+  {
+    "klic": "cunin_krest_vincencie_polakova_1894",
+    "svazek": "mza9083",
+    "snimek": 229,
+    "druh": "N",
+    "datum": "1894",
+    "nazev": "Křest Vincencie Polákové (sestra Františka)",
+    "shrnuti": "Vincencie, nar. 1894 v Čuníně čp. 26 (přesné datum v zápise špatně čitelné). Sezdána 1. 10. 1917 v Konici s Methodějem Veselým (?).",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02260.jp2"
+  },
+  {
+    "klic": "cunin_krest_ruzena_polakova_1896",
+    "svazek": "mza9083",
+    "snimek": 236,
+    "druh": "N",
+    "datum": "18. 12. 1896",
+    "nazev": "Křest Růženy Polákové (sestra Františka)",
+    "shrnuti": "Růžena, nar. 18. 12. 1896 v Čuníně čp. 26, pokřtěna 19. 12.. Sezdána 29. 8. 1921 v Konici s Bedřichem Kuplou (?).",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02330.jp2"
+  },
+  {
+    "klic": "cunin_krest_arnost_polak_1899",
+    "svazek": "mza9083",
+    "snimek": 242,
+    "druh": "N",
+    "datum": "12. 1. 1899",
+    "nazev": "Křest Arnošta Poláka (bratr Františka)",
+    "shrnuti": "Arnošt, nar. 12. 1. 1899 v Čuníně čp. 26, pokřtěn 14. 1.. Zemřel 13. 2. 1899.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02390.jp2"
+  },
+  {
+    "klic": "cunin_krest_josef_polak_1900",
+    "svazek": "mza9083",
+    "snimek": 248,
+    "druh": "N",
+    "datum": "12. 7. 1900",
+    "nazev": "Křest Josefa Poláka (bratr Františka)",
+    "shrnuti": "Josef, nar. 12. 7. 1900 v Čuníně čp. 26, pokřtěn 14. 7.. Zemřel 23. 10. 1900.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02450.jp2"
+  },
+  {
+    "klic": "cunin_krest_bohumila_polakova_1901",
+    "svazek": "mza9083",
+    "snimek": 253,
+    "druh": "N",
+    "datum": "4. 10. 1901",
+    "nazev": "Křest Bohumily Polákové (sestra Františka)",
+    "shrnuti": "Bohumila, nar. 4. 10. 1901 v Čuníně čp. 26, pokřtěna 5. 10.. Zemřela 14. 1. 1959 v Senici na Hané.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02500.jp2"
+  },
+  {
+    "klic": "cunin_krest_josef_polak_1904",
+    "svazek": "mza9083",
+    "snimek": 260,
+    "druh": "N",
+    "datum": "5. 1. 1904",
+    "nazev": "Křest Josefa Poláka (bratr Františka)",
+    "shrnuti": "Josef, nar. 5. 1. 1904 v Čuníně čp. 26, pokřtěn 6. 1.. Zemřel 19. 2. 1905.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02570.jp2"
+  },
+  {
+    "klic": "cunin_krest_marie_polakova_1908",
+    "svazek": "mza9084",
+    "snimek": 266,
+    "druh": "N",
+    "datum": "9. 3. 1908",
+    "nazev": "Křest Marie Polákové (sestra Františka)",
+    "shrnuti": "Marie, nar. 9. 3. 1908 v Čuníně čp. 26, pokřtěna 12. 3.. Zemřela 28. 1. 1912.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/12085?image=216000010-000253-003375-000000-009084-000000-00-B11974-02750.jp2"
+  },
+  {
+    "klic": "cunin_krest_frantiska_polakova_1912",
+    "svazek": "mza9084",
+    "snimek": 280,
+    "druh": "N",
+    "datum": "10. 3. 1912",
+    "nazev": "Křest Františky Polákové (sestra Františka)",
+    "shrnuti": "Františka, nar. 10. 3. 1912 v Čuníně čp. 26, pokřtěna 11. 3.. Oddána 23. 2. 1936 (ve Strážisku?).",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/12085?image=216000010-000253-003375-000000-009084-000000-00-B11974-02890.jp2"
+  },
+  {
+    "klic": "cunin_krest_antonin_polak_1914",
+    "svazek": "mza9084",
+    "snimek": 285,
+    "druh": "N",
+    "datum": "26. 2. 1914",
+    "nazev": "Křest Antonína Poláka (bratr Františka)",
+    "shrnuti": "Antonín, nar. 26. 2. 1914 v Čuníně čp. 26, pokřtěn 1. 3.. Oddán 18. 10. 1941 v Konici s Annou Hýblovou.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/12085?image=216000010-000253-003375-000000-009084-000000-00-B11974-02940.jp2"
+  },
+  {
+    "klic": "rozinka_krest_bozena_kastankova_1905",
+    "svazek": "mza16569",
+    "snimek": 131,
+    "druh": "N",
+    "datum": "7. 10. 1905",
+    "nazev": "Křest Boženy Kaštánkové (sestra Václava)",
+    "shrnuti": "Božena, nar. 7. 10. 1905 v Dolní Rožínce čp. 26, pokřtěna 8. 10.; kmotra Ludmila Vykutilová, svobodná nádenice v Bystřici. Biřmována 1. 6. 1922 v Rozsochách; přípisek „Bystřice … 1934“.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-01310.jp2"
+  },
+  {
+    "klic": "rozinka_krest_josef_vincenc_kastanek_1908",
+    "svazek": "mza16569",
+    "snimek": 135,
+    "druh": "N",
+    "datum": "28. 6. 1908",
+    "nazev": "Křest Josefa Vincence Kaštánka (bratr Václava)",
+    "shrnuti": "Josef Vincenc, nar. 28. 6. 1908 v Dolní Rožínce čp. 26, pokřtěn 29. 6.; kmotři Vincenc a Anna Koutníkovi, topič v lihovaru v Dolní Rožínce. Zemřel 1909.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-01350.jp2"
+  },
+  {
+    "klic": "rozinka_krest_ignac_kastanek_1910",
+    "svazek": "mza16569",
+    "snimek": 207,
+    "druh": "N",
+    "datum": "25. 2. 1910",
+    "nazev": "Křest Ignáce (Hynka) Kaštánka (bratr Václava)",
+    "shrnuti": "Ignác, nar. 25. 2. 1910 v Zámecké (Dolní) Rožínce čp. 26; kmotři Vincenc a Anna Koutníkovi. Biřmován 1. 6. 1922 v Rozsochách; oddán 22. 9. 1935 (Marie Pl…ová?).",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02070.jp2"
+  },
+  {
+    "klic": "rozinka_krest_hubert_kastanek_1912",
+    "svazek": "mza16569",
+    "snimek": 212,
+    "druh": "N",
+    "datum": "28. 10. 1912",
+    "nazev": "Křest Huberta Kaštánka (bratr Václava)",
+    "shrnuti": "Hubert, nar. 28. 10. 1912 v Dolní Rožínce čp. 26, pokřtěn 3. 11.; kmotři Vincenc a Anna Koutníkovi. Oddán 24. 10. 1935 s Helenou Vítkovou (?).",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02120.jp2"
+  },
+  {
+    "klic": "rozinka_krest_josef_kastanek_1919",
+    "svazek": "mza16569",
+    "snimek": 218,
+    "druh": "N",
+    "datum": "3. 3. 1919",
+    "nazev": "Křest Josefa Kaštánka (bratr Václava)",
+    "shrnuti": "Josef, nar. 3. 3. 1919 v Dolní Rožínce čp. 26, pokřtěn 9. 3.; kmotři Vincenc a Anna Koutníkovi. Biřmován 17. 6. 1929 v Rozsochách; oddán v Bystřici 24. 9. 1939 se Štěpánkou Škudovou (?).",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/13318?image=216000010-000253-003380-000000-016569-000000-00-02180.jp2"
+  },
+  {
+    "klic": "cunin_krest_frantisek_polak_1890_legionar",
+    "svazek": "mza9082",
+    "snimek": 134,
+    "druh": "N",
+    "datum": "4. 7. 1890",
+    "nazev": "Narození Františka Poláka – pozdějšího legionáře",
+    "shrnuti": "František se narodil 4. července 1890 v Čuníně čp. 13, pokřtěn 7. července. Otec František Polák, podruh v Čuníně, syn Jana Poláka a Anny z rodu Jiřího Pospíšila. Matka Marie, dcera Josefa Trnky z Čunína. Shoda jména, přesného dne a obce narození s legionářským záznamem ČsOL č. 83965. Příloha je snímek obrazovky digitální badatelny, nikoli původní JP2.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5708?image=216000010-000253-003375-000000-009082-000000-00-B03146-01340.jp2"
+  },
+  {
+    "klic": "legie_frantisek_polak_1890",
+    "druh": "J",
+    "datum": "1915–1920",
+    "nazev": "František Polák (* 1890) v československých legiích",
+    "shrnuti": "ČsOL, záznam 83965, podle údajů VÚA: narozen 4. 7. 1890 Čunín, krejčí, domovská obec Prostějov. Příslušník rakousko-uherského 93. pěšího pluku, zajat 2. 3. 1915 v Karpatech. Do československých legií zařazen 24. 5. 1917 k 1. střeleckému pluku; demobilizován 8. 7. 1920 jako vojín. Příbuznost určuje samostatně citovaný křest, nikoli shoda příjmení.",
+    "odkaz": "https://www.csol.cz/legionar/83965/"
+  },
+  {
+    "klic": "cunin_snatek_frantisek_polak_marie_trnkova_1887",
+    "svazek": "mza9104",
+    "snimek": 76,
+    "druh": "O",
+    "datum": "17. 10. 1887",
+    "nazev": "Sňatek rodičů legionáře: František Polák a Marie Trnková",
+    "shrnuti": "František Polák, domkář v Čuníně čp. 25, 27 let, syn Jana Poláka a Anny z rodu Jiřího Pospíšila, se oženil s Marií, 25 let a 7 měsíců, dcerou Josefa Trnky, domkáře v Čuníně, a Anny. Nevěsta z Čunína čp. 30. Rodiče budoucího legionáře Františka narozeného 4. 7. 1890; jejich totožnost a společné prarodiče spojuje i jeho křest. Další podrobnosti rodného příjmení matky nevěsty zůstávají k ověření.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5735"
+  },
+  {
+    "klic": "kremenec_krest_jan_polak_1838",
+    "svazek": "mza9075",
+    "snimek": 133,
+    "druh": "N",
+    "datum": "10. 8. 1838",
+    "nazev": "Křest Jana Poláka",
+    "shrnuti": "Johann Lorenz (Jan Vavřinec), nar. 10. 8. 1838 v Křemenci čp. 32, pokřtěn 11. 8.; otec Martin Polák, zahradník tamtéž; matka Marianna, dcera Jiřího Tilšera, familianta ve Veselé (Fröhlichsdorf). Kmotři Josef Tilšer, familiant ve Veselé, a Eleonora jeho manželka. Přípisek: † 9. 3. 1915.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5701?image=216000010-000253-003375-000000-009075-000000-AP-B11457-01330.jp2"
+  },
+  {
+    "klic": "kremenec_snatek_martin_polak_marianna_tilserova_1837",
+    "svazek": "mza9101",
+    "snimek": 125,
+    "druh": "O",
+    "datum": "18. 10. 1837",
+    "nazev": "Sňatek Martina Poláka a Marianny Tilšerové",
+    "shrnuti": "Martin Polák (21 l.), syn zemřelého Jiřího Poláka, pololáníka v Křemenci, a Marianny roz. Paulíkové, Křemenec čp. 7 × Marianna (25 l.), dcera Jiřího Tilšera, familianta ve Veselé, a Barbory roz. Hirthové (?), Veselá čp. 10. Svědci Josef Polák, sedlák v Křemenci, a Josef Tilšer, familiant ve Veselé. Ženich nezletilý – svolení vrchního poručenského úřadu z 22. 9. 1837.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5720?image=216000010-000253-003375-000000-009101-000000-00-B04005-01260.jp2"
+  },
+  {
+    "klic": "kremenec_krest_martin_polak_1816",
+    "svazek": "mza9072",
+    "snimek": 188,
+    "druh": "N",
+    "datum": "25. 10. 1816",
+    "nazev": "Křest Martina Poláka",
+    "shrnuti": "Martin, nar. a pokřtěn 25. 10. 1816 v Křemenci čp. 7; otec Jiří Polák, sedlák; matka Marianna, dcera Václava Paulíka, sedláka z Čunína. Kmotři Anton Kubín (?), písař z Runářova, a Eleonora jeho manželka; křtil Martin Pospíšil, kaplan.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5698?image=216000010-000253-003375-000000-009072-000000-00-B03997-01890.jp2"
+  },
+  {
+    "klic": "kremenec_snatek_jiri_polak_marianna_paulikova_1812",
+    "svazek": "mza9100",
+    "snimek": 45,
+    "druh": "O",
+    "datum": "28. 1. 1812",
+    "nazev": "Sňatek Jiřího Poláka a Marianny Paulíkové",
+    "shrnuti": "Jiří (26 l.), syn zemřelého Josefa Poláka, sedláka z Křemence, Křemenec čp. 7 × Marianna (22 l.), dcera Václava Paulíka, sedláka z Čunína čp. 9. Svědci Jiří Koplar (?), sedlák, a Tomáš …, čtvrtláník, oba z Křemence; oddával Josef Schubert, kaplan.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5718?image=216000010-000253-003375-000000-009100-000000-00-B02640-00450.jp2"
+  },
+  {
+    "klic": "kremenec_krest_jiri_polak_1786",
+    "svazek": "mza9071",
+    "snimek": 38,
+    "druh": "N",
+    "datum": "20. 4. 1786",
+    "nazev": "Křest Jiřího Poláka",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5697?image=216000010-000253-003375-000000-009071-000000-00-B03996-00380.jp2",
+    "shrnuti": "Jiří (Georg), pokřtěn 20. 4. 1786 v Konici, Křemenec čp. 7 – první zápis nové knihy „Geburtsbuch von dem Dorf Křemenetz“; otec Josef Polák, sedlák (Bauer), matka Anna Poláková. Kmotři František Krüber, kožešník z Konice, a Magdalena, jeho dcera; křtil Karel Novák, kooperátor."
+  },
+  {
+    "klic": "kremenec_snatek_josef_polak_anna_popelkova_1779",
+    "svazek": "mza9098",
+    "snimek": 6,
+    "druh": "O",
+    "datum": "4. 7. 1779",
+    "nazev": "Sňatek Josefa Poláka a Anny Popelkové",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5711?image=216000010-000253-003375-000000-009098-000000-00-B04004-00060.jp2",
+    "shrnuti": "4. 7. 1779 v Konici: mládenec Josef Polák, syn Josefa Poláka z Křemence, × panna Anna, dcera Pavla Popelky z Budětska; Křemenec čp. 7. Svědci Libor Popelka, rychtář (consul), a Josef Schnoll, podruh, oba z Křemence; oddával Karel Novák, kooperátor."
+  },
+  {
+    "klic": "cunin_krest_jan_polak_1893_eduard",
+    "svazek": "mza9083",
+    "snimek": 223,
+    "druh": "N",
+    "datum": "16. 4. 1893",
+    "nazev": "Jan Polák, syn Eduarda – druhý Jan ročníku 1893",
+    "shrnuti": "Jan, narozen 16. 4. 1893, pokřtěn 17. 4., Čunín čp. 71. Otec Eduard Polák, podruh v Čuníně, syn Jana Poláka a Anny z rodu Jiřího Pospíšila. Matka Filomena. Tím doložena příbuznost Eduardovy větve. Není ztotožněn s padlým z pomníku. Příloha je výřez snímku obrazovky badatelny, nikoli původní JP2.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5709?image=216000010-000253-003375-000000-009083-000000-00-B02903-02200.jp2"
+  },
+  {
+    "klic": "premyslovice_snatek_jan_polak_helena_kmentova_1915",
+    "svazek": "mza9681",
+    "snimek": 77,
+    "druh": "O",
+    "datum": "31. 8. 1915",
+    "nazev": "Jan Polák a Helena Kmentová – doložená vojenská služba",
+    "shrnuti": "Přemyslovice, tištěná str. 74. Jan Polák *17. 1. 1893, syn Jana a Františky Bavlnkové, tovární pomocník, toho času vojín c. k. zeměbraneckého pluku číslo 13, na dovolené v Čuníně, se oženil s Helenou Kmentovou *10. 2. 1895. Oprava staršího nejistého čtení Kunerová. Odlišná jednotka od padlého FJB 5, totožnost není rozhodnuta. Příloha je výřez snímku obrazovky badatelny.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/12111?image=216000010-000253-003375-000000-009681-000000-00-B12012-00770.jp2"
+  },
+  {
+    "klic": "vojenske_umrti_johann_polak_1893_neprirazeno",
+    "svazek": "vua1202",
+    "snimek": "str. 38",
+    "druh": "Z",
+    "datum": "11. 9. 1915",
+    "nazev": "Nepřiřazený kandidát: Johann Polak (*1893), FJB 5",
+    "shrnuti": "Vojenská matrika: Johann Polak, ročník 1893, rodiště Čunin, Littau, Mähren, ženatý; FJB 5, 2. setnina. Padl 11. 9. 1915 východně od Janowky u Tarnopolu v Haliči, pohřben na bojišti 12. 9. Jde o kandidáta k pomníku, ne o potvrzené úmrtí některého konkrétního Jana v rodokmenu. Chybí přesné narození, rodiče i manželka.",
+    "odkaz": "https://digitalnistudovna.army.cz/view/uuid:bb36cbf6-73e9-40dd-af82-13731a6d8ba3?page=uuid:0e16098c-f379-407e-8978-2306c9431047"
+  },
+  {
+    "klic": "cunin_krest_frantisek_polak_1860",
+    "svazek": "mza9077",
+    "snimek": 101,
+    "druh": "N",
+    "datum": "18. 10. 1860",
+    "nazev": "Křest Františka Poláka (nejstarší bratr Jana)",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5703?image=216000010-000253-003375-000000-009077-000000-00-B01739-01010.jp2",
+    "shrnuti": "Franz, nar. 18. 10. 1860 v Čuníně čp. 64, pokřtěn 20. 10.; nemanželský syn Anny Pospíšilové. Přípisek: legitimován sňatkem rodičů 18. 11. 1862, otec Jan Polák se k němu přihlásil podpisem."
+  },
+  {
+    "klic": "cunin_krest_eduard_polak_1868",
+    "svazek": "mza9079",
+    "snimek": 93,
+    "druh": "N",
+    "datum": "16. 11. 1868",
+    "nazev": "Křest Eduarda Poláka (bratr Jana)",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5705?image=216000010-000253-003375-000000-009079-000000-00-B02902-00930.jp2",
+    "shrnuti": "Eduard, nar. 16. 11. 1868 v Čuníně čp. 64, pokřtěn 17. 11. Přípisek: † 25. 7. 1923."
+  },
+  {
+    "klic": "cunin_krest_josefa_polakova_1872",
+    "svazek": "mza9079",
+    "snimek": 105,
+    "druh": "N",
+    "datum": "19. 3. 1872",
+    "nazev": "Křest Josefy Polákové (sestra Jana)",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5705?image=216000010-000253-003375-000000-009079-000000-00-B02902-01050.jp2",
+    "shrnuti": "Josefa, nar. 19. 3. 1872 v Čuníně čp. 25. Přípisek: † 1872."
+  },
+  {
+    "klic": "cunin_krest_marianna_polakova_1873",
+    "svazek": "mza9079",
+    "snimek": 111,
+    "druh": "N",
+    "datum": "24. 12. 1873",
+    "nazev": "Křest Marianny Polákové (sestra Jana)",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5705?image=216000010-000253-003375-000000-009079-000000-00-B02902-01110.jp2",
+    "shrnuti": "Marianna, nar. a pokřtěna 24. 12. 1873 v Čuníně čp. 25. Přípisek: † (v prosinci 1873)."
+  },
+  {
+    "klic": "cunin_krest_marie_polakova_1876",
+    "svazek": "mza9080",
+    "snimek": 99,
+    "druh": "N",
+    "datum": "6. 4. 1876",
+    "nazev": "Křest Marie Polákové (sestra Jana)",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5706?image=216000010-000253-003375-000000-009080-000000-00-B04001-00990.jp2",
+    "shrnuti": "Marie, nar. a pokřtěna 6. 4. 1876 v Čuníně čp. 25. Přípisek: † 6. 4. 1876."
+  },
+  {
+    "klic": "cunin_krest_alois_polak_1878",
+    "svazek": "mza9080",
+    "snimek": 88,
+    "druh": "N",
+    "datum": "13. 12. 1878",
+    "nazev": "Křest Aloise Poláka (bratr Jana)",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/5706?image=216000010-000253-003375-000000-009080-000000-00-B04001-00880.jp2",
+    "shrnuti": "Alois, nar. a pokřtěn 13. 12. 1878 v Čuníně čp. 25. Přípisek: † 13. 12. 1878."
+  },
+  {
+    "klic": "konice_scitani_frantiska_krejci_1910",
+    "svazek": "scitani_konice_1910",
+    "snimek": "výřez, řádek 6; číslo snímku nezjištěno",
+    "druh": "S",
+    "datum": "31. 12. 1910",
+    "nazev": "Františka Krejčí a domácnost Krejčích – sčítání 1910",
+    "shrnuti": "Františka Krejčí, narozena 10. 11. 1906, uvedena jako nemanželská vnučka v domácnosti Františka a Františky Krejčích. U rodiště je v tabulce Konice, ale vpravo oprava „narozena v Olomouci“. Přepis MyHeritage tuto opravu nezohledňuje. Data narození staršího páru se mezi sčítáními 1910 a 1921 liší; nepřebíráme je jako potvrzená matriční data. Jde o uložený výřez dodaný Dominikem, nikoli archivní originál v plném rozlišení.",
+    "odkaz": "https://www.myheritage.cz/research/collection-20993/1910-czechia-census?action=showRecord&itemId=403925-"
+  },
+  {
+    "klic": "konice_scitani_frantiska_krejci_1921",
+    "svazek": "scitani_konice_1921",
+    "snimek": "výřez, řádek 12; číslo snímku nezjištěno",
+    "druh": "S",
+    "datum": "15. 2. 1921",
+    "nazev": "Františka Krejčí a domácnost Krejčích – sčítání 1921",
+    "shrnuti": "Františka Krejčí, narozena 10. 11. 1906 v Olomouci, bydlí v Konici v domácnosti Františka a Františky Krejčích. Příbuzenskou poznámku předběžně čteme jako „nem. dítě dcery Fil. Krejčí“ – nemanželské dítě dcery Filomeny Krejčí. Zkratka jména a vazba se ověřují porovnáním s oddacím zápisem 1929. Data narození staršího páru se mezi sčítáními 1910 a 1921 liší; nepřebíráme je jako potvrzená matriční data. Jde o uložený výřez dodaný Dominikem, nikoli archivní originál v plném rozlišení.",
+    "odkaz": "https://www.myheritage.cz/research/collection-20987/1921-czechia-census?action=showRecord&itemId=82896-"
+  },
+  {
+    "klic": "olesna_marie_vykutilova_vyrez_1870",
+    "svazek": "mza15997",
+    "snimek": "30 – podle odkazu v exportu; úplný snímek neověřen",
+    "druh": "N",
+    "datum": "1870 (datace podle MyHeritage)",
+    "nazev": "Marie Vykutilová – rodiče v dochovaném výřezu",
+    "shrnuti": "Dochovaný výřez zápisu Marie: otec František Vykutil, nádeník v Olešné, syn Marie Vykutilové, dcery Martina Vykutila a Anny roz. Krejčí. Matka Kateřina, dcera Václava Hrnčíře z Pohledce – nikoli Kroutilová, k níž je Marie připojena v exportu. Rok 1870 a odkaz na snímek 30 jsou převzaty z MyHeritage; hlavička s rokem ve výřezu chybí. Totožnost otce s otcem naší Josefy (*1880) dosud není potvrzena. Výřez není plný archivní snímek.",
+    "odkaz": "https://www.mza.cz/actapublica/matrika/detail/9999?image=216000010-000253-003380-000000-015997-000000-00-B01851-00300.jp2"
+  },
+  {
+    "klic": "olomouc_porodnice_krest_frantiska_krejci_1906",
+    "svazek": "zao_o_ix_13",
+    "snimek": 178,
+    "druh": "N",
+    "datum": "10. 11. 1906",
+    "nazev": "Křest Františky Krejčí – Filomena a kmotra",
+    "odkaz": "https://digi.archives.cz/da/permalink?xid=dd4acd7737c68136:5e44cc3e:12c9fad6ac6:-7ce2&scan=b5f8361722cc4ffcb315633f81c3acb0",
+    "shrnuti": "Františka se narodila 10. 11. 1906 v zemské porodnici Olomouc–Nová Ulice a byla pokřtěna 12. 11. Matka Filomena Krejčí je výslovně osmnáctiletá svobodná dcera Františka Krejčího, domkáře z Konice, okres Litovel, a jeho manželky Františky. Otec dítěte je nevyplněn. Kmotra Marie Wěrník (?) je v poznámce označena jako vdova; příjmení a zbytek poznámky jsou nejisté. Pozdější přípisek potvrzuje sňatek s Františkem Polákem 9. 11. 1929 ve Strážisku. Číslo 185/16 patří porodnici, nikoli bydlišti rodiny. Křemenec zápis neuvádí."
+  },
+  {
+    "klic": "cunin_scitani_jan_polak_1900",
+    "svazek": "scitani_cunin_1900_92",
+    "snimek": "dodaný celý arch; číslo archivního snímku neznámé",
+    "druh": "S",
+    "datum": "31. 12. 1900",
+    "nazev": "Jan a Anna Polákovi – sčítání Čunín 1900",
+    "shrnuti": "Jan Polák (*10. 8. 1838 Křemenec) a Anna Poláková v Čuníně čp. 92. Jan je dělník v tkalcovství, vedle toho má polní hospodářství; v zaměstnavatelské části arch zmiňuje faktorování a dovoz osnov ze Šternberka a Prostějova. Jan uměl číst i psát, Anna podle archu jen číst. S nimi dva tovaryši: Josef Svoboda (*15. 9. 1860 Čunín), vdovec, a Josef Polák (*26. 4. 1887 Křemenec), svobodný. Josef Polák není označen jako syn a jeho příbuznost zatím neznáme. Arch uvádí Janův nepřetržitý pobyt v obci od 1862, Annin od 1842; nejde automaticky o pobyt v tomto domě po celou dobu. Celkem jsou v domě sečteny dvě domácnosti a osm osob.",
+    "odkaz": "/zdroje/cunin_scitani_jan_polak_1900.jpg"
+  },
+  {
+    "klic": "cunin_scitani_legionarska_rodina_1900",
+    "svazek": "scitani_cunin_1900_13",
+    "snimek": "dodaný celý arch; archivní číslo snímku nezjištěno",
+    "druh": "S",
+    "datum": "31. 12. 1900",
+    "nazev": "Legionář jako desetiletý školák – rodina Polákových v Čuníně čp. 13",
+    "shrnuti": "Čunín čp. 13, sčítání 31. 12. 1900: rodiče František a Marie Polákovi s pěti dětmi Janem, Františkem (pozdějším legionářem), Františkou, Marií a Josefem. Otec pracuje v obuvnictví, arch uvádí továrníka Wolf Fr. v Prostějově a částečně samostatnou práci; vedlejší polní hospodářství má jako pachtýř. V domácnosti také Josefa Trnková, označená jako švakrová, a host Emil Vincour. Otcovo narození je zde 22. 10. 1860, kdežto vlastní křest uvádí narození 18. 10. 1860; přednost má křest. Dvě domácnosti, celkem deset osob. Tento arch nepatří rodině Jana (*1865) a Františky Bavlnkové.",
+    "odkaz": "/zdroje/cunin_scitani_legionarska_rodina_1900.jpg"
+  },
+  {
+    "klic": "cernoucek_oddavky_vaclav_kulich_anna_ticha_1925",
+    "svazek": "soal_L16_47",
+    "snimek": 67,
+    "druh": "O",
+    "datum": "15. 2. 1925",
+    "nazev": "Sňatek Václava Kulicha a Anny Tiché (prarodiče dědy Václava)",
+    "shrnuti": "Černouček, farní kostel, 15. 2. 1925, oddával farář František Holeček. Ženich Václav Kulich, tesařský pomocník v Ledčicích čp. 85, katolík, * 2. 11. 1900 v Ledčicích čp. 85, syn † Václava Kulicha, domkáře a tesaře v Ledčicích čp. 85, a † Julie roz. Koubové z Ledčic čp. 94. Nevěsta Anna Tichá z Ledčic čp. 23, katolička, * 9. 10. 1899 tamtéž, dcera Josefa Tichého, dělníka v Ledčicích čp. 23, a Anny roz. Kohlové (?) z Ledčic čp. 23. Svědci Václav Forner, dělník v Ledčicích čp. 94, a František Hájek, dělník v Ledčicích čp. 123. Snubní protokol 22. 1. 1925, ohlášky 25. 1., 1. a 8. 2. 1925.",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/a3fd25eb5cf34b6b8760dcd734b904e8"
+  },
+  {
+    "klic": "krabcice_oddavky_marie_kulichova_1928",
+    "svazek": "soal_N39_20",
+    "snimek": 178,
+    "druh": "O",
+    "datum": "15. 1. 1928",
+    "nazev": "Sňatek Marie Kulichové z Vražkova (možná příbuzná)",
+    "shrnuti": "Evangelický sbor Krabčice, 15. 1. 1928: Václav Hrstka, zedník v Krabčicích čp. 75 (* 1. 11. 1907), a Marie Kulichová, dámská krejčová ve Vražkově čp. 71 (* 11. 10. 1906), dcera Františka Kulicha, domkáře ve Vražkově čp. 71, a Antonie roz. Michalcové z Vražkova. Svědek Antonín Kulich, truhlář, Vražkov čp. 131 (její bratr). Příbuznost s ledčickými Kulichy pravděpodobná (otec František pocházel od Jana Kulicha z Ledčic čp. 82), ale nedoložená.",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/8d0e01f6cf78fd58:-6ca67971:13f99d54109:-7e4a"
+  },
+  {
+    "klic": "krabcice_krest_marie_kulichova_1906",
+    "svazek": "soal_N39_19",
+    "snimek": 320,
+    "druh": "N",
+    "datum": "11. 10. 1906",
+    "nazev": "Narození Marie Kulichové, Vražkov čp. 71 (možná příbuzná)",
+    "shrnuti": "Č. 82, nar. 11. 10. 1906, křest 14. 10. v kostele v Krabčicích; Vražkov čp. 71. Otec František Kulich, domkář ve Vražkově čp. 71, nar. ve Zlosejně čp. 18 (29. 10. 1864?), syn Jana Kulicha, domkáře v Ledčicích čp. 82, a Anny roz. Pachmanové ze Zlosejna. Matka Antonie roz. Michalcová z Vražkova čp. 71, dcera Josefa Michalce a Anny roz. Pistorové ze Straškova čp. 4. Evangelíci.",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/8d0e01f6cf78fd58:-6ca67971:13f99d54109:-7e4b"
+  },
+  {
+    "klic": "krabcice_krest_antonin_kulich_1896",
+    "svazek": "soal_N39_19",
+    "snimek": 27,
+    "druh": "N",
+    "datum": "21. 5. 1896",
+    "nazev": "Narození Antonína Kulicha, Vražkov čp. 71 (možný příbuzný)",
+    "shrnuti": "Č. 41, nar. 21. 5. 1896, křest 24. 5. v Krabčicích; Vražkov čp. 71. Rodiče František Kulich, nádeník ve Vražkově čp. 71 (z Zlosejna, syn Jana Kulicha, domkáře v Ledčicích čp. 82, a Anny roz. Pachmanové), a Antonie roz. Michalcová. Pozdější truhlář ve Vražkově čp. 131 (svědek 1928).",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/8d0e01f6cf78fd58:-6ca67971:13f99d54109:-7e4b"
+  },
+  {
+    "klic": "krabcice_krest_emilie_kulichova_1900",
+    "svazek": "soal_N39_19",
+    "snimek": 147,
+    "druh": "N",
+    "datum": "6. 10. 1900",
+    "nazev": "Narození Emilie Kulichové, Vražkov čp. 71 (možná příbuzná)",
+    "shrnuti": "Č. 65, nar. 6. 10. 1900, křest 7. 10. v Krabčicích; Vražkov čp. 71. Rodiče František Kulich, domkář ve Vražkově čp. 71 (z Zlosejna, syn Jana Kulicha, domkáře v Ledčicích čp. 82, a Anny roz. Pachmanové), a Antonie roz. Michalcová (stejní jako u Antonína 1896 a Marie 1906).",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/8d0e01f6cf78fd58:-6ca67971:13f99d54109:-7e4b"
+  },
+  {
+    "klic": "ledcice_scitani_kulich_1921",
+    "svazek": "scitani_ledcice_1921_85",
+    "snimek": "celý arch dodaný Dominikem",
+    "druh": "S",
+    "datum": "1921",
+    "nazev": "Václav Kulich s babičkou Annou – Ledčice 1921",
+    "shrnuti": "Ledčice čp. 85, byt 1, soudní okres Roudnice, Čechy; sčítání 1921. Bytová strana: Kulichová Anna.\n1. Anna Kulichová, majitelka bytu, ovdovělá, nar. 1854 (u roku zlomek 3/4 – nejspíš 3. 4.); rodiště Zlosyň („Zlosejn“, první zápis přeškrtnut), soudní okres Slaný, Čechy. V obci od července 1880. Vede vlastní domácnost.\n2. Václav Kulich, vnuk, svobodný, nar. 2. listopadu 1900 v Ledčicích; v obci od narození. Tesařský tovaryš, tesařský závod Jos. Černý (?) v Ledčicích; příjmení zaměstnavatele nejisté. Ve sloupci povolání k 16. červenci 1914 je tesařství, učedník.\n3. Jaroslav Kulich, vnuk, svobodný, nar. 4. června 1908 v Ledčicích.\n4. Jan Kulich, vnuk, svobodný, nar. 13. dubna 1910 v Ledčicích.\n5. Anna Kulichová, vnučka, svobodná, nar. 22. září 1911 v Ledčicích.\n6. Marie Kulichová, vnučka, svobodná, nar. 22. srpna 1914 v Ledčicích.\nVšichni mají českou národnost, římskokatolické vyznání a domovskou příslušnost Ledčice. Anna starší a první čtyři vnoučata čtou a píší; u Marie je údaj o čtení překrytý, nevyvozujeme gramotnost.\nVztah vnuk/vnučka se týká Anny jako hlavy domácnosti. Arch nejmenuje rodiče vnoučat: nedokládá, že všech pět jsou sourozenci, ani zda je Anna babička Václava z otcovy či matčiny strany. Nepřítomnost rodičů sama nedokládá jejich úmrtí před rokem 1921. Shoda přesného narození, jména, řemesla a domu propojuje Václava s jeho oddacím zápisem 1925.",
+    "odkaz": "/zdroje/ledcice_scitani_kulich_1921.jpg"
+  },
+  {
+    "klic": "ledcice_krest_vaclav_kulich_1877",
+    "svazek": "soal_L16_32",
+    "snimek": 47,
+    "druh": "N",
+    "datum": "26. 7. 1877",
+    "nazev": "Křest Václava Kulicha (otec pradědy Václava)",
+    "shrnuti": "Ledčice čp. 85, narozen 26. 7. 1877, pokřtěn 28. 7. 1877 kaplanem Josefem Suchým (?), katolík, manželský. Otec Jan Kulich, domkář v Ledčicích čp. 85, narozený v Nové Vsi čp. 43 na bývalém panství Veltruském, c. k. hejtmanství Slánské, manželský syn Josefa Kulicha, domkáře v Nové Vsi čp. 43, a Rozálie rozené Jindřichové z Nové Vsi čp. 43. Matka Anna rozená Pochmonová (Pochmanová) z Cítova čp. 3, bývalé panství Dolní Beřkovice, c. k. hejtmanství Mělnické, nemanželská dcera Rozálie Pochmonové, manželské dcery Josefa Pochmona, hostinského v Cítově čp. 3. Kmotři Antonín Husák, rolník v Ledčicích čp. 49, a Marie Jarošová, manželka Josefa Jaroše, domkáře v Ledčicích čp. 88. Porodní bába Valburga Čmejlová z Ledčic, zkoušená.",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/09ddd7cea03b9b8d:4e496e4e:12216bae987:-74f8"
+  },
+  {
+    "klic": "ledcice_krest_julie_koubova_1878",
+    "svazek": "soal_L16_32",
+    "snimek": 50,
+    "druh": "N",
+    "datum": "10. 4. 1878",
+    "nazev": "Křest Julie Koubové (matka pradědy Václava)",
+    "shrnuti": "Ledčice čp. 94, narozena 10. 4. 1878, pokřtěna 11. 4. 1878 kaplanem Antonínem Vlčkem (?), katolička, manželská. Otec Antonín Kouba, zedník v Ledčicích čp. 94, narozený tamtéž v čp. 79, manželský syn Jiřího Kouby, domkáře tamtéž čp. 79, a Marie rozené Rechcíglové (?) z Chržína (?) čp. 42. Matka Alžběta rozená Brotánková z Ledčic čp. 86, manželská dcera Josefa Brotánka, domkáře tamtéž čp. 86, a Alžběty rozené Koubové tamtéž čp. 76. Kmotry Anna Šiftová (?), manželka Jana, rolníka v Ledčicích čp. 13, a Alžběta Floriánová, manželka Josefa Floriána, rolníka v Ledčicích čp. 6. Porodní bába Valburga Čmejlová.",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/09ddd7cea03b9b8d:4e496e4e:12216bae987:-74f8"
+  },
+  {
+    "klic": "ledcice_oddavky_vaclav_kulich_julie_koubova_1900",
+    "svazek": "soal_L16_43",
+    "snimek": 369,
+    "druh": "O",
+    "datum": "11. 6. 1900",
+    "nazev": "Sňatek Václava Kulicha a Julie Koubové (rodiče pradědy Václava)",
+    "shrnuti": "11. 6. 1900, oddával farář Josef Frykar (?), ohlášky v Černoučku 3., 4. a 10. 6. 1900. Ženich Václav Kulich, tesař z Ledčic čp. 85, okres Roudnice, manželský syn Jana Kulicha, domkáře v Ledčicích čp. 85, a matky Anny rozené Pochmanové z Cítova, rodilý v Ledčicích; * 26. 7. 1877, katolík, svobodný. Nevěsta Julie Koubová z Ledčic čp. 94, rodilá tamtéž, manželská dcera † Antonína Kouby, zedníka v Ledčicích čp. 94, a matky Alžběty rozené Brotánkové z Ledčic čp. 86; * 10. 4. 1878, katolička, svobodná. Svědci Václav Došek, domkář z Ledčic (?), a František Reichelt, krejčí z Černoučku. Doklady: křestní listy ženicha (Černouček 24. 10. 1899, č. 279) a nevěsty (7. 11. 1899, č. 315), protokol č. 22/1900, dekrety zletilosti ženicha i nevěsty (13. a 15. 6. 1899).",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/09ddd7cea03b9b8d:4e496e4e:12216bae987:-74e8"
+  },
+  {
+    "klic": "ledcice_krest_josef_kulich_1870",
+    "svazek": "soal_L16_32",
+    "snimek": 14,
+    "druh": "N",
+    "datum": "27. 9. 1870",
+    "nazev": "Křest Josefa Kulicha, staršího bratra Václava (*1877)",
+    "shrnuti": "Ledčice čp. 85, narozen 27. 9. 1870, pokřtěn 28. 9. 1870. Otec Jan Kulich, domkář v Ledčicích čp. 85, narozený v Nové Vsi čp. 43, bývalé panství Veltruské, hejtmanství Slánské, manželský syn Josefa Kulicha, domkáře tamtéž čp. 43, a Rozálie rozené Jindřichové. Matka Anna rozená Pochmanová z Cítova čp. 3, nemanželská dcera Rozálie, manželské dcery Josefa Pochmana, hostinského v Cítově čp. 3. Kmotr Josef Jaroš (?), domkář v Ledčicích čp. 88, a Marie Husáková.",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/09ddd7cea03b9b8d:4e496e4e:12216bae987:-74f8"
+  },
+  {
+    "klic": "ledcice_krest_rosalie_kulichova_1883",
+    "svazek": "soal_L16_32",
+    "snimek": 83,
+    "druh": "N",
+    "datum": "12. 9. 1883",
+    "nazev": "Křest Rosalie Kulichové, mladší sestry Václava (*1877)",
+    "shrnuti": "Ledčice čp. 85, narozena 12. 9. 1883, pokřtěna 13. 9. 1883 farářem Janem Bernardem (?). Otec Jan Kulich, domkář v Ledčicích čp. 85, narozený v Nové Vsi čp. 43, c. k. hejtmanství Slánské, manželský syn † Josefa Kulicha, domkáře v Nové Vsi čp. 43, a Rozálie rozené Jindřichové z Nové Vsi. Matka Anna rozená Pochmanová z Cítova čp. 3, c. k. hejtmanství Mělnické, nemanželská dcera Rozálie Pochmanové, dcery Josefa Pochmana, hostinského v Cítově čp. 3. Kmotra Marie Husáková, dcera Antonína Husáka, rolníka v Ledčicích čp. 49. Porodní bába Anna Láchová (?) z Ledčic.",
+    "odkaz": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/09ddd7cea03b9b8d:4e496e4e:12216bae987:-74f8"
+  },
+  {
+    "klic": "novaves_krest_jan_kulich_1839",
+    "svazek": "soapraha_veprek_15",
+    "snimek": 60,
+    "druh": "N",
+    "datum": "6. 11. 1839",
+    "nazev": "Křest Jana Nepomuka Kulicha (děd pradědy Václava)",
+    "shrnuti": "Nová Ves (fara Vepřek), narozen a pokřtěn 6. 11. 1839, Jan Nepomuk, katolík, manželský; křtil Antonín Štěpnička (?), kaplan. Otec Josef Kulich, domkář z Nové Vsi, syn † Matěje Kulicha, chalupníka z Ouholic čp. 20, a † Kateřiny rozené Jakoubkové (?) z Ouholic. Matka Rozálie, dcera † Tomáše Jakla / Jatla (?), podruha z Nové Vsi, a † Alžběty rozené Hůtové (?). Porodní bába Anna Kropáčová (?) z Nové Vsi. Dům čp. 32 (stejné číslo jako při úmrtí Rozálie 1877). Kmotr Jan Jindřich (Johann Gindřich) z Nové Vsi – odtud nejspíš pochází „Jindřichová“ v ledčických zápisech. Rodné příjmení matky se liší od křtů vnoučat v Ledčicích (1870–1883: Rozálie roz. Jindřichová) – nutno ověřit (sňatek Josefa a Rozálie).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/13624/60"
+  },
+  {
+    "klic": "novaves_umrti_rozalie_kulichova_1877",
+    "svazek": "soapraha_veprek_28",
+    "snimek": 125,
+    "druh": "Z",
+    "datum": "7. 3. 1877",
+    "nazev": "Úmrtí Rozálie Kulichové, vdovy po Josefu Kulichovi",
+    "shrnuti": "Nová Ves čp. 32 (býv. panství Roudnické, okres Velvary, hejtm. Slaný), zemřela 7. 3. 1877, pohřbena 9. 3. 1877 ve Vepřku. Rozálie Kulichová, vdova po Josefu Kulichovi, domkáři z Nové Vsi čp. 32; katolička, 74 let (* asi 1803). Příčina: sešlost věkem. Pohřbil Antonín Štěpnička.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/13605/125"
+  },
+  {
+    "klic": "novaves_oddavky_josef_kulich_rozalie_jindrichova_1833",
+    "svazek": "soapraha_veprek_15",
+    "snimek": 8,
+    "druh": "O",
+    "datum": "15. 1. 1833",
+    "nazev": "Sňatek Josefa Kulicha a Rozálie ovdovělé Jindřichové",
+    "shrnuti": "Nová Ves (fara Vepřek), oddáni 15. 1. 1833. Ženich Josef Kulich, domkář z Ouholic (?), 48 let, vdovec po † Kateřině …ové (příjmení nejisté), syn Matěje Kulicha, chalupníka z Ouholic čp. 20, a Kateřiny roz. Jakoubkové z Ouholic; poddaný panství roudnického. Nevěsta Rozálie, vdova po † Janu Jindřichovi, domkáři z Nové Vsi čp. 32, dcera † Tomáše Jatla (?), domkáře z Nové Vsi čp. 6 (?), a Alžběty roz. Hůtové (?); 34 let (?), vdova; poddaná panství roudnického. Svědkové Jan …, Janda (?) z Vepřku a Josef Zlonický (?), mistr truhlářský z Ouholic. Ohlášky prominuty na základě povolení vikariátu v Roudnici z 19. 12. 1832 č. 1781. Řeší rozpor v rodném jménu: Rozálie se narodila jako Jatlová (?), „Jindřichová“ bylo jméno po prvním muži. Do domu čp. 32 se Josef přiženil.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/13624/8"
+  }
 ]

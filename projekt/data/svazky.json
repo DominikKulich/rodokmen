@@ -222,5 +222,33 @@
   "svazek": "Ledčice čp. 85, byt 1, domácnost Anny Kulichové, 1921",
   "popis": "Šest osob; archivní odkaz a číslo snímku nebyly dodány.",
   "url": "/zdroje/ledcice_scitani_kulich_1921.jpg"
+ },
+ "soal_L16_32": {
+  "archiv": "SOA Litoměřice – Sbírka matrik Severočeského kraje (NAD 856)",
+  "portal": "Digitální badatelna SOA Litoměřice",
+  "svazek": "N Ledčice 1868–1899 + index, sign. L16/32 (fara Ledčice/Černouček)",
+  "popis": "Římskokatolická matrika narozených Ledčic; snímek = strana + 1; index K na sn. 200.",
+  "url": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/09ddd7cea03b9b8d:4e496e4e:12216bae987:-74f8"
+ },
+ "soal_L16_43": {
+  "archiv": "SOA Litoměřice – Sbírka matrik Severočeského kraje (NAD 856)",
+  "portal": "Digitální badatelna SOA Litoměřice",
+  "svazek": "O Černouček, Horní Beřkovice, Ctiněves, Jeviněves, Kostomlaty, Ledčice, Mnetěš 1872–1922, sign. L16/43",
+  "popis": "Oddací matrika fary Černouček po obcích; Ledčice zhruba sn. 313–420 (snímek = strana + 1).",
+  "url": "https://digi.soalitomerice.cz/digitalnibadatelna/permalink/09ddd7cea03b9b8d:4e496e4e:12216bae987:-74e8"
+ },
+ "soapraha_veprek_15": {
+  "archiv": "SOA Praha – Sbírka matrik (fara Vepřek)",
+  "portal": "eBadatelna SOA Praha (vyžaduje přihlášení)",
+  "svazek": "Vepřek 15 – N, O, Z Nová Ves 1825–1854",
+  "popis": "Matriky obce Nová Ves u Kralup; strana = snímek − 1. Index narozených celé fary je kniha Vepřek 36 (písmeno K od sn. 50).",
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/13624"
+ },
+ "soapraha_veprek_28": {
+  "archiv": "SOA Praha – Sbírka matrik (fara Vepřek)",
+  "portal": "eBadatelna SOA Praha (vyžaduje přihlášení)",
+  "svazek": "Vepřek 28 – N, O, Z Nová Ves 1854–1879",
+  "popis": "Oddíl O asi sn. 3–17, N od sn. ~20, Z asi sn. 106–128.",
+  "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/13605"
  }
 }

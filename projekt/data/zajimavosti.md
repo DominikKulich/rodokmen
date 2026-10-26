@@ -9,6 +9,18 @@ V Karpatech byl zajat 2. března 1915; 24. května 1917 byl zařazen k 1. střel
 Františkův 1. střelecký pluk bojoval u Zborova a později chránil Transsibiřskou magistrálu. Čas jeho služby se s těmito událostmi překrývá, proto jde o reálnou možnost i v jeho osobním příběhu. **Osobní účast v konkrétních bojích zatím není doložena.** [Podrobnosti a historické zdroje](/legionar/#zborov-a-magistrala) rozlišují historii útvaru od zatím otevřených otázek k samotnému Františkovi.
 
 
+## Dva vdovci v jednom domě
+[Josef Kulich](/osoba/josef-kulich-1785/), domkář z Ouholic, a [Rozálie](/osoba/rozalie-jatlova-1799/), vdova po Janu Jindřichovi z Nové Vsi čp. 32, se vzali 15. ledna 1833 ve Vepřku – oba ovdovělí, on osmačtyřicetiletý. Zápis rozluštil, proč ledčické matriky píšou Rozálii „rozená Jindřichová“: šlo o jméno po prvním muži, rodem byla Jatlová (?). [Celý příběh Kulichů](/pribehy/).
+
+## Jeden dům, dvě generace
+V Nové Vsi čp. 32 se 6. listopadu 1839 narodil [Jan Kulich](/osoba/jan-kulich-1839/) a v témž domě o 38 let později, 7. března 1877, zemřela jeho matka Rozálie. Jan mezitím odešel do Ledčic, kde založil kulichovský dům čp. 85.
+
+## Babička ze Zlosyně
+Při sčítání 1921 žila u pradědy [Václava (* 1900)](/osoba/vaclav-kulich-1900/) ovdovělá babička Anna Kulichová, narozená 1854 ve Zlosyni. Matkou jeho otce ale byla Anna Pochmanová z Cítova – babička ze Zlosyně tedy byla nejspíš druhou ženou dědečka Jana. Rodinné vyprávění o „dvou Annách“ tak možná patří o generaci výš.
+
+## Svatba pět měsíců před narozením
+[Václav Kulich (* 1877)](/osoba/vaclav-kulich-1877/) se oženil s [Julií Koubovou](/osoba/julie-koubova-1878/) 11. června 1900 v Černoučku. Jejich syn Václav, Dominikův praděda, se narodil 2. listopadu téhož roku.
+
 <!-- Každá zajímavost: ## nadpis, pak pár vět. Odkazy na osoby: [Jan Novák](/osoba/jan-novak-1850/) – adresa je v web/src/data/site.json. -->
 
 <h2 id="cislo-26">Tři domy, jedno číslo: 26</h2>
@@ -39,7 +51,7 @@ V [archu z roku 1921](/zdroj/konice_scitani_frantiska_krejci_1921/) příbuzensk
 
 <h2 id="americka-stopa">Americká stopa přes Vykutilovy – zatím neověřená</h2>
 
-MyHeritage nabídlo **možné propojení na rodokmen s větví ve Spojených státech**. Navržená cesta vede přes našeho [Františka Vykutila](/osoba/frantisek-vykutil/) a Marii Prochaska (1881–1916), kterou cizí rodokmen „Macek Family Tree“ uvádí jako sestru muže jménem **Frank Vykutil**. V této větvi se podle cizího stromu narodila roku 1916 Anne, později Macek, v Chicagu.
+MyHeritage nabídlo **možné propojení na rodokmen s větví ve Spojených státech**. Navržená cesta vede přes našeho [Františka Vykutila](/osoba/frantisek-vykutil-1843/) a Marii Prochaska (1881–1916), kterou cizí rodokmen „Macek Family Tree“ uvádí jako sestru muže jménem **Frank Vykutil**. V této větvi se podle cizího stromu narodila roku 1916 Anne, později Macek, v Chicagu.
 
 **Propojení s naší rodinou zatím není prokázané.** U Franka v americkém stromu nejsou uvedeny datum narození, bydliště, manželka ani děti; rodiče jsou skrytí. Nemáme tedy doloženo, že jde právě o našeho Františka. Navíc rok 1843, který MyHeritage přiřazuje našemu Františkovi podle jiného rodokmenu, a Mariin rok 1881 dělí **38 let**. Takový rozdíl je důvodem ke kontrole, sám o sobě ale neurčuje správný vztah.
 
