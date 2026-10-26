@@ -562,5 +562,65 @@
   ],
   "status": "ok",
   "note": "První domácnost, řádky 1–9: rodina Polákových, švakrová a host. Desátý řádek je druhá domácnost."
+ },
+ "cernoucek_oddavky_vaclav_kulich_anna_ticha_1925": {
+  "boxes": [
+   [
+    0.03,
+    0.668,
+    0.97,
+    0.885
+   ]
+  ],
+  "status": "pending",
+  "note": "celý zápis přes obě strany; výřez čeká na stažení snímku (síť do images.soalitomerice.cz blokována)"
+ },
+ "krabcice_oddavky_marie_kulichova_1928": {
+  "boxes": [
+   [
+    0.1,
+    0.44,
+    0.98,
+    0.8
+   ]
+  ],
+  "status": "pending",
+  "note": "výřez čeká na stažení snímku"
+ },
+ "krabcice_krest_marie_kulichova_1906": {
+  "boxes": [
+   [
+    0.03,
+    0.36,
+    0.98,
+    0.58
+   ]
+  ],
+  "status": "pending",
+  "note": "výřez čeká na stažení snímku"
+ },
+ "krabcice_krest_antonin_kulich_1896": {
+  "boxes": [
+   [
+    0.03,
+    0.33,
+    0.98,
+    0.52
+   ]
+  ],
+  "status": "pending",
+  "note": "výřez čeká na stažení snímku"
+ },
+ "krabcice_krest_emilie_kulichova_1900": {
+  "boxes": [
+   [
+    0.03,
+    0.1,
+    0.98,
+    0.32
+   ]
+  ],
+  "status": "pending",
+  "note": "výřez čeká na stažení snímku"
  }
 }

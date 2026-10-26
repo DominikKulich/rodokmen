@@ -45,3 +45,7 @@ Dodaný aktuální GEDCOM uvádí u Jany Heleny Kaštánkové rok narození 1942
 
 ## Krejčí a Křemenec (23. 10. 2026)
 Dominik podle maminky nejprve uvedl bydliště v Křemenci; následně 23. 10. 2026 výslovně upřesnil, že se vzpomínka týká kmotry Františky Krejčí. Jméno, období a číslo domu zatím nesdělil. Totožnost této rodinné kmotry s Marií Wěrník (?) zapsanou u křtu v olomoucké porodnici zatím není prokázána. Nejde o doložení pobytu Františky ani Filomeny v Křemenci.
+
+## 26. 10. 2026 – od Dominika
+- Rodiče dědy Václava Kulicha (* asi 1936): otec Václav Kulich, matka Anna Kulichová (rodné příjmení neznámé).
+- 26. 10. 2026 (dohledáno v matrice): praděda Václav Kulich * 2. 11. 1900 Ledčice čp. 85, × 15. 2. 1925 Černouček Anna Tichá * 9. 10. 1899 Ledčice čp. 23 – souhlasí s rodinným údajem „Václav a Anna“.
