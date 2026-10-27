@@ -257,5 +257,26 @@
     "svazek": "Zlonice 33 – N, O, Z Dolín 1864–1889",
     "popis": "Matriky obce Dolín (okres Slaný). Rok 1888 na sn. 114–115.",
     "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9370"
+  },
+  "soapraha_turany_04": {
+    "archiv": "SOA Praha – Sbírka matrik (fara Tuřany)",
+    "portal": "eBadatelna SOA Praha (vyžaduje přihlášení)",
+    "svazek": "Tuřany 04 – N 1844–1860 (Libovice, Tuřany, Studeněves…)",
+    "popis": "Strana ≈ snímek − 2. Index fary je kniha Tuřany 16.",
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/11624"
+  },
+  "soapraha_zlonice_20": {
+    "archiv": "SOA Praha – Sbírka matrik (fara Zlonice)",
+    "portal": "eBadatelna SOA Praha (vyžaduje přihlášení)",
+    "svazek": "Zlonice 20 – N, O Želevčice 1785–1863",
+    "popis": "Oddíl O začíná kolem sn. 39 (s. 2–3 = sn. 40). Index fary 1784–1853 je kniha Zlonice 23.",
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/9357"
+  },
+  "soapraha_veprek_04": {
+    "archiv": "SOA Praha – Sbírka matrik (fara Vepřek)",
+    "portal": "eBadatelna SOA Praha (vyžaduje přihlášení)",
+    "svazek": "Vepřek 04 – N 1748–1792, O 1748–1777, Z 1748–1768 (celá fara, latinsky)",
+    "popis": "Strana = číslo v indexu Vepřek 36 (sloupec list); 1781 s. 562–563 = sn. 285, 1783 s. 584–585 = sn. 296.",
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/13613"
   }
 }

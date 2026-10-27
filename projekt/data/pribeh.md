@@ -1,17 +1,17 @@
 ---
-title: Kulichové – od Ouholic po Ledčice
-lead: Osm generací Kulichů po meči – od chalupníka Matěje po Dominika, v matrikách doložených od roku 1833 – z vesnic u Vepřku nedaleko Kralup do Ledčic u Roudnice a odtud do Horních Beřkovic.
+title: Kulichové – z Hobšovic přes Ouholice do Ledčic
+lead: Devět generací Kulichů po meči – od sedláka Jiřího z Hobšovic po Dominika, v matrikách doložených od roku 1773 – z Hobšovic u Slaného přes Ouholice u Kralup do Ledčic u Roudnice a odtud do Horních Beřkovic.
 ---
 
 <!-- Příběh rodu Kulichů. Odkazy na osoby: /osoba/<slug>/ podle web/src/data/site.json. Co není doloženo, je výslovně označeno. -->
 
 ## Chalupa v Ouholicích
 
-Nejstarší Kulich, kterého zatím známe jménem, je **[Matěj Kulich](/osoba/matej-kulich/)**, chalupník v Ouholicích čp. 20. Ouholice leží na levém břehu Vltavy kousek nad Kralupy, dnes patří k obci Nová Ves na Mělnicku. Patřily k roudnickému panství a k faře ve Vepřku. Matěj se oženil s **[Kateřinou Jakoubkovou](/osoba/katerina-jakoubkova/)**. Při svatbě syna Josefa v lednu 1833 Matěj zřejmě ještě žil, při křtu vnuka Jana v listopadu 1839 už oba nežili. Víme o nich jen z těchto dvou zápisů – vlastní křest ani svatbu Matěje jsme zatím nenašli; narodil se asi v 50. letech 18. století.
+Nejstarší Kulich, kterého zatím známe jménem, je **Jiří Kulich**, sedlák v **Hobšovicích čp. 8** u Slaného. Jeho syn **[Matěj Kulich](/osoba/matej-kulich/)** se 12. ledna 1773 ve Vepřku oženil s Kateřinou, dcerou ouholického chalupníka Václava Jakoubka, a usadil se v Ouholicích – později jako chalupník v čp. 20. Ouholice leží na levém břehu Vltavy kousek nad Kralupy, dnes patří k obci Nová Ves na Mělnicku. Patřily k roudnickému panství a k faře ve Vepřku. Matěj se oženil s **[Kateřinou Jakoubkovou](/osoba/katerina-jakoubkova/)**. Při svatbě syna Josefa v lednu 1833 Matěj zřejmě ještě žil, při křtu vnuka Jana v listopadu 1839 už oba nežili. Víme o nich jen z těchto dvou zápisů – vlastní křest ani svatbu Matěje jsme zatím nenašli; narodil se asi v letech 1745–1755. Matriky fary Vepřek uvádějí jeho děti v letech 1775–1790: dvojčata František a Anna (1776), Kateřinu (1779), Josefa (1781), dvojčata Josefa a Anny (1783), Marii Magdalenu (1788) a Rozálii (1790).
 
 ## Dva vdovci v jednom domě
 
-Matějův syn **[Josef Kulich](/osoba/josef-kulich-1785/)** se narodil kolem roku 1785. Byl domkářem v Ouholicích a měl za sebou už jedno manželství – jeho první žena Kateřina zemřela.
+Matějův syn **[Josef Kulich](/osoba/josef-kulich-1783/)** se narodil **18. února 1783** v Ouholicích jako dvojče se sestrou Annou – jméno Josef dostal po starším bratrovi, narozeném 1781, který zřejmě zemřel. Byl domkářem v Ouholicích a měl za sebou už jedno manželství – jeho první žena Kateřina zemřela.
 
 Dne **15. ledna 1833** se ve Vepřku oženil podruhé. Jeho nevěsta **[Rozálie](/osoba/rozalie-jatlova-1799/)** byla také vdova: jejím prvním mužem byl Jan Jindřich, domkář z Nové Vsi čp. 32. Narodila se jako dcera Tomáše Jatla (čtení příjmení je nejisté) a Alžběty Hůtové. Kvůli rychlé svatbě dostali od vikariátu v Roudnici prominutí ohlášek.
 
@@ -44,4 +44,4 @@ Syn Václava a Anny, děda **[Václav Kulich](/osoba/vaclav-kulich-1936/)** (* a
 - **Křest Josefa Kulicha** (asi 1785, Ouholice) a jeho **první sňatek s Kateřinou** – ve starších vepřeckých matrikách před rokem 1825.
 - **První sňatek Rozálie s Janem Jindřichem** a jejich děti.
 - **Sňatek Jana Kulicha s Annou Pochmanovou** (asi 1869–1870) a s **Annou ze Zlosyně** (po roce 1883).
-- **Souvisí s námi legionář Antonín Kulich z Dolína u Slaného?** Jeho křest jsme našli: narodil se 27. 10. 1888 v Dolíně čp. 66 jako syn horníka Antonína Kulicha a vnuk Františka Kulicha, dělníka z Libovic. Spojení s Kulichy z Nové Vsi zatím doložené není – další stopou je původ Františka z Libovic.
+- **Je legionář Antonín Kulich z Dolína náš příbuzný?** Jeho pradědeček Václav Kulich (* asi 1782), zedník, přišel do Dolína z **Hobšovic** – ze stejné vsi, odkud pocházel náš Matěj. Obě větve tak nejspíš vycházejí ze selského rodu Kulichů z Hobšovic čp. 8. Chybí poslední článek: křest Václava v Hobšovicích.

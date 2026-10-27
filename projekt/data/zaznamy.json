@@ -626,5 +626,55 @@
     "nazev": "Křest Antonína Kulicha, pozdějšího legionáře (Dolín)",
     "shrnuti": "Dolín čp. 66 (fara Zlonice), narozen 27. 10. 1888, pokřtěn 28. 10. 1888 kaplanem Antonínem Šindelářem: Antonín, katolík, manželský. Otec Antonín Kulich, katolík, horník v Dolíně čp. 66, manželský syn Františka Kulicha, dělníka z Libovic, a Alžběty roz. Neumannové z Luníkova čp. 32. Matka Anna Tillerová (?), katolička, manželská dcera Václava Tillera, pastýře ze Stehelčevsi (?), a Nepomuceny roz. Tesařové (?) z … čp. 32. Kmotra Marie Pokorná, manželka Františka Pokorného, rolníka z Dolína; porodní bába Rosalie Neumannová z Dolína, zkoušená. Přípis: 14. 2. 1921 prohlásil vystoupení z církve (bez vyznání) u okresní správy politické v Mostě, č. 27491. Datum i místo narození se shodují s legionářem Antonínem Kulichem (databáze ČsOL). Vazba na naše Kulichy z Nové Vsi u Kralup zatím nedoložena.",
     "odkaz": "https://ebadatelna.soapraha.cz/d/9370/115"
+  },
+  {
+    "klic": "libovice_krest_antonin_kulich_1850",
+    "svazek": "soapraha_turany_04",
+    "snimek": 33,
+    "druh": "N",
+    "datum": "27. 6. 1850",
+    "nazev": "Křest Antonína Kulicha, otce legionáře (Libovice)",
+    "shrnuti": "Libovice (fara Tuřany), narozen 27. 6. 1850, pokřtěn 28. 6. lokalistou Václavem Moestlem: Antonín, katolík, manželský. Otec František Kulich, nádeník v Libovicích, syn † Václava Kulicha, zedníka v Tuřanech, a Anny roz. Novákové z Dolína čp. 37. Matka Alžběta, dcera † Antonína Neumanna, mistra kovářského v Luníkově čp. 7, a † Anny. Bydliště uvedeno „Cech sv. Alberta“ (?). Porodní bába Marie Kalousová z Jedomělic. Index fary (Tuřany 16) uvádí v Libovicích ještě Alžbětu Kulichovou (asi 1847–1849, s. 21) a Vojtěcha Kulicha (1852, s. 44). Otec legionáře Antonína (* 1888 Dolín).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/11624/33"
+  },
+  {
+    "klic": "zelevcice_oddavky_vaclav_kulich_anna_novakova_1806",
+    "svazek": "soapraha_zlonice_20",
+    "snimek": 40,
+    "druh": "O",
+    "datum": "11. 11. 1806",
+    "nazev": "Sňatek Václava Kulicha a Anny Novákové (Želevčice)",
+    "shrnuti": "Želevčice čp. 5 (fara Zlonice), oddáni 11. 11. 1806: Václav Kulich, zedník z Hobšovic (?), katolík, 24 let, svobodný × Anna, dcera Matěje Nováka, podruha (?) z Dolína, 20 let, svobodná. Svědkové František … a … z Dolína / ze Zlonic; oddával kaplan P. Josef …. Rodiče ženicha zápis neuvádí. Václav (* asi 1782) je pradědeček legionáře Antonína Kulicha (* 1888). Vazba na Kulichy z Ouholic (Matěj, Josef * asi 1785) zatím nedoložena – Václav přichází z jiné vsi.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/9357/40"
+  },
+  {
+    "klic": "ouholice_krest_josef_anna_kulich_1783",
+    "svazek": "soapraha_veprek_04",
+    "snimek": 296,
+    "druh": "N",
+    "datum": "18. 2. 1783",
+    "nazev": "Křest dvojčat Josefa a Anny Kulichových (Ouholice)",
+    "shrnuti": "Fara Vepřek, 18. 2. 1783 (latinsky), křtil P. František Blaha, farář: dvojčata Josephus a Anna. Rodiče Matěj Kulich, chalupník (casarius) z Ouholic, a manželka Kateřina, poddaní panství „Jeniovessense“ (nejspíš Nelahozeves). Kmotři Josef Křížek, chalupník, a Dorota Danzová (?) z Dušník, svědkové Jiří Plička, chalupník z Vepřku, a Anna Černá, chalupnice z Ouholic. Pravděpodobně křest našeho Josefa Kulicha (při sňatku 1833 uvedeno 48 let, to odpovídá spíš roku 1784–85; starší bratr Josef * 1781 asi zemřel, protože jméno bylo dáno znovu).",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/13613/296"
+  },
+  {
+    "klic": "ouholice_krest_josef_kulich_1781",
+    "svazek": "soapraha_veprek_04",
+    "snimek": 285,
+    "druh": "N",
+    "datum": "8. 7. 1781",
+    "nazev": "Křest Josefa Kulicha (Ouholice, 1781)",
+    "shrnuti": "Fara Vepřek, 8. 7. 1781, křtil kaplan Vojtěch Svoboda: Josephus. Rodiče Matěj Kulich, chalupník z Ouholic, a Kateřina, poddaní panství …. Kmotr Josef Křížek (?), svědci Václav … a Anna Czerna z Ouholic. Starší Josef; protože v únoru 1783 dostal jméno Josef znovu jeden z dvojčat, tento Josef nejspíš zemřel jako dítě – úmrtí zatím neověřeno.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/13613/285"
+  },
+  {
+    "klic": "ouholice_oddavky_matej_kulich_katerina_jakoubkova_1773",
+    "svazek": "soapraha_veprek_04",
+    "snimek": 399,
+    "druh": "O",
+    "datum": "12. 1. 1773",
+    "nazev": "Sňatek Matěje Kulicha a Kateřiny Jakoubkové (Ouholice)",
+    "shrnuti": "Fara Vepřek, oddáni 12. 1. 1773 (latinsky), oddával P. František Blaha, farář, místo Ouholice: Matěj Kulich, poctivý (svobodný) ženich, syn Jiřího Kulicha, sedláka (rusticus) z Hobšovic čp. 8 × poctivá panna Kateřina, dcera Václava Jakoubka, chalupníka z Ouholic; oba poddaní panství „Jeniovessense“ (nejspíš Nelahozeves). Svědkové Josef Hartman z Brzkovic (?), Matěj Hořejší ze Skur (?) a Anna Krabcová z Ouholic. Matěj tedy přišel do Ouholic z Hobšovic u Slaného – ze stejné vsi jako Václav Kulich (* asi 1782), pradědeček legionáře Antonína Kulicha z Dolína.",
+    "odkaz": "https://ebadatelna.soapraha.cz/d/13613/399"
   }
 ]

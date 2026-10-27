@@ -742,5 +742,65 @@
     ],
     "status": "ok",
     "note": "celý řádek zápisu"
+  },
+  "libovice_krest_antonin_kulich_1850": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
+  },
+  "zelevcice_oddavky_vaclav_kulich_anna_novakova_1806": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
+  },
+  "ouholice_krest_josef_anna_kulich_1783": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
+  },
+  "ouholice_krest_josef_kulich_1781": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
+  },
+  "ouholice_oddavky_matej_kulich_katerina_jakoubkova_1773": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
   }
 }

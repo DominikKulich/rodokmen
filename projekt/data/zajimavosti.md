@@ -10,7 +10,7 @@ Františkův 1. střelecký pluk bojoval u Zborova a později chránil Transsibi
 
 
 ## Dva vdovci v jednom domě
-[Josef Kulich](/osoba/josef-kulich-1785/), domkář z Ouholic, a [Rozálie](/osoba/rozalie-jatlova-1799/), vdova po Janu Jindřichovi z Nové Vsi čp. 32, se vzali 15. ledna 1833 ve Vepřku – oba ovdovělí, on osmačtyřicetiletý. Zápis rozluštil, proč ledčické matriky píšou Rozálii „rozená Jindřichová“: šlo o jméno po prvním muži, rodem byla Jatlová (?). [Celý příběh Kulichů](/pribehy/).
+[Josef Kulich](/osoba/josef-kulich-1783/), domkář z Ouholic, a [Rozálie](/osoba/rozalie-jatlova-1799/), vdova po Janu Jindřichovi z Nové Vsi čp. 32, se vzali 15. ledna 1833 ve Vepřku – oba ovdovělí, on osmačtyřicetiletý. Zápis rozluštil, proč ledčické matriky píšou Rozálii „rozená Jindřichová“: šlo o jméno po prvním muži, rodem byla Jatlová (?). [Celý příběh Kulichů](/pribehy/).
 
 ## Jeden dům, dvě generace
 V Nové Vsi čp. 32 se 6. listopadu 1839 narodil [Jan Kulich](/osoba/jan-kulich-1839/) a v témž domě o 38 let později, 7. března 1877, zemřela jeho matka Rozálie. Jan mezitím odešel do Ledčic, kde založil kulichovský dům čp. 85.
@@ -20,6 +20,9 @@ Při sčítání 1921 žila u pradědy [Václava (* 1900)](/osoba/vaclav-kulich-
 
 ## Svatba pět měsíců před narozením
 [Václav Kulich (* 1877)](/osoba/vaclav-kulich-1877/) se oženil s [Julií Koubovou](/osoba/julie-koubova-1878/) 11. června 1900 v Černoučku. Jejich syn Václav, Dominikův praděda, se narodil 2. listopadu téhož roku.
+
+## Z Hobšovic do Ouholic – a do Dolína
+Matěj Kulich, syn sedláka Jiřího z Hobšovic čp. 8 u Slaného, se roku 1773 přiženil do Ouholic u Kralup. O třicet let později přišel z Hobšovic do Dolína zedník Václav Kulich – pradědeček legionáře Antonína Kulicha. Obě rodiny Kulichů tak nejspíš mají společné kořeny v jednom selském statku. [Příběh Kulichů](/pribehy/).
 
 <!-- Každá zajímavost: ## nadpis, pak pár vět. Odkazy na osoby: [Jan Novák](/osoba/jan-novak-1850/) – adresa je v web/src/data/site.json. -->
 
