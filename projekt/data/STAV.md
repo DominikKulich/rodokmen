@@ -105,3 +105,4 @@ Rešerše viz ../KULICH_VALKA_PISAR_2026-10-26.md. OCR ztrátových seznamů: 10
 
 ### 26. 10. 2026 – všech 26 zveřejněných ledčických kronik
 Viz ../LEDCICE_KRONIKY_2026-10-26.md. Kulich: jen1981 a1987. Starosta1940 Václav Tošnar čp94, vazba ke Koubovým neprokázána. Anna Víšková evidována v SIDE u8; P9 parent_link=prob, mateřství dědy neznámé. Nová stopa přepisu Sázené: 1.IV. Anna Víšková114 × Václav Kulich Ledčice, rok/originál ještě ověřit.
+- Kulichové – 27. 10. 2026: rozpracováno procházení úmrtí Slaný 18 (Z 1771–1784): úmrtí začínají kolem sn. 55–60 (1772 březen = sn. 60, prosinec = sn. 75), 1784 kolem sn. 144. Hledat Jiřího Kulicha / Kateřinu / Magdalenu, Hobšovice. Staženo zatím sn. 60, 70, 75, 80, 145.

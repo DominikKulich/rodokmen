@@ -802,5 +802,65 @@
     ],
     "status": "ok",
     "note": "celý zápis"
+  },
+  "hobsovice_krest_matej_kulich_1752": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
+  },
+  "hobsovice_krest_vaclav_kulich_1783": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
+  },
+  "slany_oddavky_matej_kulich_katerina_jakoubkova_1773": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
+  },
+  "hobsovice_krest_antonin_vit_kulich_1758": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
+  },
+  "hobsovice_krest_vaclav_kulich_1775": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý zápis"
   }
 }

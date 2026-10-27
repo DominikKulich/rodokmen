@@ -278,5 +278,26 @@
     "svazek": "Vepřek 04 – N 1748–1792, O 1748–1777, Z 1748–1768 (celá fara, latinsky)",
     "popis": "Strana = číslo v indexu Vepřek 36 (sloupec list); 1781 s. 562–563 = sn. 285, 1783 s. 584–585 = sn. 296.",
     "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/13613"
+  },
+  "soapraha_slany_06": {
+    "archiv": "SOA Praha – Sbírka matrik (fara Slaný)",
+    "portal": "eBadatelna SOA Praha (vyžaduje přihlášení)",
+    "svazek": "Slaný 06 – N, O, Z 1746–1770 (Slaný a okolí vč. Hobšovic)",
+    "popis": "Index je kniha Slaný 33 (Elenchus baptizatorum 1746–1792), sloupec = svazek a list.",
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/12029"
+  },
+  "soapraha_slany_07": {
+    "archiv": "SOA Praha – Sbírka matrik (fara Slaný)",
+    "portal": "eBadatelna SOA Praha (vyžaduje přihlášení)",
+    "svazek": "Slaný 07 – N 1771–1784",
+    "popis": "List 158 = sn. 160.",
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/12028"
+  },
+  "soapraha_slany_18": {
+    "archiv": "SOA Praha – Sbírka matrik (fara Slaný)",
+    "portal": "eBadatelna SOA Praha (vyžaduje přihlášení)",
+    "svazek": "Slaný 18 – O 1771–1784, Z 1771–1784",
+    "popis": "Oddaní od sn. 3 (1771), rok 1775 ≈ sn. 20; zemřelí kolem sn. 80.",
+    "url": "https://ebadatelna.soapraha.cz/pages/MatrikaPage/matrikaId/12025"
   }
 }
