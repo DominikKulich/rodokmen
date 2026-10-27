@@ -5,12 +5,12 @@ import { people, places, recordList, href } from '../lib/data.js';
 const idx = [
   ...Object.values(people).map((p) => ({ t: p.name, s: [p.years, p.rel, ...(p.facts || []), p.note || '', ...(p.side || []).map((x) => x.name + ' ' + x.text)].join(' · '), u: href.person(p.slug), k: 'osoba' })),
   ...places.map((pl) => ({ t: pl.name, s: 'obec', u: href.place(pl.name), k: 'obec' })),
-  ...recordList.map((r) => ({ t: r.title, s: [r.date, r.summary, r.cs || ''].join(' · '), u: href.record(r.key), k: 'zápis' })),
+  ...recordList.map((r) => ({ t: r.title, s: [r.date, r.summary, r.cs || '', r.orig && r.orig !== r.cs ? r.orig : ''].join(' · '), u: href.record(r.key), k: 'zápis' })),
 ];
 ---
 <Base title="Hledat">
   <h1>Hledat</h1>
-  <p class="lead">Jména, obce, čísla domů, povolání, roky.</p>
+  <p class="lead">Jména, obce, čísla domů, povolání, roky – hledá i v plných přepisech zápisů (kmotři, svědci, porodní báby).</p>
   <input id="q" type="search" placeholder="Hledat jméno, obec, rok…" autocomplete="off" />
   <ol id="res" class="res"></ol>
   <script is:inline define:vars={{ idx }}>

@@ -1,0 +1,82 @@
+---
+import Base from '../layouts/Base.astro';
+import { people, root, href } from '../lib/data.js';
+// Kekulého čísla: otec = 2k, matka = 2k+1. Z toho se dá spočítat vztah libovolných dvou předků.
+const list = Object.values(people)
+  .map((p) => ({ k: p.k, n: p.name, y: p.years || '', s: p.sex || '', u: href.person(p.slug), side: (p.side || []).map((x) => ({ n: x.name, t: x.text })) }))
+  .sort((a, b) => a.k - b.k);
+---
+<Base title="Jak jsme příbuzní">
+  <h1>Jak jsme příbuzní?</h1>
+  <p class="lead">Vyberte dvě osoby z rodokmenu – ukážu, jak jsou spolu spřízněné a přes koho. Když druhou osobu nevyberete, ukáže se cesta ode mě.</p>
+  <div class="pick card">
+    <label>První osoba <select id="a"></select></label>
+    <label>Druhá osoba <select id="b"><option value="">— já ({root.name}) —</option></select></label>
+  </div>
+  <div id="out" class="card out" aria-live="polite"></div>
+  <section class="card">
+    <h2>Kulichové z Dolína</h2>
+    <p>Legionář <strong>Antonín Kulich</strong> (* 1888 Dolín) není přímým předkem, a proto v seznamu není. Jeho pradědeček Václav (* 1783) a můj předek Matěj (* 1752) se narodili v Hobšovicích jako synové Jiřího Kulicha. Velmi pravděpodobně jsme tedy vzdálení bratranci – <a href="/pribehy/">podrobnosti v příběhu Kulichů</a>.</p>
+  </section>
+  <script is:inline define:vars={{ list, rootK: root.k }}>
+    const byK = Object.fromEntries(list.map((p) => [p.k, p]));
+    const base = document.querySelector('a.brand')?.getAttribute('href') || '/';
+    const fix = (u) => (base === '/' ? u : base.replace(/index\.html$/, '') + u.replace(/^\//, '') + 'index.html');
+    const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+    const gen = (k) => Math.floor(Math.log2(k));
+    const anc = (g, male) => g === 0 ? 'sám' : g === 1 ? (male ? 'otec' : 'matka') : 'pra'.repeat(Math.max(0, g - 2)) + (male ? 'dědeček' : 'babička');
+    const link = (p) => `<a href="${fix(p.u)}">${esc(p.n)}</a>${p.y ? ` <span class="muted small">${esc(p.y)}</span>` : ''}`;
+    function chain(from, to) { // from je potomek, to předek
+      const out = []; let k = to;
+      while (k >= from) { if (byK[k]) out.push(byK[k]); if (k === from) break; k = Math.floor(k / 2); }
+      return out.reverse();
+    }
+    function chainHtml(ps) { return '<ol class="chain">' + ps.map((p) => `<li>${link(p)}</li>`).join('') + '</ol>'; }
+    const sel = (id) => document.getElementById(id);
+    for (const id of ['a', 'b']) for (const p of list) { if (p.k === rootK && id === 'b') continue; const o = document.createElement('option'); o.value = p.k; o.textContent = `${p.n}${p.y ? ' (' + p.y + ')' : ''}`; sel(id).appendChild(o); }
+    function run() {
+      const a = +sel('a').value, b = +(sel('b').value || rootK);
+      const A = byK[a], B = byK[b];
+      if (!A || !B) return;
+      let html = '';
+      if (a === b) html = '<p>Je to tatáž osoba.</p>';
+      else {
+        const [lo, hi] = a < b ? [a, b] : [b, a];
+        const d = gen(hi) - gen(lo);
+        if (hi >> d === lo) { // přímá linie
+          const P = byK[hi], D = byK[lo];
+          html = `<p><strong>${esc(P.n)}</strong> je ${anc(d, P.s !== 'F')} ${d > 1 ? 'osoby' : 'osoby'} <strong>${esc(D.n)}</strong> (o ${d} ${d === 1 ? 'generaci' : d < 5 ? 'generace' : 'generací'} výš).</p>` + chainHtml(chain(lo, hi));
+        } else {
+          let x = a, y = b; while (gen(x) > gen(y)) x = Math.floor(x / 2); while (gen(y) > gen(x)) y = Math.floor(y / 2);
+          while (Math.floor(x / 2) !== Math.floor(y / 2)) { x = Math.floor(x / 2); y = Math.floor(y / 2); }
+          const c = Math.floor(x / 2), C = byK[c];
+          const da = gen(a) - gen(c), db = gen(b) - gen(c);
+          if (da === 1 && db === 1) html = `<p><strong>${esc(A.n)}</strong> a <strong>${esc(B.n)}</strong> jsou <strong>manželé</strong> – rodiče osoby ${link(C)}.</p>`;
+          else {
+            const side = (k) => (Math.floor(k / Math.pow(2, gen(k) - gen(c) - 1)) % 2 ? 'po matce' : 'po otci');
+            html = `<p>Nejsou pokrevně spříznění mezi sebou – spojuje je společný potomek ${link(C)}: <strong>${esc(A.n)}</strong> je ${C.s === 'F' ? 'její' : 'jeho'} ${anc(da, A.s !== 'F')} ${side(a)}, <strong>${esc(B.n)}</strong> ${anc(db, B.s !== 'F')} ${side(b)}.</p>`
+              + `<div class="two"><div>${chainHtml(chain(c, a))}</div><div>${chainHtml(chain(c, b))}</div></div>`;
+          }
+        }
+        const sib = A.side.length ? `<p class="small muted">Sourozenci a příbuzní osoby ${esc(A.n)}: ${A.side.map((s) => esc(s.n)).join(', ')}.</p>` : '';
+        html += sib;
+      }
+      sel('out').innerHTML = html;
+      try { history.replaceState(null, '', `#${a}-${sel('b').value || ''}`); } catch (e) {}
+    }
+    sel('a').addEventListener('change', run); sel('b').addEventListener('change', run);
+    const h = location.hash.slice(1).split('-'); if (h[0] && byK[+h[0]]) sel('a').value = h[0]; else sel('a').value = String(list.find((p) => p.k > 100)?.k || list[1].k);
+    if (h[1] && byK[+h[1]]) sel('b').value = h[1];
+    run();
+  </script>
+</Base>
+<style>
+  .pick { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1rem; }
+  .pick label { display: grid; gap: .3rem; font-weight: 600; }
+  .pick select { font: inherit; padding: .5rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); }
+  .out { margin: 1rem 0; min-height: 4rem; }
+  .out :global(.chain) { margin: .4rem 0; padding-left: 1.4rem; }
+  .out :global(.chain li) { margin: .15rem 0; }
+  .out :global(.two) { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+  @media (max-width: 600px) { .out :global(.two) { grid-template-columns: 1fr; } }
+</style>

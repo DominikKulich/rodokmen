@@ -1,0 +1,38 @@
+---
+import Base from '../layouts/Base.astro';
+import { people, recordList, href, dateKey } from '../lib/data.js';
+import { housesIn, houseKey, houseSlug } from '../lib/zivot.js';
+// Domy (obec + číslo popisné) zmíněné na kartách osob a v zápisech.
+const H = new Map();
+const add = (h, kind, item, year) => { const k = houseKey(h); if (!H.has(k)) H.set(k, { h, people: new Map(), recs: new Map() }); const e = H.get(k); (kind === 'p' ? e.people : e.recs).set(item.key || item.slug, { item, year }); };
+for (const p of Object.values(people)) for (const f of [...(p.facts || []), p.note || '']) for (const h of housesIn(f)) add(h, 'p', p, (f.match(/\d{4}/) || [''])[0]);
+for (const r of recordList) for (const h of housesIn([r.cs || r.summary || ''].join(' '))) add(h, 'r', r, (r.date.match(/\d{4}/) || [''])[0]);
+const houses = [...H.values()].filter((e) => e.people.size + e.recs.size >= 1)
+  .map((e) => ({ ...e, score: e.people.size * 2 + e.recs.size }))
+  .sort((a, b) => a.h.place.localeCompare(b.h.place, 'cs') || +a.h.no - +b.h.no);
+const top = [...houses].sort((a, b) => b.score - a.score).slice(0, 6);
+---
+<Base title="Domy předků">
+  <h1>Domy našich předků</h1>
+  <p class="lead">Čísla popisná, která se objevují v zápisech a na kartách – kdo v domě žil a které zápisy ho zmiňují. Některé domy rodina držela po generace, jako Kulichové v Ledčicích čp. 85.</p>
+  <p class="small">Nejčastěji zmiňované: {top.map((e, i) => <>{i > 0 && ' · '}<a href={`#${houseSlug(e.h)}`}>{houseKey(e.h)}</a></>)}</p>
+  <div class="domy">
+    {houses.map((e) => (
+      <article class="card dum" id={houseSlug(e.h)}>
+        <h2>{e.h.place} <span class="cp">čp. {e.h.no}</span></h2>
+        {e.people.size > 0 && <><h3>Osoby</h3><ul>{[...e.people.values()].map(({ item }) => <li><a href={href.person(item.slug)}>{item.name}</a> <span class="small muted">{item.years}</span></li>)}</ul></>}
+        {e.recs.size > 0 && <><h3>Zápisy</h3><ul>{[...e.recs.values()].sort((a, b) => dateKey(a.item.date) - dateKey(b.item.date)).map(({ item }) => <li><a href={href.record(item.key)}>{item.title}</a> <span class="small muted">{item.date}</span></li>)}</ul></>}
+      </article>
+    ))}
+  </div>
+  <p class="small muted">Dům se přiřazuje podle textu „obec … čp. N“; u obcí, které nejsou v seznamu míst, se nezobrazí. Čísla domů se v průběhu 19. století v některých obcích přečíslovávala.</p>
+</Base>
+<style>
+  .domy { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: .8rem; }
+  .dum { scroll-margin-top: 6rem; }
+  .dum:target { outline: 3px solid var(--gold, #c9a13a); }
+  .dum h2 { margin: 0 0 .4rem; font-size: 1.2rem; }
+  .dum .cp { color: var(--accent); }
+  .dum h3 { margin: .6rem 0 .2rem; font-size: .8rem; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
+  .dum ul { margin: 0; padding-left: 1.1rem; font-size: .92rem; }
+</style>

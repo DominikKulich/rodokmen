@@ -6,6 +6,8 @@ import Pedigree from '../../components/Pedigree.astro';
 import MobileTree from '../../components/MobileTree.astro';
 import { people, families, lineByK, records, dateKey, href, statusClass, config } from '../../lib/data.js';
 import { povolaniV, vlastniFakta } from '../../lib/povolani.js';
+import { birth, death } from '../../lib/zivot.js';
+import { udalostiZivota } from '../../lib/historie.js';
 
 export function getStaticPaths() {
   return Object.keys(people).map((slug) => ({ params: { slug } }));
@@ -16,6 +18,9 @@ const recs = [...new Set(p.records)].filter((r) => records[r]).sort((a, b) => da
 const path = [...p.path].reverse().filter(Boolean);
 const portrait = p.docs.find(d => /foto|portr/i.test(d.caption));
 const documents = p.docs.filter(d => d !== portrait);
+const b = birth(p), d = death(p);
+const doba = p.k > 1 && b?.y ? udalostiZivota(b.y, d?.y ?? null) : [];
+const on = p.sex === 'F' ? 'jí' : 'mu';
 ---
 <Base title={p.name} description={`${p.name} ${p.years} – ${p.rel}`}>
   <div class="crumbs">
@@ -48,6 +53,13 @@ const documents = p.docs.filter(d => d !== portrait);
       {pv.map((x) => <p class="small"><b>{x.k}</b> – {x.text} <a href={`/statistiky/#pov-${x.k}`}>další v rodu →</a></p>)}
     </details>); })()}
   {p.note && <p class="note">{p.note}</p>}
+  {doba.length > 0 && (
+    <details class="doba" open>
+      <summary>V jaké době {p.sex === 'F' ? 'žila' : 'žil'}</summary>
+      <ol class="doba-list">{doba.map((e) => <li><b>{e.y}</b> <span class="muted small">({e.age === 0 ? 'rok narození' : `${b.asi ? 'asi ' : ''}${e.age} let`})</span> – {e.t}</li>)}</ol>
+      <p class="small muted">Obecné dějiny českých zemí; zda se {p.sex === 'F' ? 'jí' : 'ho'} událost přímo týkala, zápisy neříkají.</p>
+    </details>
+  )}
 
   <h2>Rodina</h2>
   <div class="grid2">
@@ -106,4 +118,8 @@ const documents = p.docs.filter(d => d !== portrait);
   .pov-note { background: var(--accent-soft, #eadfbf); border-left: 4px solid var(--gold, #c9a13a); border-radius: 6px; padding: .5rem .9rem; margin: .6rem 0 1rem; max-width: 46rem; }
   .pov-note summary { cursor: pointer; font-weight: 600; color: var(--wood, #1f3a28); }
   .pov-note p { margin: .4rem 0; }
+  .doba { border-left: 4px solid var(--accent, #8a6d52); background: var(--paper); border-radius: 6px; padding: .5rem .9rem; margin: .6rem 0 1rem; max-width: 46rem; }
+  .doba summary { cursor: pointer; font-weight: 600; }
+  .doba-list { margin: .4rem 0; padding-left: 1.2rem; }
+  .doba-list li { margin: .2rem 0; }
 </style>

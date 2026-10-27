@@ -1,6 +1,7 @@
 
 ---
 import { byK, href, config, records } from '../lib/data.js';
+import { povolaniV, vlastniFakta } from '../lib/povolani.js';
 // Rok zmínky se nikdy nevydává za datum narození ani důkaz, že osoba tehdy žila.
 function timeLabel(p) {
   if (p.years) return p.years;
@@ -11,6 +12,24 @@ function timeLabel(p) {
   return dates.length ? `zmínka ${dates[0]}${dates.length > 1 ? '–' + dates[dates.length-1] : ''}` : 'doba zatím neurčena';
 }
 const DAMASK = `<path transform="translate(80.0,80.0) rotate(0) scale(1.0)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(90) scale(1.0)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(180) scale(1.0)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(270) scale(1.0)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(45) scale(0.55)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(135) scale(0.55)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(225) scale(0.55)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(80.0,80.0) rotate(315) scale(0.55)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="80.0" cy="80.0" r="3.2"/><path transform="translate(0,0) rotate(0) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(90) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(180) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(270) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(45) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(135) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(225) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,0) rotate(315) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="0" cy="0" r="1.984"/><path transform="translate(0,160) rotate(0) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(90) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(180) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(270) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(45) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(135) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(225) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(0,160) rotate(315) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="0" cy="160" r="1.984"/><path transform="translate(160,0) rotate(0) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(90) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(180) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(270) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(45) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(135) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(225) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,0) rotate(315) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="160" cy="0" r="1.984"/><path transform="translate(160,160) rotate(0) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(90) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(180) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(270) scale(0.62)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(45) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(135) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(225) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><path transform="translate(160,160) rotate(315) scale(0.341)" d="M0,0 C7,-9 8,-24 0,-34 C-8,-24 -7,-9 0,0Z"/><circle cx="160" cy="160" r="1.984"/><g transform="translate(110.0,50.0) rotate(-45) scale(0.9)"><path d="M0,0 C10,-6 18,-2 22,6 C25,13 20,19 14,17" fill="none" stroke-width="1.6"/><path d="M8,-3 C10,-12 18,-14 22,-10 C18,-6 13,-3 8,-3Z"/><path d="M19,3 C27,1 32,6 31,11 C26,10 22,8 19,3Z"/></g><g transform="translate(110.0,110.0) rotate(45) scale(0.9)"><path d="M0,0 C10,-6 18,-2 22,6 C25,13 20,19 14,17" fill="none" stroke-width="1.6"/><path d="M8,-3 C10,-12 18,-14 22,-10 C18,-6 13,-3 8,-3Z"/><path d="M19,3 C27,1 32,6 31,11 C26,10 22,8 19,3Z"/></g><g transform="translate(50.0,110.0) rotate(135) scale(0.9)"><path d="M0,0 C10,-6 18,-2 22,6 C25,13 20,19 14,17" fill="none" stroke-width="1.6"/><path d="M8,-3 C10,-12 18,-14 22,-10 C18,-6 13,-3 8,-3Z"/><path d="M19,3 C27,1 32,6 31,11 C26,10 22,8 19,3Z"/></g><g transform="translate(50.0,50.0) rotate(225) scale(0.9)"><path d="M0,0 C10,-6 18,-2 22,6 C25,13 20,19 14,17" fill="none" stroke-width="1.6"/><path d="M8,-3 C10,-12 18,-14 22,-10 C18,-6 13,-3 8,-3Z"/><path d="M19,3 C27,1 32,6 31,11 C26,10 22,8 19,3Z"/></g>`;
+// Doplňkové údaje pro přepínače ve stromu: místo narození a povolání z faktů osoby.
+const short = (t, max = 30) => (t.length > max ? t.slice(0, max - 1).trimEnd() + '…' : t);
+function birthPlace(p) {
+  const f = (p.facts || []).find((x) => /^\s*\*/.test(x));
+  if (!f) return '';
+  let t = f.replace(/^\s*\*\s*/, '').replace(/^(asi|kolem|cca)\s+/i, '');
+  t = t.replace(/^[\d.\s\/–-]+/, '').replace(/^\(.*?\)\s*/, '');
+  t = t.split(/[(;,]/)[0].replace(/\s*čp\.\s*\d+.*$/, '').replace(/\s+(okr|fara|pokřt).*$/i, '').trim();
+  return /^[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ]/.test(t) ? short(t, 26) : '';
+}
+function occupation(p) {
+  const own = vlastniFakta(p.facts || []).map((x) => x.trim())
+    .filter((x) => /^[a-zá-ž]/.test(x) && !/^(roku|křest|bydlišt|pozděj|ze? |uměla?|manžel|katol|domovsk|podle|žila?\b|otec|matka|kmotr|kolem|od |děti|dcera|syn|vdov|svobodn|pokřt|narozen)/i.test(x));
+  const first = own[0] ? own[0].split(/\s(?:v|ve|na|u|z|ze|do|od|u\.)\s|[;(]/)[0].replace(/,\s*$/, '').trim() : '';
+  if (first) return short(first, 28);
+  const hit = povolaniV(vlastniFakta(p.facts || []).join(' ')).map((x) => x.k);
+  return hit.length ? short(hit.slice(0, 2).join(', '), 28) : '';
+}
 const nodes = [];
 function branch(k, g = 0) {
   const p = byK[k];
@@ -25,10 +44,11 @@ function branch(k, g = 0) {
 const root = branch(1);
 const baseW = Math.max(1600, root.span * 182 + 160);
 const W = baseW;
-const H = Math.max(...nodes.map(n => n.g)) * 190 + 360;
+const STEP = 230;
+const H = Math.max(...nodes.map(n => n.g)) * STEP + 400;
 function place(n, left) {
   n.x = left + n.span * 91;
-  n.y = H - 200 - n.g * 190;
+  n.y = H - 210 - n.g * STEP;
   let next = left + (n.span - n.children.reduce((s,c) => s+c.span,0)) * 91;
   for (const c of n.children) { place(c, next); next += c.span * 182; }
 }
@@ -38,8 +58,8 @@ const commonFather = nodes.find(n => n.k === 48);
 const familyY = commonFather.y;
 const legionX = commonFather.x;
 const lateral = [
-  {id:'legion-father',x:legionX,y:familyY+190,name:'František Polák',years:'* 18. 10. 1860',sex:'M',url:'/legionar/#rodice',seed:901},
-  {id:'legionnaire',x:legionX,y:familyY+380,name:'František Polák',years:'* 4. 7. 1890',sex:'M',url:'/legionar/',seed:905,legionnaire:true},
+  {id:'legion-father',x:legionX,y:familyY+STEP,name:'František Polák',years:'* 18. 10. 1860',sex:'M',url:'/legionar/#rodice',seed:901},
+  {id:'legionnaire',x:legionX,y:familyY+2*STEP,name:'František Polák',years:'* 4. 7. 1890',sex:'M',url:'/legionar/',seed:905,legionnaire:true},
 ];
 lateral.forEach(p => nodes.push({k:p.id,g:4,x:p.x,y:p.y,span:1,children:[],url:p.url,legionnaire:p.legionnaire,p:{name:p.name,years:p.years,sex:p.sex,artSeed:p.seed,gen:4,st:'doc',records:[],side:[],docs:p.legionnaire?[{img:'frantisek-polak-legionar-foto-2',caption:'Archivní fotografie ČsOL'}]:[]}}));
 const bez = (a,b,c,d,t) => (1-t)**3*a+3*(1-t)**2*t*b+3*(1-t)*t*t*c+t**3*d;
@@ -91,10 +111,15 @@ const focusRegions = [{k:56,label:'Kaštánkovi'},{k:29,label:'Vykutilovi'},{k:1
     width:Math.max(...xs)-Math.min(...xs)+260,height:Math.max(...ys)-Math.min(...ys)+270};
 });
 ---
-<div class="tapestry" id="legionarska-vetev" data-tree data-legion-x={legionX} data-legion-y={familyY+190}>
+<div class="tapestry show-years" id="legionarska-vetev" data-tree data-legion-x={legionX} data-legion-y={familyY+STEP}>
   <div class="tree-tools no-print" role="group" aria-label="Velikost stromu">
     <span>Rodová malba <small>· kolečkem přibližujte, tažením posouvejte; na mobilu dvěma prsty</small></span>
-    <div><button type="button" data-focus-legion>Legionář a otec</button>{focusRegions.map(r=><button type="button" data-focus-branch data-focus-x={r.x} data-focus-y={r.y} data-focus-width={r.width} data-focus-height={r.height}>{r.label}</button>)}<button type="button" data-zoom="out" aria-label="Oddálit">−</button><button type="button" data-zoom="fit">Celý strom</button><button type="button" data-zoom="in" aria-label="Přiblížit">+</button><output data-zoom-level aria-label="Přiblížení stromu">100 %</output></div>
+    <fieldset class="tree-show" aria-label="Co zobrazit u osob"><legend>Zobrazit:</legend>
+      <label><input type="checkbox" data-show="years" checked /> rok</label>
+      <label><input type="checkbox" data-show="place" /> místo narození</label>
+      <label><input type="checkbox" data-show="job" /> povolání</label>
+    </fieldset>
+    <div><button type="button" data-focus-legion>Legionář a otec</button>{focusRegions.map(r=><button type="button" data-focus-branch data-focus-x={r.x} data-focus-y={r.y} data-focus-width={r.width} data-focus-height={r.height}>{r.label}</button>)}<button type="button" data-zoom="out" aria-label="Oddálit">−</button><button type="button" data-zoom="fit">Celý strom</button><button type="button" data-zoom="in" aria-label="Přiblížit">+</button><output data-zoom-level aria-label="Přiblížení stromu">100 %</output><button type="button" data-fullscreen aria-pressed="false">⛶ Celá obrazovka</button></div>
   </div>
   <div class="strom-wrap" tabindex="0" role="region" aria-label="Rodový strom: kolečkem nebo dvěma prsty přibližujte, tažením posouvejte. Klávesami plus a minus změníte přiblížení, nulou zobrazíte celý strom.">
     <svg class="strom" viewBox={`0 0 ${W} ${H}`} xmlns="http://www.w3.org/2000/svg" aria-label={`Rodový strom – ${config.nazev}`}>
@@ -140,7 +165,7 @@ const focusRegions = [{k:56,label:'Kaštánkovi'},{k:29,label:'Vykutilovi'},{k:1
       <g opacity=".75" aria-hidden="true">{foliage.map(l => <use href="#leaf" transform={`translate(${l.x} ${l.y}) rotate(${l.angle}) scale(${l.scale})`}/>)}</g>
       <g fill="none" stroke="url(#paint-bark)" stroke-width="5">
         <path d={`M${legionX} ${familyY+64}C${legionX-5} ${familyY+74} ${legionX+5} ${familyY+82} ${legionX} ${familyY+92}`}/>
-        <path d={`M${legionX} ${familyY+254}C${legionX-5} ${familyY+264} ${legionX+5} ${familyY+272} ${legionX} ${familyY+282}`}/>
+        <path d={`M${legionX} ${familyY+STEP+64}C${legionX-5} ${familyY+STEP+74} ${legionX+5} ${familyY+STEP+82} ${legionX} ${familyY+STEP+92}`}/>
       </g>
       {nodes.map(n => n.p ? <g><a href={n.url || href.person(n.p.slug)} class={`ancestor ${n.p.st}`}>
         <title>{n.p.name} · {status[n.p.st] || 'Neověřeno'}{n.p.parentLink === 'prob' ? ' · Vazba k dítěti nepotvrzena' : ''}{n.p.yearsNote ? ' · '+n.p.yearsNote : ''}</title>
@@ -161,15 +186,17 @@ const focusRegions = [{k:56,label:'Kaštánkovi'},{k:29,label:'Vykutilovi'},{k:1
           <text y="-6" text-anchor="middle" class="person-name" {...fit(n.p.name.split(' ')[0], 150, 11)}>{n.p.name.split(' ')[0]}</text>
           <text y="16" text-anchor="middle" class="person-name surname" {...fit(n.p.name.split(' ').slice(1).join(' '), 152, 11.5)}>{n.p.name.split(' ').slice(1).join(' ')}</text>
           <text y="56" text-anchor="middle" class="person-years">{timeLabel(n.p)}</text>
-          {n.p.st === 'mh' && <text y="76" text-anchor="middle" class="mh-label">MYHERITAGE · NEOVĚŘENO</text>}
-          {n.p.st !== 'mh' && n.p.yearsNote && <text y="76" text-anchor="middle" class="mh-label">ČÁST DAT Z MYHERITAGE</text>}
-          {n.legionnaire && <text y="84" text-anchor="middle" class="person-years">LEGIONÁŘ · RUSKO</text>}
+          {birthPlace(n.p) && <text y="80" text-anchor="middle" class="info-place">⌂ {birthPlace(n.p)}</text>}
+          {occupation(n.p) && <text y="100" text-anchor="middle" class="info-job">⚒ {occupation(n.p)}</text>}
+          {n.p.st === 'mh' && <text y="118" text-anchor="middle" class="mh-label">MYHERITAGE · NEOVĚŘENO</text>}
+          {n.p.st !== 'mh' && n.p.yearsNote && <text y="118" text-anchor="middle" class="mh-label">ČÁST DAT Z MYHERITAGE</text>}
+          {n.legionnaire && <text y="122" text-anchor="middle" class="person-years">LEGIONÁŘ · RUSKO</text>}
           {n.p.st === 'doc' && <circle cx="79" cy="-29" r="5" fill="#d2be88"/>}
         </g>
       </a>
       {(n.p.side || []).length > 0 && <a href={`${href.person(n.p.slug)}#sourozenci`} class="sib-badge">
         <title>{'Sourozenci a příbuzní: ' + n.p.side.map(x => x.name).join(', ')}</title>
-        <g transform={`translate(${n.x},${n.y + 80})`}>
+        <g transform={`translate(${n.x},${n.y + 136})`}>
           <rect x="-66" y="-12" width="132" height="22" rx="11" fill="#16261c" stroke="url(#antique-gold)" stroke-width="1.2"/>
           {n.p.side.slice(0, 5).map((x, i) => <use href="#leaf" transform={`translate(${-56 + i * 4},5) rotate(${-25 + i * 12}) scale(.28)`}/>)}
           <text x="12" y="4" text-anchor="middle" class="sib-text">{sibLabel(n.p.side.length)}</text>
@@ -220,6 +247,17 @@ const focusRegions = [{k:56,label:'Kaštánkovi'},{k:29,label:'Vykutilovi'},{k:1
   .ancestor.mh .nameplate {stroke-dasharray:5 3;}
   .mh-label {fill:#ead5a3;font-size:9px;letter-spacing:.5px;font-family:var(--sans);}
   .strom-legend {font-size:.8rem;color:var(--muted);}
+  .info-place,.info-job { fill:#e6dcbf;font:italic 600 14.5px Georgia,serif;paint-order:stroke;stroke:#0b1510;stroke-width:3.5px;stroke-linejoin:round;display:none; }
+  .info-job { fill:#cfe0bf; }
+  .tapestry.show-place .info-place,.tapestry.show-job .info-job { display:inline; }
+  .tapestry:not(.show-years) .person-years { display:none; }
+  .tree-show { display:flex;gap:.7rem;align-items:center;border:1px solid #766541;padding:.25rem .6rem;margin:0;color:#e0d2ad; }
+  .tree-show legend { float:left;padding:0 .3rem 0 0;font-size:.8rem; }
+  .tree-show label { display:flex;gap:.3rem;align-items:center;cursor:pointer;white-space:nowrap; }
+  .tapestry:fullscreen,.tapestry.tree-fs { display:flex;flex-direction:column;width:100vw;height:100vh;max-width:none;margin:0;box-sizing:border-box; }
+  .tapestry.tree-fs { position:fixed;inset:0;z-index:9999; }
+  .tapestry:fullscreen .strom-wrap,.tapestry.tree-fs .strom-wrap { max-height:none;flex:1;min-height:0; }
+  .tree-tools button[aria-pressed="true"] { background:#354136;color:#fff3c8; }
   @media(max-width:640px) {.strom {min-width:1100px;}.tree-tools {flex-direction:column;align-items:flex-start;gap:.6rem;}}
   @media print {.strom-wrap {max-height:none;overflow:visible}.strom {width:100%!important;min-width:0}}
 </style>

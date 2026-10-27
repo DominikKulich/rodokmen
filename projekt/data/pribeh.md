@@ -1,6 +1,6 @@
 ---
 title: Kulichové – z Hobšovic přes Ouholice do Ledčic
-lead: Devět generací Kulichů po meči – od sedláka Jiřího z Hobšovic po Dominika, v matrikách doložených od roku 1773 – z Hobšovic u Slaného přes Ouholice u Kralup do Ledčic u Roudnice a odtud do Horních Beřkovic.
+lead: Devět generací Kulichů po meči – od sedláka Jiřího z Hobšovic až ke mně, v matrikách doložených od roku 1773 – z Hobšovic u Slaného přes Ouholice u Kralup do Ledčic u Roudnice a odtud do Horních Beřkovic.
 ---
 
 <!-- Příběh rodu Kulichů. Odkazy na osoby: /osoba/<slug>/ podle web/src/data/site.json. Co není doloženo, je výslovně označeno. -->

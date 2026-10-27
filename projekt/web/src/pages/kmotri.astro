@@ -1,0 +1,37 @@
+---
+import Base from '../layouts/Base.astro';
+import { recordList, href, dateKey } from '../lib/data.js';
+// Věty o kmotrech, svědcích, porodních bábách a duchovních vytažené z přepisů zápisů.
+const RE = /(kmotr|kmotra|kmotři|kmotrou|kmotrem|svěd|porodní bába|porodní bábou|křtil|oddával|oddávající|levans|patrin|testes)/i;
+const rows = recordList.map((r) => {
+  const text = [r.cs || r.orig || r.summary || ''].join(' ');
+  const sentences = text.split(/(?<=[.;])\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ])/).filter((s) => RE.test(s));
+  return { r, sentences };
+}).filter((x) => x.sentences.length).sort((a, b) => dateKey(a.r.date) - dateKey(b.r.date));
+const mark = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(RE, (m) => `<mark>${m}</mark>`);
+---
+<Base title="Kmotři a svědci">
+  <h1>Kmotři, svědci a porodní báby</h1>
+  <p class="lead">Kdo stál u křtů a svateb našich předků. Kmotry si rodiny vybíraly z příbuzných a sousedů, takže tu často najdete stopu k dalším příbuzným – třeba kmotr Jan Jindřich vedl k prvnímu manželovi Rozálie Kulichové.</p>
+  <input id="flt" type="search" placeholder="Filtrovat jméno nebo obec…" autocomplete="off" />
+  <ol class="kmotri">
+    {rows.map(({ r, sentences }) => (
+      <li class="card" data-t={(r.title + ' ' + sentences.join(' ')).toLowerCase()}>
+        <p class="eyebrow">{r.date} · {r.kindName}</p>
+        <h3><a href={href.record(r.key)}>{r.title}</a></h3>
+        {sentences.map((s) => <p class="small" set:html={mark(s)} />)}
+      </li>
+    ))}
+  </ol>
+  <script is:inline>
+    const f = document.getElementById('flt'), norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const lis = [...document.querySelectorAll('.kmotri li')].map((li) => [li, norm(li.dataset.t)]);
+    f.addEventListener('input', () => { const q = norm(f.value.trim()); lis.forEach(([li, t]) => { li.hidden = !!q && !t.includes(q); }); });
+  </script>
+</Base>
+<style>
+  #flt { width: 100%; font: inherit; padding: .6rem .9rem; border: 1px solid var(--line); border-radius: var(--radius); background: var(--paper); margin: .5rem 0 1rem; }
+  .kmotri { list-style: none; padding: 0; display: grid; gap: .7rem; }
+  .kmotri h3 { margin: .2rem 0 .4rem; font-size: 1.02rem; }
+  .kmotri :global(mark) { background: #f6dfae; padding: 0 .1em; border-radius: 2px; }
+</style>

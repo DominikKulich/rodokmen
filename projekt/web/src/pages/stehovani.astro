@@ -1,0 +1,87 @@
+---
+import Base from '../layouts/Base.astro';
+import { people, lineByK, lines, places, href } from '../lib/data.js';
+import { MAP, proj, CZ_PATH } from '../lib/czOutline.js';
+import { birth, birthPlace } from '../lib/zivot.js';
+const placeXY = Object.fromEntries(places.map((pl) => [pl.name, proj(pl.lon, pl.lat)]));
+const ROOT = '#8a6d52';
+const lineOf = (p) => (p.line && lineByK[p.line]) || null;
+const pts = Object.values(people).map((p) => {
+  const b = birth(p), pl = birthPlace(p);
+  if (!b?.y || !pl || !placeXY[pl]) return null;
+  const l = lineOf(p);
+  return { s: p.slug, n: p.name, y: b.y, asi: b.asi, pl, x: placeXY[pl][0], yy: placeXY[pl][1], c: l?.color || ROOT, l: l?.name || '', u: href.person(p.slug), f: p.father, m: p.mother };
+}).filter(Boolean).sort((a, b) => a.y - b.y);
+const bySlug = Object.fromEntries(pts.map((p) => [p.s, p]));
+const moves = pts.flatMap((c) => [c.f, c.m].filter((s) => bySlug[s] && bySlug[s].pl !== c.pl).map((s) => ({ from: bySlug[s], to: c })))
+  .map(({ from, to }) => ({ x1: from.x, y1: from.yy, x2: to.x, y2: to.yy, y: to.y, c: to.c, t: `${from.pl} → ${to.pl} (${to.n}, ${to.y})` }));
+const minY = Math.floor(pts[0].y / 10) * 10, maxY = 2000;
+const box = (ps) => { const xs = ps.map((p) => p.x), ys = ps.map((p) => p.yy); const pad = 18; const x0 = Math.min(...xs) - pad, y0 = Math.min(...ys) - pad; let w = Math.max(...xs) - x0 + pad, h = Math.max(...ys) - y0 + pad; const r = MAP.W / MAP.H; if (w / h < r) { const nw = h * r; return [x0 - (nw - w) / 2, y0, nw, h]; } const nh = w / r; return [x0, y0 - (nh - h) / 2, w, nh]; };
+const views = [{ n: 'Celé Česko', b: [0, 0, MAP.W, MAP.H] }, ...Object.values(lines).map((l) => ({ n: l.name, ps: pts.filter((p) => p.l === l.name) })).filter((v) => v.ps.length >= 2).map((v) => ({ n: v.n, b: box(v.ps) }))];
+const placeNames = [...new Set(pts.map((p) => p.pl))].map((n) => ({ n, x: placeXY[n][0], y: placeXY[n][1] }));
+---
+<Base title="Stěhování rodu" wide>
+  <h1>Jak se rod stěhoval</h1>
+  <p class="lead">Posuňte časovou osu nebo pusťte animaci. Tečky jsou místa narození předků, čáry ukazují, kam se další generace narodila jinde než rodiče.</p>
+  <div class="mv-tools">
+    <button type="button" class="btn" id="play">▶ Přehrát</button>
+    <input type="range" id="yr" min={minY} max={maxY} value={maxY} step="1" aria-label="Rok" />
+    <output id="yrOut">{maxY}</output>
+    <span class="views">{views.map((v, i) => <button type="button" class="btn btn-light" data-vb={v.b.map((n) => n.toFixed(1)).join(' ')}>{v.n}</button>)}</span>
+  </div>
+  <div class="mv-wrap">
+    <svg id="mv" viewBox={`0 0 ${MAP.W} ${MAP.H}`} xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Mapa stěhování předků">
+      <defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0 0L10 5L0 10z" fill="#5b4a3a"/></marker></defs>
+      <rect width={MAP.W} height={MAP.H} fill="#f4ecd8"/>
+      <path d={CZ_PATH} fill="#ebe0c4" stroke="#8a6d52" stroke-width="1.2"/>
+      {moves.map((m) => <line class="mv" data-y={m.y} x1={m.x1} y1={m.y1} x2={m.x2} y2={m.y2} stroke={m.c} stroke-width="1.6" marker-end="url(#arr)" opacity=".8"><title>{m.t}</title></line>)}
+      {placeNames.map((p) => <text class="pl" x={p.x + 4} y={p.y - 4}>{p.n}</text>)}
+      {pts.map((p) => <a href={p.u}><circle class="pt" data-y={p.y} cx={p.x} cy={p.yy} r="4" fill={p.c} stroke="#2b2116" stroke-width=".8"><title>{p.n} · * {p.asi ? 'asi ' : ''}{p.y} · {p.pl}</title></circle></a>)}
+    </svg>
+  </div>
+  <p id="now" class="small muted"></p>
+  <h2>Narození podle let</h2>
+  <ol class="mv-list">{pts.map((p) => <li data-y={p.y}><b>{p.asi ? 'asi ' : ''}{p.y}</b> · <span class="dot" style={`background:${p.c}`}></span> <a href={p.u}>{p.n}</a> – {p.pl}</li>)}</ol>
+  <p class="small muted">Místo narození je převzaté z karty osoby; u osob bez známého místa nebo roku se tečka nezobrazuje. Souřadnice obcí jsou přibližné.</p>
+  <script is:inline>
+    const svg = document.getElementById('mv'), yr = document.getElementById('yr'), out = document.getElementById('yrOut'), play = document.getElementById('play'), now = document.getElementById('now');
+    const els = [...svg.querySelectorAll('[data-y]')], items = [...document.querySelectorAll('.mv-list li')];
+    function show(y) {
+      out.value = y; let n = 0;
+      els.forEach((e) => { const on = +e.dataset.y <= y; e.style.display = on ? '' : 'none'; if (on && e.classList.contains('pt')) n++; e.classList.toggle('fresh', on && +e.dataset.y > y - 6); });
+      items.forEach((li) => li.classList.toggle('off', +li.dataset.y > y));
+      now.textContent = `Do roku ${y}: ${n} narozených předků na mapě.`;
+    }
+    yr.addEventListener('input', () => { stop(); show(+yr.value); });
+    let timer = null;
+    function stop() { clearInterval(timer); timer = null; play.textContent = '▶ Přehrát'; }
+    play.addEventListener('click', () => {
+      if (timer) return stop();
+      if (+yr.value >= +yr.max) yr.value = yr.min;
+      play.textContent = '⏸ Zastavit';
+      timer = setInterval(() => { yr.value = +yr.value + 2; show(+yr.value); if (+yr.value >= +yr.max) stop(); }, 120);
+    });
+    document.querySelectorAll('[data-vb]').forEach((b) => b.addEventListener('click', () => {
+      svg.setAttribute('viewBox', b.dataset.vb);
+      const s = +b.dataset.vb.split(' ')[2] / 1000;
+      svg.style.setProperty('--s', s);
+    }));
+    show(+yr.value);
+  </script>
+</Base>
+<style>
+  .mv-tools { display: flex; flex-wrap: wrap; gap: .6rem; align-items: center; margin: .8rem 0; }
+  .mv-tools input[type=range] { flex: 1 1 260px; }
+  .mv-tools output { font: 600 1.4rem var(--serif); min-width: 3.5em; font-variant-numeric: tabular-nums; }
+  .views { display: flex; flex-wrap: wrap; gap: .3rem; }
+  .views .btn { padding: .3rem .6rem; font-size: .85rem; }
+  .mv-wrap { border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; background: #f4ecd8; }
+  #mv { display: block; width: 100%; height: auto; --s: 1; }
+  #mv .pt { r: calc(4px * var(--s) + 1px); stroke-width: calc(.8px * var(--s)); transition: r .3s; }
+  #mv .pt.fresh { r: calc(7px * var(--s) + 1px); }
+  #mv .mv { stroke-width: calc(1.6px * var(--s)); }
+  #mv .pl { font: calc(11px * var(--s)) Georgia, serif; fill: #3b2f22; paint-order: stroke; stroke: #f4ecd8; stroke-width: calc(3px * var(--s)); pointer-events: none; }
+  .mv-list { columns: 2 22rem; padding-left: 1.2rem; font-size: .92rem; }
+  .mv-list li.off { opacity: .3; }
+  .mv-list .dot { display: inline-block; width: .7em; height: .7em; border-radius: 50%; vertical-align: middle; }
+</style>

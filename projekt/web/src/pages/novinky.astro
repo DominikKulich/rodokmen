@@ -3,9 +3,21 @@ import Base from '../layouts/Base.astro';
 import { myheritageAudit as audit, byK, href } from '../lib/data.js';
 ---
 <Base title="Novinky v rodokmenu">
-  <p class="eyebrow">Listy rodinné kroniky · {audit.date}</p>
+  <p class="eyebrow">Listy rodinné kroniky · 27. 10. 2026</p>
   <h1>Novinky v rodokmenu</h1>
   <p class="lead">Nové tváře, rozšířené větve a doklady, které pomáhají rozlišit příběh od domněnky.</p>
+  <section aria-labelledby="kulichove-2026-10">
+    <h2 id="kulichove-2026-10">Kulichové: devět generací až do Hobšovic u Slaného</h2>
+    <p>Tátovu linii jsem v matrikách dohledal od pradědy Václava (* 1900) z Ledčic čp. 85 až ke <strong>Jiřímu Kulichovi, sedlákovi v Hobšovicích u Slaného</strong>. Jeho syn <a href={href.person(byK[128].slug)}>Matěj</a> (* 1752) se roku 1773 přiženil do Ouholic u Kralup, Matějův syn <a href={href.person(byK[64].slug)}>Josef</a> (* 1783) se jako vdovec oženil s vdovou Rozálií do Nové Vsi čp. 32 a jejich syn <a href={href.person(byK[32].slug)}>Jan</a> (* 1839) kolem roku 1870 založil kulichovský dům v Ledčicích.</p>
+    <ul>
+      <li><strong>Záhada „Jindřichové“ vyřešena:</strong> Rozálie se rodem jmenovala Jatlová (?), Jindřichová bylo jméno po prvním muži (sňatek 15. 1. 1833).</li>
+      <li><strong>Dvě Anny:</strong> babička pradědy, Anna narozená 1854 ve Zlosyni, byla nejspíš druhou ženou Jana Kulicha.</li>
+      <li><strong>Legionář Antonín Kulich z Dolína</strong> (* 1888) je téměř jistě náš příbuzný: jeho pradědeček Václav se narodil 1783 také v Hobšovicích jako syn Jiřího Kulicha.</li>
+      <li>Na pomníku padlých v Ledčicích Kulich ani Kouba nejsou; je tam Václav Tichý (* 1884) – možná příbuzný prababičky Anny Tiché.</li>
+    </ul>
+    <a class="btn" href="/pribehy/">Celý příběh Kulichů →</a>
+    <a class="btn btn-light" href="/rod/kulichove/">Rod Kulichů a všechny zápisy →</a>
+  </section>
   <section aria-labelledby="uplny-prenos">
     <h2 id="uplny-prenos">Doplněná životní data a úplný kontrolní soupis</h2>
     <p>Opravena chybějící úmrtí: <a href={href.person(byK[25].slug)}>Františka Bavlnková · 17. 3. 1947</a>, <a href={href.person(byK[12].slug)}>František Polák · 1. 8. 1983</a> a <a href={href.person(byK[13].slug)}>Františka Krejčí · 2. 3. 1984</a>. Data jsou na kartách i v letech stromu. U Anny Pospíšilové je také doplněno úmrtí 20. 3. 1905.</p>
@@ -38,7 +50,7 @@ import { myheritageAudit as audit, byK, href } from '../lib/data.js';
       <a class="card card-link" href={href.person(byK[14].slug)}><img src="/img/vaclav-kastanek-1914-portret.jpg" width="1403" height="1180" alt="Rodinný portrét Václava Kaštánka" /><h3>Václav Kaštánek · 1914</h3><p>Portrét z rodinného alba je nově na jeho kartě i ve stromu.</p></a>
       <a class="card card-link" href={href.person(byK[15].slug)}><img src="/img/helena-slosarova-puvodni-fotografie.jpg" width="1742" height="1284" alt="Původní varianta fotografie Heleny Šlosárové" /><h3>Helena Šlosárová · 1920</h3><p>Vedle kolorované fotografie je dostupná také původní varianta.</p></a>
     </div>
-    <p class="small muted">Totožnost osob podle Dominikova přiřazení v MyHeritage. Datum pořízení fotografií neznáme.</p>
+    <p class="small muted">Totožnost osob podle mého přiřazení v MyHeritage. Datum pořízení fotografií neznáme.</p>
     <p>Jana Helena Kaštánková má doplněný rok narození 1942. U Jany přibyl bratr Miloslav Polák (*1960). Jde o rodinné údaje, dosud bez matričního ověření.</p>
   </section>
   <section aria-labelledby="kontrola-shod">

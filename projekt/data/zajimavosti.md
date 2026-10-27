@@ -1,7 +1,7 @@
 # Zajímavosti z rodokmenu
 
 ## Vnuk našeho předka v československých legiích
-[František Polák (*4. 7. 1890)](/legionar/) z Čunína čp. 13 byl krejčí, syn Františka Poláka a Marie Trnkové. Jeho prarodiče Jan Polák (*asi 1838) a Anna Pospíšilová jsou také přímými předky Dominika. Přesně tedy můžeme říct: **legionář byl vnukem Dominikova praprapradědečka** a bratrancem jeho pradědečka Františka (*1905).
+[František Polák (*4. 7. 1890)](/legionar/) z Čunína čp. 13 byl krejčí, syn Františka Poláka a Marie Trnkové. Jeho prarodiče Jan Polák (*asi 1838) a Anna Pospíšilová jsou také mými přímými předky. Přesně tedy můžeme říct: **legionář byl vnukem mého praprapradědečka** a bratrancem mého pradědečka Františka (*1905).
 
 V Karpatech byl zajat 2. března 1915; 24. května 1917 byl zařazen k 1. střeleckému pluku československých legií a 8. července 1920 demobilizován. Zachovala se i jeho fotografie. [Časová osa](/casova-osa/) ukazuje tyto doložené události, [příběh legionáře](/legionar/) také portrét a původní doklady.
 
@@ -19,7 +19,7 @@ V Nové Vsi čp. 32 se 6. listopadu 1839 narodil [Jan Kulich](/osoba/jan-kulich-
 Při sčítání 1921 žila u pradědy [Václava (* 1900)](/osoba/vaclav-kulich-1900/) ovdovělá babička Anna Kulichová, narozená 1854 ve Zlosyni. Matkou jeho otce ale byla Anna Pochmanová z Cítova – babička ze Zlosyně tedy byla nejspíš druhou ženou dědečka Jana. Rodinné vyprávění o „dvou Annách“ tak možná patří o generaci výš.
 
 ## Svatba pět měsíců před narozením
-[Václav Kulich (* 1877)](/osoba/vaclav-kulich-1877/) se oženil s [Julií Koubovou](/osoba/julie-koubova-1878/) 11. června 1900 v Černoučku. Jejich syn Václav, Dominikův praděda, se narodil 2. listopadu téhož roku.
+[Václav Kulich (* 1877)](/osoba/vaclav-kulich-1877/) se oženil s [Julií Koubovou](/osoba/julie-koubova-1878/) 11. června 1900 v Černoučku. Jejich syn Václav, můj praděda, se narodil 2. listopadu téhož roku.
 
 ## Z Hobšovic do Ouholic – a do Dolína
 Matěj Kulich, syn sedláka Jiřího z Hobšovic čp. 8 u Slaného, se roku 1773 přiženil do Ouholic u Kralup. O třicet let později přišel z Hobšovic do Dolína zedník Václav Kulich – pradědeček legionáře Antonína Kulicha. Obě rodiny Kulichů tak nejspíš mají společné kořeny v jednom selském statku. [Příběh Kulichů](/pribehy/).
@@ -28,11 +28,11 @@ Matěj Kulich, syn sedláka Jiřího z Hobšovic čp. 8 u Slaného, se roku 1773
 
 <h2 id="cislo-26">Tři domy, jedno číslo: 26</h2>
 
-Jedno číslo se v rodině vrací na třech různých místech: **26**. Polákovi z Čunína, Kaštánkovi z Dolní Rožínky a dnešní domácnost Dominika s maminkou v Chudoslavicích mají společné stejné číslo popisné.
+Jedno číslo se v rodině vrací na třech různých místech: **26**. Polákovi z Čunína, Kaštánkovi z Dolní Rožínky a moje dnešní domácnost s maminkou v Chudoslavicích mají společné stejné číslo popisné.
 
 - **Čunín čp. 26:** František Polák se v tomto domě narodil 27. prosince 1905. Číslo 26 je přímo čitelné v jeho [rodném zápisu](/zdroj/cunin_krest_frantisek_polak_1905/) a stejné bydliště má uvedeno jako řezník i při [sňatku roku 1929](/zdroj/konice_snatek_frantisek_polak_frantiska_krejci_1929/).
 - **Dolní Rožínka čp. 26:** zde se 15. září 1914 narodil Václav Kaštánek, syn kočího Ignáce a Josefy Vykutilové. Číslo 26 je přímo čitelné v jeho [rodném zápisu](/zdroj/rozinka_krest_vaclav_kastanek_1914/). Jde o Dolní Rožínku; v dřívějším Domaníně měla rodina jiné adresy.
-- **Chudoslavice čp. 26:** dnešní bydliště Dominika a jeho maminky Jany. Tento údaj Dominik sdělil 23. října 2026 a požádal o jeho doplnění na web. Datum označuje rodinné sdělení, nikoli nastěhování.
+- **Chudoslavice čp. 26:** moje dnešní bydliště s maminkou Janou. Datum označuje rodinné sdělení, nikoli nastěhování.
 
 Shodují se čísla popisná; každý dům leží v jiné obci. U dvou starších adres máme matriční doklady, u dnešního bydliště přímé rodinné potvrzení. Číslo 26 se vztahuje ke konkrétním výše uvedeným zápisům, nikoli ke všem předkům nebo všem jejich bydlištím.
 
@@ -50,7 +50,7 @@ V [archu z roku 1921](/zdroj/konice_scitani_frantiska_krejci_1921/) příbuzensk
 
 ## Z Čunína do Třebařova
 
-[Miloslav Polák (*1932)](/osoba/miloslav-polak-1932/) se podle Dominikova rodinného sdělení přestěhoval se svým otcem [Františkem Polákem (*1905)](/osoba/frantisek-polak-1905/) a matkou [Františkou Krejčí (*1906)](/osoba/frantiska-krejci-1906/) do [Třebařova](/obec/trebarov/). **Rok stěhování zatím neznáme.** Miloslav měl také bratra **Zdeňka Poláka**, jehož životní data ještě doplníme. Miloslavův portrét pochází z rodinné fotografie, kterou Dominik dodal v kolorované variantě.
+[Miloslav Polák (*1932)](/osoba/miloslav-polak-1932/) se podle rodinného sdělení přestěhoval se svým otcem [Františkem Polákem (*1905)](/osoba/frantisek-polak-1905/) a matkou [Františkou Krejčí (*1906)](/osoba/frantiska-krejci-1906/) do [Třebařova](/obec/trebarov/). **Rok stěhování zatím neznáme.** Miloslav měl také bratra **Zdeňka Poláka**, jehož životní data ještě doplníme. Miloslavův portrét pochází z rodinné fotografie, kterou jsem dodal v kolorované variantě.
 
 <h2 id="americka-stopa">Americká stopa přes Vykutilovy – zatím neověřená</h2>
 
@@ -62,7 +62,7 @@ Jde o návrh služby **Cousin Finder sestavený z rodokmenů**, nikoli o dolože
 
 ## Jan Polák: tkalcovství, osnovy a dva tovaryši
 
-[Sčítání Čunína roku 1900](/zdroj/cunin_scitani_jan_polak_1900/) zachycuje [Jana Poláka (*1838)](/osoba/jan-polak-1838/) a Annu v **domě čp. 92**. Přesné narození 10. srpna 1838 v Křemenci souhlasí s Janovým křtem. Je to Dominikův **praprapradědeček** a zároveň dědeček legionáře Františka.
+[Sčítání Čunína roku 1900](/zdroj/cunin_scitani_jan_polak_1900/) zachycuje [Jana Poláka (*1838)](/osoba/jan-polak-1838/) a Annu v **domě čp. 92**. Přesné narození 10. srpna 1838 v Křemenci souhlasí s Janovým křtem. Je to můj **praprapradědeček** a zároveň dědeček legionáře Františka.
 
 Jan nebyl jen zahradníkem či domkářem, jak jej známe z jiných zápisů. Roku 1900 má zapsané **tkalcovství – dělník**, vedle toho polní hospodářství. V části o zaměstnavateli se objevuje jeho jméno, označení **faktor** a dovoz osnov ze **Šternberka a Prostějova**. Záznam tak zachycuje další stránku jeho obživy; sám o sobě nedokládá vlastnictví továrny.
 

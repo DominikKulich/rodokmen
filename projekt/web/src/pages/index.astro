@@ -18,8 +18,15 @@ const featuredRecords = ['cunin_krest_frantisek_polak_1905', 'rozinka_krest_vacl
     <figure class="hero-photo"><a href="/legionar/"><img src="/img/frantisek-polak-legionar-foto-2.jpg" width="1500" height="2000" alt="František Polák, legionář narozený 4. července 1890" fetchpriority="high" /></a><figcaption>František Polák · fotografie ze sbírky ČsOL<br/><a href="/legionar/">Jeho příběh a původní fotografie →</a></figcaption></figure>
   </section>
 
+  <section aria-labelledby="home-tree-title">
+    <h2 id="home-tree-title">Náš rodový strom</h2>
+    <p class="lead">Jména, která nás spojují. Přibližte si jednotlivé větve a otevřete dochované zápisy.</p>
+    <StromIlustrace />
+    <p><a class="btn" href="/strom/">Otevřít strom a tisk →</a> <a href="/mapa/">Místa našich předků</a></p>
+  </section>
+
   <aside class="home-news" aria-label="Novinky v rodokmenu">
-    <div><p class="eyebrow">Z rodinné kroniky · 23. října 2026</p><h2>Nové tváře a nové stopy</h2><p>Portrét Václava Kaštánka, původní fotografie Heleny a kontrola rozšířených větví z MyHeritage. U každé stopy uvádíme, co už dokládá zápis a co ještě ověřujeme.</p></div>
+    <div><p class="eyebrow">Z rodinné kroniky · 27. října 2026</p><h2>Kulichové až do Hobšovic</h2><p>Tátovu linii jsem v matrikách dohledal devět generací zpět – přes Ledčice, Novou Ves a Ouholice u Kralup až k sedlákovi Jiřímu Kulichovi z Hobšovic u Slaného. A legionář Antonín Kulich z Dolína je nejspíš náš příbuzný.</p></div>
     <a class="btn btn-light" href="/novinky/">Novinky v rodokmenu →</a>
   </aside>
 
@@ -77,13 +84,6 @@ const featuredRecords = ['cunin_krest_frantisek_polak_1905', 'rozinka_krest_vacl
       <p><a href="/zajimavosti/">Všechny zajímavosti →</a></p>
     </>
   )}
-
-  <section aria-labelledby="home-tree-title">
-    <h2 id="home-tree-title">Náš rodový strom</h2>
-    <p class="lead">Jména, která nás spojují. Přibližte si jednotlivé větve a otevřete dochované zápisy.</p>
-    <StromIlustrace />
-    <p><a class="btn" href="/strom/">Otevřít strom a tisk →</a> <a href="/mapa/">Místa našich předků</a></p>
-  </section>
 
   {lineList.length > 0 && (
     <>

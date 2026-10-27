@@ -118,5 +118,33 @@ export function initTree(tree: HTMLElement) {
     stage.scrollLeft = Number(button.dataset.focusX) / box.width * svg.getBoundingClientRect().width - stage.clientWidth / 2;
     stage.scrollTop = Number(button.dataset.focusY) / box.height * svg.getBoundingClientRect().height - stage.clientHeight / 2;
   }));
+  // Přepínače zobrazení (rok, místo narození, povolání) – pamatují se v prohlížeči.
+  tree.querySelectorAll<HTMLInputElement>('[data-show]').forEach(box => {
+    const key = `strom-show-${box.dataset.show}`;
+    try { const saved = localStorage.getItem(key); if (saved !== null) box.checked = saved === '1'; } catch {}
+    const apply = () => { tree.classList.toggle(`show-${box.dataset.show}`, box.checked); };
+    apply();
+    box.addEventListener('change', () => { apply(); try { localStorage.setItem(key, box.checked ? '1' : '0'); } catch {} });
+  });
+  // Celá obrazovka – Fullscreen API, jinak (iPhone) přes fixní překryv.
+  const fsButton = tree.querySelector<HTMLButtonElement>('[data-fullscreen]');
+  const isFs = () => document.fullscreenElement === tree || tree.classList.contains('tree-fs');
+  const syncFs = () => {
+    fsButton?.setAttribute('aria-pressed', String(isFs()));
+    if (fsButton) fsButton.textContent = isFs() ? '✕ Zavřít celou obrazovku' : '⛶ Celá obrazovka';
+    document.documentElement.style.overflow = tree.classList.contains('tree-fs') ? 'hidden' : '';
+    requestAnimationFrame(() => setZoom(zoom));
+  };
+  fsButton?.addEventListener('click', async () => {
+    if (isFs()) {
+      if (document.fullscreenElement) await document.exitFullscreen().catch(() => {});
+      tree.classList.remove('tree-fs');
+    } else if (tree.requestFullscreen) {
+      await tree.requestFullscreen().catch(() => tree.classList.add('tree-fs'));
+    } else tree.classList.add('tree-fs');
+    syncFs();
+  });
+  document.addEventListener('fullscreenchange', syncFs);
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && tree.classList.contains('tree-fs')) { tree.classList.remove('tree-fs'); syncFs(); } });
   window.addEventListener('resize', () => setZoom(zoom));
 }

@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import denik from '../generated/denik.md?raw';
+import { lines } from '../lib/data.js';
+// Z deníku výzkumu vybere úspěšné nálezy a ukáže je jako cestu dokladu: kde jsem hledal, co a co z toho vzešlo.
+const md = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/„(.+?)“/g, '„$1“');
+const rows = denik.split('\n').filter((l) => /^\|\s*\d+\s*\|/.test(l)).map((l) => l.split('|').slice(1, -1).map((c) => c.trim()));
+const items = rows.map((c) => {
+  const [n, date, src] = c;
+  const result = c.length >= 7 ? c[c.length - 2] : c[c.length - 2] || '';
+  const sought = c.length >= 7 ? c[4] : c[3];
+  const kind = /\*\*Nalezeno|\*\*Doloženo|\*\*Potvrzeno/.test(result) ? 'ok' : /Nenalezeno|nenalezen|Vyloučen/i.test(result) ? 'no' : 'note';
+  return { n: +n, date, src, sought, result, kind };
+});
+const found = items.filter((i) => i.kind === 'ok').reverse();
+const misses = items.filter((i) => i.kind === 'no').length;
+const surnames = Object.values(lines).map((l) => l.name.replace(/ové$|ovi$|é$/, '')).map((s) => s.slice(0, Math.max(4, s.length - 1)));
+const tag = (i) => surnames.find((s) => (i.sought + ' ' + i.result).includes(s)) || '';
+---
+<Base title="Cesta k dokladům">
+  <h1>Cesta k dokladům</h1>
+  <p class="lead">Za každým jménem ve stromu je hledání v matrikách. Tady jsou nálezy tak, jak přicházely – kde jsem hledal, co jsem chtěl najít a co z toho vzešlo. Celkem {items.length} hledání, z toho {found.length} úspěšných a {misses} slepých uliček.</p>
+  <div class="filters" role="group" aria-label="Filtr podle rodu">
+    <button type="button" class="btn" data-f="">Vše</button>
+    {[...new Set(found.map(tag).filter(Boolean))].map((s) => <button type="button" class="btn btn-light" data-f={s}>{s}…</button>)}
+  </div>
+  <ol class="trail">
+    {found.map((i) => (
+      <li class="card" data-tag={tag(i)}>
+        <p class="eyebrow">{i.date} · hledání č. {i.n}</p>
+        <h3>{i.sought}</h3>
+        <p class="small muted">Kde: {i.src}</p>
+        <p set:html={md(i.result)} />
+      </li>
+    ))}
+  </ol>
+  <p class="small muted"><a href="/denik/">Úplný deník výzkumu včetně neúspěšných hledání →</a></p>
+  <script is:inline>
+    document.querySelectorAll('[data-f]').forEach((b) => b.addEventListener('click', () => {
+      document.querySelectorAll('[data-f]').forEach((x) => x.classList.toggle('btn-light', x !== b));
+      document.querySelectorAll('.trail li').forEach((li) => { li.hidden = !!b.dataset.f && li.dataset.tag !== b.dataset.f; });
+    }));
+  </script>
+</Base>
+<style>
+  .filters { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1rem 0; }
+  .trail { list-style: none; padding: 0; display: grid; gap: .8rem; border-left: 3px solid var(--gold, #c9a13a); padding-left: 1rem; }
+  .trail li { position: relative; }
+  .trail li::before { content: ''; position: absolute; left: -1.55rem; top: 1.1rem; width: .8rem; height: .8rem; border-radius: 50%; background: var(--gold, #c9a13a); }
+  .trail h3 { margin: .2rem 0; font-size: 1.05rem; }
+</style>
