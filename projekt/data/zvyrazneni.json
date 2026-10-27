@@ -730,5 +730,17 @@
     ],
     "status": "ok",
     "note": "celý řádek zápisu"
+  },
+  "dolin_krest_antonin_kulich_1888": {
+    "boxes": [
+      [
+        0.005,
+        0.03,
+        0.995,
+        0.97
+      ]
+    ],
+    "status": "ok",
+    "note": "celý řádek zápisu"
   }
 }

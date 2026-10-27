@@ -44,4 +44,4 @@ Syn Václava a Anny, děda **[Václav Kulich](/osoba/vaclav-kulich-1936/)** (* a
 - **Křest Josefa Kulicha** (asi 1785, Ouholice) a jeho **první sňatek s Kateřinou** – ve starších vepřeckých matrikách před rokem 1825.
 - **První sňatek Rozálie s Janem Jindřichem** a jejich děti.
 - **Sňatek Jana Kulicha s Annou Pochmanovou** (asi 1869–1870) a s **Annou ze Zlosyně** (po roce 1883).
-- **Souvisí s námi legionář Antonín Kulich z Dolína u Slaného** (* 1888)? Zatím žádné spojení doložené není.
+- **Souvisí s námi legionář Antonín Kulich z Dolína u Slaného?** Jeho křest jsme našli: narodil se 27. 10. 1888 v Dolíně čp. 66 jako syn horníka Antonína Kulicha a vnuk Františka Kulicha, dělníka z Libovic. Spojení s Kulichy z Nové Vsi zatím doložené není – další stopou je původ Františka z Libovic.
