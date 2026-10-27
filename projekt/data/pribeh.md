@@ -7,7 +7,7 @@ lead: Osm generací Kulichů po meči – od chalupníka Matěje po Dominika, v 
 
 ## Chalupa v Ouholicích
 
-Nejstarší Kulich, kterého zatím známe jménem, je **[Matěj Kulich](/osoba/matej-kulich-1839/)**, chalupník v Ouholicích čp. 20. Ouholice leží na levém břehu Vltavy kousek nad Kralupy, dnes patří k obci Nová Ves na Mělnicku. Patřily k roudnickému panství a k faře ve Vepřku. Matěj se oženil s **[Kateřinou Jakoubkovou](/osoba/katerina-jakoubkova-1839/)** (čtení příjmení je zatím s otazníkem). Oba zemřeli ještě před rokem 1839. Víme to jen z pozdějších zápisů jejich syna a vnuka, vlastní křest ani svatbu Matěje jsme zatím nenašli.
+Nejstarší Kulich, kterého zatím známe jménem, je **[Matěj Kulich](/osoba/matej-kulich/)**, chalupník v Ouholicích čp. 20. Ouholice leží na levém břehu Vltavy kousek nad Kralupy, dnes patří k obci Nová Ves na Mělnicku. Patřily k roudnickému panství a k faře ve Vepřku. Matěj se oženil s **[Kateřinou Jakoubkovou](/osoba/katerina-jakoubkova/)**. Při svatbě syna Josefa v lednu 1833 Matěj zřejmě ještě žil, při křtu vnuka Jana v listopadu 1839 už oba nežili. Víme o nich jen z těchto dvou zápisů – vlastní křest ani svatbu Matěje jsme zatím nenašli; narodil se asi v 50. letech 18. století.
 
 ## Dva vdovci v jednom domě
 
@@ -23,7 +23,7 @@ Rozálie přežila Josefa a zemřela jako vdova **7. března 1877** v Nové Vsi 
 
 **[Jan Nepomuk Kulich](/osoba/jan-kulich-1839/)** se narodil **6. listopadu 1839** v Nové Vsi čp. 32. Kolem roku 1870 odešel asi 15 kilometrů na sever, do Ledčic u Roudnice. Usadil se v domku **čp. 85**, kde pak Kulichové žili přes sto let.
 
-Jeho ženou byla **[Anna Pochmanová](/osoba/anna-pochmanova-1870/)** z Cítova, nemanželská vnučka cítovského hostinského Josefa Pochmana. Mezi lety 1870 a 1883 se jim v Ledčicích narodily nejméně čtyři děti: Josef (1870), mrtvě narozený syn (1875), **Václav (1877)** a Rosalie (1883). Jejich svatbu jsme zatím nenašli.
+Jeho ženou byla **[Anna Pochmanová](/osoba/anna-pochmanova-1850/)** z Cítova, nemanželská vnučka cítovského hostinského Josefa Pochmana. Mezi lety 1870 a 1883 se jim v Ledčicích narodily nejméně čtyři děti: Josef (1870), mrtvě narozený syn (1875), **Václav (1877)** a Rosalie (1883). Jejich svatbu jsme zatím nenašli.
 
 ### Dvě Anny
 
